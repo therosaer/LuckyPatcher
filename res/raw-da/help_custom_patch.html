@@ -1,0 +1,166 @@
+﻿<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+</head>
+
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color:#ffffff">
+<b style="color:#FF0000">ADVARSEL! </b>Fjern ikke springer eller gøre dem ubetinget! Optimizer vil gå ned, og din ART patch vil mislykkes! For at undgå dette, skal du bruge betingede spring. For eksempel, hvis der er behov for at hoppe, erstatte springet med if-eq v0,v0 (bytes: 32 00 ?? ??). Hvis der ikke er behov for at hoppe i bestemt sted, kan du indsætte spring ligesom if-ne v0,v0 (bytes: 33 00 ?? ??); <span id="result_box" lang="da">også velkommen til at bruge din egen tilsvarende</span>.<br/>
+<br/>
+Patch filen skal have samme navn som målet APK-fil (dette er små bogstaver).<br/>
+Hvis filen er en brugerdefineret patch til programmet allerede findes, kan du blot tilføje i begyndelsen af ​​filnavnet på enhver tekst og gemme det som nær den eksisterende.<br/>
+Hvis du ønsker at skrive en patch engang en række programmer på en enkelt virksomhed, så enden den brugerdefinerede patch filnavn, kan du bruge  _%25ALL%25, for eksempel navnet på patch til alle de stemmer SVOX vil se sådan ud: com.svox.classic.langpack_%25ALL%25.txt. på _%25ALL%25 erstattes af navnet en del af pakken, som varierer afhængigt af anvendelsen af firmaet.
+Brug ikke specialtegn/formatering i patch filen. (enkelte mellemrum kun)<br/>
+For at søge efter mønstre af bytes til at bruge IDA Pro 6.1 program. Det kan åbne dalvik-cache, odex, libraries og classes.dex.<br/>
+Hvis du ønsker at patch dalvik-cache eller odex, glem ikke, at de bytes af data i forskellige firmwareversioner kan variere. Og glem ikke, at de bytes er ikke alle classes.dex sammenfaldende med dalvik-cache og odex. I dette kan du se, hvis du åbner classes.dex og odex-file i IDA Pro programmet.<br/>
+<br/>
+[BEGIN]<br/>
+&lt;patch kommentarer, der er synlige for brugeren pre-patch&gt;<br/>
+Patch for XYZ Pro 5.0.5<br/>
+<br/>
+[PACKAGE]<br/>
+&lt;udpakker classes.dex og anvender alle de patches fra [CLASSES] til ham. Og genererer, baseret på det ændrede classes.dex, odex-fil.&gt;<br/>
+<br/>
+[CLASSES]<br/>
+&lt;mønster søg/erstat efter classes.dex (se nedenfor)&gt;<br/>
+{"search":"63 R00 R01 R02 38 00 04 00 12 10 0F 00"}<br/>
+{"group":"1"}<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A W00 W01 W02 00 00 12 <b style="color:#36ff00">S0</b> 0F 00"}<br/>
+<br/>
+[LIB]<br/>
+&lt;mønster søg/erstat til navngivne indfødte biblioteker (se nedenfor)&gt; <br/>
+{"name":"libtitanium.so"}<br/>
+{"original":"00 ** 50 e2"}<br/>
+{"replaced":"00 00 50 e1"}<br/>
+<br/>
+[OTHER FILES]<br/>
+&lt;mønster søg/erstat til navngivne andre filer i /data/data/Package_Target_APK/ (se nedenfor)&gt;<br/>
+{"name":"/files/shell.dex"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/>
+[ADD-BOOT]<br/>
+&lt;tilføjer automatisk den aktuelle bruger patch til BootList. Bør anvendes i patch biblioteket (eller i plasteret [CLASSES] uden [ODEX] eller uden [PACKAGE])&gt;<br/>
+<br/>
+[END]<br/>
+&lt;patch kommentarer der er synlige for det bruger post-patch&gt;<br/>
+Tillykke! programmet er cracked!<br/>
+<br/>
+“search” – søgning kan du søge efter et mønster og gemme bytes på bestemte positioner.<br/>
+{"search":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">R00 R01 R02 </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+I dette eksempel bytes i grøn gøre op dit mønster maske, mens bytes i gul mærket R00 -> R02 gemmes.<br/>
+Lagrede bytes skal være i orden R00, R01, R02, R03… <br/>
+Lagrede bytes kan ikke gentages.<br/>
+<br/>
+"group" - markerer mønstre i gruppen (gruppe tal kunne være 1 eller højere). Hvad betyder det? Hvis mindst et mønster fra gruppen lykkedes, vil blive vist vellykket patch bekræftelse. Det er nyttigt, når du forsøger at lave en universel patch til flere versioner af den særlige app (f.eks patch alle versioner af Google Play for at deaktivere automatisk opdatering).<br/>
+“original” – dette er et mønster maske anvendes til at finde offset hvor plastret vil blive anvendt.<br/>
+{"original":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">?? ?? ?? </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+I dette eksempel bytes i grøn gøre op dit mønster maske, mens bytes i gul er wildcards (??, **)<br/>
+“replaced” – dette vil følge en “original” erklæring, dette er hvad offset vil blive overskrevet med. <br/>
+{"replaced":"<b style="color:#36ff00">12 00 6A </b><b style="color:#fffc00">W00 W01 W02 </b><b style="color:#36ff00">00 00 12 00 0F 00</b>"}<br/>
+I dette eksempel bytes i grøn overskriver destinationsplaceringen .. bytes i gul gemmes byte fra tidligere gennemført “search”<br/>
+“name” – det bruges til at målrette et specifikt bibliotek ved navn (se ovenfor i [LIB]) <br/>
+<b style="color:#36ff00">S0</b> , <b style="color:#36ff00">S1</b> - sætter smali variabel til 0 eller 1 henholdsvis.
+For eksempel, er der en variabel: const/4 v?,0x00 . Spørgsmålstegn viser, at tallen er ukendt (for eksempel er det blevet ændret i den nyere version), men du er sikker på, at dette var lig med 0, og du ønsker at indstille til 1. I dette tilfælde mønster vil ligne: <br/>
+{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S1 ?? ?? ?? ??"}<br/>
+Og omvendt, at indstille variablen til 0:<br/>
+{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S0 ?? ?? ?? ??"}<br/>
+“replace_from_file” – dette vil følge en “original” erklæring, dette er hvad offset vil blive overskrevet med bytes fra fil (filen skal gemmes nær brugerdefinerede patch). <br/>
+{"replace_from_file":"<b style="color:#36ff00">array.bin</b>"}<br/>
+Dette gøres for at undgå at skrive meget lange skabeloner til at erstatte.<br/>
+<br/>
+[LIB-ARMEABI],[LIB-ARMEABI-V7A],[LIB-MIPS] or [LIB-X86] - for Bibliotek fra /lib/armeabi/, /lib/armeabi-v7a/, /lib/mips/, /lib/x86/. <br/>
+<br/>
+[ODEX-PATCH] - Bruger til patch allerede er oprettet ODEX. For eksempel har en applikation er blevet patchet med den automatiske funktion ved Fjern Licens Verifikation, men du er nødt til at foretage yderligere ændringer ved hjælp af en brugerdefineret Patch. Hvis vi bruger en simpel [PACKAGE]-[CLASSES], [ODEX] eller [CLASSES]-[ODEX], ODEX-fil vil blive oprettet med ingen ændringer, og først derefter patch. <br/>
+Eksempel:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX-PATCH]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Tillykke! ODEX ændret!<br/>
+<br/>
+[CLASSES] uden [PACKAGE] - Patches Dalvik-cache applikationer. Glem ikke, at systemet opdaterer regelmæssigt Dalvik-cache applikationer, og alle de ændringer af den forsvinde. Derfor skal vi tilføje så [ADD-BOOT]. Patch til Dalvik-cache forældet, som upålidelige. Men han havde brug for ROM Toolbox, da han fandt ODEX-fil og opfører sig hysterisk. <br/>
+Eksempel:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ADD-BOOT]<br/>
+[END]<br/>
+Tillykke!<br/>
+<br/>
+[ODEX] - Kopier Dalvik-cache i /data/app/ og omdøbe til ODEX-fil, så alle de patches anvendes på denne ODEX-fil. Kontrolsummer for de ODEX forkert, kan ikke passere inspektion, i modsætning ODEX-fil oprettet [PACKAGE] - [CLASSES]. <br/>
+Eksempel:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Tillykke!<br/>
+<br/>
+[CLASSES]-[ODEX] - Patches Dalvik-cache og derefter Kopi Dalvik-cache i /data/app/ og omdøbe til ODEX-fil. Checksums for de ODEX og Dalvik-cache er forkert, kan ikke passere inspektion, i modsætning ODEX-fil oprettet [PACKAGE] - [CLASSES]. <br/>
+Eksempel:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ODEX]<br/>
+[END]<br/>
+Tillykke!<br/>
+<br/>
+[COMPONENT] - Aktivere eller deaktivere komponenter til Applications.<br/>
+Eksempel:<br/>
+<br/>
+[BEGIN]<br/>
+[COMPONENT]<br/>
+{"disable":"com.superApp.adsActivity"}<br/>
+{"enable":"com.superApp.fullVersion.Provider"}<br/>
+{"disable":"com.android.vending.CHECK_LICENSE"}<br/>
+[END]<br/>
+Tillykke!<br/>
+<br/>
+[SQLITE] - Nogle gange målapplikationen skal ændre noget i databasen, så for at hjælpe kommer denne mulighed: <br/>
+Tillykke!<br/>
+<br/>
+[BEGIN]<br/>
+Nulstil prøveperiode<br/>
+[SQLITE]<br/>
+{"database":"/data/data/com.package.megaapp/databases/settings.db"}<br/>
+{"execute":"DELETE FROM table_settings WHERE name = 'SETTING__LIC'"}<br/>
+{"execute":"UPDATE table_settings SET UsedDays=0 WHERE name='Trial_set'"}<br/>
+[END]<br/>
+Tillykke! Du har nye prøveperioden!<br/>
+<br/>
+database - sti til databasen på enheden.<br/>
+execute - SQLite spørring.<br/>
+<br/>
+[SET_PERMISSIONS] - Analog linux kommando "chmod permissions file_name" for filer i data retning af applicationen:
+<br/>Example:<br/>
+<br/>
+[BEGIN]<br/>
+Trial Reset<br/>
+SET_PERMISSIONS]<br/>
+{"file_name":"/files/stats"}<br/>
+{"permissions":"777"}<br/>
+<br/>
+[OTHER FILES]<br/>
+{"name":"/files/stats"}<br/>
+<br/>
+{"original":"4D 4D 46 31"}<br/>
+{"replaced":"00 4D 46 30"}<br/>
+<br/>
+[SET_PERMISSIONS]<br/>
+{"file_name":"/files/stats"}<br/>
+{"permissions":"444"}<br/>
+[END]<br/>
+Tillykke! Du har nye prøveperioden!<br/>
+<br/>
+</body>
+</html>

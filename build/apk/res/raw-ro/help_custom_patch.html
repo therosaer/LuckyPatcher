@@ -1,0 +1,123 @@
+﻿<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+
+</head>
+
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color:#ffffff">
+
+Fișierul patch trebuie să aibă același nume ca și aplicația țintă (acest spațiu este sensibil).<br/>
+Dacă fișierul patch pentru aplicație există deja, puteți adăuga simplu la începutul numelui fișierului orice text și să-l salvați similar ca și cel existent.<br/>
+Dacă să scrieți un patch pe o serie de programe pe o singură firmă, apoi sfârșitul numele fișierului patch-ului personalizat, puteți folosi  _%25ALL%25, de exemplu numele patch-ului pentru toate voturile SVOX va arăta așa: com.svox.classic.langpack_%25ALL%25.txt. Pe _%25ALL%25 este deja înlocuit de partea de nume pachetului, care variază depinzând de alicația firmei.
+Nu folosiți caractere speciale în fișierul patch. (doar spații unice)<br/>
+Pentru a căuta tipare de byți folosiți IDA Pro 6.1. Poate deschide dalvik-cache, odex, biblioteci și classes.dex.<br/>
+Dacă vreți să faceți patch la dalvik-cache sau odex, nu uitați că byții de date de la versiuni firmware diferite pot varia. Și nu uitați că  nu toți byții classes.dex coincid cu dalvik-cache and odex. Puteți vedea classes.dex și fișier-odex în IDA Pro.<br/>
+<br/>
+[BEGIN]<br/>
+&lt;comentarii patch care sunt visibile utilizatorului înainte de patch&gt;<br/>
+Patch pentru XYZ Pro 5.0.5<br/>
+<br/>
+[PACKAGE]<br/>
+&lt;despachetează classes.dex și aplică tpate patch-urile din [CLASSES] lui. Și generează, bazat pe classes.dex, fișier-odex modificate.&gt;<br/>
+<br/>
+[CLASSES]<br/>
+&lt;căutare/înlocuire tipar pentru classes.dex (see below)&gt;<br/>
+{"search":"63 R00 R01 R02 38 00 04 00 12 10 0F 00"}<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A W00 W01 W02 00 00 12 00 0F 00"}<br/>
+<br/>
+[LIB]<br/>
+&lt;căutare/înlocuire tipar biblioteci numite nativ (see below)&gt; <br/>
+{"name":"libtitanium.so"}<br/>
+{"original":"00 ** 50 e2"}<br/>
+{"replaced":"00 00 50 e1"}<br/>
+<br/>
+[OTHER FILES]<br/>
+&lt;căutare/înlocuire tipar fișiere numite altfel în /data/data/Package_Target_APK/ (vedeți mai jos)&gt;<br/>
+{"name":"/files/shell.dex"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/>
+[ADD-BOOT]<br/>
+&lt;adaugă automat patch-ul de utilizator curent la Lista de Bootare. Ar trebui folosit în biblioteca patch (sau în patch-ul [CLASSES] fără [ODEX] sau fără [PACKAGE])&gt;<br/>
+<br/>
+[END]<br/>
+&lt;comentarii patch care sunt visibile utilizatorului după patch&gt;<br/>
+Felicitări! Program crackuit!<br/>
+<br/>
+“căutare” – căutarea vă permite să căutați un tipar și să  depoziteze byți la pozițiile specifice.<br/>
+{"search":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">R00 R01 R02 </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+În acest exemplu byții în verde vă fac masca de tipar, în timp ce byții în galben etichetați R00 -> R02 vor fi depozitați.<br/>
+Byții depozitați trebuie să fie în ordine R00, R01, R02, R03… <br/>
+Byții depozitați nu pot fi repetați.<br/>
+<br/>
+“original” – aceasta este o mască de tipcar folosită pentru a găsi offset-ul unde patch-ul va fi aplicat.<br/>
+{"original":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">?? ?? ?? </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+În acest exemplu byții în verde vă fac masca de tipar, în timp ce byții în galben sunt metacaractere (??, **)<br/>
+“înlocuit” – aceasta va urma o afirmație “originală”, cu asta va fi suprascrisă offset-ul.	<br/>
+{"replaced":"<b style="color:#36ff00">12 00 6A </b><b style="color:#fffc00">W00 W01 W02 </b><b style="color:#36ff00">00 00 12 00 0F 00</b>"}<br/>
+În acest exemplu, byții în verde vor suprascrie locația țintă.. byții în galben sunt byții depozitați din “căutarea” trecută<br/>
+“nume” – aceasta este folosită pentru a ținti o bibliotecă specifică după nume (vedeți deasupra în [LIB]) <br/>
+<br/>
+
+[LIB-ARMEABI],[LIB-ARMEABI-V7A],[LIB-MIPS] sau [LIB-X86] - pentru biblioteci din /lib/armeabi/, /lib/armeabi-v7a/, /lib/mips/, /lib/x86/. <br/>
+<br/>
+[ODEX-PATCH] - Întrebuințările pentru patch au fost deja create în odex. De exemplu, o aplicație a avut patch cu un mod automatic de Îndepărtare Verificare Licență, dar trebuie să faceți modificări suplimentare, folosind un Patch Personalizat. Dacă folosim un simplu [PACKAGE]-[CLASSES], [ODEX] sau [CLASSES]-[ODEX], fișierul-odex va fi creat fără nici o modificare și apoi cu patch. <br/>Exemplu:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX-PATCH]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Felicitări! ODEX modificat!<br/>
+<br/>
+[CLASSES] fără [PACKAGE] - Face patch la aplicațiile dalvik-cache. Nu uitați că sistemul actualizează periodic aplicațiile dalvik- cache și toate modificările ei vor dispărea. Prin urmare, trebuie să adăugăm [ADD-BOOT]. Patch pentru dalvik-cache învechit, instabil. Dar este nevoie pentru ROM Toolbox, deoarece găsește fișierul-odex și se comportă isteric.
+<br/>Exemplu:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ADD-BOOT]<br/>
+[END]<br/>
+Felicitări!<br/>
+<br/>
+[ODEX] - Copiere dalvik-cache în /data/app/ și redenumire fișierul-odex, apoi toate patch-urile aplicate acestui fișier-odex. Sumele de control ale odex-ului greșite, nu se poate trece inspecția, spre deosebire de fișierul-odex creat [PACKAGE] - [CLASSES].
+<br/>Exemplu:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Felicitări!<br/>
+<br/>
+[CLASSES]-[ODEX] - Facere patch dalvik-cache și apoi copiere dalvik-cache în /data/app/ și redenumire fișier-odex. Sumele de control ale odex-ului și dalvik-cache-ului is greșite, nu se poate trece inspecția, spre deosebire de fișierul-odex creat [PACKAGE] - [CLASSES].
+<br/>Exemplu:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ODEX]<br/>
+[END]<br/>
+Felicitări!<br/>
+<br/>
+[SQLITE] - Uneori aplicația țintă trebuie să modifice ceva în baza de date, apoi în ajutor va interveni posibilitatea:
+<br/>Exemplu:<br/>
+<br/>
+[BEGIN]<br/>
+Resetare Trial<br/>
+[SQLITE]<br/>
+{"database":"/data/data/com.package.megaapp/databases/settings.db"}<br/>
+{"execute":"DELETE FROM table_settings WHERE name = 'SETTING__LIC'"}<br/>
+{"execute":"UPDATE table_settings SET UsedDays=0 WHERE name='Trial_set'"}<br/>
+[END]<br/>
+Felicitări! Aveți o nouă Perioadă Trial!<br/>
+<br/>
+bază de date - calea spre baza de date pe dispozitiv.<br/>
+executare - întrebare SQLite.<br/>
+</body>
+
+</html>

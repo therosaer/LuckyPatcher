@@ -1,0 +1,231 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+
+</head>
+
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color:#ffffff">
+<hr>
+<b style="color:#FF0000">UPOZORNENIE!</b> Neodstraňujte skoky alebo používajte podmienené skoky! Optimalizátor zlyhá a vaša záplata nebude fungovať na ART! Aby ste tomu zabránili, použite podmienené skoky. Napríklad, ak je potrebný skok, nahraďte ho týmto <code>if-eq v0,v0 (bytes: 32 00 ?? ??)</code>. Ak nie je potrebný skok na konkrétne miesto, môžete skok zapísať ako <code>if-ne v0,v0 (bytes: 33 00 ?? ??)</code>; tiež neváhajte použiť svoj vlastný ekvivalent.<br/><br/>
+Záplatovací súbor musí mať rovnaký názov ako cieľový súbor APK (rozlišuje sa veľkosť písma).<br/>
+Ak ide o súbor vlastnej záplaty pre už existujúcu aplikáciu, jednoducho pridajte ľubovolný text pred názov súboru a uložte ho k existujúcemu súboru.<br/>
+Ak chcete napísať záplatu pre sériu programov jednej spoločnosti, potom na koniec názvu záplatovacieho súboru môžete použiť <code> _%25ALL%25</code>, napríklad názov pre záplaty pre všetky hlasy<code> SVOX</code> bude vyzerať takto: <code>com.svox.classic.langpack_%25ALL%25.txt</code>. Kód<code> _%25ALL%25</code> nahradí časť názvu balíčka, ktorá sa líši v závislosti od spoločnosti.
+Nepoužívajte špeciálne znaky/formátovanie v záplatovacom súbore (iba jednu medzeru). Ak potrebujete vytvoriť záplatu pre niekoľko programov od jednej spoločnosti a pridať prefix na začiatok, môžete použiť<code>%25ALL%25_</code> a<code> _%25ALL%25</code>. (Príklad názvu: <code>chelpus.%25ALL%25_com.android._%25ALL%25.txt</code>). Môžete použiť obsah z vlastnej záplaty<code> %25PACKAGE_NAME%25</code> pre cestu k súborom, tento <code>%25PACKAGE_NAME%25</code> nahradí názov balíčka cieľovej aplikácie.<br/>
+Ak chcete vyhľadávať vzory bajtov použitie IDA Pro 6.1. Vie otvoriť dalvik-cache, odex, knižnice a classes.dex.<br/>
+Ak chcete zaplátať dalvik-cache alebo odex, nezabúdajte, že bajty dát, v rôznych verziách firmvérov, môžu byť rôzne. A majte na pamäti, že nie všetky classes.dex v bajtoch sa zhodujú s dalvik-cache a odex. V tomto príklade môžete vidieť, ak otvoríte classes.dex a súbor odex v IDA Pro.<br/>
+
+<br/>V Lucky Patcheri ver.6.5.4+ je pridaná možnosť vytvárania súborov lpzip. Je to archív zip, ktorý môže obsahovať apk súbory a vlastné záplaty. Apk bude nainštalovaný. Vlastné záplaty budú automaticky importované do Lucky Patchera. (Napríklad: nainstalujAplikcieSoZaplatou.lpzip)<br/>
+<br/>
+<b style="color:#36ff00">[BEGIN]</b><br/>
+&lt;komentáre záplaty sú viditeľné pre užívateľov pre-patch&gt;<br/>
+Záplata pre XYZ Pro 5.0.5<br/>
+<br/>
+<b style="color:#36ff00">[PACKAGE]</b><br/>
+&lt;rozbalí classes.dex a aplikuje všetky záplaty z [CLASSES]. A vygeneruje súbor odex z upraveného classes.dex.&gt;<br/>
+<br/>
+<b style="color:#36ff00">[CLASSES]</b><br/>
+&lt;vzor vyhľadávania/nahradenia pre classes.dex (pozri nižšie)&gt;<br/>
+<code>{"search":"63 R00 R01 R02 38 00 04 00 12 10 0F 00"}<br/>
+{"group":"1"}<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A W00 W01 W02 00 00 12 <b style="color:#36ff00">S0</b> 0F 00"}</code><br/>
+<br/>
+<b style="color:#36ff00">[LIB]</b><br/>
+&lt;vzor vyhľadávania/nahradenia pre pomenované natívne knižnice (pozri nižšie)&gt; <br/>
+<code>{"name":"libtitanium.so"}<br/>
+{"apk_build":604+}<br/>
+{"original":"00 ** 50 e2"}<br/>
+{"replaced":"00 00 50 e1"}<br/></code>
+<br/>
+<b style="color:#36ff00">[LIB]</b><br/>
+&lt;vzor vyhľadávania/nahradenia pre všetky natívne knižnice&gt; <br/>
+<code>{"name":"*"}<br/>
+{"original":"00 ** 50 e2"}<br/>
+{"replaced":"00 00 50 e1"}<br/></code>
+<br/>
+<b style="color:#36ff00">[OTHER FILES]</b><br/>
+&lt;vzor vyhľadávania/nahradenia pre ostatné pomenované súbory v /data/data/Cielovy_Balicek_APK/ (pozri nižšie)&gt;<br/>
+<code>{"name":"/files/shell.dex"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/></code>
+<b style="color:#36ff00">[OTHER FILES]</b><br/>
+&lt;vzor vyhľadávania/nahradenia pre ostatné pomenované súbory v /mnt/sdcard/ (ak sa cesta /mnt/sdcard/ nenašla, Lucky Patcher vyhľadá iné varianty pre sdcard)&gt;<br/>
+<code>{"name":"/mnt/sdcard/Android/package-name/files/lives.xml"}<br/>
+{"original":"63 68 65 6C 70 61"}<br/>
+{"insert":"63 68 65 6c 70 61 61 61"}<br/>
+<br/></code>
+<b style="color:#36ff00">[FILE_IN_APK]</b><br/>
+&lt;vzor vyhľadávania/nahradenia pre súbor zo súboru apk (táto záplata funguje iba pre prestavané apk s touto vlastnou záplatou)&gt;<br/>
+<code>{"name":"assets/bin/Data/Managed/O7SharpCompress.dll"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/></code>
+<b style="color:#36ff00">[ADD-BOOT]</b><br/>
+&lt;automaticky pridá aktuálnu užívateľskú záplatu do BootListu. Malo by sa používať v záplatovacej knižnici (alebo na záplatu [CLASSES] bez [ODEX] alebo bez [PACKAGE])&gt;<br/>
+<br/>
+<b style="color:#36ff00">[END]</b><br/>
+&lt;komentáre záplaty, ktoré sú viditeľné užívateľom post-patch&gt;<br/>
+Gratulujeme, aplikácia bola cracknutá!<br/>
+<br/>
+<code>"search" </code>- vyhľadávanie umožňuje vyhľadať vzory a uložené bajty na konkrétnej pozícii.<br/>
+<code>{"search":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">R00 R01 R02 </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/></code>
+V tomto príklade sú zelenou zvýraznené bajty, ktoré tvora vzorovú masku, zatiaľčo bajty žltou označené ako R00 -&gt; R02 budú uložené.<br/>
+Uložené bajty musia byť v poradí R00, R01, R02, R03... <br/>
+Uložené bajty sa nemôžu opakovať.<br/>
+<br/>
+<code>"group"</code> - označuje skupinu vzorov (číslo skupiny môže byť 1 alebo vyššie). Možno sa pýtate "Čo to znamená?". No dobre, znamená to, že ak aspoň jeden vzor zo skupiny bol úspešný, zobrazí sa práva o úspešnej záplate . To je užitočné vtedy, ak vytvárate univerzálnu záplatu pre viacero verzií jednej aplikácie (napríklad záplata na zakázanie automatických aktualizácií pre všetky verzie Google Play).<br/>
+<code>"apk_build"</code> - tento vzor použite iba pre apk s build=apk_build. Vzor môžete použiť pre build&gt;=apk_build (Napríklad: {"apk_build":"206+"}) alebo použiť pre build03,54-&gt;04...) alebo 1 (prevod hex čísla na: 43-&gt;13,04-&gt;14...) jednotlivo alebo nastaviť, SQ prevod hex 34-&gt;44, 51-&gt;11 ...<br/>
+Napríklad premenná : <code>const/4 v?,0x00</code> . Otáznik hovorí, že číslo <code>var\</code> je neznáme (napríklad bolo zmenené v novšej verzii), ale ste si istý, že premenná je rovná 0 a chcete jej priradiť hodnotu 1. V tomto prípade vzor bude vyzerať takto: <br/>
+<code>{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S1 ?? ?? ?? ??"}<br/></code>
+A naopak, nastavenie premenenej hodnotu 0:<br/>
+<code>{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S0 ?? ?? ?? ??"}<br/></code>
+<code>"replace_from_file" </code>- bude sledovaný príkaz <code>"original" </code> to je to čím bude posun prepísaný bajtmi zo súboru (súbor musí byť uložený vedľa vlastnej záplaty).⇥<br/>
+<code>{"replace_from_file":"<b style="color:#36ff00">array.bin</b>"}<br/></code>
+Je to preto, aby sa zabránilo písaniu veľmi dlhých šablón, ktoré sa majú nahradiť.<br/>
+<code>"insert"</code> - Ak chcete vložiť dáta, ktorých dĺžka je väčšia alebo menšia ako pôvodný vzor. <br/>
+(Príklad)súbor pred záplatou obsahuje:<code>"chelpa end"</code><br/>
+<code>{"original":"63 68 65 6C 70 61"}<br/>
+{"insert":"63 68 65 6c 70 61 61"}<br/></code>
+súbor po záplate obsahuje:<code>"chelpaa end"</code><br/>
+<br/>
+
+<b style="color:#36ff00">[LIB-ARMEABI],[LIB-ARMEABI-V7A],[LIB-ARM64-V8A],[LIB-MIPS] alebo [LIB-X86]</b> - pre knižnice z <code>/lib/armeabi/, /lib/armeabi-v7a/, /lib/arm64-v8a/, /lib/mips/, /lib/x86/</code>. <br/>
+<br/>
+<b style="color:#36ff00">[ODEX-PATCH]</b> - Používa sa pre záplaty s vytvoreným odex. Napríklad aplikácia, ktorá bola zaplátaná automatickým režimom Odstrániť overovanie licencie, ale potrebujete urobiť dodatočné zmeny cez Vlastná záplata. Ak použijeme [PACKAGE]-[CLASSES], [ODEX] alebo [CLASSES]-[ODEX], súbor odex bude vytvorený bez zmien a až po záplatovaní. <br/>Napríklad:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX-PATCH]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[END]<br/>
+Gratulujeme! ODEX upravený!<br/>
+<br/>
+<b style="color:#36ff00">[CLASSES] bez [PACKAGE]</b> - Aplikácie so zaplátanou dalvik-cache. Nezabúdajte, že system pravidelne aktualizuje dalvik-cache aplikácií a zmeny sa stratia. Preto treba pridať [ADD-BOOT]. Záplata pre dalvik-cache je zastaralá ako aj nespoľahlivá. Je ale potrebná pre ROM Toolbox, pretože nepracuje so súbormi odex.
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[ADD-BOOT]<br/>
+[END]<br/>
+Gratulujeme!<br/>
+<br/>
+<b style="color:#36ff00">[ODEX]</b> - Kopíruje dalvik-cache do /data/app/ a premenuje súbor odex, potom všetky záplaty aplikuje do súboru odex. Kontrolné súčty súboru odex budú nesprávne a neprejdú kontrolou, narozdiel od vytvoreného súboru odex [PACKAGE] - [CLASSES].
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[END]<br/>
+Gratulujeme!<br/>
+<br/>
+<b style="color:#36ff00">[CLASSES]-[ODEX]</b> - Zapláta dalvik-cache a skopíruje dalvik-cache do /data/app/ a premenuje súbor odex. Kontrolné súčty súboru odex budú nesprávne a neprejdú kontrolou, narozdiel od vytvoreného súboru odex [PACKAGE] - [CLASSES].
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[ODEX]<br/>
+[END]<br/>
+Gratulujeme!<br/>
+<br/>
+<b style="color:#36ff00">[COMPONENT]</b> - Povolí alebo zakáže komponenty aplikácií.
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+[COMPONENT]<br/>
+<code>{"disable":"com.superApp.adsActivity"}<br/>
+{"enable":"com.superApp.fullVersion.Provider"}<br/>
+{"disable":"com.android.vending.CHECK_LICENSE"}<br/></code>
+[END]<br/>
+Gratulujeme!<br/>
+<br/>
+<b style="color:#36ff00">[SQLITE]</b> - Niekedy cieľová aplikácia musí niečo zmeniť v databáze, potom na pomoc príde táto možnosť:
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+Trial Reset<br/>
+[SQLITE]<br/>
+<code>{"database":"/data/data/com.package.megaapp/databases/settings.db"}<br/>
+{"execute":"DELETE FROM table_settings WHERE name = 'SETTING__LIC'"}<br/>
+{"execute":"UPDATE table_settings SET UsedDays=0 WHERE name='Trial_set'"}<br/></code>
+[END]<br/>
+Gratulujeme! Skúšobná doba bola resetovaná!<br/>
+<br/>
+database - cesta k databáze na zariadení alebo iba názov databázy a Lucky Patcher nájde tento súbor.<br/>
+execute - dotaz SQLite.<br/>
+<br/>
+<b style="color:#36ff00">[SET_PERMISSIONS]</b> - linuxový príkaz "chmod oprávnenie nazov_suboru" pre súbory aplikácie v priečinku data:
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+Reset skúšobnej doby<br/>
+[SET_PERMISSIONS]<br/>
+<code>{"file_name":"/files/stats"}<br/>
+{"permissions":"777"}<br/></code>
+<br/>
+[OTHER FILES]<br/>
+<code>{"name":"/files/stats"}<br/>
+<br/>
+{"original":"4D 4D 46 31"}<br/>
+{"replaced":"00 4D 46 30"}<br/>
+<br/></code>
+[SET_PERMISSIONS]<br/>
+<code>{"file_name":"/files/stats"}<br/>
+{"permissions":"444"}<br/></code>
+</br>[END]<br/>
+Gratulujeme! Your Trial Period has been reset!<br/>
+<br/>
+<b style="color:#36ff00">[COPY_FILE]</b> - Skopíruje súbor z priečinka Lucky Patcher do umiestnenia s novým názvom súboru:
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+Kopírovať súbor s peniazmi<br/>
+[COPY_FILE]<br/>
+<code>{"file_name":"money_for_game.bin"}<br/>
+{"to":"/data/data/game_package/files/settings.xml"}<br/></code>
+</br>[END]<br/>
+Gratulujeme! Súbor bol skopírovaný a peniaze za práve zmenili!<br/>
+<br/>
+<br/>
+<b style="color:#36ff00">[SHARED-PREFERENCES]</b> - XML editor pre Shared preferences (pridanie alebo odstránenie premenných):
+<br/>Príklad:<br/>
+<br/>
+[BEGIN]<br/>
+Zadajte viac peňazí<br/>
+[SHARED-PREFERENCES]<br/>
+<br/>{"file_name":"hillclimbprefs.xml"}
+<br/>{"insert":"int"}
+<br/>{"pref_name":"coins"}
+<br/>{"value":"550000"}
+<br/>
+<br/>{"insert":"string"}
+<br/>{"pref_name":"license_status"}
+<br/>{"value":"licensed"}
+<br/>
+<br/>{"insert":"long"}
+<br/>{"pref_name":"time_for_license_verify"}
+<br/>{"value":"365000"}
+<br/>
+<br/>{"delete":"boolean"}
+<br/>{"pref_name":"unlicensed"}
+<br/>
+<br/>{"file_name":"hillclimbprefs_config.xml"}
+<br/>{"insert":"float"}
+<br/>{"pref_name":"result_table"}
+<br/>{"value":"123.4"}
+<br/>
+</br>[END]<br/>
+Gratulujeme! Súbor bol skopírovaný a peniaze za práve zmenili!<br/>
+<br/>
+<hr>
+</body>
+
+</html>

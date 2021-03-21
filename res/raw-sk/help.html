@@ -1,0 +1,112 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color:#ffffff">&#13;
+<hr><b style="color:#ff0000">Lucky Patcher potrebuje pre správne fungovanie prístup k rootu!</b><br/><br/><hr data-tx-tail="6360fce9f0d19d46c5885d70f936482c_se"><b>Popis farieb:</b><br/><hr data-tx-tail="eeb9636a9da6bbf37de4fd322c04f13b_se"><br/>
+<b style="color:#36ff00">Zelená</b> - Aplikácia má vysokú šancu na to, že sa stane registrovanou;<br/>
+<b style="color:#fffc00">Žltá</b> - Pre túto aplikáciu bola nájdená vlastná záplata, v priečinku <code>/sdcard/LuckyPatcher/</code>;<br/>
+<b style="color:#00f0ff">Tyrkysová</b> - V tejto aplikácii boli nájdené reklamy od Googlu;<br/>
+<b style="color:#fc00ff">Purpurová</b> - Tieto aplikácie sú v bootliste;<br/>
+<b style="color:#c5b5ff">Fialová</b> - Aplikácia, ktorá obsahuje Google nákupy v aplikácii;<br/>
+<b style="color:#ff0000">Červená (Nemožné)</b> - Táto aplikácia nemá prakticky žiadnu šancu na zaregistrovanie. Výnimkou sú aplikácie rozdelené do dvoch častí (aplikácia a APK-Pro-Kľúč). V takýchto prípadoch zaplátajte oba časti, nie iba jednu z nich;<br/>
+<b style="color:#ff9c00">Oranžová</b> - Tieto aplikácie sú súčasťou systému. Pri vykonávaní akejkoľvek operácie s nimi buďte veľmi opatrní, keďže ich úpravy by mohli spôsobiť nenapraviteľné škody konkrétnej aplikácie alebo operačného systému.<br/>
+
+</br><b>Bootlist</b> - Zoznam aplikácii, ktoré budú zaplátané pri štarte systému. V súčasnej dobe je to užitočné iba pre vlastné záplaty, ktoré vyžadujú úpravu ".so" knižníc. To, že sa záplata má pridať do bootlistu bude naznačené v jej popise.<br/>
+<br/>
+<b style="color:#36ff00">Štvorlístok</b> - Lucky Patcher vykonal v tejto aplikácii zmeny;<br/>
+<b style="color:#fffc00">Hviezdička [*]</b> - Toto znamená, že dalvik-cache konkrétnej aplikácie bola upravená Lucky Patcherom (bol vytvorený ODEX so zmenami), a to v podstate znamená, že aplikácia zotrvá vo svojom doterajšom stave až dovtedy, kým nebude aktualizovaná alebo odstránená. Pre obnovu aplikácie do originálneho, nezaplátaného stavu, vyberte v menu "Odstrániť ODEX so zmenami". Ak takúto aplikáciu neodstránite pomocou Lucky Patchera, ale pomocou akéhokoľvek iného nástroja, v priečinku /data/app/ ostane ".odex" súbor tejto aplikácie. To môže spôsobiť chybovú správu "Nedostatok miesta" pri pokuse o preinštalovanie aplikácie. Riešenie tohto problému je jednoduché, spustite Lucky Patcher a on automaticky vymaže všetky zostatkové ".odex" súbory. <code>'Riešenie problémov &#8594; Odstrániť opravy a zálohy (kvôli aktualizácii aplikácie)'</code> - všetky opravy dalvik-cache všetkých aplikácií budú vymazané.<br/><br/><hr data-tx-tail="8785ec1b2684a5582ca5cc3915c28fc5_se"><b>Možnosti nakupovania cez Lucky Patcher:</b><br/><hr data-tx-tail="b582aadd41ad38eb33acc00afcc7e759_se"><br/>
+
+<b style="color:#ff9c00">Pre užívateľom s rootom:</b><br/><br/>
+Aplikujte záplatu do Androidu (Stav overovania podpisov je vždy pravdivý) a nainštalujte upravený obchod verzia 3+. Potom všetky vaše nákupy budú presmerované do Lucky Patchera, ak je povolená možnosť "Emulácia fakturácie Google". Pre návrat do pôvodného režimu nakupovania vypnite "Emulácia fakturácie Google". Táto metóda je totožná s tým ako funguje Freedom a nie je pre neho efektívnejšia, ale implementovala úpravu Google Play, ktorá vám umožňuje nakupovať bez toho, aby to narušilo fungovanie služby Google Play.<br/><br/>
+
+<em style="color:#36ff00">1. metóda (najefektívnejšia a najvhodnejšia):</em><br/>
+Ako to urobiť?<br/>
+- Na spodnom paneli vyberte"Nástroje"-&gt;"Zapláta do Androidu", vyberte prvú položku (Stav overovania podpisov je vždy pravdivý) a ťuknite na Aplikovať. Po reštarte musí byť prvá záplata zobrazená ako 2/2. (Tento krok môžete preskočiť, ale je lepšie ho urobiť, pretože, ak to nebude fungovať, potom je niečo zle). Ak aplikovanie záplaty zlyhá, môžete skúsiť prvú možnosť v moduli Xposed Lucky Patcher;<br/>
+- Nainštalujte Lucky Patcher :)<br/>
+- Spustite Lucky Patcher, zapnite internet a vyberte v spodnom paneli "Nástroje"-&gt;"Inštalovať upravený Obchod Play", vyberte správnu verziu a kliknite na inštalovať;<br/>
+- Vyskúšajte upravený Google Play v "Nástroje"-&gt;"Vyskúšať upravený Google Play".<br/><br/>
+<em style="color:#36ff00">2. metóda:</em><br/>
+Aplikujte prvú záplatu do Androidu (Stav overovania podpisov je vždy pravdivý) a prepnite "Proxy server pre Obchod Play". Potom všetky vaše nákupy budú presmerované do Lucky Patchera.<br/>
+<em style="color:#ff0000">Nevýhody tejto metódy:</em><br/>
+- Obchod Play nefunguje počas povoleného Proxy servera;<br/>
+- nie je efektívna v aplikáciách s ochranou, ktorá kontroluje originálne informácie o nákupe;<br/>
+- v kombinácii so zachovanými nákupmi je to nepohodlné, pretože, ak vypnete Proxy server, nebude môcť ponechať nákupy aplikácie.<br/><br/>
+<em style="color:#36ff00">3. metóda:</em><br/>
+Ak máte Xposed v zariadení, môžete zapnúť modul Lucky Patchera.<br/>
+Upozornenie: pre podporu nákupov v aplikácii a emuláciu nákupov zapnite štvrtú možnosť v module Xposed, potrebné je to len ak nemáte nainštalovanú upravenú verziu Obchodu Play. Ak upravená verzia Obchodu Play nie je nastavená, zapnite prvú a štvrtú možnosť, aby ste umožnili nákup v aplikácii. Piata možnosť, môžete skúsiť skryť Lucky Patcher pred aplikáciu, ktorá sa sťažuje.<br/>
+<em style="color:#ff0000">Nevýhody tejto metódy:</em><br/>
+- nie je efektívna v aplikáciách s ochranou, ktorá kontroluje originálne informácie o nákupe;<br/>
+- Xposed má chybu po aktualizácii Lucky Patchera, niekedy sa modul Xposed sám od seba vypne, modul musíte v Xposed zakázať a následne povoliť a reštartovať zariadenie.<br/><br/>
+<em style="color:#36ff00">4. metóda:</em><br/>
+Na cieľovú aplikáciu použite podpornú záplatu pre emuláciu nákupov v aplikáciách a overovaní licencií. Potom všetky vaše nákupy budú presmerované do Lucky Patchera. Tento spôsob je efektívnejší, ak je použitá pre Obchod Play záplata pre emuláciu nákupov v aplikáciách a overovaní licencií (Support.InApp.LVL.com.android.vending), ktorá umožňuje extrahovať skutočné informácie o nákupoch a presunúť ich do aplikácie, a tak umožňuje obísť kontrolu nákupu. Táto metóda je výhodná, ak chcete nakupovať prostredníctvom emulácie iba v aplikáciách, ktoré sa samy zaplátali.<br/>
+<em style="color:#ff0000">Nevýhody tejto metódy:</em><br/>
+- Nefunguje vo všetkých aplikáciách, pretože kód pre nákup v aplikácii môže byť skrytý na mieste nedostupnom pre záplatu.<br/>
+- nie je efektívna v aplikáciách s ochranou, ktorá kontroluje originálne informácie o nákupe, ak neaplikujete vlastnú záplatu Support.InApp.LVL.com.android.vending v Google Play;<br/>
+- potrebuje zaplátať po upgrade cieľovej aplikácie.<br/><br/>
+<b style="color:#ff9c00">Pre užívateľov s rootom:</b><br/><br/>
+<em style="color:#36ff00">1. metóda:</em><br/>
+Prestavajte cieľovú aplikáciu so záplatou pre emuláciu nákupov v aplikáciách a overovaní licencií, odstráňte pôvodnú aplikáciu (premenujte priečinok s cache, ktorý nebol odstránený). Nainštalujte prestavanú aplikáciu (premenujte naspäť priečinok s cache, ak tam bol). Vyskúšajte nákup. Málokedy funguje, ale zázraky sa dejú :)<br/><br/>
+<em style="color:#36ff00">2. metóda:</em><br/>
+Zapnite prepínač "Zrkadliť pôvodnú službu emulácie nákupov v aplikácii". Funguje na veľmi starých aplikáciách alebo starších verziách aplikácií. Táto metóda je použitá napríklad v CreeHack. V nových aplikáciách to má zmysel iba vtedy, ak ste prestavali aplikáciu s podpornou záplatou pre emuláciu nákupov v aplikáciách a overovaní licencií, ale nefungovalo to. Povolenie tejto možnosti môže viesť k pádu spustenej aplikácie, pretože existujú aj takéto hlúpe ochrany pred touto metódou.<br/><br/>
+<b style="color:#ff9c00">Možnosti okna nákupu:</b><br/>
+1. <em style="color:#36ff00">Odoslať odpoveď nepodpísané</em> - má zmysel pre užívateľov bez rootu, pre staršie hry a aplikácie, kde autori neúmyselne nekontrolovali podpisové údaje. Ak je zapnutá táto možnosť, do aplikácie sa odošlú nepravdivé údaje o nákupe s prázdnym podpisom a je šanca, že nákup bude považovaný za legitímny a aplikácia sa aktivuje. Užívatelia s rootom by nemali používať túto možnosť, spôsobí viac škody ako úžitku.<br/>
+2. <em style="color:#36ff00">Uložiť nákup pre obnovu</em>. Táto možnosť uloží nákup do databázy Lucky Patchera, pri ďalšom spustení cracknutej aplikácie Lucky Patcher povie, že by ste si mali aplikáciu kúpiť. Je to potrebné pre rôzne typy predplatného a podobne. Čo to znamená, že je potrebné zahrnúť? Napríklad si kúpite plnú verziu aplikácie a nákup prebehne úspešne, ale po reštartovaní aplikácie je nákup považovaný za nekompletný a mali by ste si kúpiť aplikáciu znova. Po povolení tejto možnosti sa aplikácia bude po reštarte znova považovať za zakúpenú.<br/>
+3. <em style="color:#36ff00">Automatický nákup s aktuálnymi nastaveniami</em>. Po zapnutí tejto možnosti sa pri nasledujúcej žiadosti vykoná nákup bez dialógu Lucky Patchera o kúpe (nákup prebehne okamžite bez akýchkoľvek otázok). Je potrebné, keď zbierate zlato v aplikácii atď., nemusíte zakaždým stláčať, že súhlasíte s nákupom :) Odstrániť automatický nákup môžete dlhým podržaním na aplikáciu v zozname Lucky Patchera a kliknutím na "Odstrániť vybrané uložené nákupy", a potom odstrániť nepotrebné automatické opakovanie nákupu v zozname. <br/><br/><hr data-tx-tail="cb92cab6523a5c65436cc2b379c36d4b_se"><b>Kontextové menu:</b><br/><hr data-tx-tail="a4a885e5142da6c5e3dfed2bbd1cd9b9_se"><b>Odstrániť overovanie licencie (Automatický režim)</b> - <em>Pokúsi sa odstrániť overovanie licencie. Využíva malú časť šablóny pre zaistenie maximálnej stability aplikácie. Ak je percento úspešnosti použitím tejto metódy nízke, pri spustení zaplátanej aplikácie majte zapnutý internet.</em><br/>
+<b>Odstrániť overovanie licencie (Automatický režim (Inverzný))</b> - <em>Existuje niekoľko rozdielov od "Automatický režim". Môže pomôcť, ak "Automatický režim!" nezaplátal aplikáciu úspešne.</em><br/>
+<b>Odstrániť overovanie licencie (Ostatné záplaty (Extrémny režim))</b> - <em>Pokúša sa úplne odstrániť kontrolu licencie. Používa všetky šablóny. Zaplátaná aplikácia môže byť nestabilná, zvyčajne nestabilita nastáva v režime offline. Opakované reštartovanie aplikácie, zmena alebo zakázanie zmeny orientácie môže pomôcť.</em><br/>
+<b>Odstrániť overovanie licencie (Manuálny režim)</b> - <em>Pokúša sa odstrániť overovanie licencie rôznymi metódami, jednu po druhej. Používajte iba v prípade, ak automatický režim nebol úspešný. Manuálny režim preskúma aplikáciu a vyhľadá objekty podobné overovaniu licencie a zobrazí ich zoznam. Pred použitím manuálneho režimu urobte zálohu cez tlačidlo v hornej časti obrazovky. Potom vyberte prvý objekt a kliknite na tlačidlo "Zaplátať", potom spustite aplikáciu pomocou tlačidla "Spustiť". Ak overovanie licencie stále prebieha, vráťte sa späť a kliknite na "Obnoviť", a presuňte sa na druhý objekt. Keď bol objekt nájdený a zaplátaná aplikácia je stabilná, kliknite na "Opraviť zmeny". Pre zdieľanie záplaty s ostatnými kliknite na "Uložiť ako vlastnú záplatu". Pamätajte, že počet objektov sa mení každou aktualizáciou aplikácie a vaša záplata nemusí fungovať v novších verziách.</em><br/>
+<b>Odstrániť overovanie licencie (Vybrané vzory)</b> - <em>Aplikuje vybrané šablóny pre odstránenie overovania licencie aplikácie.</em><br/>
+<b>Zaplátať pre odstránenie reklám Google</b> - <em>Pokúša sa odstrániť Google reklamy. Vyskúšajte túto záplatu aj keď Lucky Patcher nenašiel reklamy v aplikácii, ktorá obsahuje reklamy. Môže odstrániť tieto reklamy.</em><br/>
+<b>Zakázať aktivity reklám</b> - <em>Zakáže manuálne rôzne aktivity aplikácie. Niektoré aktivity majú popísané, čo robia. Aktivity sa dajú znova povoliť, ak aplikácia prestane fungovať.</em><br/>
+<b>Podporná záplata pre emulácie nákupov v aplikáciách a overovaní licencií</b> - <em>Pridáva podporu pre emuláciu nákupov v aplikácii. Emuláciu nákupov v aplikácii môžete zapnúť v menu Prepínače.</em><br/>
+<b>Vypnúť metódu komponentov "pm disable"</b> - <em>Odstráni vybrané oprávnenia, služby, aktivity, atď. Táto možnosť je vstavaná do Androidu, a preto nie je škodlivá. Jediná vec, ktorá môže spôsobovať nefunkčnosť je upravená aplikácia, čo je jednoduché opraviť vrátením oprávnení.</em><br/>
+<b>Zmeniť oprávnenia (nestabilná metóda)</b> - <em>Odstráni oprávnenia aplikácie (úpravou systémového súboru packages.xml). Buďte veľmi opatrný pri práci s ním. Na niektorých zariadenia môže táto metóda viesť k neustálemu reštartu alebo k iným nežiaducim následkom. Pred zakázaním oprávnení urobte zálohu systému.</em><br/>
+<b>Zmeniť oprávnenia a aktivity (bezpečná metóda)</b> - <em>Odstráni vybrané oprávnenia prestavaním APK so zmenami. Táto metóda nezmení podpis aplikácie. Funguje iba na systémové aplikácie alebo na všetky aplikácie, ak je aplikovaná záplata do Androidu "Zakázať overovanie podpisu APK súboru".</em><br/>
+<b>Zmeniť oprávnenia a aktivity Prestavať a nainštalovať</b> - <em>Podobné ako bezpečná metóda, okrem toho táto metóda používa nový podpis a pôvodný neuchováva. Aplikácia nemusí s touto metódou fungovať správne, ak kontroluje podpis.</em><br/>
+<b>Vytvoriť upravený APK súbor</b> - <em>Vytvorí upravení inštalačný balíček APK s aplikovanými záplatami. Nezabúdajte, že prestavaná aplikácia nemusí fungovať ako keď je aplikácia zaplátaná cez Lucky Patcher. Tento problém sa vyskytuje, pretože aplikácia môže "kontrolovať" a nájsť akékoľvek zmeny v kóde a podpise.</em><br/>
+<b>Odstrániť ODEX so zmenami</b> - <em>Odstráni súbor ODEX so zmenami. Teda obnoví aplikáciu do pôvodného stavu.</em><br/>
+<b>Odstrániť vybrané uložené nákupy</b> - <em>Odstráni uložené nákupy cez emuláciu fakturácie Google.</em><br/>
+<b>Obnoviť</b> - <em>  </em>Obnoví aplikáciu zo súboru APK z /sdcard/LuckyPatcher/Backup/.<br/>
+<b>Zálohovať</b> - <em>  </em>Zálohuje súbor APK pre neskoršiu obnovu. Súbor APK sa uloží do priečinka /sdcard/LuckyPatcher/Backup/.<br/>
+<b>Zaplátať pri reštarte</b> - <em> Toto nastavenie už nie je relevantné, pretože v nových verziách Lucky Patchera sa všetky zmeny ukladajú do súboru ODEX aplikácie, ktorý sa po reštarte nemení. Toto nastavenie môže byť užitočné iba v prípade, že vlastná záplata zmení knižnice aplikácie ".so", čo bude uvedené v popise záplaty.</em><br/>
+<b>Manual Patcher</b> - <em>Zapláta vybrané súbory podľa zadanej šablóny. Užitočné pri ladení aplikácie.</em><br/>
+<b>Odexovať túto aplikáciu</b> - <em>Vytvorí nezmenení súbor ODEX aplikácie.</em><br/>
+<b>Presunúť do /system/app</b> - <em>Konvertuje užívateľskú aplikáciu na systémovú.</em><br/>
+<b>Zdieľať túto aplikáciu</b> - <em>Vytvorí zálohu súboru APK vybranej aplikácie a zdieľa ju s inou aplikáciou.</em><br/>
+<b>Kopírovať zmeny do dalvik-cache</b> - <em>V predvolenom režime všetky zmeny zostávajú v súbore ODEX. Kopírovanie do dalvik-cache môže pomôcť, keď súbory  ODEX nefungujú pre aplikáciu (napríklad, keď aplikácia je presunutá na SD kartu). Ak však chcete aplikáciu obnoviť, budete ju musieť preinštalovať.</em><br/>
+<b>Zálohovať súbor APK na preinštalovanie</b> - <em>Skopíruje súbor APK na SD kartu do dátového priečinka aplikácie Lucky Patcher. Aplikáciu môžete nainštalovať (obnoviť) z tohto APK.</em><br/>
+<b>Odstrániť dalvik-cache</b> - <em>Po vytvorení súboru ODEX sa dalvik-cache aplikácie, pre ušetrenie miesta, odstráni. Ak aplikácie nefunguje s ODEX, budete musieť aplikáciu preinštalovať.</em><br/><br/><hr data-tx-tail="2fab7547bdec8c0090f3f1549621e898_se"><b>Pokyny:</b><br/><hr data-tx-tail="56b95debb1a0d2fd6254e0dd70630460_se"><b>Pre odstránenie overovania licencie:</b><br/>
+- Používajte iba originálne súbory APK podpísané vývojárom;<br/>
+- Ťuknite na názov aplikácie a vyberte "Odstrániť overovanie licencie";<br/>
+- Vyberte "Automatický režim" a vyskúšajte aplikáciu s pripojením na internet;<br/>
+- Ak je výsledok negatívny, vyberte "Automatický režim (Inverzný)" alebo "Extrémny automatický režim";<br/>
+- Ak budete mať šťastie, aplikácia bude zaregistrovaná;<br/>
+- Pre návrat aplikácie do pôvodného stavu musíte ťuknúť na "Odstrániť ODEX so zmenami" alebo "Obnoviť".<br/>
+<br/>
+<b>Pre odstránenie Reklám Googlu:</b><br/>
+- Ťuknite na názov aplikácie a vyberte "Odstrániť reklamy Google";<br/>
+- Potom vyberte "Zaplátať pre odstránenie reklám Google";<br/>
+- Spustite a vyskúšajte aplikáciu s pripojením na internet;<br/>
+- Ak sa reklamy stále zobrazujú, ťuknite na "Zakázať aktivity reklám", nájdite aktivity reklám a zakážte ich;<br/>
+- Ak budete mať šťastie, reklamy Googlu sa nezobrazia;<br/>
+- Pre návrat aplikácie do pôvodného stavu musíte ťuknúť na "Odstrániť ODEX so zmenami" alebo "Obnoviť".<br/>
+<br/>
+<b>Pre vlastné záplaty:</b><br/>
+- Ťuknite na názov aplikácie a vyberte "Vlastná záplata";<br/>
+- Spustite a vyskúšajte aplikáciu s pripojením na internet;<br/>
+- Ak budete mať šťastie, záplata bude fungovať;<br/>
+- Pre návrat aplikácie do pôvodného stavu musíte ťuknúť na "Odstrániť ODEX so zmenami" alebo "Obnoviť".<br/>
+<br/>
+<b>Pre zmenu oprávnení:</b><br/>
+- Ťuknite na názov aplikácie a vyberte "Zmeniť oprávnenia";<br/>
+- Ťuknite na Oprávnenie pre zakázanie <em style="color:#ff0000">(červené)</em>;<br/>
+- Ťuknite na Oprávnenie pre povolenie <em style="color:#36ff00">(zelené)</em>;<br/>
+- Musíte kliknúť na Aplikovať (Reštartovať).<br/>
+<br/>
+<b>Pre vytvorenie upraveného APK súboru:</b><br/>
+- Ťuknite na názov aplikácie a vyberte "Vytvoriť upravený APK súbor";<br/>
+- Vyberte záplatu pre úpravu APK;<br/>
+- Upravený inštalačný súbor sa uloží do priečinka /sdcard/LuckyPatcher/Modified/  ;<br/>
+- Mali by ste vedieť, že prestavaný APK súbor nie je to isté ako nainštalovaná aplikácia so záplatou. Pretože, na rozdiel od jednoduchého zaplátania aplikácie je veľmi jednoduché testovať zmeny, takže funguje správne a inštalácia nezlyhá.<br/>
+<br/><hr data-tx-tail="8be9cbd66a103aca2cacd577789e522c_se"><b>PS: Lucky Patcher po aplikovaní záplaty uzavrie aplikáciu. Je to nutné pre zachovanie novo aplikovaných zmien. Niekedy však možno budete musieť reštartovať samotné zariadenie alebo použiť nástroj tretej strany na násilné ukončenie procesu alebo procesov ovplyvnenej aplikácie, aby sa zmeny prejavili.</b><hr>
+</body>
+</html>

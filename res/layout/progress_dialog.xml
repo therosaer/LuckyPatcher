@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textColor="#ffaaaaaa" android:orientation="vertical" android:id="@id/alert_dialog_body" android:background="@drawable/background_alert" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title_icon" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" />
+        <TextView android:textSize="18.0dip" android:textColor="#fffeeb9c" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:id="@id/line0" android:background="@drawable/background_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:text="" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/message_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+        <ProgressBar android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminateDrawable="@drawable/my_progress_indeterminate" />
+        <TextView android:textSize="16.0dip" android:textColor="#ddffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/progressBarIncrement" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="5.0dip" android:minWidth="200.0dip" style="@style/CustomProgressBar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/increment_info_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ddffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/increment_text_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

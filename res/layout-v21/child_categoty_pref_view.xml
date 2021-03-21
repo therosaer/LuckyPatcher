@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="30.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkBoxLVL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lvltitle" />
+    <CheckBox android:id="@id/checkBoxADS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adstitle" android:buttonTint="@color/checkboxColor" />
+    <CheckBox android:id="@id/checkBoxCUSTOM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/customtitle" android:buttonTint="@color/checkboxColor" />
+    <CheckBox android:id="@id/checkBoxModify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/modiftitle" android:buttonTint="@color/checkboxColor" />
+    <CheckBox android:id="@id/checkBoxFIX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fixedtitle" android:buttonTint="@color/checkboxColor" />
+    <CheckBox android:id="@id/checkBoxNONE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nonetitle" android:buttonTint="@color/checkboxColor" />
+    <CheckBox android:id="@id/checkBoxSYS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/systitle" android:buttonTint="@color/checkboxColor" />
+</LinearLayout>

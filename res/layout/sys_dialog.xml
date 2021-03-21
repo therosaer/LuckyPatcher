@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textColor="#ffaaaaaa" android:orientation="vertical" android:id="@id/alert_dialog_body" android:background="@drawable/background_alert" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" />
+        <TextView android:textSize="18.0dip" android:textStyle="normal" android:textColor="#fffeeb9c" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/TitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:id="@id/line0" android:background="@drawable/background_gradient" android:layout_width="fill_parent" android:layout_height="1.0dip" android:text="" />
+    <LinearLayout android:orientation="vertical" android:id="@id/message_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ScrollView android:id="@id/dialog_message_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="18.0dip" android:textColor="#ddffffff" android:id="@id/message" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0dip" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/button_alert_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/button_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="@string/no" android:layout_weight="0.5" style="@style/ButtonDarkStyle" />
+        <Button android:id="@id/button_yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="@string/Yes" android:layout_weight="0.5" style="@style/ButtonDarkStyle" />
+    </LinearLayout>
+</LinearLayout>

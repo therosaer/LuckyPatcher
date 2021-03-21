@@ -1,0 +1,146 @@
+﻿<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+
+</head>
+
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color:#ffffff">
+<b style="color:#FF0000">WARNING!</b> Do not remove jumps or make them unconditional! Optimizer will crash and your ART patch will fail! To avoid this, use conditional jumps. For example, if there is a need to jump, replace the jump with the if-eq v0,v0 (bytes: 32 00 ?? ??). If there is no need to jump in particular place, you can insert jump like if-ne v0,v0 (bytes: 33 00 ?? ??); also feel free to use your own equivalent.<br/><br/>
+The patch file must have the same name as the target APK (this is case sensitive).<br/>
+If the file is a custom patch for the application already exists, you can simply add at the beginning of the file name of any Text and save it as near the existing.<br/>
+If you want to write a patch once a series of programs on a single firm, then the end the custom patch file name, you can use  _%25ALL%25, for example the name of the patch for all the votes SVOX will look like this: com.svox.classic.langpack_%25ALL%25.txt. On the _%25ALL%25 is replaced by the name part of the package, which varies depending on the application of the firm.
+Do not use special characters/formatting in the patch file. (single spaces only)<br/>
+To search for patterns of bytes to use IDA Pro 6.1. It can open dalvik-cache, odex, libraries and classes.dex.<br/>
+If you want to patch dalvik-cache or odex, do not forget that the bytes of data in different firmware versions may vary. And do not forget that the bytes are not all classes.dex coincide with dalvik-cache and odex. In this you can see, if you open classes.dex and odex-file in IDA Pro.<br/>
+<br/>
+[BEGIN]<br/>
+&lt;patch comments that are visible to the user pre-patch&gt;<br/>
+Patch for XYZ Pro 5.0.5<br/>
+<br/>
+[PACKAGE]<br/>
+&lt;unpacks classes.dex and applies all the patches from the [CLASSES] to him. And generates, based on the modified classes.dex, odex-file.&gt;<br/>
+<br/>
+[CLASSES]<br/>
+&lt;pattern search/replace for classes.dex (see below)&gt;<br/>
+{"search":"63 R00 R01 R02 38 00 04 00 12 10 0F 00"}<br/>
+{"group":"1"}<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A W00 W01 W02 00 00 12 <b style="color:#36ff00">S0</b> 0F 00"}<br/>
+<br/>
+[LIB]<br/>
+&lt;pattern search/replace for named native libraries (see below)&gt; <br/>
+{"name":"libtitanium.so"}<br/>
+{"original":"00 ** 50 e2"}<br/>
+{"replaced":"00 00 50 e1"}<br/>
+<br/>
+[OTHER FILES]<br/>
+&lt;pattern search/replace for named other files in /data/data/Package_Target_APK/ (see below)&gt;<br/>
+{"name":"/files/shell.dex"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/>
+[ADD-BOOT]<br/>
+&lt;automatically adds the current user patch to BootList. Should be used in the patch library (or in the patch [CLASSES] without  [ODEX] or without [PACKAGE])&gt;<br/>
+<br/>
+[END]<br/>
+&lt;patch comments that are visible to the user post-patch&gt;<br/>
+Congratulations! Program cracked!<br/>
+<br/>
+“search” – search allows you to search for a pattern and store bytes at specific positions.<br/>
+{"search":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">R00 R01 R02 </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+In this example the bytes in green make up your pattern mask, while bytes in yellow labeled R00 -> R02 will be stored.<br/>
+Stored bytes must be in order R00, R01, R02, R03… <br/>
+Stored bytes cannot be repeated.<br/>
+<br/>
+"group" - marks patterns of the group (group number could be 1 or higher). What does it mean? If at least one pattern from the group succeeded, successful patch confirmation will be shown. That is useful when you try to make a universal patch for multiple versions of the particular app (for example, patch all versions of Google Play to disable autoupdates).<br/>
+“original” – this is a pattern mask used to find the offset where the patch will be applied.<br/>
+{"original":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">?? ?? ?? </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+In this example the bytes in green make up your pattern mask, while bytes in yellow are wildcards (??, **)<br/>
+“replaced” – this will follow an “original” statement, this is what the offset will be overwritten with.	<br/>
+{"replaced":"<b style="color:#36ff00">12 00 6A </b><b style="color:#fffc00">W00 W01 W02 </b><b style="color:#36ff00">00 00 12 00 0F 00</b>"}<br/>
+In this example, bytes in green will overwrite the target location.. bytes in yellow are stored bytes from the previously executed “search”<br/>
+“name” – this is used to target a specific library by name (see above in [LIB]) <br/>
+<b style="color:#36ff00">S0</b> , <b style="color:#36ff00">S1</b> - sets smali variable to 0 or 1 respectively.
+For example, there is a variable : const/4 v?,0x00 . Question mark shows , that var\'s number is unknown (for example, it has been changed in the newer version), but you are sure, that this var equals 0, and you want to set it to 1. In this case pattern will look like: <br/>
+{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S1 ?? ?? ?? ??"}<br/>
+And vice versa, to set variable to 0:<br/>
+{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S0 ?? ?? ?? ??"}<br/>
+“replace_from_file” – this will follow an “original” statement, this is what the offset will be overwritten with bytes from file (file must saved near custom patch).	<br/>
+{"replace_from_file":"<b style="color:#36ff00">array.bin</b>"}<br/>
+This is done in order to avoid writing very long templates to replace.<br/>
+<br/>
+
+[LIB-ARMEABI],[LIB-ARMEABI-V7A],[LIB-MIPS] or [LIB-X86] - for Libraries from /lib/armeabi/, /lib/armeabi-v7a/, /lib/mips/, /lib/x86/. <br/>
+<br/>
+[ODEX-PATCH] - Uses for the patch has already been created odex. For example, an application has been patched with the automatic mode by Remove License Verification, but you need to make additional changes by using a Custom Patch. If we use a simple [PACKAGE]-[CLASSES], [ODEX] or [CLASSES]-[ODEX], odex-file will be created with no change and only then patched. <br/>Example:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX-PATCH]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Congratulations! ODEX modified!<br/>
+<br/>
+[CLASSES] without [PACKAGE] - Patches dalvik-cache applications. Do not forget that the system periodically updates dalvik-cache applications and all the changes of it disappear. Therefore, we must add then [ADD-BOOT]. Patch for dalvik-cache outdated, as unreliable. But he needed for the ROM Toolbox, as he found odex-file and behave hysterically.
+<br/>Example:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ADD-BOOT]<br/>
+[END]<br/>
+Congratulations!<br/>
+<br/>
+[ODEX] - Copy dalvik-cache in /data/app/ and rename to odex-file, then all the patches applied to this odex-file. Checksums of the odex wrong, can not pass inspection, unlike odex-file created [PACKAGE] - [CLASSES].
+<br/>Example:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Congratulations!<br/>
+<br/>
+[CLASSES]-[ODEX] - Patches dalvik-cache and then сopy dalvik-cache in /data/app/ and rename to odex-file. Checksums of the odex and of the dalvik-cache is wrong, can not pass inspection, unlike odex-file created [PACKAGE] - [CLASSES].
+<br/>Example:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ODEX]<br/>
+[END]<br/>
+Congratulations!<br/>
+<br/>
+[COMPONENT] - Enable or disable components to Applications.
+<br/>Example:<br/>
+<br/>
+[BEGIN]<br/>
+[COMPONENT]<br/>
+{"disable":"com.superApp.adsActivity"}<br/>
+{"enable":"com.superApp.fullVersion.Provider"}<br/>
+{"disable":"com.android.vending.CHECK_LICENSE"}<br/>
+[END]<br/>
+Congratulations!<br/>
+<br/>
+[SQLITE] - Sometimes the target application must change something in the database, then to help will come this possibility:
+<br/>Example:<br/>
+<br/>
+[BEGIN]<br/>
+Trial Reset<br/>
+[SQLITE]<br/>
+{"database":"/data/data/com.package.megaapp/databases/settings.db"}<br/>
+{"execute":"DELETE FROM table_settings WHERE name = 'SETTING__LIC'"}<br/>
+{"execute":"UPDATE table_settings SET UsedDays=0 WHERE name='Trial_set'"}<br/>
+[END]<br/>
+Congratulations! You have new Trial Period!<br/>
+<br/>
+database - path to database on Device.<br/>
+execute - SQLite query.<br/>
+</body>
+
+</html>

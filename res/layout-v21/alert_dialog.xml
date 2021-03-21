@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textColor="#ffaaaaaa" android:orientation="vertical" android:id="@id/alert_dialog_body" android:background="@drawable/background_alert" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title_icon" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" />
+        <TextView android:textSize="18.0dip" android:textStyle="normal" android:textColor="#fffeeb9c" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:id="@id/line0" android:background="@drawable/background_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:text="" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/filter_dialog" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_centerVertical="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:id="@id/button_clear" android:background="@drawable/cbutton_clear" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="2.0dip" android:text="" />
+        <com.chelpus.utils.objects.EditTextFix android:textColor="@android:color/darker_gray" android:id="@id/editTextFilter" android:background="@drawable/rect_text_edit_transparent" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:hint="@string/search" android:cursorVisible="true" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/message_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ScrollView android:id="@id/dialog_message_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="18.0dip" android:textColor="#ddffffff" android:id="@id/dialog_message" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0dip" />
+        </ScrollView>
+        <ListView android:id="@id/dialog_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ExpandableListView android:id="@id/dialog_explistview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/checkbox1_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="top" android:id="@id/checkBox1_alert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="" android:buttonTint="@color/checkboxColor" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/checkbox2_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <CheckBox android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="top" android:id="@id/checkBox2_alert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="" android:buttonTint="@color/checkboxColor" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/button_alert_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/button_no" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="@string/no" android:layout_weight="0.5" style="@style/ButtonDarkStyle" />
+        <Button android:id="@id/button_neutral" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="" android:layout_weight="0.5" style="@style/ButtonDarkStyle" />
+        <Button android:id="@id/button_yes" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="@string/Yes" android:layout_weight="0.5" style="@style/ButtonDarkStyle" />
+    </LinearLayout>
+</LinearLayout>

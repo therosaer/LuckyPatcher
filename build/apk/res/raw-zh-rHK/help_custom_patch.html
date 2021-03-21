@@ -1,0 +1,183 @@
+﻿<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+
+</head>
+
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color&#58;#ffffff">
+<hr><b style="color:#FF0000">警告！</b> 請勿刪除條件跳轉或使用無條件跳轉！否則此破解將崩潰且在 ART 模式下無法運行！為了避免出現此問題，請使用條件跳轉。例如：如需跳轉，可使用 <code>if-eq v0,v0 (bytes: 32 00 ?? ??)</code>。如無需跳轉，可使用 <code>if-ne v0,v0 (bytes: 33 00 ?? ??)</code>；您也可自定義跳轉條件。<br/><br/>
+自定義破解檔案名稱必須與目標 APK 檔案名稱相同。注意：需要區分大小寫。<br/>
+如果應用程式已存在自定義破解檔案，您可以簡單的添加到任何純文字檔案名稱的開頭，並儲存為已存在自定義破解的附近。<br/>
+如果您想編寫一個可以一次性地應用在單間公司的一系列軟體的破解時，可以在自定義破解檔案名稱末尾加上 _%25ALL%25 來結尾，例如：用於所有 「votes」 的 SVOX 破解名稱可以這樣命名: com.svox.classic.langpack_%25ALL%25.txt。那就是說，此 _%25ALL%25 將會替換破解包的部分名稱，而破解包的完整名稱將取決於軟體公司自行命名的名稱。
+破解檔案不需要使用特殊的字元或格式，僅需要單獨分開。<br/>
+可以使用 IDA Pro 6.1 來搜尋破解模式位元組，它可以打開 dalvik-cache、odex、庫檔案和 classes.dex 檔案。<br/>
+如果您想破解 dalvik-cache 或 odex 檔案，請不要忘記在不同固件版本中位元組的數據存在非常大的差異，也不要忘記所有 classes.dex 的位元組並非與 dalvik-cache 和 odex 檔案一致。如果您在 IDA Pro 中打開 classes.dex 或 odex 檔案將會看見此差異。<br/>
+<br/>
+[BEGIN]<br/>
+&lt;將會在用戶應用破解前顯示破解的描述&gt;<br/>
+例如：應用 XYZ Pro 5.0.5 破解<br/>
+<br/>
+[PACKAGE]<br/>
+&lt;解包 classes.dex 並對程式的 [CLASSES] 應用所有的破解，然後基於已修改的 classes.dex 生成 odex 檔案。&gt;<br/>
+<br/>
+[CLASSES]<br/>
+&lt;搜尋並替換 classes.dex 破解模式 (詳情如下字元串)&gt;<br/>
+<code>{"search":"63 R00 R01 R02 38 00 04 00 12 10 0F 00"}<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A W00 W01 W02 00 00 12 <b style="color&#58;#36ff00">S0</b> 0F 00""}</code><br/>
+<br/>
+[LIB]<br/>
+&lt;搜尋並替換命名本地庫檔案破解模式 (詳情如下字元串)&gt; <br/>
+<code>{"name":"libtitanium.so"}<br/>
+{"original":"00 ** 50 e2"}<br/>
+{"replaced":"00 00 50 e1"}<br/></code>
+<br/>
+[OTHER FILES]<br/>
+&lt;搜尋並替換命名在 /data/data/Package_Target_APK/ 的其他檔案破解模式 (詳情如下字元串)&gt;<br/>
+<code>{"name":"/files/shell.dex"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/></code>
+[OTHER FILES]<br/>
+&lt;搜尋並插入命名在 /mnt/sdcard/ 的其他檔案破解模式(如果未找到 /mnt/sdcard/ 路徑，幸運破解器將搜尋其他類型的 sdcard 路徑。)&gt;<br/>
+<code>{"name":"/mnt/sdcard/Android/package-name/files/lives.xml"}<br/>
+{"original":"63 68 65 6C 70 61"}<br/>
+{"insert":"63 68 65 6c 70 61 61 61"}<br/>
+<br/></code>
+[FILE_IN_APK]<br/>
+&lt;搜尋並從 APK 中替換檔案破解模式(僅支持使用此自定義破解重建的 APK 檔案。)&gt;<br/>
+<code>{"name":"assets/bin/Data/Managed/O7SharpCompress.dll"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/></code>
+[ADD-BOOT]<br/>
+&lt;此命令將會自動添加當前用戶自定義破解到啟動列表中，儘可能對庫檔案進行破解，或破解沒有 [ODEX] 或沒有 [PACKAGE] 的 [CLASSES])&gt;<br/>
+<br/>
+[END]<br/>
+&lt;在破解應用後將會顯示破解描述&gt;<br/>
+恭喜您，軟體已破解！<br/>
+<br/>
+<code>「search」</code> – 搜尋命令允許您對破解模式或存儲於特殊位置的位元組進行搜尋。<br/>
+<code>{"search":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">R00 R01 R02 </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/></code>
+如上述例子所示，綠色位元組是編寫成您的破解模式代碼，而黃色標籤的位元組 R00 -> R02 將會被儲存。<br/>
+已存儲的位元組必須排序為：R00, R01, R02, R03… <br/>
+已存儲的位元組也不能夠重複。<br/>
+<br/>
+<code>"group"</code> - 組標記破解模式 (組數量≥1)。如果此組中至少有壹種模式破解成功，都將顯示成功破解信息。當您嘗試對指定應用程式的多個版本進行通用破解時，這將非常有效 (例如，破解所有版本谷歌 Play 市場以禁用自動更新)。<br/>
+<code>「original」</code> – 此破解模式是用於搜尋破解被應用後的偏差。<br/>
+<code>{"original":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">?? ?? ?? </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/></code>
+如上述例子所示，綠色位元組是編寫成您的破解模式代碼，而黃色位元組是通配符 (??, **)<br/>
+<code>「replaced」</code> – 此替換命令將會遵循 「original」 敘述而進行覆蓋偏差處理。<br/>
+<code>{"replaced":"<b style="color:#36ff00">12 00 6A </b><b style="color:#fffc00">W00 W01 W02 </b><b style="color:#36ff00">00 00 12 00 0F 00</b>"}<br/></code>
+如上述例子所示，綠色位元組將會覆蓋目標位置，而黃色位元組將會存儲上次 「search」 執行的位元組。<br/>
+<code>「name」</code> – 此命令是用於特殊庫檔案名稱稱的目標 (可查看上述 [LIB] 說明) <br/>
+<b style="color:#36ff00">S0</b> , <b style="color:#36ff00">S1</b> - 分別設定 smali 變量為 0 或 1。
+例如，變量： <code>const/4 v?,0x00</code>。 問號表示 <code>變量</code>數未知 (例如，它在新版本中已更改)，但您肯定此變量對於 0，並希望將其設為1。在這種情況下，模式為：<br/>
+<code>{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S1 ?? ?? ?? ??"}<br/></code>
+反之，設定變量為 0:<br/>
+<code>{"original":"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced":"12 S0 ?? ?? ?? ??"}<br/></code>
+<code>"replace_from_file" </code> – 這將遵循 <code>"original" </code>聲明，從檔案(必須已保存類似自定義破解)使用字節覆蓋偏移量。<br/>
+<code>{"replace_from_file":"<b style="color:#36ff00">array.bin</b>"}<br/></code>
+這樣做是為了避免寫太長的模板來替換。<br/>
+<code>「insert」</code> – 如果您想插入超過原始模式的數據長度。<br/>
+(例如)檔案破解前包含:<code>"chelpa end"</code><br/>
+<code>{"original":"63 68 65 6C 70 61"}<br/>
+{"insert":"63 68 65 6c 70 61 61"}<br/></code>
+檔案破解後包含:<code>"chelpaa end"</code><br/>
+<br/>
+
+[LIB-ARMEABI],[LIB-ARMEABI-V7A],[LIB-MIPS] or [LIB-X86] - for Libraries from /lib/armeabi/, /lib/armeabi-v7a/, /lib/mips/, /lib/x86/. <br/>
+<br/>
+[ODEX-PATCH] - 是用於破解已創建的 odex 檔案。例如：將使用「自動模式」的「移除授權驗証」對應用程式進行破解，通過使用自定義破解，您仍然需要對其做出額外的更改。如果我們使用一個簡單的 [PACKAGE]-[CLASSES]、[ODEX] 或 [CLASSES]-[ODEX]，那 odex 檔案將會根據「無更改」或「僅破解」的方式被創建。<br/>例如:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX-PATCH]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[END]<br/>
+恭喜您！ODEX 檔案已修改。<br/>
+<br/>
+[CLASSES] 沒有 [PACKAGE] - 破解 dalvik-cache 的應用程式。請不要忘記系統定期更新 dalvik-cache 的應用程式，更新後將會丟失所有的更改。因此，我們必須添加 [ADD-BOOT] 命令對過期的 dalvik-cache 進行破解，但此方式不穩定。如果 ROM Toolbox 應用程式發現了 odex 檔案，將會需要此方式對其進行破解。
+<br/>例如：<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[ADD-BOOT]<br/>
+[END]<br/>
+恭喜您！<br/>
+<br/>
+[ODEX] - 在 /data/app/ 資料夾複製 dalvik-cache 並重命名為 odex 檔案，然後所有的破解將會應用到此 odex 檔案。如果 odex 的校驗和錯誤，就不能夠通過檢驗，而且與創建 odex 檔案不同 [PACKAGE] - [CLASSES].
+<br/>例如：<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[END]<br/>
+恭喜您！<br/>
+<br/>
+[CLASSES]-[ODEX] - 對 dalvik-cache 應用破解，然後在 /data/app/ 資料夾複製 dalvik-cache 並重命名為 odex 檔案。如果 odex 的校驗和以及 dalvik-cache 錯誤，就不能夠通過檢驗，而且與創建 odex 檔案不同 [PACKAGE] - [CLASSES].
+<br/>例如：<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+<code>{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[ODEX]<br/>
+[END]<br/>
+恭喜您！<br/>
+<br/>
+[SQLITE] - 有時候，目標應用程式必需在資料庫中更改某些參數以實現某一項功能：
+<br/>例如：<br/>
+<br/>
+[BEGIN]<br/>
+試用期重置<br/>
+[SQLITE]<br/>
+<code>{"database":"/data/data/com.package.megaapp/databases/settings.db"}<br/>
+{"execute":"DELETE FROM table_settings WHERE name = 'SETTING__LIC'"}<br/>
+{"execute":"UPDATE table_settings SET UsedDays=0 WHERE name='Trial_set'"}<br/></code>
+[END]<br/>
+恭喜您！試用期已重置！<br/>
+<br/>
+database - 在設備中對資料庫應用破解。<br/>
+execute - SQLite 查詢。<br/>
+[SET_PERMISSIONS] - 為應用程式數據資料夾模擬 "chmod permissions file_name" linux 命令：
+<br/>例如：<br/>
+<br/>
+[BEGIN]<br/>
+試用期重置<br/>
+SET_PERMISSIONS]<br/>
+<code>{"file_name":"/files/stats"}<br/>
+{"permissions":"777"}<br/></code>
+<br/>
+[OTHER FILES]<br/>
+<code>{"name":"/files/stats"}<br/>
+<br/>
+{"original":"4D 4D 46 31"}<br/>
+{"replaced":"00 4D 46 30"}<br/>
+<br/></code>
+[SET_PERMISSIONS]<br/>
+<code>{"file_name":"/files/stats"}<br/>
+{"permissions":"444"}<br/></code>
+</br>[END]<br/>
+恭喜您！試用期已重置！<br/>
+[COPY_FILE] - 從幸運破解器資料夾復制文件到新路徑：
+<br/>例如：<br/>
+<br/>
+[BEGIN]<br/>
+復制檔案修改金幣<br/>
+[COPY_FILE]<br/>
+<code>{"file_name":"money_for_game.bin"}<br/>
+{"to":"/data/data/game_package/files/settings.xml"}<br/></code>
+</br>[END]<br/>
+恭喜您！您的檔案已復制且金幣已修改！<br/>
+<br/>
+<hr>
+</body>
+
+</html>

@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppTools">Rincian Aplikasi:</string>
+    <string name="P_not_found">"KESALAHAN! Berkas Tidak Dapat Ditemukan!!!
+Periksa jalur berkas Dalvik-cache untuk mengatasi masalah ini!
+Letak berkas biasanya Ada di: /data/dalvik-cache/*"</string>
+    <string name="PatchResult">Hasil Penambalan</string>
+    <string name="Yes">Ya</string>
+    <string name="abc_action_bar_home_description">Tunjukkan jalan ke rumah</string>
+    <string name="abc_action_bar_up_description">Kembali ke atas</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
+    <string name="abc_capital_off">NONAKTIF</string>
+    <string name="abc_capital_on">AKTIF</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">spasi</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Telusuri...</string>
+    <string name="abc_searchview_description_clear">Hapus kueri</string>
+    <string name="abc_searchview_description_query">Telusuri kueri</string>
+    <string name="abc_searchview_description_search">Telusuri</string>
+    <string name="abc_searchview_description_submit">Kirim kueri</string>
+    <string name="abc_searchview_description_voice">Penelusuran suara</string>
+    <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Bagikan dengan %s</string>
+    <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="about_thanks_for_this_translation">"Terimakasih kepada Relawan, yang telah Ikut Serta dalam Menerjemahkan dan menyempurnakan Terjemahan kedalam Bahasa Indonesia:
+Akukakangenkamu, AlfiKaruniawan26, Jeff AL-Rinno11, MamahMuda03, djawoen, fakhri626, NETDOWN04, Edogawa, Erik Andri Budiman
+
+Penduduk :
+- Bengkulu
+- Sumatera Selatan
+- Sumatera Barat
+- Sumatera Utara
+- Bandung"</string>
+    <string name="about_working_dir">Ruang tugas pada Kartu Memori :</string>
+    <string name="aboutlp">"Lucky Patcher adalah Alat penambal serba guna.
+Dapat digunakan untuk mengoprek Aplikasi, diantaranya: Menghapus iklan, menghapus pengesahan lisensi Google (dikendalikan maupun terkendali), mengatur hak izin, dan lain sebagainya."</string>
+    <string name="aboutmenu">Tentang</string>
+    <string name="abouttitle">Tentang Lucky Patcher oleh Chelpu$</string>
+    <string name="activity_ads_descr">Kegiatan ini, digunakan oleh Aplikasi yang Menyematkan Iklan</string>
+    <string name="activity_descr">"Kegiatan Aplikasi.
+Tidak ada Penjelasan untuk Kegiatan Aplikasi ini"</string>
+    <string name="additinfo">Keterangan Tambahan</string>
+    <string name="adsdescr">Tampilkan semua Aplikasi yang Terdapat Iklan Google</string>
+    <string name="adstitle">Aplikasi yang Terdapat Iklan</string>
+    <string name="advanced_menu">Sajian Penambal</string>
+    <string name="all_custom_patches_updated">"Semua Penambal Khusus
+Berhasil diperbaharui."</string>
+    <string name="allchanges">Semua Perubahan diterapkan Kedalam berkas \".odex\", dan akan Tersimpan sampai Aplikasi dipasang ulang.</string>
+    <string name="android_patches_for_bootlist">Tambal ke Dalvik-cache Android</string>
+    <string name="android_patches_for_bootlist_status">Terapkan kembali Tambalan Android saat Memulai ulang</string>
+    <string name="apk_create_option">Nama Berkas untuk Aplikasi yang dibuat ulang.</string>
+    <string name="apk_not_found_error">KESALAHAN : Berkas Aplikasi tidak ditemukan!.</string>
+    <string name="apk_size">Ukuran Aplikasi :</string>
+    <string name="apkdescr">Buat Nama Berkas untuk Aplikasi Baru</string>
+    <string name="apklabel">Berdasarkan Nama-cantum Aplikasi</string>
+    <string name="apkpackage">Berdasarkan Nama Aplikasi</string>
+    <string name="app_dialog_no_root_app_control">Lihat di Pengelola Aplikasi bawaan Android</string>
+    <string name="app_disabler_widget_pkg_not_found">Widget Tidak Ditemukan</string>
+    <string name="app_info">Rincian Aplikasi</string>
+    <string name="app_info_apk_is_splitted">Berkas \".apk\" yang terpisah</string>
+    <string name="app_install_success">"Pemasangan Aplikasi Berhasil!
+
+"</string>
+    <string name="app_name">Lucky Patcher</string>
+    <string name="app_not_found">Aplikasi tidak Ditemukan! Pasang ulang Aplikasi, lalu Coba Lagi</string>
+    <string name="app_not_found_adapter">Aplikasi ini Tak ditemukan pada Daftar Aplikasi yang Terpasang.</string>
+    <string name="apps_not_found">Tidak ditemukan</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="back">Kembali</string>
+    <string name="backbutton">Cadangkan</string>
+    <string name="backup_data_empty">Data Aplikasi Kosong. Tidak ada yang Dapat dicadangkan</string>
+    <string name="backup_data_error">KESALAHAN : Ada sesuatu yang salah. Pencadangan sepertinya tidak lengkap</string>
+    <string name="backup_data_success">Pengaturan dicadangkan</string>
+    <string name="backup_delete_message">Ingin Menghapus semua Cadangan data Aplikasi?</string>
+    <string name="backup_done">"Pencadangan Telah Berhasil, Letak Cadangan :
+"</string>
+    <string name="backup_settings_error_message">Cannot restore application settings because it is not installed.</string>
+    <string name="backups_not_found">"Tidak ada Cadangan di :
+"</string>
+    <string name="bad_root_detected">"Izin ROOT Masih tersendat. Coba lagi atau segera Perbaharui Izin ROOT.
+Ubah pula urutan pilihan ROOT pada Pengaturan Aplikasi Lucky Patcher. Sepertinya, ini dapat membantu"</string>
+    <string name="begin_changelog">"Versi yang sedang Terpasang adalah :
+"</string>
+    <string name="billing_buy">Dapatkan secara cuma-cuma?</string>
+    <string name="billing_hack2_auto_repeat_note">"Untuk menghapus Pengulangan pembelian, pilih Aplikasi > 
+ kemudian sentuh \"Alat\" > \"Hapus Pembelian yang Disimpan\" dan Hapus Bagian yang Ingin dihapus."</string>
+    <string name="billing_hack2_new">"- Untuk hasil Terbaik, kamu Wajib Melakukan \"Tambal ke Android\" dengan \"Status Pengesahan Tanda tangan Selalu Tercentang\"
+- untuk Mematikan jebolan, ketuk \"Tombol Alih\" pada Bagian Bawah antarmuka Lucky Patcher dan Matikan \"Tiruan Pembayaran Tagihan Google\""</string>
+    <string name="billing_hack_menu">Tiruan Pembayaran Tagihan Google</string>
+    <string name="billing_hack_menu_descr">"Harus ditambah \"Tambalan Pendukung untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" ke aplikasi Tertuju atau Lakukan Upaya \"Tambal ke Android\".
+Ini bisa Berdampak Buruk bagi Aplikasi yang telah dibeli Secara Resmi
+(Tambahkan Pula \"Tambalan Pendukung untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" ke Aplikasi Google Play Store Guna menghindari Beberapa Masalah)"</string>
+    <string name="billing_hack_menu_disable">Matikan Tiruan Pembayaran Tagihan Google</string>
+    <string name="billing_hack_menu_enable">Nyalakan Tiruan Pembayaran Tagihan Google</string>
+    <string name="billing_hack_option">Kirim balasan ke Aplikasi yang tidak Bertanda tangan (Ini Sepertinya tidak dapat Bekerja untuk Pengguna tanpa Izin ROOT)</string>
+    <string name="billing_hack_option2">Tetap simpan Pembelian, meskipun Aplikasi dipulihkan</string>
+    <string name="billing_proxy_server_for_support_patch_descr">Pengaya ini Dibutuhkan oleh \"Tambalan Pendukung untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" dan juga, akan Membuat ulang Aplikasi menggunakan Pengaya ini</string>
+    <string name="billing_proxy_server_for_support_patch_inapp">Server Proksi untuk Tiruan Pembayaran Tagihan Google</string>
+    <string name="billing_proxy_server_for_support_patch_lvl">Server Proksi untuk Rekayasa Pengesahan Lisensi</string>
+    <string name="bind_button">Tetapkan Tambatan</string>
+    <string name="bind_delete">Hapus jalur Tambatan?</string>
+    <string name="bind_dialog_button">Tetapkan</string>
+    <string name="bind_dialog_source">Jalur Sumber:</string>
+    <string name="bind_dialog_target">Jalur Tujuan:</string>
+    <string name="bind_error">Gagal Menambatkan! Jalur data Pada Perangkat Tidak ditemukan</string>
+    <string name="bind_source">Jalur Data:</string>
+    <string name="bind_target">Tambatkan Data ke:</string>
+    <string name="binder_browser">Jelajahi</string>
+    <string name="binder_browser_create_dir">Buat Satuan pelipat</string>
+    <string name="binder_browser_current_dir">Jalur:</string>
+    <string name="binder_browser_select">Tetapkan Jalur</string>
+    <string name="binder_delete">Hapus</string>
+    <string name="bootview">Daftar Muatan awal</string>
+    <string name="browse_to_file">Cari Berkas</string>
+    <string name="busybox_not_found">"PERINGATAN! : Busyboxnya tidak ada.
+Lucky Patcher tidak dapat bekerja sepenuhnya tanpa Busybox!"</string>
+    <string name="button_add_to_boot_list">Tambahkan ke Pemuatan Awal</string>
+    <string name="button_advanced_filter">Susun</string>
+    <string name="button_all">Semua</string>
+    <string name="button_backup_apk_apps">Cadangkan</string>
+    <string name="button_block_internet">Cegat sambungan Internet</string>
+    <string name="button_disable_package">Matikan</string>
+    <string name="button_enable_package">Nyalakan</string>
+    <string name="button_for_delete">Hapus</string>
+    <string name="button_integrate_update_apps">Sematkan</string>
+    <string name="button_move_to_internal">"Pindahkan ke 
+Penyimpanan Internal"</string>
+    <string name="button_move_to_sdcard">Pindahkan ke Kartu Memori</string>
+    <string name="button_unblock_internet">Buka Pencegatan Sambungan Internet</string>
+    <string name="button_uninstall_apps">Copot Pemasangan Aplikasi</string>
+    <string name="cancel">Batalkan</string>
+    <string name="change_icon_lp">Ganti Ikon</string>
+    <string name="change_icon_lp_descr">Kamu dapat Mengganti tampilan tanda Lucky Patcher saat ini pada Peluncur-mu</string>
+    <string name="changelog">Daftar Perubahan</string>
+    <string name="checkbox_uninstall_and_instal_backup_cache">Membuat Salinan Data dan Cache untuk Dipasang</string>
+    <string name="cleardalvik">Bersihkan semua Dalvik-cache dan Mulai ulang Perangkat</string>
+    <string name="cleardata">Bersihkan Data</string>
+    <string name="clipboard_message_for_app_dilaog_app_additional_info">Keterangan Tambahan Telah disalin ke Papan Klip</string>
+    <string name="clipboard_message_for_app_dilaog_app_info">Keterangan Aplikasi Telah disalin ke Papan Klip</string>
+    <string name="clipboard_message_for_app_dilaog_app_name">Nama Aplikasi Telah disalin ke Papan Klip</string>
+    <string name="clipboard_message_for_app_dilaog_app_permissions">Izin Khusus Aplikasi telah Disalin ke Papan Klip</string>
+    <string name="cloneApplication">Gandakan aplikasi (Tidak dijamin Bekerja sempurna)</string>
+    <string name="close">Tutup</string>
+    <string name="collect_logs">Mengumpulkan Catatan...</string>
+    <string name="common_google_play_services_unknown_issue">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
+    <string name="context_automodeslvl">Rancangan Secara Mandiri</string>
+    <string name="context_backup_apk">Cadangkan berkas \".apk\".</string>
+    <string name="context_backup_apk_selected_apps">Cadangkan Berkas Aplikasi yang Dipilih</string>
+    <string name="context_backup_data">Cadangkan pengaturan Aplikasi</string>
+    <string name="context_batch_operations">Tugas Serentak</string>
+    <string name="context_block_internet_selected_apps">"Mencegat sambungan Internet untuk Aplikasi yang dipilih
+Tidak bekerja di Android 4.0+"</string>
+    <string name="context_blockads">Cegat Iklan pada Perangkat</string>
+    <string name="context_change_components_menu">Ubah Kerangka Aplikasi</string>
+    <string name="context_clearhosts">Bersihkan isi Berkas \"hosts\"</string>
+    <string name="context_crt_apk_permission">Aplikasi dengan Izin Khusus dan Kegiatan yang pernah Dioprek</string>
+    <string name="context_dependencies">Hapus Keterikatan</string>
+    <string name="context_dexopt_app">Buat berkas \".odex\"</string>
+    <string name="context_disableActivity">Matikan Kegiatan Iklan</string>
+    <string name="context_disableComponents">"Matikan Rangkaian
+(Dapat dinyalakan Kembali oleh Aplikasi)"</string>
+    <string name="context_disable_google_ads">Matikan Layanan Iklan Google</string>
+    <string name="context_disable_package">Matikan Aplikasi</string>
+    <string name="context_disable_package_for_selected_apps">Matikan Aplikasi yang Dipilih</string>
+    <string name="context_enable_google_ads">Nyalakan kembali Layanan Iklan Google</string>
+    <string name="context_enable_package">Nyalakan Aplikasi</string>
+    <string name="context_enable_package_for_selected_apps">Nyalakan Aplikasi yang Dipilih</string>
+    <string name="context_hard_apk_permission">"Ubah Izin Khusus
+Simpan Tanda Tangan asli.
+(Cara ini Kurang Mulus)"</string>
+    <string name="context_hide_lp">Sembunyikan Lucky Patcher</string>
+    <string name="context_hide_lp_descr">Coba sembunyikan aplikasi Lucky Patcher dari Aplikasi lainnya. Dengan meletakkannya ke partisi \"/system\", gunakan Hanya jika diperlukan.</string>
+    <string name="context_install">Pasang</string>
+    <string name="context_install_as_system">Pasang sebagai Aplikasi Sistem</string>
+    <string name="context_integrate_dalvik">Sematkan ke Dalvik-cache</string>
+    <string name="context_integrate_update_selected_apps">Sematkan pembaharuan Aplikasi Sistem yang Dipilih ke Partisi \"/system\"</string>
+    <string name="context_menu_settings_show_last_added_custom_patches">Lihat Pembaharuan Penambal</string>
+    <string name="context_move_selected_apps_to_internal">Pindahkan Aplikasi yang dipilih ke Penyimpanan Internal</string>
+    <string name="context_move_selected_apps_to_sdcard">Pindahkan Aplikasi yang Dipilih ke Kartu Memori</string>
+    <string name="context_patch_framework">"Tambal Berkas 'Framework\""</string>
+    <string name="context_rebuild">Buat ulang</string>
+    <string name="context_removeAds">Tambalan penghapus Iklan Google</string>
+    <string name="context_remove_patch_boot">Hapus Tambal saat Memulai Ulang</string>
+    <string name="context_remove_saved_purchaces">Hapus Pembelian yang Disimpan</string>
+    <string name="context_resign_app">Meresmikan ulang Tanda tangan Aplikasi</string>
+    <string name="context_restore_apk">Pasang ulang Berkas \".apk\"</string>
+    <string name="context_restore_data">Pulihkan pengaturan Aplikasi</string>
+    <string name="context_safe_apk_permission">"Ubah Izin Khusus dan Kegiatan
+(Buat ulang &amp; Pasang)"</string>
+    <string name="context_safe_sign_apk_permission">"Ubah Izin Khusus dan Kegiatan
+Simpan Tanda Tangan Asli
+(Cara Aman)"</string>
+    <string name="context_support_patch">"Tambalan Pendukung untuk
+Pembelian didalam Aplikasi dan
+ Rekayasa pengesahan Lisensi"</string>
+    <string name="context_tools">Alat</string>
+    <string name="context_trouble_enable_playprotect">Nyalakan \"Play Protect\"</string>
+    <string name="context_trouble_run_playprotect_dialog">Buka Pengaturan Play Protect</string>
+    <string name="context_unblock_internet_selected_apps">"Membuka Pencegatan sambungan Internet untuk Aplikasi yang dipilih
+Tidak berfungsi di Android 4.0+"</string>
+    <string name="context_unblockads">Matikan Pencegatan Iklan pada Perangkat</string>
+    <string name="context_uninstall_if_installed">Copot Pemasangan jika Terpasang</string>
+    <string name="context_uninstall_selected_apps">Copot Pemasangan Aplikasi Pengguna yang Dipilih</string>
+    <string name="contextads">Hapus Iklan Google</string>
+    <string name="contextbackup">Cadangkan</string>
+    <string name="contextblockfileads">Hapus Tautan Iklan dari Aplikasi</string>
+    <string name="contextblockfileads_descr">Menghapus Tautan \"http://\" menggunakan Pedoman dari Berkas AdsBlockList_user_edit.txt dan AdsBlockList.txt</string>
+    <string name="contextboot">"Tambal saat Pertama kali Memuat
+(Kurang Bagus!)
+Hanya untuk Menambal Lib"</string>
+    <string name="contextbootads">Hapus Iklan Google</string>
+    <string name="contextbootcustom">Tambalan Khusus</string>
+    <string name="contextbootlvl">Hilangkan Pengesahan Lisensi</string>
+    <string name="contextcorepatch1">Status pengesahan Tanda tangan Selalu Tercentang</string>
+    <string name="contextcorepatch1_descr">"Dibutuhkan untuk Rekayasa Pembelian didalam Aplikasi, dan Membuka Penguncian.
+Dibutuhkan untuk Hak Pengesahan Lisensi, dan Penagihan pembayaran"</string>
+    <string name="contextcorepatch2">Matikan pengesahan Tanda tangan Aplikasi</string>
+    <string name="contextcorepatch2_descr">Membolehkan oprekisasi Aplikasi tanpa membuat Tanda tangan lagi, jadi Tanda tangan dari pengembang akan tetap utuh. Pengguna lain dapat memasang \".apk\" ini setelah menerapkan \"Tambal ke Android\" (Berguna untuk Menerjemahkan, Mengoprek Tampilan, dan Lainnya, pada Aplikasi yang Dilindungi)</string>
+    <string name="contextcorepatch3">Matikan pengesahan Tanda tangan, pada Pengelola Aplikasi</string>
+    <string name="contextcorepatch3_descr">Mengizinkan Pemasangan Aplikasi yang Sama, dengan Tanda tangan yang Berbeda</string>
+    <string name="contextcorepatch3_descr_plus">"+
+Mengizinkan Pemasangan Aplikasi dengan Versi yang Lebih lama. Daripada Aplikasi yang Sudah terpasang"</string>
+    <string name="contextcorepatch4">Tambalan Pendukung, untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi</string>
+    <string name="contextcorepatch4_descr_xposed">Diperlukan supaya Tiruan modul Aplikasi, dapat Bekerja tanpa Tambalan pendukung ke Aplikasi</string>
+    <string name="contextcorepatchrestore">Hapus semua Tambalan dari \"core.jar\"</string>
+    <string name="contextcorepatchrestore2">Hapus semua Tambalan dari \"service.jar\"</string>
+    <string name="contextcorepatchrestore2_descr">Menghapus Semua Penambalan yang Telah diterapkan ke \"service.jar\"</string>
+    <string name="contextcorepatchrestore_descr">Menghapus Semua Penambalan yang Telah diterapkan ke \"core.jar\"</string>
+    <string name="contextcustompatch">Tambalan Khusus</string>
+    <string name="contextdeodex">"Hapus Perubahan dengan Berkas \".odex\"
+. (Pulihkan Aplikasi)"</string>
+    <string name="contextfulloffline">Buat Aplikasi agar Tidak terhubung ke Internet sepenuhnya</string>
+    <string name="contextfulloffline_descr">Membuat Aplikasi agar tidak dapat menyambung ke internet sepenuhnya.</string>
+    <string name="contextignore">Buang Pengesahan Lisensi</string>
+    <string name="contextlaunchapp">Jalankan Aplikasi</string>
+    <string name="contextmultipatch">Beberapa Tambalan</string>
+    <string name="contextmultipatchrebuild">Aplikasi dengan Beberapa Tambalan</string>
+    <string name="contextodex">Menerapkan Perubahan ke Dalvik-cache</string>
+    <string name="contextpatt1">Ubah Pengesahan Lisensi</string>
+    <string name="contextpatt1_descr">"Jika terlihat saat Pertama kali Aplikasi dibuka, harap Nyalakan semua Sambungan Internet
+Tambalan seperti ini Hanya akan Memberi Perubahan kecil."</string>
+    <string name="contextpatt2">Perbaiki Inti Lisensi (Butuh sambungan Internet)</string>
+    <string name="contextpatt2_descr">Jika tersedia, tidak akan membutuhkan sambungan Internet saat pertama kali Aplikasi dibuka.</string>
+    <string name="contextpatt3">Perubahan pada Sandi Tanggapan Pengesahan</string>
+    <string name="contextpatt3_descr">Perubahan kecil pada Pengesahan Lisensi.</string>
+    <string name="contextpatt4">Ubah Sandi Tanggapan</string>
+    <string name="contextpatt4_descr">"Kurang mulus, tetapi cukup Ampuh. Jika muncul saat Pertama kali membuka Aplikasi, harap Hidupkan sambungan Internet
+Jenis tambalan ini akan Memberikan peluang yang Lebih Besar."</string>
+    <string name="contextpatt5">Pengesahan Lisensi Akhir</string>
+    <string name="contextpatt5_descr">Tambalan untuk pengesahan lisensi akhir. Jika ini tidak bekerja, aplikasi akan bekerja tetapi tanpa sambungan Internet.</string>
+    <string name="contextpatt6">Pengesahan Lisensi Akhir (Berlawanan)</string>
+    <string name="contextpatt6_descr">Jika \"Pengesahan Lisensi Akhir\" tidak berhasil, anda dapat mencoba Penambal ini</string>
+    <string name="contextpattads1">Perkecil ukuran Iklan</string>
+    <string name="contextpattads1_descr">"Upaya untuk Memperkecil ukuran Iklan.
+Sehingga akan Lebih menghemat Penggunaan data."</string>
+    <string name="contextpattads2">Ubah ukuran iklan menjadi Tidak ada/Nol</string>
+    <string name="contextpattads2_descr">Upaya untuk mengubah ukuran Iklan Google menjadi Tidak ada/Nol.</string>
+    <string name="contextpattads3">Hancurkan Penerima Iklan</string>
+    <string name="contextpattads3_descr">Mencoba Mengacaukan Rangkaian penerima Iklan Google.</string>
+    <string name="contextpattads4">Penambal Lain</string>
+    <string name="contextpattads4_descr">Penambal Lainnya yang dapat digunakan untuk Menghapus iklan.</string>
+    <string name="contextpattads5">Persegi panjang Hitam</string>
+    <string name="contextpattads5_descr">Merubah tampilan Spanduk Iklan menjadi Persegi Panjang Hitam (Dapat terlihat Apabila tambalan \"Ubah ukuran Iklan Menjadi NOL\" tidak Dicentang)</string>
+    <string name="contextpattads6">Tambalan Putus-sambungan</string>
+    <string name="contextpattads6_descr">Buat rangkaian penerima iklan mengira bahwa Aplikasinya sedang tidak terhubung ke internet.</string>
+    <string name="contextpattamazon">Rancangan Mandiri (Amazon Market)</string>
+    <string name="contextpattamazon_descr">Buang Pengesahan Lisensi untuk aplikasi dari Amazon Market</string>
+    <string name="contextpattdependencies_descr">Hapus Keterikatan Google Play dan Lainnya</string>
+    <string name="contextpattlvl1">Rancangan Mandiri</string>
+    <string name="contextpattlvl1_descr">Penambalan Sederhana. Cocok untuk Sebagian besar Aplikasi dengan Perlindungan yang Lemah.</string>
+    <string name="contextpattlvl2">Rancangan Mandiri (Berlawanan)</string>
+    <string name="contextpattlvl2_descr">Terdapat beberapa perbedaan dari \"Rancangan Mandiri\". Yang dapat membantu, jika \"Rancangan Mandiri\" Tidak Membuahkan Hasil</string>
+    <string name="contextpattlvl3">"Tambalan Lainnya
+ (Tidak Dianjurkan)"</string>
+    <string name="contextpattlvl3_descr">"Penambal tambahan (Dapat menimbulkan Kegalauan).
+Terapkan hanya jika Rancangan yang lain Tidak berhasil.
+Butuh sambungan internet.
+Coba gunakan bersamaan dengan \"Rancangan Mandiri\" atau \"Rancangan Mandiri (Berlawanan)\""</string>
+    <string name="contextpattlvl4">Terapkan Penambalan ke Dalvik-cache</string>
+    <string name="contextpattlvl4_descr">"Secara bawaan, semua Perubahan ditulis kedalam Berkas \".odex\"
+Tapi langkah ini Tidak akan Bekerja dengan baik jika Aplikasi telah Dipindahkan ke Penyimpanan Eksternal.
+Dalam situasi ini Penerapan \"Tambal ke Dalvik-cache aja\" dapat membantu. Kamu dapat memulihkan aplikasi Cukup Hanya dengan Memasang ulang Aplikasi"</string>
+    <string name="contextpattlvl5">Cadangkan Berkas \".apk\"</string>
+    <string name="contextpattlvl5_descr">Akan menyalin Berkas Aplikasi ke satuan-pelipat Lucky Patcher pada Penyimpanan Perangkat. Kamu dapat memulihkan Aplikasi dari Berkas \".apk\" yang telah disalin</string>
+    <string name="contextpattlvl6">Bersihkan dalvik-cache</string>
+    <string name="contextpattlvl6_descr">"Menghapus dalvik-cache dari Aplikasi untuk menghemat Ruang Penyimpanan setelah membuat Berkas odex.
+Jika aplikasi tidak bekerja sempurna dengan menggunakan berkas odex, kamu harus memasang ulang Aplikasi ini."</string>
+    <string name="contextpattsamsung">Rancangan Mandiri (Samsung Apps)</string>
+    <string name="contextpattsamsung_descr">Menghapus Pengesahan Lisensi untuk Aplikasi yang Berasal dari Samsung Apps</string>
+    <string name="contextreinstall">Pasang ulang</string>
+    <string name="contextrestore">Pulihkan</string>
+    <string name="contextselpatt">Rancangan Pilihan</string>
+    <string name="core_error_dalvik_cache_not_found_for_core.jar">KESALAHAN: Tidak bisa menambal Android dengan pilihan \"Tambal ke dalvik-cache aja\". Tidak ada dalvik-cache pada \"core.jar\"</string>
+    <string name="core_error_dalvik_cache_not_found_for_services.jar">KESALAHAN: Tidak bisa menambal Android dengan pilihan \"Tambal ke dalvik-cache aja\". Tidak ada dalvik-cache Pada \"service.jar\"</string>
+    <string name="core_only_dalvik_cache_end">Jika Perangkat menjadi Lambat, atau Semua tambalan tidak Berfungsi, Silakan mulai ulang Perangkat</string>
+    <string name="core_only_dalvik_cache_finished">"Penambalan Sistem Android ke Dalvik-cache aja, Beres.
+ Hasilnya:
+"</string>
+    <string name="core_option">Tambal ke dalvik-cache aja</string>
+    <string name="core_patch_apply">[Sudah Ditambal]</string>
+    <string name="core_patch_nopatch">[Belum Ditambal]</string>
+    <string name="core_patch_nopatch_no_space1">"Dalvik-cache core.jar telah ditambal, tetapi Tambalan ini Bisa Hilang saat Dalvik-cache dibersihkan.
+Partisi Sistem tidak Cukup untuk membuat Berkas \".odex\", mohon kurangi Penyimpanan pada Partisi sistem sekitar Beberapa persen.
+Bersihkan Dalvik-cache dan Coba lagi.
+
+Silakan Mulai ulang Perangkat untuk Melanjutkan penerapan Tambalan pada Dalvik-cache"</string>
+    <string name="core_result_checkbox">"Selalu Tambal Dalvik-cache Setiap kali Memulai ulang
+(Pilih hanya jika Tambalan ke \"core.jar\" Dihapus setelah Memulai Ulang)"</string>
+    <string name="corepatches">Tambal ke Android</string>
+    <string name="corrupt_download">Berkas yang diunduh Telah Rusak. Harap Periksa bahwa ada Ruang Penyimpanan yang Cukup pada Penyimpanan Perangkat dan Coba ulangi Kembali</string>
+    <string name="create">Ubah Jalur Penyimpanan</string>
+    <string name="create_clone_option1">Hanya mengubah \"AndroidManifest.xml\" aja</string>
+    <string name="create_clone_option1_descr">"Tidak semua Aplikasi bisa diperlakukan Seperti ini. Jika penggandaan Tidak bisa Dipasang, kamu Harus menghapus Aplikasi yang Asli.
+Jika cara ini tidak Berhasil, cobalah untuk Menggandakan dengan Cara yang Berbeda"</string>
+    <string name="create_clone_option2">Hanya mengubah \"AndroidManifest.xml\", \"resources\", dan \"classes.dex\" aja</string>
+    <string name="create_clone_option2_descr">"Ini tidak Berfungsi untuk Semua Aplikasi. Langkah ini, mencoba untuk mengubah resources dan \"classes.dex\".
+Langkah ini, Akan membuat banyak Perbedaan dari yang Aslinya"</string>
+    <string name="create_dir_error">PERINGATAN! : Nama jalur Tidak Boleh kosong</string>
+    <string name="create_dir_error_2">PERINGATAN! : Jalur Belum Dibuat</string>
+    <string name="create_lic_done">"Berhasil! Lisensi telah Berhasil Dibuat. Coba uji Aplikasi tanpa Sambungan Internet.
+Sepertinya anda akan beruntung!"</string>
+    <string name="create_perm_ok">Buat ulang Aplikasi</string>
+    <string name="createapk">Buat ulang Aplikasi</string>
+    <string name="createapkads">Aplikasi tanpa Iklan Google</string>
+    <string name="createapkcustom">Aplikasi dengan Tambalan khusus</string>
+    <string name="createapklvl">Aplikasi Tanpa Pengesahan Lisensi</string>
+    <string name="createapksupport">Aplikasi yang Dibuat ulang untuk Pembelian didalam Aplikasi dan Rekayasa LVL</string>
+    <string name="createdialog1">Modifikasi dari</string>
+    <string name="createdialog1_clone">Penggandaan Aplikasi</string>
+    <string name="createdialog2">"Selesai.
+
+Lokasi berkas ada di:"</string>
+    <string name="createdialog3">"Catatan! Jika Aplikasi Bekerja dengan baik Setelah ditambal, tidak Menjamin kalau itu Akan Berfungsi dengan Baik dalam Bentuk \".apk\" yang Telah di Gerayangi.
+Karena, beberapa Aplikasi Dilindungi dari Upaya Penjamahan.
+Kamu cenderung akan Mendapatkan keberuntungan Lebih besar dengan cara Menambal, daripada Menjamah berkas \".apk\""</string>
+    <string name="createdialog3_clone">Catatan! Beberapa aplikasi harus dihapus terlebih dahulu sebelum memasang penggandaan aplikasi. aplikasi ganda tidak dijamin bekerja sempurna, karena beberapa aplikasi dilindungi dari upaya modifikasi.</string>
+    <string name="createdialog5">Nama File:</string>
+    <string name="custom_descript">Penjelasan Penambal Khusus:</string>
+    <string name="custom_patch_log_add_custom_patch_to_boot_list">Tambal saat Memulai Ulang. Ditambahkan</string>
+    <string name="custom_patch_log_block_internet_hosts">Cegat sambungan Penyedia Internet</string>
+    <string name="custom_patch_log_change_components">Mengubah Kerangka...</string>
+    <string name="custom_patch_log_change_preference_delete">Menghapus Daftar Patokan</string>
+    <string name="custom_patch_log_change_preference_insert">Mengubah Patokan Berbagi Masuk</string>
+    <string name="custom_patch_log_change_preference_not_found_file">Berkas tidak ditemukan</string>
+    <string name="custom_patch_log_change_preferences">Mengubah Patokan Berbagi</string>
+    <string name="custom_patch_log_next_custom_patch">Tambalan Selanjutnya</string>
+    <string name="custom_patch_log_offset">Mengimbangi</string>
+    <string name="custom_patch_log_or_patch_is_already_applied">Sepertinya, Tambalan sudah Pernah diterapkan Sebelumnya</string>
+    <string name="custom_patch_log_patch_all_files">Menambal ke Berkas yang Ada di :</string>
+    <string name="custom_patch_log_patch_done">Penambalan Selesai</string>
+    <string name="custom_patch_log_patch_for">Tambal ke</string>
+    <string name="custom_patch_log_patch_for_libraries">Tambal ke \"lib.so\"</string>
+    <string name="custom_patch_log_patch_on_reboot_added">Tambal saat Memulai ulang Ditambahkan</string>
+    <string name="custom_patch_log_pattern">Rancangan</string>
+    <string name="custom_patch_log_pattern_not_found">Rancangan Tidak ditemukan</string>
+    <string name="custom_patch_log_search_bytes">Cari Berdasarkan Bait</string>
+    <string name="custom_patch_log_search_bytes_error">Bait tidak Ditemukan!</string>
+    <string name="custom_patch_log_skip_patch_for_build">Melewati Penambalan untuk Bentukan</string>
+    <string name="custom_patch_result_all_dont_patch">Penambal Khusus Tidak benar! Atau Aplikasi sudah Pernah ditambal Sebelumnya</string>
+    <string name="custom_patch_result_not_all_patches_apply">Tidak semua Rancangan diganti, tetapi Aplikasi masih bekerja dengan baik. Cobalah!</string>
+    <string name="custom_patch_warning">"Penambal Khusus Tidak ditemukan! Mungkin ROOT Bermasalah atau Tidak ada Jalur ke Kartu Memori. Kalau kamu Menggunakan SuperSU, Coba untuk Mematikan \"Muat Pemisahan Ruang Nama\" Pada Pengaturan SuperSU.
+Kalau cara ini Masih belum Membantu, silakan Perbaharui SuperSU Berikut Binernya, serta Perbaharui pula Biner BusyBox
+Jika masih bermasalah, silakan jual Perangkat saat ini, dan belilah Perangkat yang baru."</string>
+    <string name="custom_patches_update_not_found">Belum ada Pembaharuan Penambal Khusus</string>
+    <string name="custom_sel_app">Aplikasi Dipilih :</string>
+    <string name="customdescr">Lihat Aplikasi dengan Penambal Khusus</string>
+    <string name="customtitle">Aplikasi dengan Penambal Khusus</string>
+    <string name="dalvik_cache_size">Ukuran dalvik-cache :</string>
+    <string name="data_dir_size">Ukuran berkas:</string>
+    <string name="date_creation_patch">Tanggal penambahan Penambal khusus</string>
+    <string name="days_on_up">Tampilkan Aplikasi Baru Terlebih Dahulu</string>
+    <string name="days_on_up_descr">"Tetapkan Lamanya Hari yang digunakan oleh Aplikasi, untuk dianggap sebagai aplikasi baru.
+Setel ke 0 hari kalau Kamu ingin mematikan penampil Aplikasi yang Baru saja dipasang, ke bagian atas Daftar."</string>
+    <string name="delboot">Sentuh untuk Menghapus Pemuatan awal</string>
+    <string name="delete_file">Hapus Berkas</string>
+    <string name="delete_file_message">Aplikasi ini Adalah bagian dari sistem operasi Android. Berhati-hatilah saat Mengopreknya, karena Jika keliru Perangkatmu bisa ngambek. Sudah punya Cadangannya? Yakin ingin Mengoprek aplikasi Ini?</string>
+    <string name="describe_for_Proxy_gp">Server Proksi Google Play, berguna Untuk Mengalihkan semua Pembayaran didalam Aplikasi, dan Permohonan Lisensi ke Lucky Patcher. Harap Nyalakan \"Tiruan Pembayaran Tagihan Google dan Pengesahan Lisensi\" Menggunakan pilihan ini</string>
+    <string name="dialog_end_resign_app">"Berkas %1$s Telah Ditandatangani dan Telah berhasil di Ujicoba.
+Letak Berkas yang telah Diresmikan Ulang %2$s"</string>
+    <string name="dialog_system">Aplikasi ini Adalah bagian dari sistem operasi Android. Berhati-hatilah saat Mengopreknya, karena Jika keliru Perangkatmu bisa ngambek. Sudah punya Cadangannya? Yakin ingin Mengoprek aplikasi Ini?</string>
+    <string name="dir_change">Ubah Jalur Penyimpanan</string>
+    <string name="dir_change_descr">"Ubah Jalur Penyimpanan Data untuk Lucky Patcher.
+Secara bawaan, Penyimpanan Data untuk Lucky Patcher ada di : /storage/emulated/Android/data/"</string>
+    <string name="dirbinder">Jalur Penyimpanan</string>
+    <string name="dirr_chg">Mengubah jalur ke:</string>
+    <string name="disable_autoupdate">Matikan Pemeriksaan berkala, Pembaharuan Aplikasi Lucky Patcher</string>
+    <string name="disable_autoupdate_descr">Centang untuk mematikan Pemeriksaan pembaharuan secara Berkala</string>
+    <string name="disable_inapp_services_google">"Layanan Pembelian didalam Aplikasi
+Google Play Store"</string>
+    <string name="disable_inapp_services_google_descr">Beberapa Aplikasi akan Rusak Apabila Terlalu Banyak menggunakan Layanan Pembelian didalam Aplikasi</string>
+    <string name="disable_license_services_google">"Matikan Layanan Pengesahan Lisensi
+Google Play Store"</string>
+    <string name="disable_license_services_google_descr">Beberapa Aplikasi akan Rusak, apabila Terlalu banyak Menghentikan Layanan Lisensi</string>
+    <string name="disabled">Dimatikan</string>
+    <string name="disabled_package">Aplikasi Dibekukan</string>
+    <string name="dont_send_log_lp_modified">"Aplikasi Lucky Patcher Kamu telah di-gerayangi.
+Kamu tidak Diperbolehkan mengirim berkas Catatan!"</string>
+    <string name="dont_send_log_please_update_lp">Perbaharui Lucky Patcher ke Versi Terkini untuk Mengirim Catatan</string>
+    <string name="dontusepatch">Batal</string>
+    <string name="download">Memuat...</string>
+    <string name="download_progress_dialog_message_downloading">Mengunduh...</string>
+    <string name="download_progress_dialog_message_prepare_downloading">Menangani Unduhan...</string>
+    <string name="download_progress_dialog_message_resume_downloading">Melanjutkan Pengunduhan...</string>
+    <string name="empty">Kosong</string>
+    <string name="empty_binders">Kamu harus Membuat setidaknya satu Wadah untuk Menambahkan Widget</string>
+    <string name="enabled">Dinyalakan</string>
+    <string name="enabled_package">Aplikasi Berjalan</string>
+    <string name="enter_name_dir">Nama penyimpanan :</string>
+    <string name="equals_version">Lucky Patcher yang Kamu Gunakan, sudah Versi Terkini!</string>
+    <string name="error">Kesalahan</string>
+    <string name="error2_backup_apk">Failed to backup APK file. The classes.dex files are missing inside the application.</string>
+    <string name="error_apk_to_system">Kamu tidak bisa Memasang aplikasi Lewat sini, Harap pindahkan ke Penyimpanan Internal.</string>
+    <string name="error_app_installed_on_sdcard">"Lucky Patcher Harus di Pasang pada Penyimpanan Internal.
+Jika tidak, Beberapa fitur Mungkin Tidak dapat Berjalan sebagaimana Mestinya"</string>
+    <string name="error_app_installed_on_sdcard_block">"Lucky Patcher Harus di Pasang pada Penyimpanan Internal.
+Pelengkap ini Tidak Berfungsi Jika Lucky Patcher Terpasang di Penyimpanan Eksternal"</string>
+    <string name="error_backup_apk">"Izin Ditolak atau Dicegat.
+Gagal Mencadangkan Berkas \".apk\""</string>
+    <string name="error_classes_not_found">Berkas \".jar\" Tidak Berisi \"classes.dex\" untuk Ditambal. Cobalah tambal Berkas \".odex\" untuk Berkas \".jar\" ini</string>
+    <string name="error_collect_logs">Catatan Tidak bisa Dibuat. Terjadi Kesalahan saat Mengumpulkan Catatan</string>
+    <string name="error_create_join_custom_patch">"Tidak dapat Menbuat Berkas \"join_patch.txt\"
+Tidak ada Izin untuk Melakukan Tindakan Ini"</string>
+    <string name="error_create_oat">Gagal membuat \"berkas.oat\" untuk menambal \"classes.dex\"!!. terjadi kesalahan pada saat menambal \"classes.dex\" atau masalah lainnya dengan sistem operasi perangkat. coba atur \"Urutan\" pada Lucky Patcher melalui Pengaturan. kadang ini bisa membantu</string>
+    <string name="error_delete_join_custom_patch">"Tidak dapat Menghapus Berkas \"join_patch.txt\"
+Coba hapus Berkas atau Folder, secara Mandiri"</string>
+    <string name="error_detect">"WADAW!!
+ Barusan, Aplikasi Lucky Patcher kayanya Dipaksa berhenti nih BRAY! Kirim Laporan Celah Aplikasi Gak nih!?"</string>
+    <string name="error_get_classes_files_for_patch">Berkas \"classes.dex\" yang Akan ditambal, Tidak ditemukan!</string>
+    <string name="error_get_pkgInfo">KESALAHAN : Tidak ada Rincian berkas Aplikasi.</string>
+    <string name="error_import_custom_patch">Lucky Patcher Tidak bisa Memasukkan Oprekan, Berkas .zip-nya Rusak</string>
+    <string name="error_installation">Gagal untuk memasang Aplikasi.</string>
+    <string name="error_launch">Tidak bisa dijalankan!</string>
+    <string name="error_message_for_share_app">"Tidak bisa berbagi aplikasi!
+Kesalahan enggak diketahui. Coba ubah letak penyimpanan Lucky Patcher"</string>
+    <string name="error_not_found_lic_data">Data yang dipakai untuk membuat lisensi tidak ditemukan.</string>
+    <string name="error_not_found_storage_lic">Letak lisensi tidak ditemukan.</string>
+    <string name="error_odex_app">"KESALAHAN : Gagal membuat berkas \".odex\".
+Sepertinya, ruang penyimpanan tidak cukup."</string>
+    <string name="error_odex_app_impossible">"Aplikasi ini Tidak berisi Berkas \"classes.dex\"
+Penambalan \".dex\" Tidak dilakukan"</string>
+    <string name="error_out_of_memory">Memori Acak tidak Mencukupi, coba buka ulang Aplikasi atau Setel VM Heap perangkatmu.</string>
+    <string name="error_path">Peletakkan Salah!</string>
+    <string name="error_path_exists">Letak sudah ada!. Tentukan tempat lain.</string>
+    <string name="error_read_folder">Satuan Pelipat tidak Terbaca!</string>
+    <string name="error_restore">Pemulihan gagal!</string>
+    <string name="exit">Keluar</string>
+    <string name="extpat1">Ditemukan</string>
+    <string name="extpat2">Target yang Sama dengan lisensi :</string>
+    <string name="extpat3">"Petunjuk:  n --------------  n-Harap Ketuk Tombol \"Cadangkan;
+ -Nyalakan sambungan Internet melalui Wi-Fi atau Jaringan Data Seluler dan Berikan semua Sambungan untuk Aplikasi;
+ -Pilih Rancangan dan Ketuk \"Tambalan\";  n-Ketuk \"Luncurkan\" dan Periksa keadaan lisensi (Perbaharui, jika Perlu); 
+ -Jika Rancangan ini tidak Membantu, ketuk \"Pulihkan\" dan Coba lagi dengan Rancangan lain.
+Jika pengoperasian berhasil, ketuk Perbaiki Perubahan"</string>
+    <string name="extres1">"Penambalan Selesai! Jalankan, lalu Periksa status lisensi Aplikasi.
+ Jika tidak ada Perubahan, ketuk \"Kembalikan\", lalu ulangi Langkah dengan Rancangan yang lain"</string>
+    <string name="extres2">"Penanda tidak Ditemukan untuk rancangan ini.
+Sudah ditambal?
+Ketuk \"Pulihkan\", lalu pilih Rancangan lain, dan ulangi Penambalan."</string>
+    <string name="failed">Gagal</string>
+    <string name="fast_start">Langsung Buka</string>
+    <string name="fast_start_descr">"Lucky Patcher akan langsung menampilkan Daftar Aplikasi tanpa menyelesaikan Pemuatan Awal untuk mengumpulkan Sumber data.
+Akibatnya, akan ada Penundaan pada Tahap penyusunan Daftar Aplikasi yang akan Ditampilkan."</string>
+    <string name="file_not_deleted">Berkas tidak Terhapus!</string>
+    <string name="file_not_found">"Aplikasi tidak dapat Disalin ke Penyimpanan Eksternal!
+ Sediakan Ruang Penyimpanan yang Cukup pada Kartu Memori atau Periksa Pemasangan BusyBox Kamu"</string>
+    <string name="filter">Urutkan</string>
+    <string name="filter0">Aplikasi yang Baru dan Diperbaharui</string>
+    <string name="filter1">Aplikasi dengan Pengesahan Lisensi</string>
+    <string name="filter10">Matikan (Bekukan) Aplikasi</string>
+    <string name="filter11">Aplikasi yang terdapat Penambal Khusus</string>
+    <string name="filter12">Aplikasi yang telah digerayangi izin-edarnya</string>
+    <string name="filter13">Aplikasi yang Memiliki berkas \".odex\"</string>
+    <string name="filter2">Aplikasi dengan Iklan</string>
+    <string name="filter4">Aplikasi dengan Pembelian didalam Aplikasi</string>
+    <string name="filter5">Aplikasi pada Penyimpanan Internal</string>
+    <string name="filter6">Aplikasi pada Penyimpanan Eksternal</string>
+    <string name="filter7">Aplikasi Sistem</string>
+    <string name="filter8">Aplikasi Sistem yang Terdapat Pembaharuan</string>
+    <string name="filter9">Aplikasi dengan izin Mengirim Pesan Singkat dan Melakukan Panggilan</string>
+    <string name="filterdescr">Pilih jenis susunan yang akan ditampilkan.</string>
+    <string name="final_market_message">"Google Play Store telah dipasang. Sekarang \"core.jar\" akan ditambal, lalu akan memulai ulang perangkat kamu.
+ Lanjutkan?"</string>
+    <string name="fixbutton">Terapkan Perubahan</string>
+    <string name="fixeddescr">"Menampilkan Aplikasi yang memiliki Berkas \".odex\" yang Telah dioprek, maupun belum dioprek
+(Bertanda Bintang Kuning)."</string>
+    <string name="fixedtitle">Tampilkan semua Aplikasi dengan Berkas \".odex\"</string>
+    <string name="framework_file_patched">"Ditambal dan diganti Namanya menjadi :
+"</string>
+    <string name="framework_patch_not_result">Lucky Patcher tidak Menemukan Bait untuk Ditambal</string>
+    <string name="generate_log_error_message">"Gagal menbuat berkas Laporan.
+Terjadi Kesalahan saat Tahap pembuatan"</string>
+    <string name="generate_log_for_conscrypt_jar_fix_android_patches">"Buat laporan untuk Berkas \"conscrypt.jar\"
+(Guna membantu menyempurnakan \"Tambal ke Android\")"</string>
+    <string name="generate_log_for_core.jar_fix_android_patches">"Buat laporan untuk Berkas \"core-libart.jar\"
+(Guna membantu menyempurnakan \"Tambal ke Android\")"</string>
+    <string name="generate_log_for_core_oj_jar_fix_android_patches">"Buat laporan untuk Berkas \"core-oj.jar\"
+(Bantu menyempurnakan \"Tambal ke Android\")"</string>
+    <string name="generate_log_for_framework_fix_android_patches">"Buat laporan untuk \"framework.jar\"
+(Guna membantu menyempurnakan \"Tambal ke Android\")"</string>
+    <string name="generate_log_for_services.odex_fix_android_patches">"Buat laporan untuk Berkas \"service.jar\"
+(Guna membantu menyempurnakan \"Tambal ke Android\")"</string>
+    <string name="generate_log_result_message_conscrypt.jar">"Laporan telah Dibuat dan Disimpan di \"/storage/sdcard/conscrypt.oat.txt\"
+Simpan berkas ke Penyimpanan Awan atau Bungkus kedalam Berkas \".zip\". Lalu kirim melalui surel : lp.chelpus@gmail.com
+Ukuran Berkasnya :"</string>
+    <string name="generate_log_result_message_core.jar">"Laporan telah Dibuat dan Disimpan di \"/storage/sdcard/boot.oat.txt\"
+Simpan berkas ke Penyimpanan Awan atau Bungkus kedalam Berkas.zip. Lalu kirim melalui surel : lp.chelpus@gmail.com
+Ukuran Berkasnya :"</string>
+    <string name="generate_log_result_message_core_oj.jar">"Laporan telah Dibuat dan Disimpan di \"/storage/sdcard/core-oj.oat.txt\"
+Simpan berkas ke Penyimpanan Awan atau Bungkus kedalam Berkas.zip. Kemudian kirim melalui surel : lp.chelpus@gmail.com
+Ukuran Berkasnya :"</string>
+    <string name="generate_log_result_message_framework.jar">"Laporan telah dibuat dan Disimpan di \"/storage/sdcard/framework.txt\"
+Simpan berkas ke Penyimpanan Awan atau Bungkus menggunakan berkas \".zip\". Lalu kirim melalui surel : lp.chelpus@gmail.com.
+Ukuran Berkasnya :"</string>
+    <string name="generate_log_result_message_services.odex">"Laporan telah Dibuat dan Disimpan di \"/storage/sdcard/services.odex.txt\"
+Simpan berkas ke Penyimpanan Awan atau Bungkus kedalam Berkas.zip. Lalu kirim melalui surel : lp.chelpus@gmail.com
+Ukuran Berkasnya :"</string>
+    <string name="go_to_file_path">Buka Berkas</string>
+    <string name="goodresult">"Selesai!
+Jalankan Aplikasi untuk diujicoba!
+
+Jika Aplikasi tidak Bekerja Sempurna, silakan pasang ulang Aplikasi, dan jangan Gunakan Lagi Penambal yang Sama untuk Versi ini"</string>
+    <string name="have_luck">"*********************
+
+ Kamu Memiliki"</string>
+    <string name="header_activities">"Kegiatan:
+"</string>
+    <string name="header_providers">"Penyedia:
+"</string>
+    <string name="header_receivers">"Penerima:
+"</string>
+    <string name="header_services">"Layanan:
+"</string>
+    <string name="help">Bantuan</string>
+    <string name="help_common">Dasar</string>
+    <string name="help_custom">Buat Penambal Khusus</string>
+    <string name="hide_notify">Sembunyikan Pemberitahuan</string>
+    <string name="hide_notify_descr">Menyembunyikan Pemberitahuan Aplikasi Lucky Patcher.</string>
+    <string name="hide_title_app">Sembunyikan Nama</string>
+    <string name="hide_title_app_descr">"Menyembunyikan nama Lucky Patcher di Daftar Aplikasi Terbuka.
+Hanya berfungsi pada Perangkat Android yang Memiliki Tombol Perangkat Keras"</string>
+    <string name="host_down">"Server sedang Galau.
+Coba lagi Nanti"</string>
+    <string name="hosts_default">Berkas \"hosts\" Dikosongkan</string>
+    <string name="hosts_not_found_changes">Perubahan pada Berkas \"hosts\" Tidak Ditemukan!</string>
+    <string name="hosts_updated">Berkas \"hosts\" Diperbaharui</string>
+    <string name="import_to_lucky_patcher">Masukkan ke Lucky Patcher</string>
+    <string name="inapp_emulation_auto_repeat">Simpan pengaturan Ini, untuk Pembelian berkali-kali</string>
+    <string name="info_about_permissions_optional">"Pilihan perizinan: 
+"</string>
+    <string name="info_about_permissions_optional_describe">Digunakan Untuk Mengelola Iklan Dan Juga Mengamatinya. Jika kamu masih Ragu untuk terhadap Perizinan ini, kamu dapat menolaknya. Ini tidak akan berpengaruh terhadap kinerja Lucky Patcher</string>
+    <string name="info_about_permissions_optional_perms">"MEMERIKSA LOKASI ASLI
+MELIHAT KEADAAN PERANGKATMU SAAT INI"</string>
+    <string name="info_about_permissions_required">"Izin yang diperlukan:
+"</string>
+    <string name="info_about_permissions_required_describe">Lucky Patcher membutuhkan sejumlah Berkas agar dapat bekerja, tanpa itu Lucky Patcher akan Ngambek :(</string>
+    <string name="info_about_permissions_required_perms">"READ_EXTERNAL_STORAGE
+WRITE_EXTERNAL_STORAGE
+"</string>
+    <string name="information">Keterangan</string>
+    <string name="install">Pasang</string>
+    <string name="install_as_user_app">Pasang Google Play Store sebagai Aplikasi Pengguna</string>
+    <string name="install_as_user_app_note">Syarat: Harus Sudah Menerapkan \"Tambal ke Android\" dan Memasang Google Play Store Oprekan</string>
+    <string name="install_cloned_app">"Pasang
+Penggandaan
+Aplikasi"</string>
+    <string name="install_date">Tanggal Pemasangan :</string>
+    <string name="installer_error_aborted">Pemasangan dibatalkan oleh pengguna</string>
+    <string name="installer_error_bad_apks">Berkas \".apk\" yang dipilih, sudah Rusak!.</string>
+    <string name="installer_error_bad_apks_file">Kesalahan : berkas \"base.apk\" tidak ditemukan didalam berkas satuan pelipat, Aplikasi.</string>
+    <string name="installer_error_blocked">Pemasangan dicekal oleh %s</string>
+    <string name="installer_error_blocked_device">Perangkat</string>
+    <string name="installer_error_conflict">Tidak bisa memasang aplikasi karena bertabrakan dengan aplikasi yang sudah terpasang dengan nama yang sama.</string>
+    <string name="installer_error_generic">Pemasangan Gagal.</string>
+    <string name="installer_error_generic_miui_warning">If you have miui firmware, you can solve the problem turning off \"Turn on MIUI optimizations\" in the \"Developer Settings\" of the firmware.</string>
+    <string name="installer_error_incompatible">Aplikasi tidak didukung oleh perangkat ini.</string>
+    <string name="installer_error_lidl_rom">Tidak dapat memasang ke sistem kamu, tanpa adanya izin root, hanya dapat dipasang jika perangkatmu kamu sudah di root.</string>
+    <string name="installer_error_rootless">"Gagal memasang tanpa izin root:
+
+ %s"</string>
+    <string name="installer_error_storage">Penyimpanan tidak cukup untuk memasang Aplikasi.</string>
+    <string name="installer_not_support_by_firmware">Perangkat lunak kamu tidak mendukung Pemasangan Aplikasi terpisah.</string>
+    <string name="installer_prepare">Menyiapkan pemasangan Aplikasi Terpisah.</string>
+    <string name="installer_slit_get_apk_from_apks">Mencari berkas pemasangan \".apk\" dari dalam \".apk\"</string>
+    <string name="installer_slit_install_in_progress">Proses pemasangan sedang berjalan.</string>
+    <string name="installer_slit_successfully_installed">Aplikasi Terpisah %s Berhasil dipasang.</string>
+    <string name="installsupersu">Pasang SuperSU (ICS)</string>
+    <string name="integrate_dalvik_code_dialog_good_message">Menyematkan Kode Dalvik dari berkas \".apk\" yang Dipilih. Ini tidak akan Bekerja dengan Benar, tetapi Kamu harus Mencobanya</string>
+    <string name="integrate_dalvik_code_dialog_title">"Hasil Penyematan:
+"</string>
+    <string name="integrate_dalvik_code_message">Sematkan Dalvik dari Berkas \".apk\" Tujuan?</string>
+    <string name="integrate_to_system">Sematkan pembaharuan Aplikasi ke Partisi sistem?</string>
+    <string name="integrate_updates_result">"Aplikasi sistem Telah diperbaharui.
+Silakan Mulai ulang Perangkat!"</string>
+    <string name="integrate_updates_to_system">Sematkan pembaharuan Aplikasi ke Partisi sistem</string>
+    <string name="internet_not_found">Butuh sambungan Internet!</string>
+    <string name="is_an_invalid_number">Nomor yang Kamu masukkan Salah!</string>
+    <string name="langdef">Bahasa Bawaan</string>
+    <string name="langen">Inggris</string>
+    <string name="langmenu">Bahasa</string>
+    <string name="launchbutton">Jalankan</string>
+    <string name="licensing_hack_menu">Rekayasa Pengesahan Lisensi</string>
+    <string name="licensing_hack_menu_descr">"Jalan keluar untuk Google Play Oprekan dan konfirmasi Lisensi Aplikasi. Harus ditambah \"Tambalan Pendukung untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" ke aplikasi Tertuju atau Lakukan Upaya \"Tambal ke Android\".
+Ini bisa berdampak Buruk bagi Aplikasi yang dibeli Secara Resmi (Tambahkan Pula \"Tambalan Pendukung untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" ke Aplikasi Google Play Store Guna menghindari Beberapa Masalah)"</string>
+    <string name="licensing_hack_menu_disable">Matikan Rekayasa Pengesahan Lisensi</string>
+    <string name="licensing_hack_menu_enable">Nyalakan Rekayasa Pengesahan Lisensi</string>
+    <string name="line">"_________________________
+"</string>
+    <string name="loadpkg">Memuat paket</string>
+    <string name="lp_billing_hack_title">Pembelian didalam Aplikasi</string>
+    <string name="lp_import_custom_patches">Lucky Patcher Memasukkan berkas Tambalan Khusus berikut:</string>
+    <string name="lvldescr">Menampilkan semua Aplikasi dengan Pengesahan Lisensi.</string>
+    <string name="lvltitle">Aplikasi dengan LVL</string>
+    <string name="market_description_text">"Tekan tombol \"Pasang\" untuk menukar Google Play Store yang resmi dengan Versi LVL (Pendukung Pengesahan Lisensi) yang telah diubah. Jika Google Play Store tidak berfungsi setelah memulai ulang, Kamu harus Memasang ulang.
+ ******************PERHATIAN!******************
+Kamu tetap Tidak akan dapat Mengunduh Aplikasi Berbayar Secara cuma-cuma!
+
+Berikut ini, Adalah cara kerja Google Play Store Oprekan:
+
+1. Kamu dapat menggunakan Aplikasi yang dilindungi oleh Pengesah Lisensi Google tanpa Harus Menjamahnya.
+2. Pengesahan Lisensi akan Berhasil, meskipun tanpa Sambungan Internet.
+3. Tidak perlu Lagi menerapkan Tambalan Lisensi.
+4. Ini Tidak bisa Digunakan dengan Penagihan dan Pengesahan Lisensi melalui Proksi.
+5. Sekarang ketika Kamu menekan tombol \"Kembalikan Dana\", dana Pembelianmu akan Dikembalikan, tetapi Aplikasi tidak akan dicopot, oleh Sebab itu, kamu tidak perlu Mencadangkan Aplikasi sebelum Meminta pengembalian Dana.
+6. Sekarang Google Play Store Oprekan akan Mengalihkan semua Tagihan Pembayaran ke Lucky Patcher untuk Merekayasa Pembelian Didalam Aplikasi."</string>
+    <string name="market_install">Pasang Google Play Store Oprekan</string>
+    <string name="market_version5">Google Play Store Oprekan</string>
+    <string name="market_version6">Google Play Store Asli</string>
+    <string name="menu_close_application">Hentikan Aplikasi</string>
+    <string name="menu_download_custom_patches">Perbaharui Penambal Khusus</string>
+    <string name="messageAndroidManifest">Tidak dapat Mengurai \"AndroidManifest.xml\". Mungkin Penyimpanan Perangkat tidak Cukup untuk menyalin Seluruh Aplikasi.</string>
+    <string name="messageODEX1">"Dalvik-cache \"core.jar\" telah Ditambal, tetapi Tambalan jenis ini Dapat hilang saat Membersihkan dalvik-cache. Saat ini \"core.jar\" Anda akan digerayangi (Akan Membuat \".odex\").
+Harap lakukan Pencadangan Operasi Sistem, sebelum mengetuk tombol \"Iya\". Perangkat mungkin Tidak menanggapi Selama beberapa menit. Akibatnya, perangkat Mungkin akan \"Kejang-kejang\" dan Mengharuskan Kamu Memulai ulang Perangkat secara Mandiri. Setelah perangkat menyala, buka \"Peralatan\", tekan \"Bersihkan Dalvik-cache\" dan \"Hapus perbaikan dan Pencadangan\". Sudah ada Cadangan? Buat \"core.odex\" Sekarang?"</string>
+    <string name="messagePath">"Tempat tidak ditemukan!
+Masukkan penempatan yang Benar!"</string>
+    <string name="messageSD">"Kartu Memori Enggak Ketemu!
+Tugas ini Gak akan bekerja Tanpa Kartu Memori!"</string>
+    <string name="message_about_corrupt_apk_file">Berkas Aplikasi yang Asli rusak. Tidak dapat membuat Aplikasi</string>
+    <string name="message_about_patched_file">Berkasnya Rusak Bray!</string>
+    <string name="message_allow_non_market_app">Mohon periksa \"Izinkan pemasangan Aplikasi dari Sumber yang Tidak dikenal\" pada Pengaturan Keamanan perangkat!</string>
+    <string name="message_apply_android_patch_for_proxy_gp">"Server Proksi untuk Google Play perlu Penerapan \"Tambal ke Android\" dengan \"Status Pengesahan Tanda Tangan selalu Tercentang\".
+Terapkan \"Tambal ke Android\" Sekarang?"</string>
+    <string name="message_clear_all_dalvik_cache">Bersihkan semua Dalvik-cache?</string>
+    <string name="message_clear_data">Bersihkan Semua data Aplikasi?</string>
+    <string name="message_delete_odex_file">Hapus semua Berkas \".odex\"?</string>
+    <string name="message_delete_package_new">"Pemasangan Selesai, tapi telah Terjadi Kesalahan.
+Kamu harus Mencopot pemasangan Aplikasi yang Asli sebelum memasang Aplikasi ini. Jika ini tidak membantu, Cobalah untuk mencopot Pemasangan Aplikasi, lalu Mulai ulang Perangkat secara Mandiri"</string>
+    <string name="message_done_move_to_internal">Pemindahan Aplikasi ke Penyimpanan Internal :</string>
+    <string name="message_done_move_to_sdcard">Pemindahan Aplikasi ke Penyimpanan Eksternal :</string>
+    <string name="message_error_file_apk_for_install_corrupt">Berkas Pemasangan Rusak!</string>
+    <string name="message_error_move_to_internal">"Pemindahan ke Memori Internal Selesai, Namun ada Kejanggalan (Ulangi Lagi):
+"</string>
+    <string name="message_error_move_to_sdcard">"Pemindahan ke Kartu Memori Selesai, Namun ada Kejanggalan (Ulangi Lagi):
+"</string>
+    <string name="message_exit">Apakah Anda benar-benar ingin keluar dari Lucky Patcher?</string>
+    <string name="message_for_removed_patch_boot">Penambalan pada Memulai Ulang, berhasil Dihapus</string>
+    <string name="message_for_uninstall_and_install">Hapus %1$s dan Pasang versi Aplikasi yang Dipilih?</string>
+    <string name="message_installation_inapp_proxy">"Kalau kamu menggunakan \"Tambalan Pendukung untuk Tiruan Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" untuk Meretas Pembelian pada Aplikasi, maka Kamu membutuhkan Pengaya \"Proxy server for inapp purchases.apk\"
+ Tapi pengaya ini akan menyembunyikan Seluruh sambungan data pada Lucky Patcher dari Penyedia Layanan.
+Pasang pengaya ini Sekarang?"</string>
+    <string name="message_installation_lp">Pasang Lucky Patcher versi %1$s?</string>
+    <string name="message_installation_lvl_proxy">"Kalau kamu menggunakan \"Tambalan Pendukung untuk Tiruan Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" untuk Merekayasa Pengesahan Lisensi, maka Kamu membutuhkan Pengaya \"Proxy server for License Verification.apk\"
+ Tapi pengaya ini akan menyembunyikan Seluruh sambungan data pada Lucky Patcher dari Penyedia Layanan.
+Pasang pengaya ini Sekarang?"</string>
+    <string name="message_old_app_version">"Lucky Patcher versi lama, tampaknya masih Terpasang! Kamu harus menghapus Lucky Patcher versi lama, guna Menghindari beberapa masalah.
+Kalau kamu Menggunakan \"Tambalan Pendukung untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi.\" Kamu harus Menambal ulang semua Aplikasi tertuju, atau Membuat ulang ke Aplikasi tertuju yang Asli, menggunakan Lucky Patcher versi baru.
+Hapus Lucky patcher versi lama?"</string>
+    <string name="message_reboot">Mulai ulang Perangkat?</string>
+    <string name="message_remove_all_odex">"Hapus semua Berkas \".odex\" yang Ada di :
+\"/data/app\", \"/system/app\", dan \"/system/priv-app\" ?
+Tindakan Ini Hanya akan Menghapus berkas \".odex\" pada Aplikasi yang Memiliki berkas \"classes.dex\""</string>
+    <string name="message_rescan_apps">Muat ulang Daftar Aplikasi?</string>
+    <string name="message_warning_InApp_service_disable">"Menghentikan Layanan ini, melanggar Rangkaian pembelian Aplikasi secara Resmi.
+Ini adalah layanan asli dari Google Play"</string>
+    <string name="message_warning_LVL_emulation_service_enable">Menghidupkan Layanan Rekayasa Pengesahan Lisensi, melanggar Rangkaian untuk Mendapatkan lisensi ke Beberapa aplikasi yang dibeli Secara resmi</string>
+    <string name="message_warning_LVL_service_disable">Menghentikan Layanan ini melanggar Ketentuan untuk Mendapat Lisensi ke Aplikasi yang dibeli Secara Resmi. Ini adalah Layanan asli Dari Google Play</string>
+    <string name="mod_market_check">Uji Coba Google Play Store Oprekan</string>
+    <string name="mod_market_check_failed">Google Play Store Oprekan mungkin Berhasil dipasang, tetapi tidak berfungsi dengan baik. Uji pemeriksaan lisensi gagal. Mungkin kamu tidak menerapkan Tambalan ke \"core.jar\" (Dapat ditemukan di \"Peralatan-> Tambal ke Android\") atau tidak mengubah Google Play yang di-oprek sebagai aplikasi sistem (Kamu dapat memasang ulang di \"Peralatan> Pasang Google Play Store Oprekan\")</string>
+    <string name="mod_market_check_internet_off">Matikan sambungan Internet pada Perangkat. Lalu ulangi Lagi</string>
+    <string name="mod_market_check_title">Hasil uji coba Google Play Store Oprekan</string>
+    <string name="mod_market_check_true">Google Play Store oprekan Dipasang dan Berfungsi dengan baik. Untuk diingat, bahwa cara Ini tidak Berfungsi untuk Semua Aplikasi dan Permainan. Ini bukanlah sebuah Kesalahan dan Tidak bisa Diperbaiki</string>
+    <string name="modifdescr">"Menampilkan semua aplikasi yang Sudah di Gerayangi
+(Daun semanggi Berwarna Hijau Lumut disisi Kanan Layar)"</string>
+    <string name="modiftitle">Aplikasi Ter-gerayangi</string>
+    <string name="move_data">Semua data Telah berhasil di Antarkan ke</string>
+    <string name="move_to_internal">Pindahkan ke Penyimpanan Internal</string>
+    <string name="move_to_internal_message">Pindahkan Aplikasi ke Memori Internal?</string>
+    <string name="move_to_sdcard">Pindahkan ke Penyimpanan Eksternal</string>
+    <string name="move_to_sdcard_message">Pindahkan Aplikasi ke Kartu Memori?</string>
+    <string name="move_to_sys">Jadikan Sebagai Aplikasi Sistem</string>
+    <string name="move_to_system">Jadikan Aplikasi ini Sebagai Aplikasi Sistem?</string>
+    <string name="multipatch_next_step">Langkah berikutnya</string>
+    <string name="navigation_drawer_close">Tutup arah Penunjuk</string>
+    <string name="navigation_drawer_open">Buka pada arah Penunjuk</string>
+    <string name="need_select_custom_patch">Pilih Satu atau Lebih, Penambal Khusus yang Tersedia</string>
+    <string name="new_method_lvl">Buat lisensi Untuk Aplikasi</string>
+    <string name="new_version">Lucky Patcher versi Baru Sudah Tersedia!</string>
+    <string name="next">Berikutnya</string>
+    <string name="next_custom_patch">Penjelasan untuk Penambal Khusus berikutnya</string>
+    <string name="no">Tidak</string>
+    <string name="no_freespace_patch">"Ini bukanlah Suatu kesalahan. Hanya saja, Ruang Penyimpanan tidak Cukup untuk membuat Berkas \".odex\"
+Tambalan Dalvik-cache diterapkan, tetapi Kalau kamu Memulai ulang perangkat, Penambalan mungkin Tidak Tersimpan.
+Jalan Keluar : pindahkan Aplikasi pada Penyimpanan Internal atau Jadikan sebagai Aplikasi Sistem atau Kosongkan lebih Banyak Ruang Penyimpanan, atau Biarkan Semuanya Sebagaimana adanya, dan Terapkan ulang tambalan secara Teratur"</string>
+    <string name="no_icon">Sembunyikan Ikon pada Daftar Aplikasi</string>
+    <string name="no_icon_descr">Menyembunyikan semua Ikon Aplikasi pada Daftar Aplikasi Lucky Patcher. Fitur ini Cukup Membantu, bagi Perangkat yang Berspesifikasi Rendah</string>
+    <string name="no_root">"Gagal Mendapatkan izin ROOT! Kamu Harus Punya izin ROOT Agar dapat Melanjutkan.
+
+(Perbaharui BusyBox atau Biner SU)
+Harap Pasang SuperSU (\"Permasalahan-> Pasang SuperSU (ICS)\"), lalu Perbaharui Biner SU"</string>
+    <string name="no_site">Situs Pembaharuan Tidak Tersedia!</string>
+    <string name="no_space">PERINGATAN! Ruang Penyimpanan Tidak cukup untuk Menyalin semua data di Folder yang Terpilih. Harap ubah Jalur Penyimpanan atau Kosongkan Ruang Sebagian. Kalau kamu Memakai SuperSU, Coba Matikan \"Muat Pemisahan Ruang Nama\" pada Pengaturan SuperSU</string>
+    <string name="no_space_in_data_all">PERINGATAN! Ruang Penyimpanan Penyimpanan Internal Tidak Cukup. Harap Kurangi Penyimpanan pada Partisi /data, Lalu coba Lagi. Kalau Kamu Pengguna SuperSU, Coba Matikan \"Muat Pemisahan Ruang Nama\" pada Pengaturan SuperSU</string>
+    <string name="no_space_in_system">PERINGATAN! Ruang Penyimpanan Sistem Tidak Cukup untuk Menyematkan Aplikasi. Harap Kurangi Penyimpanan pada Partisi /system, Lalu coba Lagi. Kalau kamu Pengguna SuperSU, Coba Matikan \"Muat Pemisahan Ruang Nama\" pada Pengaturan SuperSU</string>
+    <string name="no_space_in_system_all">PERINGATAN! Ruang Penyimpanan pada Partisi Sistem Tidak Cukup. Harap Kurangi Ruang Penyimpanan di Partisi /system, lalu coba lagi. Kalau Kamu Pengguna SuperSU, coba Matikan \"Muat Pemisahan Ruang Nama\" pada Pengaturan SuperSU</string>
+    <string name="nofilter">Kosong</string>
+    <string name="nonedescr">Lihat semua Aplikasi yang Kosong atau Rusak</string>
+    <string name="nonetitle">Aplikasi Kosong atau Rusak</string>
+    <string name="not_detect">"Kartu Memori Tidak Dimasukkan!
+Kinerja Terbatas!"</string>
+    <string name="not_found_changelog">"Berkas Daftar Perubahan Tidak ditemukan.
+Berkas akan Diunduh pada Pembaharuan Berikutnya"</string>
+    <string name="not_supported_android_patch">"Tidak Didukung.
+Fungsinya sudah Sedemikian rupa (Tanpa perlu Ditambal)"</string>
+    <string name="notify_android_patch_on_boot">Tambal Android saat Dinyalakan</string>
+    <string name="notify_android_patch_on_boot_mes_core.jar">Terapkan Penambalan \"core.jar\" Sistem Android hanya ke Dalvik-cache aja</string>
+    <string name="notify_android_patch_on_boot_mes_services.jar">Terapkan Penambalan \"services.jar\" Sistem Android hanya ke Dalvik-cache aja</string>
+    <string name="notify_directory_binder">Tambatkan Jalur</string>
+    <string name="notify_directory_binder_from">Dari</string>
+    <string name="notify_directory_binder_to">Ke</string>
+    <string name="notify_patch_on_boot">Tambal saat Perangkat dinyalakan</string>
+    <string name="notify_patched">Ditambahkan!</string>
+    <string name="odex_all_system_app">"Buat berkas \".odex\" ke seluruh Aplikasi Sistem
+(Dapat melegakan Penyimpanan Internal)"</string>
+    <string name="odex_all_system_app_message">Buat Berkas\".odex\" keseluruh Aplikasi Sistem?</string>
+    <string name="odexed_not_all_apps">KESALAHAN! Sepertinya penyimpanan Partisi Sistem Tidak cukup, beberapa Aplikasi tidak Dibuatkan Berkas \".odex\"</string>
+    <string name="ok">Sip!</string>
+    <string name="on_top_apps_marker">Baru</string>
+    <string name="open_to_GP">Buka ke Google Play</string>
+    <string name="option_SELinux_permissive">Atur SE-Linux Menjadi Permisif</string>
+    <string name="option_SELinux_permissive_descr">"Akan Mengubah tingkat Keamanan Linux menjadi Permisif Setiap kali Membuka Lucky Patcher.
+Fitur ini Cukup Membantu, bagi yang Memiliki kendala Mengenai persoalan pada Keamanan Sistem Operasi"</string>
+    <string name="option_analytic">Layanan Pengamatan</string>
+    <string name="option_analytic_descr">Nyalakan/Matikan layanan analitis (menggunakan geolokasi)</string>
+    <string name="option_autoupdate_custom_patches">Matikan Pemeriksaan berkala, Pembaharuan Penambal Khusus</string>
+    <string name="option_detailed_logs">Laporan Terperinci</string>
+    <string name="option_detailed_logs_descr">Wajib dinyalakan, untuk mengirim Laporan Kegagalan yang Terperinci.</string>
+    <string name="option_remove_ads">Hilangkan Iklan dari Lucky Patcher</string>
+    <string name="option_remove_ads_descr">Akan Menghilangkan Iklan dari \"Tentang\" dan \"Daftar Perubahan\"</string>
+    <string name="orientmenu">Arah Layar</string>
+    <string name="others">Lainnya</string>
+    <string name="package_name">Nama Paket :</string>
+    <string name="patch_ok">Terapkan</string>
+    <string name="patch_progress_data_parse">Mengurai data untuk Ditambal...</string>
+    <string name="patch_progress_get_classes">Mendapatkan beberapa berkas dari berkas \".apk\"...</string>
+    <string name="patch_progress_strings_analisis">Menganalisa string...</string>
+    <string name="patch_step1">Mempersiapkan aplikasi</string>
+    <string name="patch_step2">Sedang Menambal</string>
+    <string name="patch_step3">Menganalisis hasil</string>
+    <string name="patch_step4">Membuat .odex dengan perubahan</string>
+    <string name="patch_step6">Langkah opsional setelah tambalan</string>
+    <string name="patch_step7">Mengemas ulang Kedalam Berkas \".apk\"</string>
+    <string name="patch_step8">Menerapkan pemerataan berkas \".zip\" untuk %s</string>
+    <string name="patch_step9">%s Pemasangan ...</string>
+    <string name="patch_step_analize_dex_file">analisis struktur untuk dex file</string>
+    <string name="patch_step_http">Mendapatkan data dari root...</string>
+    <string name="patch_step_rebuild_dex">Membongkar berkas dex dengan garis baru (Tunggu bentar ya gan!)</string>
+    <string name="patch_to_Android_At_once">Sekaligus dapat menggunakan \"Status Verifikasi Tanda Tangan selalu Benar\" dan \"Nonaktifkan Verifikasi Tanda Tangan .apk\" atau \"Nonaktifkan verifikasi tanda tangan di manajer paket\".</string>
+    <string name="patch_to_Android_only_dalvik_cahce_core_disable">"Kamu Menggunakan Sistem Operasi Android jenis ODEX.
+Penambalan \"core.jar\" Dengan pilihan \"Tambal ke Dalvik-cache aja\", akan Dimatikan dan Mengatur ulang Pilihan"</string>
+    <string name="patch_to_Android_only_dalvik_cahce_services_disable">"Kamu Menggunakan Sistem Operasi Android jenis ODEX.
+Penambalan \"services.jar\" Dengan pilihan \"Tambal ke Dalvik-cache aja\", akan Dihilangkan dan Mengatur ulang Pilihan"</string>
+    <string name="patchbutton">Tambal</string>
+    <string name="pattern1">Tambalan Pola 1 Berhasil.</string>
+    <string name="pattern1_f">Tambalan Pola 1 Gagal...</string>
+    <string name="pattern2">Tambalan Pola 2 Berhasil.</string>
+    <string name="pattern2_f">Tambalan Pola 2 Gagal.</string>
+    <string name="pattern3">Tambalan Pola 3 Berhasil.</string>
+    <string name="pattern3_f">Tambalan Pola 3 Gagal.</string>
+    <string name="pattern4">Tambalan Pola 4 Berhasil.</string>
+    <string name="pattern4_f">Tambalan Pola 4 Gagal.</string>
+    <string name="pattern5">Tambalan Pola 5 Berhasil.</string>
+    <string name="pattern5_f">Tambalan Pola 5 Gagal.</string>
+    <string name="pattern6">Tambalan Pola 6 Berhasil.</string>
+    <string name="pattern6_f">Tambalan Pola 6 Gagal.</string>
+    <string name="pattern7">Tambalan Pola 7 Berhasil.</string>
+    <string name="pattern7_f">Tambalan Pola 7 Gagal.</string>
+    <string name="patternamazon">Amazon Market telah Berhasil Ditambal!</string>
+    <string name="patternamazon_f">Amazon Market Gagal Ditambal...</string>
+    <string name="patterndependencies">Keterikatan Google Play Berhasil Dihapus</string>
+    <string name="patternsamsung">Samsung Apps Berhasil Ditambal!</string>
+    <string name="patternsamsung_f">Samsung Apps Gagal Ditambal...</string>
+    <string name="perm_ok">"Terapkan
+(Akan Memulai ulang Perangkat)"</string>
+    <string name="permission">Ubah Perizinan</string>
+    <string name="permission_not_descr">Penjelasan perizinan ini Tidak ada.</string>
+    <string name="permission_not_found">Gak ada perizinan.</string>
+    <string name="permissions">Perizinan</string>
+    <string name="play_protect_warning">Google Menandai Lucky Patcher Sebagai Virus, Tetapi Sebenarnya Bukan. Untuk menghilangkan peringatan ini, Buka Google Play Store, buka Menu Bilah, lalu Matikan semua Pilihan pada Pengaturan \"Play Protect\"</string>
+    <string name="play_protect_warning2">"Terdapat banyak Situs Web yang membagikan Aplikasi Lucky Patcher bajakan. Gue harap, lu semua Bersedia Membagikan Tautan Unduhan dari Situs web Resmi Gue, di Blog atau Video YouTube Elu.
+Tautan unduhan Resmi Cuma ada di: https://www.luckypatchers.com/download/"</string>
+    <string name="play_protect_warning_question_1">Buka Pengaturan Play Protect?</string>
+    <string name="poorresult">"% Tambalan Gagal
+Versi Pengesah Lisensi Tidak dikenal, atau tambalan sudah diterapkan!"</string>
+    <string name="provide">Sediakan</string>
+    <string name="proxyGP">Gunakan Server Proksi untuk Google Play Store</string>
+    <string name="proxyGP_descr">"Server Proksi Berguna untuk Mengalihkan Semua Pembayaran didalam Aplikasi dan Permohonan Lisensi ke Lucky Patcher dan Akan diputar Balikkan ke Layanan Pembayaran Google.
+\"Tiruan Pembayaran Tagihan Google\" Harus dinyalakan pada Lucky Patcher untuk Menggunakan Fungsi Ini"</string>
+    <string name="proxyGP_install">Google Play Store dengan Server Proksi</string>
+    <string name="proxyGP_install_error">Berkas Proksi yang akan Dipasang ke Google Play, tidak Ada!</string>
+    <string name="proxyGP_install_question">Pasang Google Play Store dengan Server Proksi?</string>
+    <string name="proxyGP_widget_warning_1">\"Tambalan Pendukung untuk Pembelian didalam Aplikasi dan Rekayasa Pengesahan Lisensi\" Wajib dimatikan pada Modul X-posed untuk Lucky Patcher Guna Menjalankan Proksi Google Play</string>
+    <string name="proxyGP_widget_warning_2">Proksi Google Play, Membutuhkan Hak Izin ROOT juga Menerapkan \"Tambal ke Android\" dengan \"Status Pengesahan Tanda Tangan selalu Tercentang\" Untuk menghidupkan Modul Lucky Patcher, Agar bisa Diterapkan pada X-posed</string>
+    <string name="punkt1">- Aplikasi ini membutuhkan Izin ROOT Agar dapat Bekerja!</string>
+    <string name="purchase_db_dialog_auto_buy">Pengaturan yang Disimpan untuk Pembelian Berkali-kali</string>
+    <string name="purchase_db_dialog_saved_purchase">"Pembelian yang tetap Tersimpan, meskipun Aplikasi dipulihkan
+"</string>
+    <string name="purchases_sorter_last_time_try_purchase">Waktu pembelian terakhir</string>
+    <string name="reboot">Mulai ulang</string>
+    <string name="reboot_message">"Memulai Ulang...
+Jika Perangkat tidak Segera Memulai ulang, Lakukan secara Mandiri"</string>
+    <string name="reboot_to_bootloader">"Mulai ulang ke Pemuat Kernel
+(Bootloader)"</string>
+    <string name="reboot_to_recovery">"Mulai ulang ke Pemulihan
+(Recovery)"</string>
+    <string name="rebuild_info">Buat ulang Ringkasan</string>
+    <string name="remodex">Berkas \".odex\" Dihapus</string>
+    <string name="remodexerror">Dalvik-cache dari aplikasi ini tidak ditemukan.</string>
+    <string name="remove_all_saved_purchases">Hapus semua Pembelian yang Tersimpan</string>
+    <string name="remove_all_saved_purchases_message">Hapus semua Pembelian yang Tersimpan dari Lucky Patcher?</string>
+    <string name="removefixes">"Hapus semua Berkas \".odex\" yang Ada di :
+\"/data/app\", \"/system/app\", dan \"/system/priv-app\""</string>
+    <string name="restore_build">Bentukan</string>
+    <string name="restore_data_error">KESALAHAN: Ada sesuatu yang salah. Sepertinya data Tidak Pulih Sempurna</string>
+    <string name="restore_data_success">Pengaturan telah Berhasil Dipulihkan</string>
+    <string name="restore_message">Pulihkan Aplikasi?</string>
+    <string name="restore_version">Versi</string>
+    <string name="restorebutton">Pulihkan</string>
+    <string name="restored">Dipulihkan</string>
+    <string name="root_access_not_found">Tidak ada Izin ROOT!. Coba Buka ulang Lucky Patcher, atau Coba untuk Memperbaharui Berkas dan Binary SuperSU. Lalu Periksa Pengelola SuperSU, Sudah memberi izin Hak untuk Menjalankan ROOT untuk Lucky Patcher atau Belum.</string>
+    <string name="root_needed">Izin ROOT diperlukan untuk Tugas ini!</string>
+    <string name="safe_perm_ok">Buat ulang &amp; Pasang</string>
+    <string name="safe_perm_use_warning">Kamu harus memindahkan Aplikasi ke \"/system/app/\" atau Menerapkan Penambalan ke \"core.jar\" \"Matikan Pengesahan Tanda Tangan Aplikasi\" Melalui pilihan \"Tambal ke Android\"</string>
+    <string name="savebutton">Simpan Bidikan ke Penambal Khusus</string>
+    <string name="saved_object">"Penambal Khusus dibuat di Folder:
+/Android/data/com.android.vending.billing.InAppBillingService.COIN/files/LuckyPatcher"</string>
+    <string name="search">Cari</string>
+    <string name="search_menu_title">Telusuri</string>
+    <string name="select_filter">Himpun</string>
+    <string name="select_market">"Pilih versi Google Play Store yang Akan dipasang :
+"</string>
+    <string name="send_logs">Kirim Catatan?</string>
+    <string name="sendlog">Kirim Catatan</string>
+    <string name="set_default_to_install">"Atur Tempat Lokasi Pemasangan Aplikasi
+(Mungkin Tidak Berfungsi pada Android >= 4.0)"</string>
+    <string name="set_default_to_install_auto">Lokasi Pemasangan diatur oleh Sistem Operasi Android</string>
+    <string name="set_default_to_install_internal_memory">Langsung Pasang ke Penyimpanan Internal</string>
+    <string name="set_default_to_install_sdcard">Langsung Pasang ke Penyimpanan Eksternal</string>
+    <string name="set_switchers_def">Kembalikan ke Pengaturan awal</string>
+    <string name="setting_confirm_exit">Jendela keluar dari Aplikasi Lucky Patcher</string>
+    <string name="setting_confirm_exit_descr">Kalau Kamu Menekan Tombol Kembali, akan Muncul Jendela pertanyaan Keluar dari Aplikasi Lucky Patcher</string>
+    <string name="settings">Pengaturan</string>
+    <string name="settings_force_java_root_method">Atur paksa melalui java-root</string>
+    <string name="settings_force_java_root_method_app_process">Menggunakan app_proccess</string>
+    <string name="settings_force_java_root_method_dalvikvm">Menggunakan dalvik-vm</string>
+    <string name="settings_force_java_root_method_description">Jika kamu punya masalah dalam mendapatkan izin root atau punya masalah pada tahap penambalan, kamu bisa mencoba cara lainnya.</string>
+    <string name="settings_force_root">Paksa Berjalan dengan Izin ROOT</string>
+    <string name="settings_force_root_description">Kalau Perangkatmu sudah di ROOT, Kamu dapat Memaksa Lucky Patcher Berjalan dengan Izin ROOT tanpa Pertanyaan , begitu juga sebaliknya</string>
+    <string name="settings_force_root_off">Paksa Matikan Izin ROOT untuk Lucky Patcher</string>
+    <string name="settings_force_root_on">Paksa Nyalakan Izin ROOT untuk Lucky Patcher</string>
+    <string name="settings_root_auto">Periksa Izin ROOT dengan Sendirinya</string>
+    <string name="share">Bagikan</string>
+    <string name="share_lucky_patcher">Bagikan Lucky Patcher</string>
+    <string name="share_message">Bagikan Aplikasi ini?</string>
+    <string name="share_this_app">Bagikan Aplikasi</string>
+    <string name="site_pattern">String Telah dihapus/n(Diambil dari Berkas pedoman \"AdBlockLists.txt\")</string>
+    <string name="sortbyname">Susun Berdasarkan Nama</string>
+    <string name="sortbystatus">Susun Berdasarkan Keadaan</string>
+    <string name="sortbytime">Susun Berdasarkan Tanggal</string>
+    <string name="sortmenu">Penyusunan Daftar Aplikasi</string>
+    <string name="splitted_apk_attribute">Terpisah</string>
+    <string name="splitted_apps_marker">Pisahkan</string>
+    <string name="start_market_message">"Memasang Google Play Oprekan. Butuh penerapan \"Tambal ke Android\" serta Memulai ulang Perangkat.
+Setelah perangkat dimulai ulang, coba Pasang ulang Google Play Store Oprekan.
+Terkadang hal ini beresiko dapat merusak Sistem Operasi.
+Terapkan \"Tambal ke Android\" sekarang?"</string>
+    <string name="stat_boot_ads">Iklan Google</string>
+    <string name="stat_boot_custom">Tambalan Khusus</string>
+    <string name="stat_boot_lvl">Pengesahan Lisensi Google</string>
+    <string name="stat_launch_activity">Kegiatan Peluncur :</string>
+    <string name="statads">Terdapat Iklan Google!</string>
+    <string name="statappplace">Penempatan Aplikasi :</string>
+    <string name="statbilling">Terdapat Pembelian didalam Aplikasi.</string>
+    <string name="statbuild">Bentukan :</string>
+    <string name="statcustom">Terdapat Penambal Khusus</string>
+    <string name="statdataplace">Penempatan Data :</string>
+    <string name="statfix">Perubahan dengan Berkas \".odex\" pada Aplikasi, diterapkan</string>
+    <string name="statlvl">Terdapat Pengesahan Lisensi</string>
+    <string name="statmodified">Aplikasi Ini, sudah Pernah digerayangi</string>
+    <string name="statnotfix">Tidak ada Penerapan Perubahan yang Berjalan pada Aplikasi</string>
+    <string name="statnotfound">Tidak ada penambalan khusus.</string>
+    <string name="statnotmodified">Aplikasi yang Belum pernah dijamah</string>
+    <string name="statnotsys">Aplikasi Pengguna</string>
+    <string name="statnull">Enggak ada yang Perlu dilakukan</string>
+    <string name="statsys">Aplikasi Sistem!</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="statuserid">Data diri Pengguna :</string>
+    <string name="statversion">Versi :</string>
+    <string name="success">"Berhasil
+"</string>
+    <string name="support_patch_billing_rebuild_dex">Tambalan Pendukung untuk Tiruan Pembelian didalam Aplikasi (Oprek ulang Berkas \".dex\")</string>
+    <string name="support_patch_billing_rebuild_dex_descr">"Hal Ini Akan Bertahan sangat lama. Cara ini Mengalihkan Penagihan ke Lucky Patcher tanpa server proksi untuk Tiruan Pembelian didalam Aplikasi.
+Jika cara ini gagal atau tidak bekerja karena suatu sebab, kamu bisa menggunakan tahapan \"Tambalan pendukung untuk Tiruan Pembelian didalam Aplikasi (Server Proksi)\".
+Jika penambal \"Verifikasi Tanda Tangan selalu Tercentang\" Tidak bisa di terapkan. Tambalan pendukung ini bisa membantu."</string>
+    <string name="support_patch_billing_rebuild_dex_not_work">"Method  Support patch for InApp emulation (Reassembly Dex) \" finished with errors. Use method \"Support patch for InApp emulation (Proxy server)\" to emulate free purchases inside this application."</string>
+    <string name="support_patch_billing_rebuild_dex_warning">"Aplikasi yang dibuat ulang ini, hanya akan berfungsi jika Lucky Patcher dipasang pada Perangkat ini. Jika kamu membagikan Aplikasi ini ke Perangkat lain, pembelian yang sudah dilakukan, tidak akan ditiru Diperangkat yang dibagikan Tersebut.
+ Untuk membagikan Aplikasi ke Perangkat lain dengan dukungan Penambal, gunakan \"Tambalan pendukung untuk Tiruan Pembelian didalam Aplikasi (Server proksi)\" dan nyalakan \"Server Proksi untuk Pengalihan Tiruan Pembelian didalam Aplikasi\" di Perangkat itu, atau buat ulang Aplikasi ini secara langsung di Perangkat yang dimaksud."</string>
+    <string name="support_patch_billing_redirect_to_proxy">Tambalan pendukung untuk Tiruan Pembelian didalam Aplikasi (Server Proksi)</string>
+    <string name="support_patch_billing_redirect_to_proxy_descr">Mengalihkan Tagihan Pembayaran Ke Lucky Patcher. Bila tambalan ke Android \"Status Verifikasi Tanda Tangan Selalu Tercentang\" tidak di terapkan. Ini bisa membantu.</string>
+    <string name="support_patch_billing_repatch_patched_app">Perbarui tambalan di aplikasi yang sudah ditambal</string>
+    <string name="support_patch_billing_repatch_patched_app_descr">Jika Anda membangun kembali aplikasi dengan tambalan ini untuk versi Lucky Patcher yang lama dan sekarang tidak berfungsi, opsi ini akan memperbarui tambalan untuk versi Lucky Patcher yang baru.</string>
+    <string name="support_patch_header_additional">Additional patches</string>
+    <string name="support_patch_header_inapp">Patches for emulating free purchases</string>
+    <string name="support_patch_header_lvl">License Check Patches</string>
+    <string name="support_patch_header_options">Additional options</string>
+    <string name="support_patch_lvl">Dukungan Tambahan untuk Tiruan Pengesahan Lisensi</string>
+    <string name="support_patch_lvl_descr">Redirect license verification to Lucky Patcher using a \"Proxy server for emulation of license check\". If patch to Android \"Signature Verification status always True\" is not applied, this support patch can help.</string>
+    <string name="switcher_auto_backup">Langsung cadangkan semua Pembaharuan dan Pemasangan aplikasi</string>
+    <string name="switcher_auto_backup_descr">Salin berkas Aplikasi ke folder Pencadangan</string>
+    <string name="switcher_auto_backup_only_gp">Langsung cadangkan semua Pembaharuan dan Pemasangan aplikasi dari Play Store</string>
+    <string name="switcher_auto_backup_only_gp_descr">Catatan : Lucky Patcher Menganggap semua aplikasi Oprekan sebagai pemasangan dari Google Play. Oleh karena itu, Aplikasi ini Juga akan Masuk kedalam Daftar cadangan</string>
+    <string name="switcher_auto_integrate_update">Langsung sematkan Pembaharuan Aplikasi Sistem, kedalam Partisi Sistem</string>
+    <string name="switcher_auto_integrate_update_descr">"Saat diperbaharui. Aplikasi Sistem yang Lawas, akan Langsung digantikan oleh Aplikasi yang lebih Mutakhir kedalam Partisi Sistem.
+Kalau Aplikasi tidak Bekerja setelah Pembaharuan, segera Lakukan Pemulaian ulang Perangkat, untuk Mengindari hal-hal yang Tidak diharapkan"</string>
+    <string name="switcher_auto_move_to_internal">Langsung pindahkan Pemasangan dan Pembaharuan aplikasi pada Penyimpanan Internal</string>
+    <string name="switcher_auto_move_to_internal_descr">Aplikasi akan Berjalan lebih Cepat, Mulus, dan Tanggap</string>
+    <string name="switcher_auto_move_to_sd">Langsung pindahkan Pemasangan dan Pembaharuan aplikasi pada Penyimpanan Eksternal</string>
+    <string name="switcher_auto_move_to_sd_descr">"Beberapa Pelengkap pada Aplikasi mungkin tidak akan Berfungsi dengan Baik.
+Misalnya seperti Widget"</string>
+    <string name="switchers_service_not_found">Layanan Tak Ditemukan</string>
+    <string name="sysdescr">Hati-hati saat mengoprek Aplikasi Sistem! Cadangkan Sistem Operasi Sebelum Mengoprek</string>
+    <string name="system_app_change">Silakan Mulai ulang Perangkat untuk Menerapkan perubahan</string>
+    <string name="systitle">Tampilkan Aplikasi Sistem</string>
+    <string name="test">Ujicoba</string>
+    <string name="test_services_for_work_failed">"Layanan sudah diujicoba, tampaknya Layanan tidak Bekerja Sebagaimana Mestinya.
+Coba buka Pengaturan guna memberikan Semua Izin yang Diperlukan oleh Aplikasi 1%1$s"</string>
+    <string name="test_services_for_work_progress">Sedang Menguji Coba Layanan, untuk Memeriksa kalau Apakah ada Kejanggalan</string>
+    <string name="test_services_for_work_success">Layanan sudah diujicoba, dan Bekerja sempurna Tanpa ada Masalah</string>
+    <string name="text_size">Ukuran Huruf</string>
+    <string name="title_for_block_internet">Cegat sambungan Internet pada Aplikasi ini :</string>
+    <string name="title_for_select_backup_apk_package">Pilih Aplikasi yang Akan Dicadangkan:</string>
+    <string name="title_for_select_disable_package">Pilih Aplikasi yang Akan Dimatikan :</string>
+    <string name="title_for_select_enable_package">Pilih Aplikasi yang Akan Dinyalakan :</string>
+    <string name="title_for_select_integrate_update_apps">Pilih Pembaharuan Aplikasi yang Akan di Sematkan ke Partisi Sistem:</string>
+    <string name="title_for_select_move_to_internal">Pilih Aplikasi yang Akan di Pindahkan ke Penyimpanan Internal :</string>
+    <string name="title_for_select_move_to_sdcard">Pilih Aplikasi yang Akan di Pindahkan ke Penyimpanan Eksternal :</string>
+    <string name="title_for_select_uninstall">Pilih Aplikasi yang Akan dicopot Pemasangannya</string>
+    <string name="title_for_unblock_internet">Buka Pencegatan sambungan Internet dalam aplikasi ini :</string>
+    <string name="title_installation_lp">Pemasang Lucky Patcher</string>
+    <string name="title_progress_installation_lp">Menyiapkan Pemasangan</string>
+    <string name="title_select_custom_patch">Pilih Penambal Khusus</string>
+    <string name="title_upd">Pesan</string>
+    <string name="toolbar_adfree">Cegat Iklan</string>
+    <string name="toolbar_backups">Cadangan</string>
+    <string name="toolbar_options_menu">Pilihan</string>
+    <string name="toolbar_rebuild">Buat ulang &amp; Pasang</string>
+    <string name="toolbar_refresh_apps">Muat ulang Daftar Aplikasi</string>
+    <string name="toolbar_switchers">Tombol Alih</string>
+    <string name="toolbar_system_utils">Peralatan</string>
+    <string name="tools_menu_block_internet">Cegat sambungan Internet</string>
+    <string name="tools_menu_unblock_internet">Buka pencegatan Internet</string>
+    <string name="transfer_settings_from_old_version">Lucky Patcher Memindahkan setelan dari Versi lama</string>
+    <string name="troubleshooting_supersu_namespace_separation">"Mematikan Pengaturan \"Muat Pemisahan Ruang Nama\"Pada SuperSU
+(Akan segera Memulai ulang Perangkat)"</string>
+    <string name="truble">Permasalahan</string>
+    <string name="uninstall">Copot Pemasangan %s?</string>
+    <string name="uninstallapp">Copot pemasangan Aplikasi</string>
+    <string name="unknown_error">Kesalahan Gak diketahui. Coba lagi!</string>
+    <string name="unused_odex_delete">Hapus Berkas \".odex\"</string>
+    <string name="update">Perbaharui</string>
+    <string name="update_custom_patches_message_1">Penambal Khusus baru, sudah tersedia di server. daftar tambalan yang di tambahkan bisa kamu lihat melalui tautan : https://patch.chelpus.com</string>
+    <string name="update_custom_patches_message_2">Perbaharui Penambal Khusus?</string>
+    <string name="update_found_title">Pembaharuan Penambal Khusus</string>
+    <string name="update_lp">Perbaharui Aplikasi Lucky Patcher</string>
+    <string name="updatebusybox">Perbaharui BusyBox</string>
+    <string name="usepatch">Terapkan</string>
+    <string name="vers">Versi Lucky Patcher</string>
+    <string name="vibration">Nyalakan Getar</string>
+    <string name="vibration_descr">Menyalakan Isyarat Getar pada Daftar Aplikasi</string>
+    <string name="viewlandscape">Hape Miring</string>
+    <string name="viewlarge">Tulisan Besar</string>
+    <string name="viewmedium">Tulisan Sedang</string>
+    <string name="viewmenu">Lihat</string>
+    <string name="viewportret">Hape Tegak</string>
+    <string name="viewsensor">Ikutin Sensor</string>
+    <string name="viewsmall">Tulisan Kecil</string>
+    <string name="wait">Mohon Tunggu</string>
+    <string name="warning">Peringatan!</string>
+    <string name="warning_china_devices_muiu">"Sistem Operasi kaleng MIUI Cina, sering Membatasi tugas Latar belakang Aplikasi Lucky Patcher.
+Akibatnya, tiruan Pembelian Didalam Aplikasi dan beberapa Kegunaan lainnya Tidak dapat Bekerja sebagaimana mestinya.
+Buka pengaturan Lucky Patcher untuk Menghidupkan semua Izin yang diperlukan?"</string>
+    <string name="warning_for_get_apk">"Berkas \".apk\" dari aplikasi %1$s Tidak bisa Dimuat secara Lengkap, karena sudah Dipisah oleh Pemasang Aplikasi bawaan Android.
+Tidak Bisa menerapkan Tambalan ke %1$s"</string>
+    <string name="warning_for_no_free_space_on_device">"Lucky Patcher telah Ditutup Paksa oleh Sistem Android kamu, Mohon periksa Ketersediaan Ruang Penyimpanan. Pastikan masih Banyak persediaan Ruang yang Tersisa.
+Kalau kamu Menggunakan SuperSU. Harap matikan \"Muat Pemisahan Ruang Nama\" pada Pengaturan SuperSU Kamu"</string>
+    <string name="warning_for_no_free_space_on_device_to_patch">Kekurangan ruang Penyimpanan. Mohon Kurangi Ruang penyimpanan untuk Melanjutkan Penanganan</string>
+    <string name="warning_for_out_of_memory_on_device">"Lucky Patcher telah Ditutup Paksa oleh Sistem Android kamu, Mohon periksa Ketersediaan Ruang RAM. Pastikan masih Banyak persediaan Ruang yang Tersisa.
+Penanganan ini Tidak dapat Dilanjutkan"</string>
+    <string name="warning_for_unstall_apk_from_import_file">"Arsip dari luar Berisi Berkas \".apk\"
+Pasang %1$s Versi %2$s Bentukan %3$s ?"</string>
+    <string name="warning_force_close_please_update_lp">"WADAW! Kayanya Barusan Aplikasi Lucky Patcher Abis ditutup Paksa nih Bray!?
+Coba Perbaharui Lucky Patcher ke versi Terkini!"</string>
+    <string name="warning_inapp_emulation">"Sistem Operasi Android kamu, tidak Mendukung Tiruan Penagihan didalam Aplikasi secara Bawaan.
+Jika Sistem Operasi Kamu mendukung Pembekuan Aplikasi, coba Matikan aplikasi Google Play Store dari Pengelola Aplikasi Bawaan Android, lalu Coba Lagi"</string>
+    <string name="warning_install_new_mod_market">"Ini adalah versi GooglePlay yang sudah di Oprek yang tidak bisa dipasang kedalam Partisi \"/system\". Coba untuk memasangnya sebagai aplikasi pengguna.
+Jika tidak, kamu tidak akan dapat terhubung ke akun google kamu."</string>
+    <string name="warning_internal_data_folder_corrupt">"WADAW! Lucky Patcher kaga bisa Membaca dan Menulis ke Penyimpanan Media pada Perangkat ente Nih Bray!
+Coba buka \"Pengaturan Aplikasi\" Setelah itu, Pilih Aplikasi \"Lucky Patcher\" dan Sentuh \"Bersihkan Data.\""</string>
+    <string name="warning_jex_optimised_firmware">"Kamu memiliki Framework dengan Pemanfaatan JEX. Sangat tidak mungkin Untuk ditambal.
+Ubah Framework, atau Tingkatkan versi Sistem Operasi ke Android 5.0+"</string>
+    <string name="warning_message_browser_not_found">Peramban Tidak Ditemukan! Tidak bisa membuka Tautan untuk Ditampilkan</string>
+    <string name="warning_multipatch_not_select">Tidak ada Tambalan yang Dipilih</string>
+    <string name="warning_new_package_name">"Lucky Patcher telah Mengubah nama Paket. Ini akan Membuat Beberapa Masalah.
+Kalau kamu Menggunakan \"Tambalan Pendukung untuk Tiruan Pembelian didalam Aplikasi\", Kamu harus menerapkan Tambalan Lagi ke Aplikasi Tujuan.
+Jika Kamu membuat Kembali beberapa aplikasi dengan \"Tambalan Pendukung untuk Tiruan Pembelian didalam Aplikasi\", kamu Harus membuat Kembali dokumen Asli di Lucky Patcher yang baru"</string>
+    <string name="warning_new_package_name_wrong">"Nama Paket tidak diubah dengan Benar. Kalau kamu menggunakan \"Tambalan Pendukung untuk Tiruan Pembelian didalam Aplikasi\", Tambalan tidak dapat Diterapkan Lagi ke Aplikasi.
+Ketika kamu Membuat ulang Aplikasi menggunakan Tambalan ini. Mungkin akan Membuat banyak Masalah"</string>
+    <string name="warning_not_all_perms_granded">"Lucky Patcher Enggak Bisa melanjutkan Tugas.
+Tidak ada Izin untuk melakukan Tugas ini!"</string>
+    <string name="warning_shared_apks">"Kamu harus memasang aplikasi Lucky Patcher juga pada perangkat lain agar dapat memasang berkas \".apk\" tersebut. Kamu bisa Membagikan Lucky Patcher ke Perangkat lain melalui Sajian Bilah '%s'"</string>
+    <string name="warning_superSu_mount_name_space_separation">Lucky Patcher memindai SuperSU, dan Mendapati pengaturan \"Muat pemisahan Ruang Nama\" dalam Keadaan Tercentang. Kamu perlu Mematikannya agar Lucky Patcher dapat Bekerja sempurna</string>
+    <string name="warning_superSu_mount_name_space_separation_2">"Matikan Pengaturan ini dengan Sendirinya?
+(Akan segera Memulai ulang Perangkat)"</string>
+    <string name="warning_superSu_mount_name_space_separation_3">Jangan Tampilkan Lagi</string>
+    <string name="well_done">"
+ Udeh Beres Bray!"</string>
+    <string name="well_done_change_components">Bagian Aplikasi sudah Berhasil diperbaharui.</string>
+    <string name="widget_app_disable_checkbox">Langsung jalankan Aplikasi saat Mengetuk \"Nyalakan\"</string>
+    <string name="xposed_module_option">Nyalakan Modul X-posed</string>
+    <string name="xposed_option_off">Harap nyalakan Modul Lucky Patcher pada X-posed untuk Menjalankan pelengkap ini</string>
+    <string name="xposed_settings">Pengaturan X-posed</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/outline_delete_forever_white_24" />
+            </item>
+            <item>
+                <shape>
+                    <gradient android:startColor="#33696969" android:endColor="#33b3b3b3" android:angle="270.0" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/outline_delete_forever_white_24" />
+            </item>
+            <item>
+                <shape>
+                    <gradient android:startColor="#33696969" android:endColor="#33b3b3b3" android:angle="270.0" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true">
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/outline_delete_forever_white_24" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

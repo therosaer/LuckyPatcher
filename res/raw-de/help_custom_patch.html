@@ -1,0 +1,123 @@
+﻿<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+
+</head>
+
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color:#ffffff">
+
+Die Datei, die die Schritte zum Patchen (siehe unten / kurz: Patch-Datei) enthält, muss den gleichen Namen (Wichtig: Paketnamen) wie die App haben (beachte Groß-und Kleinschreibung).<br/>
+Falls schon ein benutzerdefinierten Patch für die App existiert, kannst du die Schritte (siehe unten) einfach in eine .txt-Datei einfügen.<br/>
+Wenn du einen benutzerdefinierten Patch für eine ganze Reihe von Apps (vom gleichen Entwickler) erstellen möchtest, musst du den Namen verändern. Beispiel: Du kannst z.B. &quot;_%25ALL%25&quot; benutzen. (Name des Patches für z.B. alle SVOX-Apps würden folgendermaßen aussehen: com.svox.classic.langpack_%25ALL%25.txt.) &quot;_%25ALL%25&quot; meint ein Teil des Pakets, dass von der App  variiert und diesen ersetzt.
+Verwenden Sie keine Sonderzeichen / Formatierungen in der Patch-Datei. (nur einzelne Leerzeichen)<br/>
+Um nach den Bytes zu suchen, verwenden sie bitte IDA Pro 6.1. Es kann die Dalvik-Cache, die ODEX, die Bibliotheken und die Classes.dex öffnen.<br/>
+Falls du die Dalvik-Cache oder ODEX patchen möchtest, vergiss nicht, dass Datenbytes in unterschiedlichen Firmware-Versionen variieren können. Und vergiss auch nicht, dass die Bytes nicht alle nur mit Classes.dex übereinstimmen, sondern auch mit der Dalvik-Cache und der ODEX. Dies kannst du sehen, wenn du die Classes.dex und die ODEX-Datei in IDA Pro öffnest.<br/>
+<br/>
+[BEGIN]<br/>
+&lt;Kommentare, die vor dem Patchen zu sehen sind&gt;<br/>
+Patch für XYZ Pro 5.0<br/>
+<br/>
+[PACKAGE]<br/>
+&lt;Entpackt Classes.dex und fügt alle Patches von [CLASSES] ein und erstellt, basierend auf der modifizierten Classes.dex, eine ODEX-Datei.&gt;<br/>
+<br/>
+[CLASSES]<br/>
+&lt;Schemasuche / Ersatz für Classes.dex (siehe unten)&gt;<br/>
+{"search":"63 R00 R01 R02 38 00 04 00 12 10 0F 00"}<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A W00 W01 W02 00 00 12 00 0F 00"}<br/>
+<br/>
+[LIB]<br/>
+&lt;Schemasuche / Ersatz für genannte systemeigene Bibliothek (siehe unten)&gt; <br/>
+{"name":"libtitanium.so"}<br/>
+{"original":"00 ** 50 e2"}<br/>
+{"replaced":"00 00 50 e1"}<br/>
+<br/>
+[OTHER FILES]<br/>
+&lt;Schemasuche / Ersatz für genannte Dateien in /data/data/Ziel_APK/ (siehe unten)&gt;<br/>
+{"name":"/files/shell.dex"}<br/>
+{"original":"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced":"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/>
+[ADD-BOOT]<br/>
+&lt;Automatisches Hinzufügen des Patches in die Boot-Liste. Sollte in den gepatchten Bibliothek genutzt werden (oder im gepatchten [CLASSES] ohne [ODEX] oder ohne [PACKAGE])&gt;<br/>
+<br/>
+[END]<br/>
+&lt;Kommentare, die nach dem Patchen zu sehen sind&gt;<br/>
+Glückwunsch! App wurde gepatcht!<br/>
+<br/>
+“search” – erlaubt dir nach einem Schema zu suchen und speichert Bytes an bestimmten Stellen.<br/>
+{"search":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">R00 R01 R02 </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+In diesem Beispiel sind die einen Bytes in grün gekennzeichnet, um die &quot;Schemamaske&quot; zu verdeutlichen. Während die anderen Bytes R00 -> R02 in gelb gekennzeichnet / gespeichert sind.<br/>
+Gespeicherte Bytes müssen in einer bestimmten Reinfolge sein: R00, R01, R02, R03… <br/> 
+Gespeicherte Bytes können nicht wiederholt werden.<br/>
+<br/>
+“original” – Das ist die &quot;Schemamaske&quot;, in dem der Patch angewendet wird.<br/>
+{"original":"<b style="color:#36ff00">63 </b><b style="color:#fffc00">?? ?? ?? </b><b style="color:#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/>
+In diesem Beispiel sind die einen Bytes in grün gekennzeichnet, um die &quot;Schemamaske&quot; zu verdeutlichen. Während die gelb gekennzeichneteten Bytes Zeichen sind (??, **)<br/>
+“replaced” – das wird einer Anweisung folgen, die  überschreibt.<br/>
+{"replaced":"<b style="color:#36ff00">12 00 6A </b><b style="color:#fffc00">W00 W01 W02 </b><b style="color:#36ff00">00 00 12 00 0F 00</b>"}<br/>
+In diesem Beispiel sind die einen Bytes in grün gekennzeichnet, die den Zielort überschreiben werden. Die Bytes in gelb kommen aus dem zuvor ausgeführten “search”.<br/>
+“name” – Diese wird verwendet, um eine bestimmte Bibliothek dem Namen nach zu suchen (siehe oben in [LIB])<br/>
+<br/>
+[ODEX-PATCH] - Verwendung für den Patch wurde bereits als  ODEX erstellt. Zum Beispiel: Bei einer App wurde schon die Lizenz durch Lucky Patcher entfernt, aber man muss durch einen Benutzerdefinierten Patch zusätzlich etwas ändern. Wenn wir einfach [PACKAGE]-[CLASSES], [ODEX] oder [CLASSES]-[ODEX] benutzen, wird die ODEX-Datei ohne Änderung erstellt und dann erst gepatcht. 
+<br/>Beispiel:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX-PATCH]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Glückwunsch! ODEX wurde modifiziert!<br/>
+<br/>
+[CLASSES] ohne [PACKAGE] - patcht die Dalvik-Cache. Vergiss nicht, dass das System regelmäßig Dalvik-Cache-Apps aktualisiert und somit werden alle Änderungen entfernt. Deswegen muss man [ADD-BOOT] hinzufügen. Die veränderte Dalvik-Cache veraltet dann nur, statt ungewollt entfernt zu werden.
+<br/>Beispiel:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ADD-BOOT]<br/>
+[END]<br/>
+Glückwunsch!<br/>
+<br/>
+[ODEX] - Kopiert Dalvik-Cache in /data/app/ und benennt es zu einer ODEX-Datei um. Dann werden alle Patches zu dieser ODEX-Datei hinzugefügt. Es kann nicht passieren, dass die Prüfsummen der ODEX falsch sind, im Gegensatz zur Erstellung einer ODEX-Datei mit 
+[PACKAGE] - [CLASSES].
+<br/>Beispiel:<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[END]<br/>
+Glückwunsch!<br/>
+<br/>
+[CLASSES]-[ODEX] - Patcht Dalvik-Cache und kopiert dann die Dalvik-Cache in /data/app/ und benennt es zu einer Odex-Datei um. Es kann nicht passieren, dass die Prüfsummen der ODEX falsch sind, im Gegensatz zur Erstellung einer ODEX-Datei mit 
+[PACKAGE] - [CLASSES].
+<br/>Beispiel:<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+{"original":"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced":"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/>
+[ODEX]<br/>
+[END]<br/>
+Glückwunsch!<br/>
+<br/>
+[SQLITE] - Manchmal muss man aber auch die Datenbank einer App verändern und genau dann gäbe es folgende Möglichkeit:
+<br/>Beispiel:<br/>
+<br/>
+[BEGIN]<br/>
+Probezeit zurücksetzen<br/>
+[SQLITE]<br/>
+{"database":"/data/data/com.package.megaapp/databases/settings.db"}<br/>
+{"execute":"DELETE FROM table_settings WHERE name = 'SETTING__LIC'"}<br/>
+{"execute":"UPDATE table_settings SET UsedDays=0 WHERE name='Trial_set'"}<br/>
+[END]<br/>
+Glückwunsch! Du hast eine neue Probezeit!<br/>
+<br/>
+database - Pfad zur Datenbank auf dem Gerät.<br/>
+execute - SQLite Abfrage.<br/>
+</body>
+
+</html>

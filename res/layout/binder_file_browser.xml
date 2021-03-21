@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/path" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:textColor="#ff2c6289" android:id="@id/button_select" android:background="@drawable/cbutton" android:paddingLeft="8.0dip" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="8.0dip" android:text="@string/binder_browser_select" />
+    <Button android:textColor="#ff2c6289" android:id="@id/button_create_dir" android:background="@drawable/cbutton" android:paddingLeft="8.0dip" android:paddingTop="0.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="8.0dip" android:text="@string/binder_browser_create_dir" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:paddingRight="5.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" android:src="@drawable/ic_notify" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffeb94" android:id="@id/TitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/lp_billing_hack_title" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:id="@id/line0" android:background="@drawable/background_gradient" android:layout_width="fill_parent" android:layout_height="1.0dip" android:text="" />
+    <ScrollView android:id="@id/appbodyscroll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/appdialogbody" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:background="@drawable/background_gradient" android:layout_width="fill_parent" android:layout_height="1.0dip" android:text="" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff00ff00" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/billing_buy" />
+            <CheckBox android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:checked="false" android:text="@string/billing_hack_option" android:buttonTint="@color/checkboxColor" />
+            <CheckBox android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/checkBox2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:checked="false" android:text="@string/billing_hack_option2" android:buttonTint="@color/checkboxColor" />
+            <CheckBox android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/checkBox3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:checked="false" android:text="@string/inapp_emulation_auto_repeat" android:buttonTint="@color/checkboxColor" />
+            <TextView android:background="@drawable/background_gradient" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="5.0dip" android:text="" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/button_no" android:background="@drawable/button_alert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no" android:layout_weight="1.0" />
+                <Button android:id="@id/button_yes" android:background="@drawable/button_alert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Yes" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:background="@drawable/background_gradient" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="" />
+            <TextView android:textSize="16.0sp" android:textColor="#cccccccc" android:id="@id/purchaseId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/purchase_id" />
+            <ViewFlipper android:id="@id/flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:flipInterval="1000">
+                <TextView android:textSize="16.0sp" android:textColor="#fff44336" android:id="@id/blink_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/billing_hack_warning_unity" />
+                <TextView android:textSize="16.0sp" android:textColor="#fff44336" android:id="@id/blink_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/billing_hack_warning_unity" />
+            </ViewFlipper>
+            <TextView android:textSize="15.0sp" android:textStyle="normal" android:textColor="#ffffff00" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/billing_hack2_new" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

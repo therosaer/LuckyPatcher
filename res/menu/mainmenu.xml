@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/update" android:id="@id/download_custom_patches" android:title="@string/menu_download_custom_patches" />
+    <item android:icon="@drawable/update" android:id="@id/context_menu_settings_show_last_added_custom_patches" android:title="@string/context_menu_settings_show_last_added_custom_patches" />
+    <item android:icon="@drawable/update" android:id="@id/toolbar_refresh_apps" android:title="@string/toolbar_refresh_apps" />
+    <item android:icon="@drawable/settings" android:id="@id/settings" android:title="@string/settings" />
+    <item android:icon="@drawable/settings" android:id="@id/xposed_settings" android:title="@string/xposed_settings" />
+    <item android:icon="@drawable/faq" android:id="@id/truble" android:title="@string/truble" />
+    <item android:icon="@drawable/faq" android:id="@id/about" android:title="@string/aboutmenu" />
+</menu>

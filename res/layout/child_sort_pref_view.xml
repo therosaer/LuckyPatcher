@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="30.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:id="@id/radioGroupSort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_alignParentLeft="true">
+        <RadioButton android:id="@id/radioName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:checked="true" android:text="@string/sortbyname" android:drawablePadding="8.0dip" />
+        <RadioButton android:id="@id/radioStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/sortbystatus" android:drawablePadding="8.0dip" />
+        <RadioButton android:id="@id/radioTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/sortbytime" android:drawablePadding="8.0dip" />
+    </RadioGroup>
+</LinearLayout>

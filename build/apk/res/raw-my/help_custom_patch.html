@@ -1,0 +1,188 @@
+﻿
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+
+</head>
+
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#000000" style="color&#58;#ffffff">
+<hr><b style="color&#58;#FF0000">AMARAN!</b> Jangan keluarkan lompatan atau membuat ia tanpa bersyarat! Pengoptimasi akan menghempaskan dan tampalan anda pada ART tidak akan berfungsi! Untuk mengelakkan ini, gunakan lompatan bersyarat. Sebagai contoh, jika perlu untuk melompat, gantikan lompatan itu dengan <code>jika-persamaan v0,v0 (bytes&#58; 32 00 ?? ??)</code>. Jika tidak ada keperluan untuk melompat di tempat yang tertentu, anda boleh memasukkan lompatan seperti <code>jika-ne v0,v0 (bytes&#58; 33 00 ?? ??)</code>; juga berasa bebas untuk menggunakan persamaan anda sendiri.<br/><br/>
+Fail tampalan mesti mempunyai nama yang sama seperti sasaran APK (Ini adalah kes sensitif).<br/>
+Jika fail tampalan tersuai bagi aplikasi tersebut telah wujud, anda boleh secara mudah menambah pada mana-mana nama fail permulaan Teks dan simpan ia sebagai sedia ada yang berdekatan.<br/>
+Jika anda mahu menulis tampalan sekali bagi satu siri program di sebuah firma tunggal, kemudian nama akhir fail tampalan tersuai, anda boleh gunakan <code> _%25ALL%25</code>, sebagai contoh nama tampalan untuk semua undian<code> SVOX</code> akan kelihatan seperti ini&#58; <code>com.svox.classic.langpack_%25ALL%25.txt</code>. Pada<code> _%25ALL%25</code> ialah digantikan dengan bahagian nama daripada pakej, bergantung kepada firma aplikasi yang berbeza-beza.
+Jangan gunakan aksara khas/pemformatan dalam fail tampalan (ruang tunggal sahaja). Jika anda perlu untuk membuat tampalan awalan untuk beberapa program daripada satu firma dan menambah pada permulaan, anda boleh menggunakan<code>%25ALL%25_</code> dan<code> _%25ALL%25</code>. (Contoh nama&#58; <code>chelpus.%25ALL%25_com.android._%25ALL%25.txt</code>). Anda boleh menggunakan kandungan tampalan tersuai<code> %25PACKAGE_NAME%25</code> untuk laluan kepada fail, <code>%25PACKAGE_NAME%25</code> ini menggantikan nama pakej daripada sasaran aplikasi.<br/>
+Untuk mencari corak bytes untuk menggunakan IDA Pro 6.1. Ia boleh membuka dalvik-cache, odex, perpustakaan dan classes.dex.<br/>
+Jika anda mahu untuk tampal dalvik-cache atau odex, jangan lupa bahawa bytes berlainan daripada data di versi perisian tegar yang mungkin berbeza-beza. Dan pastikan ingat bahawa tidak semua bytes classes.dex bertepatan dengan dalvik-cache dan odex. Dalam contoh ini anda boleh lihat, jika anda membuka classes.dex dan fail-odex di IDA Pro.<br/>
+<br/>
+[BEGIN]<br/>
+&lt;komen penampal yang dapat dilihat oleh pengguna pra-tampalan&gt;<br/>
+Tampalan untuk XYZ Pro 5.0.5<br/>
+<br/>
+[PACKAGE]<br/>
+&lt;tidak pek classes.dex dan memakai semua tampalan dari [CLASSES] kepadanya. Dan dijanakan, berdasarkan classes.dex yang diubahsuai, fail-odex.&gt;<br/>
+<br/>
+[CLASSES]<br/>
+&lt;corak carian/menggantikan untuk classes.dex (lihat di bawah)&gt;<br/>
+<code>{"search"&#58;"63 R00 R01 R02 38 00 04 00 12 10 0F 00"}<br/>
+{"group"&#58;"1"}<br/>
+{"original"&#58;"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced"&#58;"12 00 6A W00 W01 W02 00 00 12 <b style="color&#58;#36ff00">S0</b> 0F 00"}</code><br/>
+<br/>
+[LIB]<br/>
+&lt;corak carian/menggantikan untuk menamakan perpustakaan ibunda (lihat bawah)&gt; <br/>
+<code>{"name"&#58;"libtitanium.so"}<br/>
+{"original"&#58;"00 ** 50 e2"}<br/>
+{"replaced"&#58;"00 00 50 e1"}<br/></code>
+<br/>
+[OTHER FILES]<br/>
+&lt;corak carian/menggantikan untuk menamakan fail-fail lain di /data/data/Package_Target_APK/ (lihat bawah)&gt;<br/>
+<code>{"name"&#58;"/files/shell.dex"}<br/>
+{"original"&#58;"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced"&#58;"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/></code>
+[OTHER FILES]<br/>
+&lt;corak carian/masukkan untuk menamakan fail-fail lain di /mnt/sdcard/ (jika laluan /mnt/sdcard/ tidak dijumpai, Lucky Patcher akan mencari varian yang lain untuk sdcard)&gt;<br/>
+<code>{"name"&#58;"/mnt/sdcard/Android/package-name/files/lives.xml"}<br/>
+{"original"&#58;"63 68 65 6C 70 61"}<br/>
+{"insert"&#58;"63 68 65 6c 70 61 61 61"}<br/>
+<br/></code>
+[FILE_IN_APK]<br/>
+&lt;corak carian/menggantikan fail dari fail apk (tampalan ini hanya berfungsi untuk membina semula apk dengan tampalan tersuai yang ini)&gt;<br/>
+<code>{"name"&#58;"assets/bin/Data/Managed/O7SharpCompress.dll"}<br/>
+{"original"&#58;"0F 00 00 00 1A 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+{"replaced"&#58;"0F 00 00 00 0F 00 00 00 0F 00 00 00 59 00 00 00 2F"}<br/>
+<br/></code>
+[ADD-BOOT]<br/>
+&lt;menambah tampalan pengguna semasa secara automatik ke Senarai but. Harus digunakan dalam perpustakaan tampalan (atau dalam tampalan [CLASSES] tanpa [ODEX] atau tanpa [PACKAGE])&gt;<br/>
+<br/>
+[END]<br/>
+&lt;tampal komen yang dapat dilihat oleh kiriman pengguna tampalan&gt;<br/>
+Tahniah! aplikasi telah keretakan!<br/>
+<br/>
+<code>“carian” </code> carian membolehkan anda untuk mencari corak dan kedai bytes pada kedudukan tertentu.<br/>
+<code>{"search"&#58;"<b style="color&#58;#36ff00">63 </b><b style="color&#58;#fffc00">R00 R01 R02 </b><b style="color&#58;#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/></code>
+Dalam contoh bytes hijau ini yang membentuk corak topeng anda, semasa bytes yang kuning dilabelkan R00 -> R02 akan disimpan.<br/>
+Bytes yang disimpan mestilah teratur R00, R01, R02, R03… <br/>
+Bytes yang disimpan tidak boleh diulangi.<br/>
+<br/>
+<code>"kumpulan"</code> - menandakan corak daripada kumpulan (nombor kumpulan mesti 1 atau lebih tinggi). Anda mungkin akan ditanya 'Apakah maknanya ini?'. Baiklah, apa yang dimaksudkan ialah Jika sekurang-kurangnya satu corak dari kumpulan telah berjaya, pengesahan tampalan yang berjaya akan ditunjukkan. Ini amat berguna apabila anda mencuba untuk membuat tampalan sejagat untuk beberapa versi aplikasi tertentu (sebagai contoh, tampal semua versi Google Play untuk melumpuhkan kemas kini automatik).<br/>
+<code>“asal” </code>&#45; ini adalah topeng corak digunakan untuk mencari di mana imbangan tampalan akan digunakan.<br/>
+<code>{"original"&#58;"<b style="color&#58;#36ff00">63 </b><b style="color&#58;#fffc00">?? ?? ?? </b><b style="color&#58;#36ff00">38 00 04 00 12 10 0F 00</b>"}<br/></code>
+Dalam contoh bytes hijau ini yang membentuk corak topeng anda, bytes semasa yang kuning adalah kad bebas (??, **)<br/>
+<code>“digantikan”</code> &#45; ini akan diikuti oleh kenyataan “asal”, ini ialah apa yang mengimbangi akan ditulis ganti dengan.	<br/>
+<code>{"replaced"&#58;"<b style="color&#58;#36ff00">12 00 6A </b><b style="color&#58;#fffc00">W00 W01 W02 </b><b style="color&#58;#36ff00">00 00 12 00 0F 00</b>"}<br/></code>
+Dalam contoh ini, bytes hijau akan menulis ganti lokasi sasaran.. bytes dalam kuning adalah disimpan dari bytes yang sebelum ini dilaksanakan
+“carian”<br/>
+<code>“nama”</code> &#45; ini digunakan untuk sasaran perpustakaan tertentu dengan nama (lihat di atas dalam [LIB]) <br/>
+<b style="color&#58;#36ff00">S0</b> , <b style="color&#58;#36ff00">S1</b> - menetapkan pembolehubah smali masing-masing kepada 0 atau 1.
+Sebagai contoh, terdapat pembolehubah &#58; <code>const/4 v?,0x00</code> . Tanda tanya menunjukkan, numbor <code>var\</code>'s itu ialah tidak diketahui (sebagai contoh, ia telah ditukarkan dalam versi yang terbaru), tetapi anda pastikan, bahawa var ini sama dengan 0, dan anda mahu untuk menetapkan ia kepada 1. Dalam kes corak ini akan kelihatan seperti&#58; <br/>
+<code>{"original"&#58;"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced"&#58;"12 S1 ?? ?? ?? ??"}<br/></code>
+Dan vice versa, untuk menetapkan pembolehubah kepada 0&#58;<br/>
+<code>{"original"&#58;"12 ?? ?? ?? ?? ??"}<br/>
+{"replaced"&#58;"12 S0 ?? ?? ?? ??"}<br/></code>
+<code>“ganti_fail_dari” </code>&#45; ini akan mengikut kenyataan <code>“asal” </code>, ini adalah apa yang mengimbangi akan ditulis ganti dengan bytes dari fail (fail mesti disimpan berhampiran dengan penampal tersuai).	<br/>
+<code>{"replace_from_file"&#58;"<b style="color&#58;#36ff00">array.bin</b>"}<br/></code>
+Ini dilakukan untuk mengelakkan menulis templat yang terlalu lama untuk digantikan.<br/>
+<code>“masukkan"</code> &#45; Jika anda mahu untuk memasukkan kepanjangan data yang lebih besar daripada kepanjangan corak asal. <br/>
+(Contoh)fail sebelum tampalan mengandungi&#58;<code>"chelpa end"</code><br/>
+<code>{"original"&#58;"63 68 65 6C 70 61"}<br>
+{"insert"&#58;"63 68 65 6c 70 61 61"}<br/></code>
+Fail selepas tampalan mengandungi&#58;</code>"chelpaa end"</code><br/>
+<br/>
+
+[LIB-ARMEABI],[LIB-ARMEABI-V7A],[LIB-MIPS] atau [LIB-X86] - untuk Perpustakaan dari <code>/lib/armeabi/, /lib/armeabi-v7a/, /lib/mips/, /lib/x86/</code>. <br/>
+<br/>
+[ODEX-PATCH] - Gunakan untuk tampal yang telah pun dicipta odex. Sebagai contoh, aplikasi telah ditampalkan dengan mod automatik dengan Mengalih Keluar Pengesahan Lesen, tetapi anda perlu untuk membuat pengubahan tambahan dengan menggunakan Tampalan Tersuai. Jika kita menggunakan [PACKAGE]-[CLASSES] yang mudah, [ODEX] atau [CLASSES]-[ODEX], fail-odex akan dicipta dengan tiada pengubahan dan hanya ditampalkan kemudian. <br/>Contoh&#58;<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX-PATCH]<br/>
+<code>{"original"&#58;"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced"&#58;"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[END]<br/>
+Tahniah! ODEX telah diubahsuai!<br/>
+<br/>
+[CLASSES] tanpa [PACKAGE] - Tampalan dalvik-cache aplikasi. Jangan lupa bahawa sistem kemas kini dalvik-cache aplikasi secara berkala dan semua pengubahan akan hilang. Oleh itu, kita mesti tambah [ADD-BOOT]. Tampalan untuk dalvik-cache ialah sudah lapuk, barangkali tidak boleh dipercayai. Tetapi ia diperlukan untuk ROM Toolbox, kerana ia tidak boleh berfungsi secara biasa dengan fail-odex.
+<br/>Contoh&#58;<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+<code>{"original"&#58;"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced"&#58;"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[ADD-BOOT]<br/>
+[END]<br/>
+Tahniah!<br/>
+<br/>
+[ODEX] - Salin dalvik-cache di /data/app/ dan namakan semula kepada fail-odex, kemudian menetapkan semua penampalan untuk fail-odex ini. Tambah semakan daripada odex yang akan menjadi salah dan tidak meluluskan pemeriksaan, tidak seperti fail-odex yang dicipta [PACKAGE] - [CLASSES].
+<br/>Contoh&#58;<br/>
+<br/>
+[BEGIN]<br/>
+[ODEX]<br/>
+<code>{"original"&#58;"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced"&#58;"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[END]<br/>
+Tahniah!<br/>
+<br/>
+[CLASSES]-[ODEX] - Tampalan dalvik-cache dan kemudian salin dalvik-cache di /data/app/ dan namakan semula kepada fail-odex. Tambah semakkan daripada odex dan dalvik-cache yang akan menjadi salah dan tidak meluluskan pemeriksaan, tidak seperti fail-odex yang dicipta [PACKAGE] - [CLASSES].
+<br/>Contoh&#58;<br/>
+<br/>
+[BEGIN]<br/>
+[CLASSES]<br/>
+<code>{"original"&#58;"63 ?? ?? ?? 38 00 04 00 12 10 0F 00"}<br/>
+{"replaced"&#58;"12 00 6A ?? ?? ?? 00 00 12 00 0F 00"}<br/></code>
+[ODEX]<br/>
+[END]<br/>
+Tahniah!<br/>
+<br/>
+[COMPONENT] - Dayakan atau melumpuhkan komponen Aplikasi.
+<br/>Contoh&#58;<br/>
+<br/>
+[BEGIN]<br/>
+[COMPONENT]<br/>
+<code>{"disable"&#58;"com.superApp.adsActivity"}<br/>
+{"enable"&#58;"com.superApp.fullVersion.Provider"}<br/>
+{"disable"&#58;"com.android.vending.CHECK_LICENSE"}<br/></code>
+[END]<br/>
+Tahniah!<br/>
+<br/>
+[SQLITE] - Kadang-kala sasaran aplikasi mesti menukar sesuatu dalam pangkalan data, kemudian berkemungkinan akan datang untuk bantuan ini&#58;
+<br/>Contoh&#58;<br/>
+<br/>
+[BEGIN]<br/>
+Tetapkan Semula Percubaan<br/>
+[SQLITE]<br/>
+<code>{"database"&#58;"/data/data/com.package.megaapp/databases/settings.db"}<br/>
+{"execute"&#58;"DELETE FROM table_settings WHERE name = 'SETTING__LIC'"}<br/>
+{"execute"&#58;"UPDATE table_settings SET UsedDays=0 WHERE name='Trial_set'"}<br/></code>
+[END]<br/>
+Tahniah! Tempoh Percubaan Anda telah ditetapkan semula!<br/>
+<br/>
+pangkalan data - laluan kepada pangkalan data pada Peranti, atau anda hanya boleh gunakan nama fail carian sendiri pangkalan data untuk  Lucky Patcher.<br/>
+Melaksanakan - Pertanyaan SQLite.<br/>
+<br/>
+[SET_PERMISSIONS] - Arahan analog linux "kebenaran nama_fail chmod" untuk fail dalam direktori data Aplikasi&#58;
+<br/>Contoh&#58;<br/>
+<br/>
+[BEGIN]<br/>
+Tetapkan Semula Percubaan<br/>
+SET_PERMISSIONS]<br/>
+<code>{"file_name"&#58;"/files/stats"}<br/>
+{"permissions"&#58;"777"}<br/><code>
+<br/>
+[OTHER FILES]<br/>
+<code>{"name"&#58;"/files/stats"}<br/>
+<br/>
+{"original"&#58;"4D 4D 46 31"}<br/>
+{"replaced"&#58;"00 4D 46 30"}<br/>
+<br/></code>
+[SET_PERMISSIONS]<br/>
+<code>{"file_name"&#58;"/files/stats"}<br/>
+{"permissions"&#58;"444"}<br/></code>
+</br>[END]<br/>
+Tahniah! Tempoh Percubaan Anda telah ditetapkan semula!<br/>
+<br/><hr>
+</body>
+
+</html>
+
