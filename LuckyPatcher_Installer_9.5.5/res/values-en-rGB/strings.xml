@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppTools">App info:</string>
+    <string name="P_not_found">"Program files could not be found.
+Check the dalvik cache location to solve the problem.
+Default location: /data/dalvik-cache/*"</string>
+    <string name="PatchResult">Patch results:</string>
+    <string name="Yes">Yes</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_thanks_for_this_translation">Thanks for the English translation: ChelpuS, Ms_Julia, p0izn@xda</string>
+    <string name="about_working_dir">Working directory on SD card:</string>
+    <string name="aboutlp">Lucky Patcher is a universal patching tool that is designed to modify applications. It has the ability to remove ads, remove Google license verification (automatically and manually), manage app permissions and do much more.</string>
+    <string name="aboutmenu">About</string>
+    <string name="abouttitle">About Lucky Patcher - by ChelpuS</string>
+    <string name="activity_ads_descr">"The app's activity is used for advertising."</string>
+    <string name="activity_descr">"App's activity. Description unavailable."</string>
+    <string name="additinfo">Additional info:</string>
+    <string name="adsdescr">Show all apps with Google ads.</string>
+    <string name="adstitle">Apps with ads:</string>
+    <string name="all_custom_patches_updated">All custom patches were updated.</string>
+    <string name="allchanges">All changes have been fixed in the .odex file and will persist until the application is reinstalled.</string>
+    <string name="apk_create_option">Filename for recompiled APKs:</string>
+    <string name="apk_not_found_error">APK file could not be found.</string>
+    <string name="apk_size">APK size:</string>
+    <string name="apkdescr">Naming scheme for APK files:</string>
+    <string name="apklabel">"Based on app's label"</string>
+    <string name="apkpackage">"Based on app's package name"</string>
+    <string name="app_dialog_no_root_app_control">Manage app</string>
+    <string name="app_info">App info:</string>
+    <string name="app_install_success">Application has been installed successfully.</string>
+    <string name="app_name">Lucky Patcher</string>
+    <string name="app_not_found">App could not be found. Please install the application and try again.</string>
+    <string name="back">Back</string>
+    <string name="backbutton">Backup</string>
+    <string name="backup_data_empty">The app has no data. There is nothing to backup.</string>
+    <string name="backup_data_error">Something went wrong. The backup appears incomplete or corrupted.</string>
+    <string name="backup_data_success">Settings have been saved.</string>
+    <string name="backup_delete_message">Do you really want to delete the backup?</string>
+    <string name="backup_done">"Backup successful. Path:
+"</string>
+    <string name="backups_not_found">No backup files were found in:</string>
+    <string name="begin_changelog">Installed app version is:</string>
+    <string name="billing_buy">Do you want to try and get this item for free?</string>
+    <string name="billing_hack2_auto_repeat_note">To disable auto repeat, select the app and go to Tools > Remove selected saved purchases and delete the items.</string>
+    <string name="billing_hack2_new">"For the best results, you must use a patch to Android with 'Signature verification status: true'
+ To disable the hack, go to Switches at the bottom of Lucky Patcher and choose Disable Google billing emulation."</string>
+    <string name="billing_hack_menu">Google billing emulation</string>
+    <string name="billing_hack_menu_descr">"Requires 'Support patch for in-app and LVL' to target application and applied Patch to Android. Use custom patch for Google Play for correct purchase information and price within the application."</string>
+    <string name="billing_hack_menu_disable">Disable Google billing emulation</string>
+    <string name="billing_hack_menu_enable">Enable Google billing emulation</string>
+    <string name="billing_hack_option">Send a reply to the application unsigned (this may work for unrooted users)</string>
+    <string name="billing_hack_option2">Save purchase for restore</string>
+    <string name="bind_button">Add new directory bind</string>
+    <string name="bind_delete">Do you want to remove this directory bind?</string>
+    <string name="bind_dialog_button">Bind directory</string>
+    <string name="bind_dialog_source">Directory with data:</string>
+    <string name="bind_dialog_target">Mount directory with data to:</string>
+    <string name="bind_error">Binding failed. Data directory could not be found.</string>
+    <string name="bind_source">Directory with data:</string>
+    <string name="bind_target">Mount data to:</string>
+    <string name="binder_browser">Browser</string>
+    <string name="binder_browser_create_dir">Create directory</string>
+    <string name="binder_browser_current_dir">Current directory:</string>
+    <string name="binder_browser_select">Select current directory</string>
+    <string name="binder_delete">Delete</string>
+    <string name="bootview">Boot list</string>
+    <string name="browse_to_file">Browse</string>
+    <string name="busybox_not_found">WARNING: BusyBox could not be found. Lucky Patcher cannot function without BusyBox.</string>
+    <string name="button_add_to_boot_list">Add to boot</string>
+    <string name="button_advanced_filter">Filters</string>
+    <string name="button_all">All</string>
+    <string name="button_backup_apk_apps">Backup</string>
+    <string name="button_disable_package">Disable</string>
+    <string name="button_enable_package">Enable</string>
+    <string name="button_for_delete">Delete</string>
+    <string name="button_move_to_sdcard">Move to SD card</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_icon_lp">Change icon</string>
+    <string name="change_icon_lp_descr">"You can change Lucky Patcher's icon in your launcher."</string>
+    <string name="changelog">Changelog</string>
+    <string name="checkbox_uninstall_and_instal_backup_cache">Create data and cache backups for installation.</string>
+    <string name="cleardalvik">Clear Dalvik cache and reboot</string>
+    <string name="cleardata">Clear data</string>
+    <string name="clipboard_message_for_app_dilaog_app_additional_info">Additional info copied to clipboard.</string>
+    <string name="clipboard_message_for_app_dilaog_app_info">App info copied to clipboard.</string>
+    <string name="clipboard_message_for_app_dilaog_app_permissions">Permissions copied to clipboard.</string>
+    <string name="cloneApplication">Clone application (May not work for all applications)</string>
+    <string name="collect_logs">Collecting logs</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="context_automodeslvl">Auto modes</string>
+    <string name="context_backup_apk">Backup APK file</string>
+    <string name="context_backup_apk_selected_apps">Backup selected apps:</string>
+    <string name="context_backup_data">Backup app settings</string>
+    <string name="context_batch_operations">Batch operations</string>
+    <string name="context_blockads">Block ads on device</string>
+    <string name="context_change_components_menu">"Change the app's components"</string>
+    <string name="context_clearhosts">Clear the hosts file</string>
+    <string name="context_crt_apk_permission">APK with modified permissions and activities</string>
+    <string name="context_dependencies">Remove dependencies</string>
+    <string name="context_dexopt_app">Odex this app</string>
+    <string name="context_disableActivity">Disable ad activities</string>
+    <string name="context_disableComponents">"Disable components
+ 'pm disable' method
+(May be re-enabled by the application)"</string>
+    <string name="context_disable_google_ads">Turn off Google ad services</string>
+    <string name="context_disable_package">Disable package (freeze)</string>
+    <string name="context_disable_package_for_selected_apps">Disable selected apps</string>
+    <string name="context_enable_google_ads">Turn on Google ad services</string>
+    <string name="context_enable_package">Enable package</string>
+    <string name="context_enable_package_for_selected_apps">Enable selected apps</string>
+    <string name="context_hard_apk_permission">"Change permissions
+Save original signature
+(Unstable)"</string>
+    <string name="context_hide_lp">Hide Lucky Patcher</string>
+    <string name="context_hide_lp_descr">Try to hide Lucky Patcher from other apps. Not recommended, use only if required.</string>
+    <string name="context_install">Install</string>
+    <string name="context_install_as_system">Install as a system app</string>
+    <string name="context_integrate_update_selected_apps">Integrate update to /system selected apps</string>
+    <string name="context_menu_settings_show_last_added_custom_patches">Show latest custom patches</string>
+    <string name="context_move_selected_apps_to_internal">Move selected apps to internal storage</string>
+    <string name="context_move_selected_apps_to_sdcard">Move selected apps to SD card</string>
+    <string name="context_rebuild">Rebuild</string>
+    <string name="context_removeAds">Patch to remove Google ads</string>
+    <string name="context_remove_saved_purchaces">Remove selected saved purchases</string>
+    <string name="context_resign_app">Resign with test signature.</string>
+    <string name="context_restore_apk">Reinstall APK file</string>
+    <string name="context_restore_data">Restore app settings</string>
+    <string name="context_safe_apk_permission">"Change permissions and activities
+Rebuild and install"</string>
+    <string name="context_safe_sign_apk_permission">"Change permissions and activities
+Save original signature (Safe method)"</string>
+    <string name="context_support_patch">Support patch for in-app and LVL emulation</string>
+    <string name="context_tools">Tools</string>
+    <string name="context_trouble_enable_playprotect">Enable Play Protect</string>
+    <string name="context_unblockads">Unblock ads on device</string>
+    <string name="context_uninstall_if_installed">Reinstall</string>
+    <string name="context_uninstall_selected_apps">Uninstall selected user apps</string>
+    <string name="contextads">Remove Google ads</string>
+    <string name="contextbackup">Backup</string>
+    <string name="contextblockfileads">Remove links from APK</string>
+    <string name="contextblockfileads_descr">Remove http links using AdsBlockList_user_edit.txt and AdsBlockList.txt files.</string>
+    <string name="contextboot">"Patch on reboot
+(Unstable - only for patching libs)"</string>
+    <string name="contextbootads">Remove Google ads</string>
+    <string name="contextbootcustom">Custom patch</string>
+    <string name="contextbootlvl">Remove license verification</string>
+    <string name="contextcorepatch1">Signature verification status: always true</string>
+    <string name="contextcorepatch1_descr">Necessary for In-app, LVL and keygen emulations. Required for correct verification of purchases and licenses.</string>
+    <string name="contextcorepatch2">Disable APK signature verfication</string>
+    <string name="contextcorepatch2_descr">Allows the modification of an application without touching the original signature. Other users can install this APK only after applying a patch to the Android Core (useful for translating, modifying graphics and etc. in protected applications).</string>
+    <string name="contextcorepatch3">Disable signature verification in the package manager</string>
+    <string name="contextcorepatch3_descr">Allows the installation of applications with different signatures on top of each other.</string>
+    <string name="contextcorepatch3_descr_plus">Allows the installations of applications with older versions than ones that are already installed.</string>
+    <string name="contextcorepatch4">Support patch for in-app and LVL emulation</string>
+    <string name="contextmultipatch">Multi patch</string>
+    <string name="contextmultipatchrebuild">APK with multi patch</string>
+    <string name="contextpattads4_descr">Other patches which can be useful for removing ads.</string>
+    <string name="contextpattlvl2_descr">There are a few differences from \"Auto Mode\". It might help you if \"Auto Mode\" was unsuccessful.</string>
+    <string name="contextpattlvl3_descr">Additional patches that may cause instability. Apply only if other patterns were unsuccessful. Requires internet. Try to use together with \"Auto Mode\" or \"Auto Mode (Inversed)\".</string>
+    <string name="create_clone_option1">Only modify AndroidManifest.xml</string>
+    <string name="create_clone_option1_descr">This does not work for all applications. If the clone is not installed, you will need to remove the original. If this does not work, try creating a clone using another method.</string>
+    <string name="create_clone_option2">Modify AndroidManifest.xml, resources and classes.dex.</string>
+    <string name="create_clone_option2_descr">This does not work for all applications. This attempts to change the resources and classes.dex file. Such a clone would make it isolated from the original.</string>
+    <string name="custom_patch_log_next_custom_patch">Run next custom patch</string>
+    <string name="custom_patch_log_offset">Offset</string>
+    <string name="custom_patch_log_or_patch_is_already_applied">or patch is already applied.</string>
+    <string name="custom_patch_log_patch_done">Patch complete!</string>
+    <string name="custom_patch_log_patch_for">Patch for</string>
+    <string name="custom_patch_log_patch_for_libraries">Patch for libraries</string>
+    <string name="custom_patch_log_patch_on_reboot_added">Patch on reboot added!</string>
+    <string name="custom_patch_log_pattern">Pattern</string>
+    <string name="custom_patch_log_pattern_not_found">Pattern not found,</string>
+    <string name="custom_patch_log_search_bytes">Bytes by search</string>
+    <string name="custom_patch_log_search_bytes_error">Bytes not found!</string>
+    <string name="custom_patch_log_skip_patch_for_build">Skip patch for build</string>
+    <string name="custom_patch_result_all_dont_patch">Custom patch is not available for this version of the program, or the program has already been patched.</string>
+    <string name="custom_patch_result_not_all_patches_apply">Not all patterns are replaced, but the program can still work. Test it!</string>
+    <string name="dialog_end_resign_app">%1$s has successfully been signed by a test signature. Resigned file is located in %2$s.</string>
+    <string name="dont_send_log_lp_modified">Your Lucky Patcher has been modified. You cannot send logs.</string>
+    <string name="dont_send_log_please_update_lp">Please update Lucky Patcher to the latest version to send logs.</string>
+    <string name="error_app_installed_on_sdcard">Lucky Patcher must be installed to internal memory, not your SD card. Otherwise, some features may not work properly.</string>
+    <string name="error_create_join_custom_patch">"Could not create the file join_patch.txt.
+You may not have write permissions to the patch folder."</string>
+    <string name="error_delete_join_custom_patch">"Could not delete the file join_patch.txt.
+Delete the file or patch folder manually."</string>
+    <string name="error_get_classes_files_for_patch">Could not get classes.dex file for patching.</string>
+    <string name="error_import_custom_patch">Lucky Patcher cannot import the custom patch. The zip archive appears to be damaged.</string>
+    <string name="extpat2">objects have license verification:</string>
+    <string name="final_market_message">Google Play has been installed. Now, code.jar will be patched and your device will reboot. Continue?</string>
+    <string name="generate_log_error_message">There was an error creating a log.</string>
+    <string name="generate_log_for_conscrypt_jar_fix_android_patches">"Create log file for conscrypt.jar
+('Patch to Android')"</string>
+    <string name="generate_log_for_core.jar_fix_android_patches">"Create log file for core-libart.jar
+('Patch to Android')"</string>
+    <string name="generate_log_for_services.odex_fix_android_patches">"Create log file for services.jar
+('Patch to Android')"</string>
+    <string name="generate_log_result_message_conscrypt.jar">"Log has been created and is stored in /sdcard/conscrypt.oat.txt. Save the file to a cloud service or create a compressed zip file. Email it to me at lp.chelpus@gmail.com.
+File size:"</string>
+    <string name="generate_log_result_message_core.jar">"Log has been created and is stored in /sdcard/boot.oat.txt. Save the file to a cloud service or create a compressed zip file. Email it to me at lp.chelpus@gmail.com.
+File size:"</string>
+    <string name="generate_log_result_message_services.odex">"Log has been created and is stored in /sdcard/service.odex.txt. Save the file to a cloud service or create a compressed zip file. Email it to me at lp.chelpus@gmail.com.
+File size:"</string>
+    <string name="goodresult">"% Luck!
+Please run this application to test the patch!
+
+If the application doesn't work, please reinstall it and do not try to patch this version of it."</string>
+    <string name="import_to_lucky_patcher">Import to Lucky Patcher</string>
+    <string name="lp_import_custom_patches">Lucky Patcher imported these custom patches and files.</string>
+    <string name="message_error_file_apk_for_install_corrupt">The install file is corrupted.</string>
+    <string name="message_for_uninstall_and_install">Do you really want to delete %1$s and install the selected application version?</string>
+    <string name="multipatch_next_step">Next step</string>
+    <string name="need_select_custom_patch">Please select one or more custom patches.</string>
+    <string name="next_custom_patch">Description for next custom patch</string>
+    <string name="not_supported_android_patch">"Not supported, working 'as-is'"</string>
+    <string name="option_remove_ads">Remove ads from LP</string>
+    <string name="option_remove_ads_descr">Remove ads from About and Changelog.</string>
+    <string name="patch_step7">Packing files into APK file...</string>
+    <string name="pattern1">Patch Pattern N1 succeeded.</string>
+    <string name="pattern1_f">Patch Pattern N1 failed.</string>
+    <string name="pattern2">Patch Pattern N2 succeeded.</string>
+    <string name="pattern2_f">Patch Pattern N2 failed.</string>
+    <string name="pattern3">Patch Pattern N3 succeeded.</string>
+    <string name="pattern3_f">Patch Pattern N3 failed.</string>
+    <string name="pattern4">Patch Pattern N4 succeeded.</string>
+    <string name="pattern4_f">Patch Pattern N4 failed.</string>
+    <string name="pattern5">Patch Pattern N5 succeeded.</string>
+    <string name="pattern5_f">Patch Pattern N5 failed.</string>
+    <string name="pattern6">Patch Pattern N6 succeeded.</string>
+    <string name="pattern6_f">Patch Pattern N6 failed.</string>
+    <string name="pattern7">Patch Pattern N7 succeeded.</string>
+    <string name="pattern7_f">Patch Pattern N7 failed.</string>
+    <string name="play_protect_warning">"Google Play Protect often defines Lucky Patcher as a harmful app, but it isn't. To remove these warnings, go to Play Store > Play Protect > Disable 'Scan device for security threats'."</string>
+    <string name="play_protect_warning2">"Many websites share fake Lucky Patcher apps. We would like you to share our official download link on your blog or YouTube videos.
+Official download link: https://www.luckypatchers.com/download/"</string>
+    <string name="search_menu_title">Search</string>
+    <string name="setting_confirm_exit_descr">If you press back, Lucky Patcher will ask for confirmation to exit the app.</string>
+    <string name="statbilling">In App Purchases found.</string>
+    <string name="statcustom">Custom patch available.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="switchers_service_not_found">Service not found.</string>
+    <string name="title_for_select_backup_apk_package">Select apps to backup:</string>
+    <string name="title_for_select_disable_package">Select apps to disable:</string>
+    <string name="title_for_select_enable_package">Select apps to enable:</string>
+    <string name="title_select_custom_patch">Select custom patches</string>
+    <string name="troubleshooting_supersu_namespace_separation">"Disable option 'mount namespace separation' in SuperSU/root app.
+(Will reboot.)"</string>
+    <string name="uninstall">Do you really want to uninstall this app?</string>
+    <string name="warning_for_unstall_apk_from_import_file">Imported archive contains an APK file. Do you want to install %1$s with version %2$s and build %3$s?</string>
+    <string name="warning_force_close_please_update_lp">Lucky Patcher has crashed. Please update Lucky Patcher to the latest version.</string>
+    <string name="warning_jex_optimised_firmware">Your firmware has a jex optimisation. Firmware patch is not possible. Change your firmware or upgrade to Android 5+.</string>
+    <string name="warning_message_browser_not_found">A browser on this device could not be found to open the web link.</string>
+    <string name="warning_multipatch_not_select">No patches are selected.</string>
+    <string name="warning_superSu_mount_name_space_separation_3">"Don't show this dialog again."</string>
+</resources>

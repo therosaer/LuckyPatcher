@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textSystem" android:paddingTop="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+    <ProgressBar android:id="@id/progressBarSystem" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/textSystem" style="?android:progressBarStyleHorizontal" />
+    <TextView android:id="@id/textData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progressBarSystem" />
+    <ProgressBar android:id="@id/progressBarData" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/textData" style="?android:progressBarStyleHorizontal" />
+    <ScrollView android:id="@id/systembodyscroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/buttonOk" android:layout_below="@id/progressBarData">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="17.0dip" android:id="@id/messageText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="" />
+        </RelativeLayout>
+    </ScrollView>
+    <Button android:id="@id/buttonOk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Ok" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

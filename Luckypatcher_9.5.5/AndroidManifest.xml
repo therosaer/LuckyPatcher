@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" android:installLocation="internalOnly" package="ru.aaaaaadz.installer" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT"/>
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:maxSdkVersion="23" android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-feature android:name="android.hardware.location.network"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-feature android:name="android.software.leanback" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:banner="@drawable/ic_launcher" android:debuggable="false" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="Luсky_Pаtcher  " android:largeHeap="true" android:name="ru.uxfsozfx.gxflsdeqk.App" android:networkSecurityConfig="@xml/network_config" android:requestLegacyExternalStorage="true" android:testOnly="false" android:theme="@style/Theme.MyTheme">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="Luсky_Pаtcher  "/>
+        <meta-data android:name="xposedminversion" android:value="53"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="android.support" android:value="\@$#"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|locale|orientation|screenSize" android:exported="true" android:label="Luсky_Pаtcher  " android:launchMode="singleTask" android:name="ru.uxfsozfx.gxflsdeqk.MainActivity" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="application/vnd.luckypatcher.archive"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="*" android:mimeType="*/*"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:pathPattern=".*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="*" android:scheme="http"/>
+                <data android:host="*" android:scheme="https"/>
+                <data android:pathPattern=".*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.lpzip"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="*" android:mimeType="*/*"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:pathPattern=".*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="*" android:scheme="http"/>
+                <data android:host="*" android:scheme="https"/>
+                <data android:pathPattern=".*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.apks"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="*" android:mimeType="*/*"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:pathPattern=".*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="*" android:scheme="http"/>
+                <data android:host="*" android:scheme="https"/>
+                <data android:pathPattern=".*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.@$#"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="true" android:icon="@drawable/ic_launcher" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity1" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcher2" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity10" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcher3" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity2" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcher4" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity3" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcher5" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity4" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcher6" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity5" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcher7" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity6" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:icon="@mipmap/ic_launcher8" android:label="Luсky_Pаtcher  " android:name="ru.uxfsozfx.gxflsdeqk.MainActivity7" android:targetActivity="ru.uxfsozfx.gxflsdeqk.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:name="ru.uxfsozfx.gxflsdeqk.InstallApp"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|locale|orientation|screenSize" android:launchMode="singleInstance" android:name="ru.uxfsozfx.gxflsdeqk.SetPrefs" android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|locale|orientation|screenSize" android:launchMode="singleInstance" android:name="ru.uxfsozfx.gxflsdeqk.BinderActivity" android:stateNotNeeded="true"/>
+        <activity android:configChanges="keyboardHidden|locale|orientation|screenSize" android:name="com.google.android.finsky.billing.iab.BuyActivity" android:theme="@style/buydialogstyle"/>
+        <receiver android:name="ru.uxfsozfx.gxflsdeqk.PackageChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.uxfsozfx.gxflsdeqk.OnAlarmReceiver">
+            <intent-filter>
+                <action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.uxfsozfx.gxflsdeqk.BinderBootReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED"/>
+                <action android:name="android.intent.action.MEDIA_SCANNER_STARTED"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_EJECT"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_REMOVED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ru.uxfsozfx.gxflsdeqk.OnBootReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"/>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"/>
+                <action android:name="android.intent.action.UMS_DISCONNECTED"/>
+                <action android:name="android.intent.action.POWER_DISCONNECTED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:name="ru.uxfsozfx.gxflsdeqk.NotificationService"/>
+        <service android:enabled="true" android:name="ru.uxfsozfx.gxflsdeqk.PatchService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.google.android.finsky.billing.iab.InAppBillingService">
+            <intent-filter android:priority="2147483647">
+                <action android:name="com.android.vending.billing.InAppBillingService.COIN"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIO"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.LUCM"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.PROX"/>
+                <action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/>
+                <action android:name="ru.uxfsozfx.gxflsdeqk"/>
+                <action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.INST"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.google.android.finsky.services.LicensingService" android:permission="com.android.vending.CHECK_LICENSE">
+            <intent-filter android:priority="2147483647">
+                <action android:name="ru.uxfsozfx.gxflsdeqk.service"/>
+            </intent-filter>
+        </service>
+        <receiver android:label="LP - Proxy for Google Play" android:name="com.ui.widgets.proxyGP_widget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.ui.widgets.proxyGP_widget.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.ui.widgets.proxyGP_widget.ACTION_WIDGET_RECEIVER_Updater"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/proxy_gp_widget_provider"/>
+        </receiver>
+        <receiver android:label="LP - LVL emulation" android:name="com.ui.widgets.lvl_widget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.ui.widgets.lvl_widget.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.ui.widgets.lvl_widget.ACTION_WIDGET_RECEIVER_Updater"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/lvl_widget_provider"/>
+        </receiver>
+        <receiver android:label="LP - InApp emulation" android:name="com.ui.widgets.inapp_widget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.ui.widgets.inapp_widget.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.ui.widgets.inapp_widget.ACTION_WIDGET_RECEIVER_Updater"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/inapp_widget_provider"/>
+        </receiver>
+        <receiver android:enabled="true" android:label="LP - Patches to Android" android:name="com.ui.widgets.AndroidPatchWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/android_patch_widget_info"/>
+        </receiver>
+        <activity android:name="com.ui.widgets.BinderWidgetConfigureActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:label="LP - ON/OFF directory bind" android:name="com.ui.widgets.BinderWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.ui.widgets.BinderWidget.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.ui.widgets.BinderWidget.ACTION_WIDGET_RECEIVER_Updater"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/binder_widget_info"/>
+        </receiver>
+        <activity android:name="com.ui.widgets.AppDisablerWidgetConfigureActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:label="LP - Application enabler/disabler" android:name="com.ui.widgets.AppDisablerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.ui.widgets.AppDisablerWidget.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.ui.widgets.AppDisablerWidget.ACTION_WIDGET_RECEIVER_Updater"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/app_disabler_widget"/>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="com.ui.TestService">
+            <intent-filter android:priority="2147483647">
+                <action android:name="com.ui.ITestServiceInterface.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.chelpus.TransferFilesService" android:process=":transferservices">
+            <intent-filter android:priority="2147483647">
+                <action android:name="com.chelpus.TransferFilesService.ITransferFilesServiceInterface.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.chelpus.RootlessInstallService"/>
+        <provider android:authorities="ru.uxfsozfx.gxflsdeqk.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_path"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:name="com.startapp.sdk.adsbase.consent.ConsentActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.startapp.sdk.ads.list3d.List3DActivity" android:theme="@android:style/Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:name="com.startapp.sdk.ads.interstitials.OverlayActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:name="com.unity3d.services.ads.adunit.AdUnitActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="false" android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="false" android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    </application>
+</manifest>

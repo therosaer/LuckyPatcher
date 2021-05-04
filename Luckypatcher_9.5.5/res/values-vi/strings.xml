@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppTools">Thông tin ứng dụng:</string>
+    <string name="P_not_found">"Lỗi: Không tìm thấy tệp tin!
+Kiểm tra vị trí của dalvik-cache để giải quyết vấn đề!
+Mặc định: /data/dalvik-cache/*"</string>
+    <string name="PatchResult">Kết quả bản vá</string>
+    <string name="Yes">Có</string>
+    <string name="abc_action_bar_home_description">Chỉ đường về nhà</string>
+    <string name="abc_action_bar_up_description">Di chuyển lên</string>
+    <string name="abc_action_menu_overflow_description">Tùy chọn khác</string>
+    <string name="abc_action_mode_done">Xong</string>
+    <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
+    <string name="abc_activitychooserview_choose_application">Chọn một ứng dụng</string>
+    <string name="abc_capital_off">TẮT</string>
+    <string name="abc_capital_on">BẬT</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Tìm kiếm…</string>
+    <string name="abc_searchview_description_clear">Xóa truy vấn</string>
+    <string name="abc_searchview_description_query">Truy vấn tìm kiếm</string>
+    <string name="abc_searchview_description_search">Tìm kiếm</string>
+    <string name="abc_searchview_description_submit">Gửi truy vấn</string>
+    <string name="abc_searchview_description_voice">Tìm kiếm bằng giọng nói</string>
+    <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
+    <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
+    <string name="abc_toolbar_collapse_description">Thu gọn</string>
+    <string name="about_thanks_for_this_translation">Cảm ơn về phần dịch tiếng Việt: 0, ChelpuS, Orecahaha, long2k3pro</string>
+    <string name="about_working_dir">Thư mục lưu trên thẻ SD:</string>
+    <string name="aboutlp">Lucky Patcher là một công cụ vá đa dụng. Mục đích của nó là sửa đổi ứng dụng: Loại bỏ quảng cáo, Loại bỏ Xác nhận Giấy phép của Google (Tự động hoặc thủ công), Quản lý quyền hạn, và nhỉều hơn nữa.</string>
+    <string name="aboutmenu">Giới thiệu</string>
+    <string name="abouttitle">Thông tin Lucky Patcher</string>
+    <string name="activity_ads_descr">Hoạt động của ứng dụng dùng để quảng cáo</string>
+    <string name="activity_descr">Hoạt động của ứng dụng. Không có mô tả.</string>
+    <string name="additinfo">Thông tin thêm:</string>
+    <string name="adsdescr">Hiện mọi ứng dụng có Google Ads</string>
+    <string name="adstitle">Ứng dụng có quảng cáo</string>
+    <string name="advanced_menu">Menu các bản vá</string>
+    <string name="all_custom_patches_updated">Tất cả các bản vá đã được cập nhật</string>
+    <string name="allchanges">Tất cả các thay đổi đã được sửa trong tệp ODEX, sẽ có tác dụng cho đến khi ứng dụng bị cài đặt lại.</string>
+    <string name="android_patches_dialog_header1">Bản vá cho Android</string>
+    <string name="android_patches_dialog_header2">Khôi phục firmware sau các lần vá</string>
+    <string name="android_patches_dialog_remove_patch_3">Xóa các bản vá \"%1s\"</string>
+    <string name="android_patches_dialog_remove_patches_1_and_2" formatted="false">Xóa các bản vá lỗi \"%1s\" và \"%2s\"</string>
+    <string name="android_patches_dialog_use_magisk_module_for_patches">Sử dụng mô-đun Magisk để áp dụng bản vá</string>
+    <string name="android_patches_for_bootlist">Bản vá Android tới Dalvik -cache</string>
+    <string name="android_patches_for_bootlist_status">Áp dụng lại các bản vá android khi khởi động</string>
+    <string name="apk_create_option">Tên tập tin cho các tệp APK đã dựng lại</string>
+    <string name="apk_not_found_error">Lỗi: Không tìm thấy tệp APK</string>
+    <string name="apk_size">Kích cỡ tệp APK:</string>
+    <string name="apkdescr">Đặt tên cho tệp APK mới</string>
+    <string name="apklabel">Dựa trên nhãn của ứng dụng</string>
+    <string name="apkpackage">Dựa trên tên gói của ứng dụng</string>
+    <string name="app_dialog_no_root_app_control">Quản lý ứng dụng</string>
+    <string name="app_disabler_widget_pkg_not_found">Ứng dụng đã được gỡ cài đặt</string>
+    <string name="app_info">Thông tin ứng dụng</string>
+    <string name="app_info_apk_is_splitted">Tập tin Apk bị tách</string>
+    <string name="app_install_success">Ứng dụng đã cài đặt thành công</string>
+    <string name="app_name">Lucky Patcher</string>
+    <string name="app_not_found">Không tìm thấy ứng dụng! Vui lòng cài đặt ứng dụng và thử lại.</string>
+    <string name="app_not_found_adapter">Không thể tìm thấy ứng dụng này trong danh sách các ứng dụng đã được cài đặt.</string>
+    <string name="apps_not_found">Không tìm thấy gì .</string>
+    <string name="appwidget_text">VÍ DỤ</string>
+    <string name="back">Quay lại</string>
+    <string name="backbutton">Sao lưu</string>
+    <string name="backup_data_empty">Dữ liệu Ứng dụng trống . Không có gì để sao lưu .</string>
+    <string name="backup_data_error">Đã xảy ra lỗi. Dữ liệu gần như không được khôi phục hoàn toàn.</string>
+    <string name="backup_data_success">Đã lưu thiết lập thành công.</string>
+    <string name="backup_delete_message">Bạn xác thực muốn xóa bản sao lưu này?</string>
+    <string name="backup_done">"Sao lưu thành công. Đường dẫn:
+"</string>
+    <string name="backup_settings_delete_message">Bạn có thực sự muốn xóa sao lưu cài đặt ứng dụng không</string>
+    <string name="backup_settings_error_message">Không thể khôi phục cài đặt ứng dụng vì nó không được cài đặt.</string>
+    <string name="backup_settings_restore_message">Bạn có thực sự muốn khôi phục sao lưu cài đặt ứng dụng</string>
+    <string name="backups_not_found">Không thấy tập tin sao lưu trong:</string>
+    <string name="bad_root_detected">Root không ổn định. Hãy thử lại hoặc cập nhật root của bạn. Hãy thử thay đổi phương thức java-root trong cài đặt của Lucky Patcher. Nó đôi khi có thể trợ giúp.</string>
+    <string name="begin_changelog">Phiên bản đã cài đặt:</string>
+    <string name="billing_buy">Bạn có muốn thử lấy mặt hàng này miễn phí?</string>
+    <string name="billing_hack2_auto_repeat_note">Để vô hiệu hoá tự động lặp, bạn phải chọn ứng dụng và đi tới \"Công cụ\"->\"Loại bỏ các giao dịch đã lưu\" và xoá mục đó.</string>
+    <string name="billing_hack2_new">"- Để đạt kết quả tốt nhất bạn phải áp dụng bản vá cho Android \"Trạng thái hệ Xác thực Chữ ký luôn là Đúng\";
+- Để vô hiệu bản hack này. vào \"Công tắc\" trên thanh panel bên dưới của Lucky Patcher và chọn \"Vô hiệu hoá giả lập thanh toán Google\""</string>
+    <string name="billing_hack_menu">Giả lập Google Billing</string>
+    <string name="billing_hack_menu_descr">Yêu cầu \"Bản vá hỗ trợ cho InApp và LVL\" để nhắm mục tiêu ứng dụng và áp dụng \"Patch cho Android\" . Sử dụng bản vá tùy chỉnh \"Support.InApp.LVL...\" cho Google Play cho đúng thông tin mua hàng và giá cả trong ứng dụng .</string>
+    <string name="billing_hack_menu_disable">Tắt giả lập Google Billing</string>
+    <string name="billing_hack_menu_enable">Bật giả lập Google Billing</string>
+    <string name="billing_hack_option">Gửi phản hồi cho các ứng dụng mà chưa được kí (có thể dùng cho máy chưa root)</string>
+    <string name="billing_hack_option2">Lưu giấy phép của phục hồi</string>
+    <string name="billing_hack_warning_unity" formatted="false">Nếu giao dịch mua không thành công, hãy thử thay đổi loại giao dịch mua này trong \"%1s\" -> \"%2s\".</string>
+    <string name="billing_proxy_server_for_support_patch_descr">Dịch vụ này là cần thiết cho \"Bản vá hỗ trợ cho mô phỏng InApp và LVL\" và xây dựng lại ứng dụng với nó.</string>
+    <string name="billing_proxy_server_for_support_patch_inapp">Máy chủ proxy để mô phỏng mua hàng InApp</string>
+    <string name="billing_proxy_server_for_support_patch_lvl">Máy chủ proxy để mô phỏng kiểm tra giấy phép</string>
+    <string name="bind_button">Thêm mới!</string>
+    <string name="bind_delete">Bạn muốn gỡ bỏ liên kết thư mục này?</string>
+    <string name="bind_dialog_button">Liên kết</string>
+    <string name="bind_dialog_source">Thư mục muốn liên kết:</string>
+    <string name="bind_dialog_target">Gắn thư mục bên trên đến:</string>
+    <string name="bind_error">Liên kết thất bại! Thư mục dữ liệu không thể được tìm thấy trên thiết bị .</string>
+    <string name="bind_source">Thư mục dữ liệu muốn liên kết:</string>
+    <string name="bind_target">Gắn dữ liệu tới:</string>
+    <string name="binder_browser">Duyệt</string>
+    <string name="binder_browser_create_dir">Tạo thư mục</string>
+    <string name="binder_browser_current_dir">Thư mục hiện tại:</string>
+    <string name="binder_browser_select">Chọn thư mục hiện tại:</string>
+    <string name="binder_delete">Xóa</string>
+    <string name="bootview">Bootlist</string>
+    <string name="browse_to_file">Truy cập</string>
+    <string name="busybox_not_found">Cảnh báo: Không tìm thấy Busybox. Lucky Patcher không thể tiếp tục mà không có Busybox...</string>
+    <string name="button_add_to_boot_list">Thêm vào boot</string>
+    <string name="button_advanced_filter">Lọc</string>
+    <string name="button_all">Tất cả</string>
+    <string name="button_backup_apk_apps">Sao lưu</string>
+    <string name="button_block_internet">Chặn Internet</string>
+    <string name="button_disable_package">Vô hiệu hoá</string>
+    <string name="button_enable_package">Bật</string>
+    <string name="button_for_delete">Xóa</string>
+    <string name="button_for_uninstall_intsaller">Bắt đầu gỡ cài đặt trình cài đặt</string>
+    <string name="button_integrate_update_apps">Tích hợp</string>
+    <string name="button_move_to_internal">"Di chuyển tới
+bộ nhớ trong"</string>
+    <string name="button_move_to_sdcard">Chuyển tới thẻ nhớ</string>
+    <string name="button_resign_app">Ký lại</string>
+    <string name="button_unblock_internet">Bỏ chặn internet</string>
+    <string name="button_uninstall_apps">Gỡ cài đặt</string>
+    <string name="cancel">Hủy</string>
+    <string name="change_icon_lp">Đổi biểu tượng</string>
+    <string name="change_icon_lp_descr">Bạn có thể đổi biểu tượng mặc định cho Lucky Patcher trong trình khởi chạy của bạn.</string>
+    <string name="changelog">Changelog</string>
+    <string name="checkbox_uninstall_and_instal_backup_cache">Sao lưu data và cache cho việc cài đặt.</string>
+    <string name="cleardalvik">Xóa Dalvik-cache và khởi động lại</string>
+    <string name="cleardata">Xóa dữ liệu</string>
+    <string name="clipboard_message_for_app_dilaog_app_additional_info">Thông tin thêm đã được sao chép tới clipboard</string>
+    <string name="clipboard_message_for_app_dilaog_app_info">Thông tin ứng dụng đã được sao chép tới clipboard</string>
+    <string name="clipboard_message_for_app_dilaog_app_permissions">Các quyền đã được sao chép tới clipboard</string>
+    <string name="cloneApplication">Nhân bản ứng dụng (không hoạt động với mọi ứng dụng)</string>
+    <string name="close">Đóng</string>
+    <string name="collect_logs">Đang thu thập log...</string>
+    <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại.</string>
+    <string name="context_automodeslvl">Chế độ tự động</string>
+    <string name="context_backup_apk">Sao lưu tệp .apk</string>
+    <string name="context_backup_apk_selected_apps">Sao lưu file apk của các ứng dụng đã chọn</string>
+    <string name="context_backup_data">Sao lưu thiết lập ứng dụng</string>
+    <string name="context_batch_operations">Hoạt động hàng loạt</string>
+    <string name="context_block_internet_selected_apps">"Chặn internet cho ứng dụng được chọn
+Có thẻ không hoạt động trên Android 4+"</string>
+    <string name="context_blockads">Chặn Quảng cáo trên thiết bị</string>
+    <string name="context_change_components_menu">Thay đổi thành phần của Ứng dụng</string>
+    <string name="context_clearhosts">"Xóa tệp tin 'hosts'"</string>
+    <string name="context_crt_apk_permission">APK với quyền và hoạt động đã được thay đổi</string>
+    <string name="context_dependencies">Gỡ bỏ phần phụ thuộc</string>
+    <string name="context_dex_verification_kill_option">Loại bỏ kiểm tra tính toàn vẹn và xác minh chữ ký</string>
+    <string name="context_dex_verification_kill_option_describe">Chèn mã vào ứng dụng để vượt qua kiểm tra dex và xác minh chữ ký. Phương pháp này tăng gấp đôi kích thước của ứng dụng.</string>
+    <string name="context_dexopt_app">Odex ứng dụng này</string>
+    <string name="context_disableActivity">Vô hiệu hóa hoạt động quảng cáo</string>
+    <string name="context_disableComponents">"Vô hiệu hoá thành phần
+phương thức 'pm disable'
+(có thể được bật bởi ứng dụng)"</string>
+    <string name="context_disable_google_ads">Tắt dịch vụ Google Ads</string>
+    <string name="context_disable_package">Vô hiệu hóa gói (Đóng băng)</string>
+    <string name="context_disable_package_for_selected_apps">Vô hiệu hoá ứng dụng đã chọn</string>
+    <string name="context_enable_google_ads">Bật lại dịch vụ Google Ads</string>
+    <string name="context_enable_package">Kích hoạt gói</string>
+    <string name="context_enable_package_for_selected_apps">Bật cho ứng dụng đã chọn</string>
+    <string name="context_hard_apk_permission">"Thay đổi quyền hạn
+Lưu giữ chữ ký gốc.
+(Phương pháp không ổn định)"</string>
+    <string name="context_hide_lp">Ẩn Lucky Patcher</string>
+    <string name="context_hide_lp_descr">Hãy thử giấu Lucky Patcher khỏi những ứng dụng khác. Có thể gây ảnh hưởng đến hệ thông, chỉ kích hoạt nếu cần.</string>
+    <string name="context_install">Cài đặt</string>
+    <string name="context_install_as_system">Cài đặt như một ứng dụng hệ thống</string>
+    <string name="context_integrate_dalvik">Tích họp dalvik code vào ứng dụng đã cài đặt</string>
+    <string name="context_integrate_update_selected_apps">Tích hợp cập nhật cho các ứng dụng đã chọn trên /system</string>
+    <string name="context_menu_settings_show_last_added_custom_patches">Hiện bản vá tuỳ chỉnh vừa mới thêm vào</string>
+    <string name="context_move_selected_apps_to_internal">Di chuyển các ứng dụng đã chọn vào bộ nhớ máy</string>
+    <string name="context_move_selected_apps_to_sdcard">Di chuyển các ứng dụng đã chọn vào thẻ SD</string>
+    <string name="context_original_resign_app">Ký lại bằng chữ ký gốc cho bản vá lỗi \"%1s\".</string>
+    <string name="context_patch_framework">Tập tin Patch framework</string>
+    <string name="context_purchases_sorter">Bộ phân loại mua hàng</string>
+    <string name="context_rebuild">Dựng lại</string>
+    <string name="context_removeAds">Vá để loại bỏ Google Ads</string>
+    <string name="context_remove_patch_boot">Loại bỏ bản vá khi khởi động lại máy</string>
+    <string name="context_remove_saved_purchaces">Gỡ bỏ những mục mua đã lưu</string>
+    <string name="context_resign_app">Kí lại với phép kiểm tra chữ ký.</string>
+    <string name="context_restore_apk">Cài đặt lại tệp .apk</string>
+    <string name="context_restore_data">Khôi phục cài đặt ứng dụng</string>
+    <string name="context_safe_apk_permission">"Thay đổi quyền hạn và hoạt động
+Dựng lại ứng dụng rồi cài đặt"</string>
+    <string name="context_safe_sign_apk_permission">"Thay đổi quyền hạn và hoạt động
+Lưu giữ chữ ký gốc (Phương pháp an toàn)"</string>
+    <string name="context_signature_verification_kill_option">Xác minh chữ ký killer</string>
+    <string name="context_signature_verification_kill_option_describe">Chèn mã vào ứng dụng để đánh lừa xác minh chữ ký của ứng dụng. Nó phải được áp dụng nghiêm ngặt cho ứng dụng ban đầu. Nếu ứng dụng đã được xây dựng lại, điều này không những không giúp ích được gì mà còn có thể gây hại nếu tùy chọn đã được triển khai thành công.</string>
+    <string name="context_support_patch">Bản vá hỗ trợ cho giả lập InApp và LVL</string>
+    <string name="context_tools">Công cụ</string>
+    <string name="context_trouble_enable_playprotect">Kích hoạt \"Play protect\"</string>
+    <string name="context_trouble_run_playprotect_dialog">Mở hộp thoại \"Play Protect\"</string>
+    <string name="context_unblock_internet_selected_apps">"Mở khóa Internet cho các ứng dụng được chọn
+Có thể không làm việc trong Android 4+"</string>
+    <string name="context_unblockads">Bỏ chặn quảng cáo trên thiết bị</string>
+    <string name="context_uninstall_if_installed">Gỡ cài đặt và cài đặt</string>
+    <string name="context_uninstall_selected_apps">Gỡ bỏ các ứng dụng người dùng đã chọn</string>
+    <string name="contextads">Loại bỏ Google Ads</string>
+    <string name="contextbackup">Sao lưu</string>
+    <string name="contextblockfileads">Xoá link khỏi APK</string>
+    <string name="contextblockfileads_descr">Loại bỏ link http:// sử dụng các mẫu từ các tập tin AdsBlockList_user_edit.txt và AdsBlockList.txt.</string>
+    <string name="contextboot">"Vá khi khởi động
+(Không ổn định! Chỉ vá cho libs)"</string>
+    <string name="contextbootads">Loại bỏ Google Ads</string>
+    <string name="contextbootcustom">Bản vá tuỳ chỉnh</string>
+    <string name="contextbootlvl">Gỡ bỏ xác thực giấy phép</string>
+    <string name="contextcorepatch1">Trạng thái chữ ký xác thực luôn đúng</string>
+    <string name="contextcorepatch1_descr">Cần thiết để giả lập InApp, LVL và keygens. Cần thiết để xác minh quyền mua và giấy phép.</string>
+    <string name="contextcorepatch2">Vô hiệu chữ ký xác thực .apk</string>
+    <string name="contextcorepatch2_descr">Cho phép sự thay đổi của một ứng dụng mà không cần tạo lại chữ kí, nên chữ kí của các nhà phát triển sẽ được giữ nguyên. Người dùng khác có thể cài đặt tệp tin .apk chỉ khi áp dụng bản vá vào Nhân Android (hữu ích khi dịch, chỉnh sửa đồ họa, vv. trong các ứng dụng được bảo vệ)</string>
+    <string name="contextcorepatch3">Vô hiệu xác thực chữ kí trong quản lý gói</string>
+    <string name="contextcorepatch3_descr">Cho phép Cài đặt các ứng dụng với chữ kí khác nhau đè lên nhau</string>
+    <string name="contextcorepatch3_descr_plus">"+
+Cho phép cài đặt các ứng dụng với phiên bản cũ hơn phiên bản đã cài đặt."</string>
+    <string name="contextcorepatch4">Bản vá hỗ trợ cho giả lập InApp và LVL</string>
+    <string name="contextcorepatch4_descr_xposed">Cần thiết để giả lập hoạt dộng mà không cần bản vá hỗ trợ cho các ứng dụng.</string>
+    <string name="contextcorepatchrestore2_descr">Loại tất cả các bản vá từ Android services.jar</string>
+    <string name="contextcorepatchrestore_descr">Loại bỏ tất cả các bản vá lỗi từ core.jar Android</string>
+    <string name="contextcustompatch">Bản vá tuỳ chỉnh</string>
+    <string name="contextdeodex">"Loại bỏ ODEX với những thay đổi
+(khôi phục lại ứng dụng)"</string>
+    <string name="contextfulloffline">Tạo ngoại tuyến đầy đủ</string>
+    <string name="contextfulloffline_descr">Thử làm ứng dụng làm việc ngoại tuyến.</string>
+    <string name="contextignore">Gỡ bỏ xác thực giấy phép</string>
+    <string name="contextlaunchapp">Chạy ứng dụng</string>
+    <string name="contextmultipatch">Multi-patch</string>
+    <string name="contextmultipatchrebuild">Apk với Multi-patch</string>
+    <string name="contextodex">Áp dụng thay đổi trong ODEX</string>
+    <string name="contextpatt1">Sửa đổi người xác thực giấy phép</string>
+    <string name="contextpatt1_descr">Nếu nó tồn tại, cho phép kết nối internet khi lần đầu chạy ứng dụng. Nhóm các bản vá này chỉ làm thay đổi một ít.</string>
+    <string name="contextpatt2">Sửa giấy phép đã cache (Sửa Internet)</string>
+    <string name="contextpatt2_descr">Nếu nó tồn tại, có lẽ không cần kết nối mạng trong lần đầu chạy ứng dụng.</string>
+    <string name="contextpatt3">Sửa lỗi mã xác thực phản hồi</string>
+    <string name="contextpatt3_descr">Bản sửa lỗi nhỏ cho việc xác minh giấy phép.</string>
+    <string name="contextpatt4">Mã phản hồi Google thay thế</string>
+    <string name="contextpatt4_descr">Vẫn không ổn định, nhưng rất hiệu quả. Nếu nó tồn tại, cho phép kết nối internet khi chạy lần đầu.</string>
+    <string name="contextpatt5">Xác thực giấy phép cuối</string>
+    <string name="contextpatt5_descr">Mẫu để xác thực giấy phép cuối. Nếu thành công, ứng dụng sẽ hoạt động mà không cần kết nối internet.</string>
+    <string name="contextpatt6">Xác thực giấy phép cuối (đảo ngược)</string>
+    <string name="contextpatt6_descr">Nếu \"Xác thực giấy phép cuối\" không thành công, bạn có thể thử các bản vá lỗi sau.</string>
+    <string name="contextpattads3">Làm hỏng phần nhận quảng cáo</string>
+    <string name="contextpattads3_descr">Thử làm hỏng các hoạt động của Google Ads</string>
+    <string name="contextpattads4">Các bản vá khác</string>
+    <string name="contextpattads4_descr">Các bản vá lỗi khác hữu ích trong việc loại bỏ quảng cáo .</string>
+    <string name="contextpattads6">Vá ngoại tuyến</string>
+    <string name="contextpattads6_descr">Làm cho các module quảng cáo nghĩ rằng nó bị ẩn .</string>
+    <string name="contextpattamazon">Chế độ tự động (Amazon Market)</string>
+    <string name="contextpattamazon_descr">Hủy bỏ xác nhận giấy phép cho các ứng dụng từ Amazon Market</string>
+    <string name="contextpattdependencies_descr">Loại bỏ Google Play dependencies và những thứ khác ...</string>
+    <string name="contextpattlvl1">Chế độ tự động</string>
+    <string name="contextpattlvl1_descr">Số lượng tối thiểu các bản vá lỗi. Thích hợp cho hầu hết các ứng dụng có cơ chế bảo vệ đơn giản.</string>
+    <string name="contextpattlvl2">Chế độ tự động (đảo ngược)</string>
+    <string name="contextpattlvl2_descr">Có một vài sự khác biệt từ chế độ \"tự động\". Nó có thể giúp bạn, nếu chế độ \"tự động\" không thành công.</string>
+    <string name="contextpattlvl3">Các bản vá khác (Chế độ đặc biệt!)</string>
+    <string name="contextpattlvl3_descr">Bản vá lỗi bổ sung (có thể gây ra sự không ổn định). Chỉ áp dụng nếu các bản vá khác không thành công. Yêu cầu internet. Hãy thử sử dụng cùng với \"chế độ tự động\" hoặc \"chế độ tự động (nghịch đảo)\".</string>
+    <string name="contextpattlvl4">Áp dụng bản vá tới Dalvik-cache</string>
+    <string name="contextpattlvl4_descr">Theo mặc định, tất cả thay đổi được ghi vào tập tin odex. Tuy nhiên, phương pháp này sẽ không hoạt động chính xác nếu ứng dụng đã được di chuyển vào thẻ SD bên ngoài. Trong tình huống này \"Áp dụng vá Dalvik-cache\" có thể giúp đỡ. Bạn có thể khôi phục lại các ứng dụng chỉ bằng cách cài đặt lại.</string>
+    <string name="contextpattlvl5">Sao lưu tệp tin .apk</string>
+    <string name="contextpattlvl5_descr">Sẽ sao chép tệp ứng dụng đến thư mục của Lucky Patcher trên thẻ SD. Bạn có thể khôi phục ứng dụng từ tệp APK đã sao chép.</string>
+    <string name="contextpattlvl6">Xóa dalvik-cache</string>
+    <string name="contextpattlvl6_descr">Xoá dalvik cache của các ứng dụng để tiết kiệm dung lượng sau khi tạo tập tin odex. Nếu các ứng dụng không hoạt động tốt với odex, bạn sẽ phải cài đặt lại ứng dụng đó.</string>
+    <string name="contextpattlvl_dex">Chế độ tự động (dex)</string>
+    <string name="contextpattlvl_dex_descr">Số lượng bản vá tối thiểu. Chỉ hoạt động với google Play được cài đặt. Khi bạn lần đầu tiên bắt đầu hack một chương trình, bạn cần có Internet.</string>
+    <string name="contextpattsamsung">Chế độ tự động (SamsungApps)</string>
+    <string name="contextpattsamsung_descr">Gỡ bỏ xác thực giấy phép của ứng dụng từ SamsungApps</string>
+    <string name="contextreinstall">"Cài đặt lại ứng dụng
+(loại bỏ mọi bản vá)"</string>
+    <string name="contextrestore">Khôi phục</string>
+    <string name="contextselpatt">Mẫu đã lựa chọn</string>
+    <string name="core_only_dalvik_cache_end">Nếu như thiết bị bị treo hoặc mọi bản vá đều không hoạt động, xin vui lòng khởi động lại thiết bị.</string>
+    <string name="core_only_dalvik_cache_finished">"Bản vá Android cho dalvik-cache đã xong.
+Kết quả là:
+"</string>
+    <string name="core_option">chỉ vá dalvik-cache.</string>
+    <string name="core_patch_apply">(đã áp dụng bản vá)</string>
+    <string name="core_patch_nopatch">(chưa được vá)</string>
+    <string name="core_patch_nopatch_no_space1">Dalvik cache của core.jar đã được vá, nhưng bản vá loại này có thể bị mất khi đang cập nhật dalvik-cache. Không có nhiều dung lượng trong ROM Hệ thống để tạo core.dex. Xin hãy để trống 4MB, xoá dalvik cache và thử lại. Xin hãy khởi dộng lại thiết bị của bạn để áp dụng vá tới dalvik-cache.</string>
+    <string name="core_result_checkbox">Luôn vá dalvik-cache mỗi khi khởi động (chỉ khi bản vá cho core.jar bị loại bỏ sau khi khởi động lại).</string>
+    <string name="corepatches">Vá tới Android</string>
+    <string name="corrupt_download">Các tập tin tải về bị hỏng. Hãy kiểm tra xem có đủ dung lượng trống trên thẻ SD sau đó thử lại.</string>
+    <string name="create">Tạo thư mục</string>
+    <string name="create_clone_option1">Chỉ sửa đổi AndroidManifest.xml</string>
+    <string name="create_clone_option1_descr">Nó không hoạt động với mọi ứng dụng. Nếu bản nhân bản không được cài đặt, bạn cần gỡ cài đặt bản gốc. Nếu cách này không được, hãy thử tạo một nhân bản theo một cách khác.</string>
+    <string name="create_clone_option2">Chỉnh sửa AndroidManifest.xml, tài nguyên và classes.dex</string>
+    <string name="create_clone_option2_descr">Nó không hoạt động với mọi ứng dụng. Cách này cố gắng thay đổi tài nguyên và classes.dex. Một nhân bản sẽ được cô lập hơn là bản gốc.</string>
+    <string name="create_dir_error">Lỗi: Tên của thư mục trống.</string>
+    <string name="create_dir_error_2">Lỗi: Thư mục không được tạo ra.</string>
+    <string name="create_lic_done">Thành công! Giấy phép đã được tạo thành công. Hãy thử kiểm tra các ứng dụng khi offline. Có thể bạn sẽ gặp may mắn.</string>
+    <string name="create_perm_ok">Xây dựng lại Ứng dụng</string>
+    <string name="createapk">Tạo tập tin APK đã sửa</string>
+    <string name="createapkads">APK không có Google Ads</string>
+    <string name="createapkcustom">APK đã vá tuỳ chỉnh</string>
+    <string name="createapklvl">APK không có giấy phép xác minh</string>
+    <string name="createapksupport">APK đã xây dựng lại cho giả lập InApp và LVL</string>
+    <string name="createdialog1">Sửa đổi của</string>
+    <string name="createdialog1_clone">Bản sao của</string>
+    <string name="createdialog2">"đã kết thúc.
+
+Đường dẫn tệp tin:"</string>
+    <string name="createdialog3">Chú ý! Nếu ứng dụng hoạt động tốt sau khi vá, không có gì đảm bảo rằng nó sẽ làm việc tốt trong các hình thức apk đã sửa đổi - một số ứng dụng được bảo vệ khỏi việc sửa đổi. Bạn sẽ có xu hướng may mắn với việc vá hơn so với việc sửa đổi.</string>
+    <string name="createdialog3_clone">Chú ý! Một vài ứng dụng cần phải được gỡ bỏ trước khi cài bản sao của nó. Không có gì đảm bảo rằng nó sẽ hoạt động tốt với ứng dụng được sao chép - một vài ứng dụng được bảo vệ khỏi sự sửa đổi.</string>
+    <string name="createdialog5">Tên tập tin:</string>
+    <string name="custom_descript">Mô tả tùy chỉnh vá:</string>
+    <string name="custom_patch_log_add_custom_patch_to_boot_list">Đã thêm vá khi khởi đông.</string>
+    <string name="custom_patch_log_block_internet_hosts">Chặn các host internet</string>
+    <string name="custom_patch_log_change_components">Thay đổi các thành phần</string>
+    <string name="custom_patch_log_change_preference_delete">Xoá cài đặt được chia sẻ</string>
+    <string name="custom_patch_log_change_preference_insert">Thêm cài đặt được chia sẻ</string>
+    <string name="custom_patch_log_change_preference_not_found_file">Không tìm thấy tệp</string>
+    <string name="custom_patch_log_change_preferences">Thay đổi cài đặt được chia sẻ</string>
+    <string name="custom_patch_log_next_custom_patch">Chạy tùy chỉnh vá tiếp theo</string>
+    <string name="custom_patch_log_offset">Bù lại</string>
+    <string name="custom_patch_log_or_patch_is_already_applied">hoặc bản vá đã được áp dụng?!</string>
+    <string name="custom_patch_log_patch_all_files">Bản vá cho các tập tin từ thư mục</string>
+    <string name="custom_patch_log_patch_done">Đã vá xong!</string>
+    <string name="custom_patch_log_patch_for">Vá cho</string>
+    <string name="custom_patch_log_patch_for_libraries">Vá cho thư viện</string>
+    <string name="custom_patch_log_patch_on_reboot_added">Đã thêm vá khi khởi động!</string>
+    <string name="custom_patch_log_pattern">Nguyên mẫu</string>
+    <string name="custom_patch_log_pattern_not_found">Nguyên mẫu không được tìm thấy!</string>
+    <string name="custom_patch_log_search_bytes">Tìm kiếm từng byte</string>
+    <string name="custom_patch_log_search_bytes_error">Bytes không tìm thấy!</string>
+    <string name="custom_patch_log_skip_patch_for_build">Bỏ qua vá cho bản build</string>
+    <string name="custom_patch_result_all_dont_patch">Bản vá tuỳ chỉnh không phù hợp cho phiên bản này của ứng dụng hoặc đã được vá.</string>
+    <string name="custom_patch_result_not_all_patches_apply">Không phải tất cả nguyên mẫu đều được thay thế, nhưng chương trình có thể hoạt động, hãy kiểm tra đi!</string>
+    <string name="custom_patch_warning">Không tìm thấy bản vá tuỳ chọn. Có vấn đề với root. Không có quyền truy cập thẻ SD từ root. Nếu bạn dùng SuperSu, hãy thử vô hiệu hoá \"gắn kết không gian tên\" trong SuperSu. Nếu không được, xin hãy vui lòng cập nhật SuperSu và cập nhật tệp nhị phân su từ SuperSu.</string>
+    <string name="custom_patches_update_not_found">Không tìm thấy bản cập nhật cho các tuỳ chỉnh vá.</string>
+    <string name="custom_sel_app">Ứng dụng được chọn:</string>
+    <string name="customdescr">Hiển thị tất cả các ứng dụng đã vá tuỳ chỉnh.</string>
+    <string name="customtitle">Các ứng dụng được vá tuỳ chỉnh</string>
+    <string name="dalvik_cache_size">Kích thước dalvik-cache:</string>
+    <string name="data_dir_size">Kích thước thư mục dữ liệu:</string>
+    <string name="date_creation_patch">Ngày thêm bản vả</string>
+    <string name="days_on_up">Hiện ứng dụng mới trước</string>
+    <string name="days_on_up_descr">Thiết lập số ngày tuổi tối đa mà một ứng dụng được coi là mới. Thiết lập là 0 ngày nếu bạn muốn vô hiệu hóa sự dịch chuyển của các ứng dụng mới cài đặt lên đầu danh sách.</string>
+    <string name="delboot">Chạm để xóa từ Bootlist</string>
+    <string name="delete_file">Xóa tập tin</string>
+    <string name="delete_file_message">Bạn có thực sự muốn xóa tập tin %s ?</string>
+    <string name="describe_for_Proxy_gp">(phiên bản mini chỉ với giả lập giấy phép và inapp)</string>
+    <string name="dialog_end_resign_app">%1$s đã được đăng ký thành công bởi phép kiểm tra chứ ký. Tệp đã kí lại nằm ở %2$s.</string>
+    <string name="dialog_system">Ứng dụng này là một phần của hệ thống Android. Hãy cẩn thận khi thực hiện bất cứ tác động nào lên nó vì thiết bị của bạn có thể bị soft-brick. Bạn có bản backup chưa? Bạn có muốn thực hiện với ứng dụng này?</string>
+    <string name="dir_change">Thư mục thay đổi</string>
+    <string name="dir_change_descr">"Thay đổi thư mục trên Thẻ SD nơi Lucky Patcher sẽ chứa các tập tin của nó. Đường dẫn mặc định là 
+/mnt/sdcard/Android/data/[package_name_of_lucky_patcher]/files/LuckyPatcher"</string>
+    <string name="dirbinder">Thư mục liên kết</string>
+    <string name="dirr_chg">Thư mục đã thay đổi trong:</string>
+    <string name="disable_autoupdate">Vô hiệu hoá tự động cập nhật</string>
+    <string name="disable_autoupdate_descr">Tích để vô hiệu hoá tự động cập nhật.</string>
+    <string name="disable_inapp_services_google">Dịch vụ InApp cho Google Play Store</string>
+    <string name="disable_inapp_services_google_descr">Một số Ứng dụng sẽ bị crash nếu nhiều dịch vụ InApp được kích hoạt.</string>
+    <string name="disable_license_services_google">Dịch vụ Giấy phép Google Play Store</string>
+    <string name="disable_license_services_google_descr">Một số Ứng dụng crash nếu nhiều dịch vụ giấy phép được kích hoạt.</string>
+    <string name="disabled">đã vô hiệu</string>
+    <string name="disabled_package">Vô hiệu gói (đóng băng)</string>
+    <string name="dont_send_log_lp_modified">Bản Lucky Patcher của bạn đã bị sửa đổi. Bạn không thể gửi file log.</string>
+    <string name="dont_send_log_please_update_lp">Xin hãy cập nhật Lucky Patcher lên phiên bản mới nhất để gửi log.</string>
+    <string name="dontusepatch">Hủy bỏ</string>
+    <string name="download">Đang mở...</string>
+    <string name="download_progress_dialog_message_downloading">Tải tệp xuống</string>
+    <string name="download_progress_dialog_message_prepare_downloading">Đang chuẩn bị tải xuống...</string>
+    <string name="download_progress_dialog_message_resume_downloading">Tiếp tục tải tệp xuống</string>
+    <string name="empty">trống</string>
+    <string name="empty_binders">Bạn phải tạo ra ít nhất một liên kết để thêm tiện ích</string>
+    <string name="enabled">đã kích hoạt</string>
+    <string name="enabled_package">Kích hoạt gói</string>
+    <string name="enter_name_dir">Tên thư mục:</string>
+    <string name="equals_version">Bạn đang sử dụng phiên bản mới nhất của Lucky Patcher.</string>
+    <string name="error">Lỗi</string>
+    <string name="error2_backup_apk">Không thể sao lưu tệp APK. Các tập tin class.dex bị thiếu bên trong ứng dụng.</string>
+    <string name="error_apk_to_system">Bạn không thể cài đặt các ứng dụng từ vị trí này, hãy đặt nó trên thẻ SD.</string>
+    <string name="error_app_installed_on_sdcard">Lucky Patcher phải được cài đặt trên bộ nhớ trong. Nếu không, một số tính năng có thể không hoạt động chính xác.</string>
+    <string name="error_app_installed_on_sdcard_block">Lucky Patcher phải được cài đặt trên bộ nhớ trong. Tính năng này không hoạt động khi Lucky Patcher ở thẻ SD ngoài.</string>
+    <string name="error_backup_apk">Sao lưu tệp tin APK thất bại. Không có quyền sao chép.</string>
+    <string name="error_classes_not_found">Tệp \".jar\" không chứa classes.dex để vá. Hãy thử vá tệp \".odex\" cho tệp \".jar\" này.</string>
+    <string name="error_collect_logs">Một lỗi trong khi đang thu thập tệp log. Tệp log không được tạo ra.</string>
+    <string name="error_create_join_custom_patch">"Không thể tạo tệp join_patch.txt.
+Có thể không có quyền để viết vào thư mục vá."</string>
+    <string name="error_create_oat">Lỗi khi tạo tệp .oat cho các lớp đã vá. Bản vá đã tạo ra một số lỗi trong class.dex hoặc một số vấn đề với phần sụn. Hãy thử thay đổi phương thức java-root trong cài đặt của Lucky Patcher. Nó đôi khi có thể giúp.</string>
+    <string name="error_delete_join_custom_patch">"Không thể xoá tệp join_patch.txt
+Xoá tệp thủ công hoặc thư mục vá."</string>
+    <string name="error_detect">Có vẻ như Lucky Patcher đã bị ép đóng, bạn có muốn gửi một bản báo cáo lỗi?</string>
+    <string name="error_get_classes_files_for_patch">Không thể lấy file classes.dex cho bản vá.</string>
+    <string name="error_get_pkgInfo">Lỗi: không nhận được thông tin pkg.</string>
+    <string name="error_import_custom_patch">Lucky Patcher không thể nhập bản patch tuỳ chỉnh. Tệp zip đã bị hỏng.</string>
+    <string name="error_installation">Không thể cài đặt ứng dụng.</string>
+    <string name="error_launch">Không thể khởi chạy!</string>
+    <string name="error_message_for_share_app">Không thể chia sẻ ứng dụng. Lỗi không xác định. Hãy thử thay đổi thư mục hoạt động cho Lucky Patcher.</string>
+    <string name="error_not_found_lic_data">Không thể tìm thấy dữ liệu để làm một giấy phép.</string>
+    <string name="error_not_found_storage_lic">Không thể tìm thấy Vị trí Giấy phép.</string>
+    <string name="error_odex_app">Lỗi: Quá trình tạo odex đã thất bại... Có lẽ là không đủ dung lượng trống.</string>
+    <string name="error_odex_app_impossible">Ứng dụng này không chứa classes.dex. Không thể tối ưu hoá Dex.</string>
+    <string name="error_out_of_memory">Không đủ bộ nhớ (RAM) để hoàn thành hoạt động này. VM Heap là quá nhỏ.</string>
+    <string name="error_path">Sai đường dẫn!</string>
+    <string name="error_path_exists">Thư mục đã tồn tại. Xin vui lòng nhập đường dãn mới</string>
+    <string name="error_read_folder">không thể đọc được thư mục!</string>
+    <string name="error_restore">Khôi phục lỗi.</string>
+    <string name="exit">Thoát</string>
+    <string name="extpat1">Hình như</string>
+    <string name="extpat2">đối tượng có xác minh giấy phép :</string>
+    <string name="extpat3">"Hướng dẫn:
+--------------
+-Hãy nhấn nút \"Sao lưu\";
+-Cho phép truy cập dữ liệu qua Wi-Fi hoặc dử liệu di động và cho phép tất cả các kết nối cho các ứng dụng;
+-Chọn mẫu và nhấn \"Vá\";
+-Nhấn \"Launch\" và kiểm tra trạng thái giấy phép (làm mới, nếu cần);
+-Nếu mẫu này này không hoạt động, nhấn \"Khôi phục\" và thử lại với mẫu khác.
+ Nếu thành công, nhấn Những thay đổi."</string>
+    <string name="extres1">"Vá hoàn thành! Chạy và kiểm tra trạng thái giấy phép của ứng dụng;
+-Nếu mẫu này không hoạt động, nhấn \"Khôi phục\" và thử lại với mẫu khác."</string>
+    <string name="extres2">"Thẻ không thể tìm được cho mẫu này.
+Đã vá?
+Bấm \" Khôi phục \", chọn một kiểu khác và vá nó lại."</string>
+    <string name="failed">thất bại</string>
+    <string name="fast_start">Mở nhanh hơn</string>
+    <string name="fast_start_descr">Vô hiệu hóa việc tải các biểu tượng từ cơ sở dữ liệu của Lucky Patcher. Điều này sẽ làm cho danh sách ứng dụng bị lag</string>
+    <string name="file_not_deleted">Tập tin không bị xoá.</string>
+    <string name="file_not_found">"Ứng dụng không thể sao chép đến thẻ SD!
+Hãy giải phóng dung lượng trong thẻ nhớ hoặc kiểm tra cài đặt busybox của bạn."</string>
+    <string name="filter">Lọc</string>
+    <string name="filter0">Ứng dụng mới và đã cập nhật</string>
+    <string name="filter1">Ứng dụng có LVL</string>
+    <string name="filter10">Ứng dụng đã vô hiệu hoá (đóng băng)</string>
+    <string name="filter11">Ứng dụng có bản vá tùy chỉnh</string>
+    <string name="filter12">Ứng dụng có cờ đã sửa</string>
+    <string name="filter13">Ứng dụng đã Odex</string>
+    <string name="filter2">Ứng dụng có quảng cáo</string>
+    <string name="filter4">Ứng dụng có InApp Google</string>
+    <string name="filter5">Các ứng dụng trên bộ nhớ điện thoại</string>
+    <string name="filter6">Các ứng dụng trên thẻ SD</string>
+    <string name="filter7">Ứng dụng hệ thống</string>
+    <string name="filter8">Ứng dụng Hệ thống với bản cập nhật</string>
+    <string name="filter9">Ứng dụng có quyền SEND_SMS và CALL_PHONE</string>
+    <string name="filterdescr">Chọn thư mục để hiển thị.</string>
+    <string name="final_market_message">Google Play đã được cài đặt. Bây giờ core.jar sẽ được vá và thiết bị của bạn sẽ được khởi động lại. Tiếp tục chứ?</string>
+    <string name="fixbutton">Thay đổi đã sửa</string>
+    <string name="fixeddescr">Hiện mọi ứng dụng với những thay đổi đã sửa (Dấu ngôi sao vàng)</string>
+    <string name="fixedtitle">Apps có các bản sửa lỗi trong Odex</string>
+    <string name="framework_file_patched">đã vá và đổi tên thành</string>
+    <string name="framework_patch_not_result">Lucky Patcher đã không tìm thấy bất kỳ byte nào để vá .</string>
+    <string name="generate_log_error_message">Log không được tạo. Trong quá trình tạo đã xảy ra lỗi.</string>
+    <string name="generate_log_for_conscrypt_jar_fix_android_patches">"Tạo log cho conscrypt.jar
+(để sửa \"Vá Android\")"</string>
+    <string name="generate_log_for_core.jar_fix_android_patches">"Tạo log cho core-libart.jar
+(để sửa \"Vá Android\")"</string>
+    <string name="generate_log_for_core_oj_jar_fix_android_patches">"Tạo nhật ký cho core-oj.jar
+(để sửa \"Vá tới Android\")"</string>
+    <string name="generate_log_for_framework_fix_android_patches">"Tạo bản ghi cho framework.jar
+(để sửa \"Bản vá cho Android\")"</string>
+    <string name="generate_log_for_services.odex_fix_android_patches">"Tạo log cho services.jar
+(để sửa \"Vá Android\")"</string>
+    <string name="generate_log_result_message_conscrypt.jar">"Log đã được tạo và được lưu trử ở /sdcard/conscrypt.oat.txt. Lưu tệp trên đám mây hoặc nén dạng zip. Rồi gửi nó cho tôi vào mail lp.chelpus@gmail.com.
+Kích thước tệp:"</string>
+    <string name="generate_log_result_message_core.jar">"Log đã được tạo và được lưu trử ở /sdcard/boot.oat.txt. Lưu tệp trên đám mây hoặc nén dạng zip. Rồi gửi nó cho tôi vào mail lp.chelpus@gmail.com.
+Kích thước tệp:"</string>
+    <string name="generate_log_result_message_core_oj.jar">"Log đã được tạo và lưu ở đây /sdcard/core-oj.oat.txt. Lưu file lên đám mây hoặc nén sang dạng zip. Sau đó gửi nó cho tôi qua địa chỉ mail lp.chelpus@gmail.com.
+Kích thước file:"</string>
+    <string name="generate_log_result_message_services.odex">"Log đã được tạo và được lưu trử ở /sdcard/service.odex.txt. Lưu tệp trên đám mây hoặc nén dạng zip. Rồi gửi nó cho tôi vào mail lp.chelpus@gmail.com.
+Kích thước tệp:"</string>
+    <string name="go_to_file_path">Đi tới tập tin</string>
+    <string name="goodresult">"% May mắn!
+Hãy chạy ứng dụng để thử nghiệm!
+
+Nếu ứng dụng làm việc không chính xác, xin vui lòng cài đặt lại nó và đừng cố vá phiên bản này."</string>
+    <string name="google_play_installer_clear_data_google_services">Xóa dữ liệu của các dịch vụ của Google để khắc phục sự cố đăng nhập vào tài khoản Google trong Google Play</string>
+    <string name="have_luck">"***********************
+
+Bạn có"</string>
+    <string name="header_activities">Hoạt động:</string>
+    <string name="header_providers">Nhà cung cấp:</string>
+    <string name="header_receivers">Nhận:</string>
+    <string name="header_services">Dịch vụ:</string>
+    <string name="help">Trợ giúp</string>
+    <string name="help_3dot">"Đây là một ứng dụng được chia nhỏ. Khi tạo bản sao lưu, một vùng chứa kiểu 'apks' sẽ được tạo;"</string>
+    <string name="help_PS">P.S: Lucky Patcher đóng một ứng dụng khi nó áp dụng một bản vá cho nó. Điều này là cần thiết để những thay đổi mới sẽ tồn tại. Tuy nhiên, đôi khi bạn cũng có thể cần phải tự khởi động lại thiết bị hoặc sử dụng công cụ của bên thứ ba để hủy quá trình hoặc các quá trình của ứng dụng bị ảnh hưởng để xem các thay đổi.</string>
+    <string name="help_bootlist_describing">*%1$s - Danh sách các ứng dụng sẽ được vá khi khởi động. Tại thời điểm này, nó chỉ hữu ích cho các bản vá tùy chỉnh yêu cầu sửa các thư viện \".so\". Nó sẽ được chỉ ra trong mô tả của các bản vá tùy chỉnh đó để thêm chúng vào Bootlist.</string>
+    <string name="help_common">Cơ bản</string>
+    <string name="help_custom">Tạo bản vá tuỳ chỉnh</string>
+    <string name="help_custom_add_boot_tag">tự động thêm bản vá người dùng hiện tại vào \"%1$s\". Nên được sử dụng trong thư viện bản vá (hoặc trong bản vá [CLASSES] không có [ODEX] hoặc không có [PACKAGE])</string>
+    <string name="help_custom_add_file_in_apk_tag">"Thêm tệp từ Lucky Patcher dir vào tệp apk: 
+Ví dụ:"</string>
+    <string name="help_custom_all_files_tag">"vá tất cả các tệp trong thư mục. \"dir\" - thư mục cho các tập tin vá lỗi. \"template\" - mẫu cho các tệp cần vá (chỉ \"*\" mới có thể được sử dụng trong mẫu). 
+Ví dụ:"</string>
+    <string name="help_custom_all_lib_tag">tìm kiếm/thay thế mẫu cho tất cả các thư viện gốc</string>
+    <string name="help_custom_apk_build_param">Chỉ áp dụng mẫu này cho apk với build=apk_build. Bạn có thể áp dụng mẫu cho bản dựng>=apk_build (Ví dụ: {\"apk_build\": \"206+\"}) hoặc có thể áp dụng cho bản dựng apk_build nhỏ hơn hoặc bằng (Ví dụ: {\"apk_build\": \"206-\"}).</string>
+    <string name="help_custom_begin_tag">bản vá nhận xét hiển thị cho người dùng trước bản vá</string>
+    <string name="help_custom_begin_tag_detail">Dấu bắt đầu, tất cả văn bản sau nó và cho đến trường đầu tiên [CLASSES], [LIB], [END], v.v. sẽ được hiển thị ở đầu nhật ký vá cho người dùng.</string>
+    <string name="help_custom_block_hosts_tag">"chặn các máy chủ internet được liệt kê. \"host\" - máy chủ bạn muốn chặn. 
+ Ví dụ:"</string>
+    <string name="help_custom_classes_bez_package_tag">"Bản vá các ứng dụng dalvik-cache. Đừng quên rằng hệ thống cập nhật định kỳ các ứng dụng dalvik-cache và tất cả các thay đổi sẽ biến mất. Do đó, chúng ta phải thêm [ADD-BOOT]. Bản vá cho dalvik-cache đã lỗi thời vì nó không đáng tin cậy. Nhưng nó cần thiết cho Hộp công cụ ROM, vì nó không hoạt động tốt với các tệp odex. 
+ Ví dụ:"</string>
+    <string name="help_custom_classes_name_param">Áp dụng bản vá cho một tệp classes cụ thể (ví dụ: {\"class_name\": \"class2.dex\"}, {\"class_name\": \"class3.dex\"}, {\"class_name\": \"class.dex\"} ... ).</string>
+    <string name="help_custom_classes_tag">tìm kiếm/thay thế mẫu cho classes.dex (xem bên dưới)</string>
+    <string name="help_custom_classes_tag_detail">Đây là các dòng cho bản vá class.dex. Chúng có thể là tìm kiếm, thay thế nguyên bản và các tùy chọn khác được mô tả bên dưới.</string>
+    <string name="help_custom_component_tag">"Bật hoặc tắt các thành phần của Ứng dụng. 
+ Ví dụ:"</string>
+    <string name="help_custom_copy_file_tag">"Sao chép tệp từ Lucky Patcher dir vào đường dẫn với tên tệp mới: 
+ Ví dụ:"</string>
+    <string name="help_custom_database_param">Đường dẫn đến cơ sở dữ liệu trên Thiết bị hoặc bạn có thể chỉ sử dụng tên cơ sở dữ liệu cho tệp tự tìm kiếm Lucky Patcher.</string>
+    <string name="help_custom_delete_file_in_apk_tag">"Xóa tệp bên trong kho lưu trữ apk: 
+Ví dụ:"</string>
+    <string name="help_custom_deprecated_tag">Không được chấp nhận</string>
+    <string name="help_custom_end">Bạn đã chỉnh sửa mọi thứ, lưu và thả tệp vào thư mục \"CustomPatches\" nằm trong thư mục Lucky Patcher. Thư mục này có thể được xem trong phần \"Giới thiệu\" ở trên cùng. Sau đó, chương trình được đánh dấu bằng màu vàng và bạn có thể áp dụng bản vá này cho nó.</string>
+    <string name="help_custom_end_tag">vá các nhận xét hiển thị cho người dùng sau bản vá</string>
+    <string name="help_custom_execute_param">Truy vấn SQLite.</string>
+    <string name="help_custom_file_in_apk_tag">tìm kiếm mẫu/thay thế cho tệp từ tệp apk (bản vá này chỉ hoạt động để xây dựng lại apk với bản vá tùy chỉnh này)</string>
+    <string name="help_custom_general_text1">- Tệp vá lỗi phải có cùng tên với APK cần vá (phân biệt chữ hoa chữ thường).</string>
+    <string name="help_custom_general_text2">- Nếu tệp là bản vá tùy chỉnh cho ứng dụng đã tồn tại, bạn có thể chỉ cần thêm vào đầu tên tệp ký tự bất kỳ và lưu nó ở gần tên hiện có.</string>
+    <string name="help_custom_general_text3" formatted="false">- Nếu bạn muốn viết một bản vá một lần một loạt chương trình trên một hãng duy nhất, thì phần cuối tên tệp bản vá tùy chỉnh, bạn có thể sử dụng _%ALL%, ví dụ: tên của bản vá cho tất cả các phiếu SVOX sẽ như thế này: com.svox.classic.langpack_%ALL% .txt. Trên _%ALL% được thay thế bằng phần tên của gói, thay đổi tùy thuộc vào ứng dụng của công ty. Không sử dụng các ký tự/định dạng đặc biệt trong tệp vá (chỉ khoảng trắng đơn). Nếu bạn cần tạo bản vá cho một số chương trình của một công ty và thêm tiền tố vào đầu, bạn có thể sử dụng %ALL%_ và _%ALL%. (Tên ví dụ: chelpus.%ALL%_com.android._%ALL%.txt).</string>
+    <string name="help_custom_general_text4" formatted="false">- Bạn có thể sử dụng để tùy chỉnh nội dung bản vá %PACKAGE_NAME% cho đường dẫn đến tệp, %PACKAGE_NAME% này thay thế thành tên gói của các ứng dụng đích.</string>
+    <string name="help_custom_general_text5">- Để tìm kiếm các mẫu byte, hãy sử dụng IDA Pro 6.1+. Nó có thể mở dalvik-cache, odex, các thư viện và classes.dex.</string>
+    <string name="help_custom_general_text6">- Nếu bạn muốn vá dalvik-cache hoặc odex, đừng quên rằng các byte dữ liệu trong các phiên bản phần mềm khác nhau có thể khác nhau. Và hãy nhớ rằng không phải tất cả các class.dex trong byte đều trùng với dalvik-cache và odex. Trong ví dụ này, bạn có thể thấy, nếu bạn mở class.dex và odex-file trong IDA Pro.</string>
+    <string name="help_custom_general_text7">- Trong Lucky Patcher ver.6.5.4 + khả năng tạo tệp lpzip được thêm vào. Đó là một kho lưu trữ zip, có thể chứa các tệp apk và các bản vá tùy chỉnh. Apk sẽ được cài đặt. Các bản vá tùy chỉnh sẽ được tự động nhập vào Lucky Patcher. (Ví dụ: installSomeAppsWithPatch.lpzip)</string>
+    <string name="help_custom_group_param">"Đánh dấu các mẫu của nhóm (số nhóm có thể là 1 hoặc cao hơn). Bạn có thể hỏi 'Điều này có nghĩa là gì?'. Chà, điều đó có nghĩa là Nếu ít nhất một mẫu trong nhóm đã thành công, một thông báo đã được vá thành công sẽ được hiển thị. Điều này hữu ích khi bạn cố gắng tạo một bản vá chung cho nhiều phiên bản của một ứng dụng cụ thể (ví dụ: vá tất cả các phiên bản của CHPlay để tắt cập nhật tự động)."</string>
+    <string name="help_custom_increment_decrement_param">"Thêm và trừ các số thập phân từ byte ban đầu ... 
+Ví dụ:"</string>
+    <string name="help_custom_increment_decrement_param_end">Hoặc đây là một ví dụ:</string>
+    <string name="help_custom_insert_param">"Nếu bạn muốn chèn độ dài dữ liệu lớn hơn hoặc nhỏ hơn độ dài của mẫu ban đầu. 
+ (Ví dụ) tệp trước bản vá chứa: \"chelpa end\""</string>
+    <string name="help_custom_insert_param_end">tệp sau bản vá chứa: \"chelpaa end\"</string>
+    <string name="help_custom_lib_tag">tìm kiếm/thay thế mẫu cho các thư viện gốc được đặt tên (xem bên dưới)></string>
+    <string name="help_custom_lib_tags">Điều này có nghĩa là các dòng cho bản vá của thư viện chương trình này sẽ theo sau, \"name\" là tên của thư viện (nếu bạn đặt * thay vì tên, thì tất cả các thư viện ứng dụng sẽ được vá).</string>
+    <string name="help_custom_libs_tags">Đối với các thư viện từ /lib/armeabi/, /lib/armeabi-v7a/, /lib/arm64-v8a/, /lib/mips/, /lib/x86/.</string>
+    <string name="help_custom_name_param">"Thường chỉ ra đối tượng mà bản vá sẽ được áp dụng. Nó có thể chỉ là một tên tệp, một tên tệp với một đường dẫn, và những thứ tương tự. Trong một số trường hợp, bạn có thể sử dụng '*' để vá tất cả các thư viện, ví dụ, nếu tên của thư viện không xác định."</string>
+    <string name="help_custom_odex_patch_tag">"Sử dụng cho bản vá đã được tạo odex. Ví dụ: một ứng dụng đã được vá bằng chế độ tự động bằng Xóa xác minh giấy phép, nhưng bạn cần thực hiện các thay đổi bổ sung bằng cách sử dụng Bản vá tùy chỉnh. Nếu chúng tôi sử dụng [PACKAGE] - [CLASSES], [ODEX] hoặc [CLASSES] - [ODEX] đơn giản, tệp odex sẽ được tạo mà không có thay đổi và chỉ sau đó được vá. Trong phiên bản Lucky Patcher này, điều này không còn bắt buộc nữa, vì có tùy chọn \"%1$s\". 
+ Ví dụ:"</string>
+    <string name="help_custom_odex_tags">Trên các Android cũ hơn, thẻ này có thể được sử dụng. Thay vì thẻ [CLASSES], bạn có thể sử dụng thẻ này. Sau đó, các thay đổi trong class.dex sẽ không được lưu trong dalvik-cache, nơi chúng sẽ biến mất theo định kỳ khi hệ thống cập nhật bộ nhớ cache, nhưng trong một tệp riêng biệt có phần mở rộng odex bên cạnh apk của ứng dụng, điều này sẽ sửa tất cả các thay đổi và giữ nguyên dalvik-cache ban đầu - điều này chỉ đề phòng trường hợp ứng dụng kiểm tra. Bạn có thể sử dụng [ODEX] sau [CLASSES], sau đó các thay đổi sẽ được thực hiện đối với bộ đệm dalvik và tự động cam kết với odex. Điều này không cần thiết trên phần mềm hiện đại.</string>
+    <string name="help_custom_offset_param">Phần bù này có liên quan đến phần bắt đầu ở định dạng thập lục phân để áp dụng bản vá.</string>
+    <string name="help_custom_original_param">Đây là một mặt nạ mẫu được sử dụng để tìm độ lệch nơi bản vá sẽ được áp dụng.</string>
+    <string name="help_custom_original_param_end">Trong ví dụ này, các byte tạo nên mặt nạ mẫu và (??, **) có nghĩa là bất kỳ byte nào.</string>
+    <string name="help_custom_other_files_tag">tìm kiếm/thay thế mẫu cho các tệp khác được đặt tên trong /data/data/Package_Target_APK / hoặc trong /sdcard (xem bên dưới)</string>
+    <string name="help_custom_package_tag">giải nén classes.dex và áp dụng tất cả các bản vá từ [CLASSES] cho nó. Và tạo, dựa trên classes.dex, odex-file đã được sửa đổi.</string>
+    <string name="help_custom_package_tag_detail">Thẻ này có nghĩa là chúng tôi sẽ không vá trực tiếp dalvik-cache, nhưng chúng tôi sẽ lấy ra classes.dex từ ứng dụng đích, bản vá (với các bản vá tuân theo số nhận dạng [CLASSES] hoặc [ODEX]), tạo hình ảnh odex với các thay đổi và đặt vào ứng dụng. Ví dụ đây là hình ảnh mà TitaniumBuckup cần. nó kiểm tra nó và tất cả các tổng séc bên trong nó phải chính xác. Bạn nên sử dụng thẻ này luôn luôn, vì bản vá như vậy là chính xác nhất, nhưng nếu nó gây ra bất kỳ vấn đề nào, có thể không có nó.</string>
+    <string name="help_custom_permission_tag">"Lệnh linux tương tự \"chmod permissions file_name\" cho các tệp trong tệp dữ liệu của Ứng dụng: 
+Ví dụ:"</string>
+    <string name="help_custom_rename_file_in_apk_tag">"Đổi tên tệp bên trong tệp apk: 
+Ví dụ:"</string>
+    <string name="help_custom_replace_from_file_param">điều này sẽ tuân theo một câu lệnh \"original\"/\"ban đầu\", đây là phần bù đắp sẽ được ghi đè bằng các byte từ tệp (tệp phải được lưu gần bản vá tùy chỉnh).</string>
+    <string name="help_custom_replace_from_file_param_end">Điều này được thực hiện để tránh viết các mẫu quá dài để thay thế.</string>
+    <string name="help_custom_replaced_param">Điều này phải tuân theo \"orignial\"/\"bản gốc\" hoặc \"offset\"/\"bù đắp\", đây là những gì các byte này sẽ được ghi đè hoặc được ghi ở độ lệch được chỉ định. Các byte ở những nơi được đánh dấu bằng (?? hoặc **) vẫn được giữ nguyên:</string>
+    <string name="help_custom_replaced_param_end">Trong ví dụ này, các byte W0, W1, W2 là các byte được lưu trữ từ \"search\" đã thực hiện trước đó</string>
+    <string name="help_custom_s0_s1_sq_param">"Đặt biến smali thành 0 (chuyển đổi số hex thành: 43-> 03,54-> 04 ...) hoặc 1 (chuyển đổi số hex thành: 43-> 13,04-> 14 ...) tương ứng hoặc đặt, SQ chuyển đổi hex 34-> 44, 51-> 11 ... 
+ Ví dụ, có một biến: const/4 v?,0x00. Dấu chấm hỏi cho thấy rằng số của var đó là không xác định (ví dụ: nó đã được thay đổi trong phiên bản mới hơn), nhưng bạn chắc chắn rằng var này bằng 0 và bạn muốn đặt nó thành 1. Trong trường hợp này, mẫu sẽ trông giống:"</string>
+    <string name="help_custom_s0_s1_sq_param_end">Và ngược lại, để đặt biến thành 0:</string>
+    <string name="help_custom_search_param">Tìm kiếm cho phép bạn tìm kiếm một mẫu và lưu trữ các byte tại các vị trí cụ thể.</string>
+    <string name="help_custom_search_param_end">nghĩa là các byte tại các vị trí đó sẽ được lưu trong R0, R1, R2. Bây giờ chúng đã được tìm thấy và lưu, bạn chỉ có thể sử dụng chúng trong các mẫu thay thế bằng cách thay thế R bằng W.</string>
+    <string name="help_custom_shared_preferences_tag">"Tùy chọn chia sẻ trình chỉnh sửa tệp xml (chèn hoặc xóa biến): 
+Ví dụ:"</string>
+    <string name="help_custom_sqlite_tag">"Đôi khi ứng dụng đích phải thay đổi thứ gì đó trong cơ sở dữ liệu, thì khả năng này sẽ xảy ra để được trợ giúp: 
+Ví dụ:"</string>
+    <string name="help_custom_syntax_text_start">Đây là một bản vá ví dụ:</string>
+    <string name="help_custom_title_detailed_description">Mô tả chi tiết về các thẻ và thông số của chúng:</string>
+    <string name="help_custom_title_general">Thông tin chung:</string>
+    <string name="help_custom_title_syntax">Trợ giúp về cú pháp:</string>
+    <string name="help_custom_warning_text">Đừng loại bỏ các bước nhảy hoặc thực hiện chúng vô điều kiện! Trình tối ưu hóa sẽ gặp sự cố và bản vá của bạn sẽ không hoạt động trên ART! Để tránh điều này, hãy sử dụng các bước nhảy có điều kiện. Ví dụ, nếu cần phải nhảy, hãy thay thế bước nhảy bằng if-eq v0, v0 (byte: 32 00 ?? ??). Nếu không cần phải nhảy ở một nơi cụ thể, bạn có thể chèn một bước nhảy như if-ne v0, v0 (byte: 33 00 ?? ??); cũng cảm thấy tự do để sử dụng tương đương của riêng bạn.</string>
+    <string name="help_custom_warning_title">CẢNH BÁO</string>
+    <string name="help_cyan_apps">Quảng cáo đã được tìm thấy trong ứng dụng này;</string>
+    <string name="help_describe_for_apply_changes_to_dalvik_cache">Ở chế độ mặc định, tất cả các thay đổi vẫn còn trong tệp ODEX. Sao chép vào dalvik-cache có thể hữu ích khi tệp ODEX không hoạt động đối với ứng dụng (ví dụ: khi ứng dụng được chuyển sang thẻ SD). Tuy nhiên, bạn sẽ cần phải cài đặt lại ứng dụng để khôi phục nó.</string>
+    <string name="help_describe_for_backup_app">Sao lưu tệp APK để khôi phục sau. Tệp APK được lưu vào thư mục sao lưu.</string>
+    <string name="help_describe_for_backup_settings_app">Sao lưu dữ liệu ứng dụng từ bộ nhớ trong vào thư mục Lucky Patcher.</string>
+    <string name="help_describe_for_create_backup_before_patch">Sao chép tệp APK vào thẻ SD trong Thư mục dữ liệu của Lucky Patcher. Bạn có thể cài đặt lại (để khôi phục) ứng dụng từ APK này.</string>
+    <string name="help_describe_for_create_mod_apk">Tạo APK gói cài đặt với các bản vá được áp dụng trước. Bạn nên lưu ý rằng ứng dụng được xây dựng lại có thể không hoạt động giống như ứng dụng đã được vá thông qua trình vá lỗi. Sự cố này xảy ra do ứng dụng có thể tự kiểm tra để tìm bất kỳ thay đổi nào trong mã và chữ ký.</string>
+    <string name="help_describe_for_create_odex">Tạo tệp ODEX không thay đổi của ứng dụng.</string>
+    <string name="help_describe_for_dex_verification_killer">Đôi khi ứng dụng không khởi động sau khi xây dựng lại hoặc nó phàn nàn về tổng kiểm tra của tệp dex hoặc chữ ký không chính xác, hoặc không thực hiện mua hàng và những thứ tương tự. Trong trường hợp này, chức năng này có thể giúp ích. Nó đưa mã cố gắng đánh lừa xác minh chữ ký hoặc xác minh tổng kiểm tra tệp dex bên trong ứng dụng. Tùy chọn này chỉ nên được áp dụng cho ứng dụng gốc. Nếu được áp dụng cho một tùy chọn đã được vá, thì tùy chọn này sẽ phá vỡ ngay cả khi nó đã được thực hiện thành công. Kết quả của phương pháp này, kích thước của ứng dụng sẽ tăng gấp đôi.</string>
+    <string name="help_describe_for_disable_components_pm_disable">Loại bỏ các quyền, dịch vụ, hoạt động đã chọn, v.v. Khả năng này được tích hợp sẵn trong Android và do đó không gây hại. Điều duy nhất có thể ngừng hoạt động là ứng dụng đã sửa đổi, có thể dễ dàng được sửa bằng cách bật quyền quay lại.</string>
+    <string name="help_describe_for_hard_apk_permission_disale">Loại bỏ quyền của ứng dụng (chỉnh sửa tệp hệ thống package.xml). Hãy rất cẩn thận trong khi làm điều này. Trên một số thiết bị, phương pháp này có thể dẫn đến khởi động lại theo vòng tròn hoặc các hậu quả không mong muốn khác. Tạo một bản sao lưu của hệ thống trước khi bạn cố gắng vô hiệu hóa quyền.</string>
+    <string name="help_describe_for_lvl_auto_mode">Cố gắng xóa kiểm tra giấy phép. Sử dụng một phần nhỏ của Mẫu để đảm bảo tính ổn định tối đa của ứng dụng. Nếu tỷ lệ phần trăm nhận được bằng cách sử dụng phương pháp này thấp, hãy đảm bảo rằng kết nối internet có trong khi sử dụng ứng dụng đã vá.</string>
+    <string name="help_describe_for_lvl_auto_mode_dex">Cố gắng xóa kiểm tra giấy phép. Đảm bảo tính ổn định tối đa của ứng dụng sau khi vá. Nhưng để ứng dụng đã hack hoạt động ngay từ đầu, bạn cần cài đặt Google Play và Internet.</string>
+    <string name="help_describe_for_lvl_auto_mode_inverse">Có một vài khác biệt so với \"%1$s\". Nó có thể hữu ích nếu \"%1$s\" không vá ứng dụng thành công.</string>
+    <string name="help_describe_for_lvl_other_patches_extreme_mode">Cố gắng xóa hoàn toàn kiểm tra giấy phép. Sử dụng tất cả các Mẫu. Ứng dụng được vá có thể trở nên không ổn định, thường sự mất ổn định xảy ra khi ứng dụng ngoại tuyến. Khởi động lại ứng dụng nhiều lần, thay đổi hoặc tắt hướng màn hình có thể hữu ích.</string>
+    <string name="help_describe_for_lvl_remove">Ứng dụng đích phải có chữ ký của nhà phát triển và không được thay đổi bởi người khác. Để có tác dụng tích cực của các bản vá, bạn cần cài đặt CHPlay (Cửa hàng Google) với tài khoản hợp lệ được nhập vào đó và Internet được bật khi bạn khởi động ứng dụng mục tiêu lần đầu tiên. Luôn cố gắng xóa kiểm tra giấy phép trước bằng cách sử dụng \"%1$s\", nếu nó không hiệu quả, hãy thử \"%2$s\". Nếu nó gây ra các lỗi nghiêm trọng, bạn có thể thử chỉ chọn một số mẫu trong \"%3$s\"</string>
+    <string name="help_describe_for_lvl_sellect_patterns">Áp dụng các mẫu đã chọn vào ứng dụng để xóa xác minh giấy phép</string>
+    <string name="help_describe_for_move_to_system">Chuyển đổi ứng dụng người dùng thành ứng dụng hệ thống.</string>
+    <string name="help_describe_for_patch_on_reboot">Cài đặt này không còn phù hợp nữa, vì trên các phiên bản Lucky Patcher mới, tất cả các thay đổi được lưu vào tệp ODEX của ứng dụng, tệp này sẽ không thay đổi khi khởi động lại. Cài đặt này chỉ có thể hữu ích nếu một bản vá tùy chỉnh thay đổi các thư viện \".so\" của ứng dụng, sẽ được chỉ ra trong phần mô tả của bản vá.</string>
+    <string name="help_describe_for_remove_ad_activities">Tắt các hoạt động ứng dụng khác theo cách thủ công. Một số hoạt động có mô tả về những gì họ làm. Các hoạt động có thể được kích hoạt trở lại nếu ứng dụng ngừng hoạt động.</string>
+    <string name="help_describe_for_remove_ads">Cố gắng loại bỏ quảng cáo. Hãy thử sử dụng bản vá này ngay cả khi Lucky Patcher không tìm thấy quảng cáo trong ứng dụng có chứa quảng cáo. Nó có thể loại bỏ những quảng cáo đó.</string>
+    <string name="help_describe_for_remove_dalvik_cache_after_patch">Sau khi tạo tệp ODEX, dalvik-cache của ứng dụng sẽ bị xóa để tiết kiệm dung lượng. Nếu ứng dụng không hoạt động với ODEX, bạn sẽ phải cài đặt lại ứng dụng.</string>
+    <string name="help_describe_for_remove_odex">Loại bỏ tệp ODEX có chứa các thay đổi. Như vậy, khôi phục ứng dụng về trạng thái ban đầu.</string>
+    <string name="help_describe_for_remove_purchase_from_db">Xóa các giao dịch mua đã lưu qua Google Billing Giả lập.</string>
+    <string name="help_describe_for_restore_app">Khôi phục ứng dụng từ tệp APK trong thư mục sao lưu.</string>
+    <string name="help_describe_for_restore_app_data">Khôi phục dữ liệu ứng dụng được lưu trữ trong bộ nhớ trong trong thư mục /data/data/application_package_name/.</string>
+    <string name="help_describe_for_safe_apk_permission_disale">Xóa các quyền đã chọn bằng cách tạo lại APK với các thay đổi. Phương pháp này không thay đổi chữ ký ứng dụng. Điều này chỉ hoạt động trên các ứng dụng hệ thống hoặc trên tất cả các ứng dụng nếu bản vá \"%1$s\" được áp dụng cho Android.</string>
+    <string name="help_describe_for_safe_apk_permission_disale_rebuild_and_install">Tương tự như phương pháp an toàn, ngoại trừ phương pháp này sử dụng chữ ký mới và không giữ chữ ký ban đầu. Ứng dụng có thể không hoạt động chính xác bằng cách sử dụng phương pháp này nếu nó kiểm tra chữ ký.</string>
+    <string name="help_describe_for_share_this_app">Tạo tệp APK dự phòng của ứng dụng đã chọn và chia sẻ tệp đó qua bất kỳ ứng dụng nào.</string>
+    <string name="help_describe_for_signature_verification_killer">Đôi khi ứng dụng không khởi động sau khi xây dựng lại hoặc nó phản hồi là chữ ký không chính xác, hoặc không thực hiện mua hàng và những thứ tương tự. Trong trường hợp này, chức năng này có thể giúp ích. Nó đưa mã cố gắng đánh lừa xác minh chữ ký bên trong ứng dụng. Tùy chọn này chỉ nên được áp dụng cho ứng dụng gốc. Nếu được áp dụng cho một tùy chọn đã được vá, thì tùy chọn này sẽ phá vỡ ngay cả khi nó đã được thực hiện thành công.</string>
+    <string name="help_describe_for_support_patch_inapp">Thêm hỗ trợ cho mô phỏng InApp vào ứng dụng. Mô phỏng InApp có thể được bật trong menu Toggles.</string>
+    <string name="help_for_inapp_non_root_method1">Biên dịch lại mục tiêu ứng dụng với \"%1$s\", xóa ứng dụng gốc (đã đổi tên thư mục với bộ đệm chưa được xóa). Cài đặt ứng dụng trong việc biên dịch lại biến thể (đổi tên lại thư mục bằng bộ nhớ cache, nếu có). Để phương pháp hoạt động, bạn phải bật \"%2$s\" trong công tắc Lucky Patcher. Tất cả những gì bạn có thể thử mua. Hiếm khi công việc, nhưng phép lạ xảy ra :)</string>
+    <string name="help_for_inapp_non_root_method1_note">"Đôi khi, bảo vệ mua hàng sử dụng xác minh chữ ký ứng dụng. Trong trường hợp này, sử dụng tùy chọn \"%1$s\" có thể hữu ích. 
+"</string>
+    <string name="help_for_inapp_root_method1">"Áp dụng bản vá Android đầu tiên (%1$s) và cài đặt phiên bản thị trường đã sửa đổi 3+. Sau đó, tất cả các giao dịch mua của bạn sẽ được chuyển hướng đến Lucky Patcher, nếu nó được bật tùy chọn \"%2$s\". Để trở lại chế độ mua sắm hợp pháp bình thường, đủ để tắt nút chuyển \"%2$s\". Phương pháp này giống với công việc của Freedom và không thua kém anh ấy về hiệu quả, nhưng đã thực hiện một bản sửa đổi của CHPlay, cho phép bạn mua hàng mà không làm gián đoạn hoạt động của CHPlay. 
+
+Làm cách nào để thực hiện? 
+- Cài đặt Lucky Patcher :) 
+- Chọn bảng điều khiển bên dưới của Lucky Patcher \"%3$s -> %4$s\", chọn mục trên cùng (%1$s) nhấn để áp dụng. Sau khi khởi động lại, bản vá đầu tiên trong hộp thoại này phải được đánh dấu là 2/2 được áp dụng. (Bạn có thể bỏ qua bước này, nhưng tốt hơn hết là bạn nên làm như vậy, vì nếu không được thì từ đó làm việc gì cũng không có ý nghĩa). Nếu áp dụng bản vá không thành công, bạn có thể thử sử dụng mô-đun tùy chọn đầu tiên Xposed Lucky Patcher; 
+- Khởi chạy Lucky Patcher, bật kết nối Internet và chọn bảng điều khiển bên dưới \"%3$s -> %5$s\", chọn đúng phiên bản và nhấp vào cài đặt; 
+- Thực hiện thử nghiệm CHPlay trong \"%3$s -> %6$s\". 
+"</string>
+    <string name="help_for_inapp_root_method2">Áp dụng bản vá Android đầu tiên (Xác minh chữ ký luôn đúng) và chạy bằng công tắc \"%1$s\". Sau đó, tất cả các giao dịch mua của bạn sẽ được chuyển hướng đến Lucky Patcher.</string>
+    <string name="help_for_inapp_root_method2_disadvantages">"- không hoạt động CHPlay cho đến khi máy chủ Proxy được bật; 
+- không hiệu quả trong các ứng dụng được bảo vệ bằng cách kiểm tra thông tin ban đầu về các giao dịch mua; 
+- thật bất tiện khi kết hợp với các giao dịch mua đã lưu, vì không thể cung cấp các giao dịch mua tiếp tục đối với ứng dụng, nếu bạn tắt máy chủ Proxy. 
+"</string>
+    <string name="help_for_inapp_root_method3">"Nếu bạn đã có Xposed trên thiết bị của mình, bạn có thể bật mô-đun Xposed của Lucky Patcher. 
+Chú ý: bao gồm tùy chọn thứ tư trong mô-đun Xposed \"%1$s\" bạn chỉ cần nó nếu bạn chưa cài đặt Google Play đã sửa đổi. Nếu Google Play sửa đổi không được đặt, thì khi đã bao gồm tùy chọn thứ nhất và thứ tư, bạn có thể mua hàng trong ứng dụng. Tùy chọn thứ năm, bạn có thể thử ẩn Lucky Patcher khỏi ứng dụng, nếu nó càu nhàu."</string>
+    <string name="help_for_inapp_root_method3_disadvantages">"- không hiệu quả trong các ứng dụng có tính năng bảo vệ bằng cách kiểm tra thông tin ban đầu về các giao dịch mua; 
+- Xposed có lỗi sau khi cập nhật Lucky Patcher, đôi khi chính mô-đun Xposed bị tắt, bạn phải tắt mô-đun trong Xposed và bao gồm lại cùng nhau để khởi động lại thiết bị. 
+"</string>
+    <string name="help_for_inapp_root_method4">"Đã áp dụng cho mục tiêu ứng dụng \"%1$s\". Sau đó, tất cả các giao dịch mua phải được chuyển hướng đến Lucky Patcher. Để phương pháp hoạt động, bạn phải bật \"%2$s\" trong công tắc Lucky Patcher. 
+ Hoặc chúng tôi áp dụng bản vá \"%3$s\" (rất dài) và tất cả các giao dịch mua được chuyển hướng trực tiếp đến Lucky Patcher mà không cần proxy ."</string>
+    <string name="help_for_inapp_root_method4_disadvantages">"- Nó đang hoạt động không phải ở tất cả các ứng dụng, vì mã mua hàng InApp có thể bị ẩn ở một nơi mà bản vá không thể tiếp cận được. 
+- không hiệu quả trong các ứng dụng được bảo vệ bằng cách kiểm tra thông tin ban đầu về giao dịch mua. 
+"</string>
+    <string name="help_green_apps">Ứng dụng này có một cơ hội tốt để được đăng ký;</string>
+    <string name="help_instruction_for_create_apk">"- Nhấn vào tên của ứng dụng/Phần mềm và chọn \"%1$s\" ; 
+- Chọn Bản vá để sửa đổi APK; 
+- Tệp cài đặt đã sửa đổi sẽ nằm trong thư mục Lucky Patcher (bạn có thể xem phần này trong Giới thiệu); 
+- Bạn nên biết rằng tệp APK xây dựng lại không giống như bản vá đã được cài đặt ứng dụng. Vì trái ngược với việc chỉ cần vá, ứng dụng rất dễ tự kiểm tra các thay đổi và do đó hoạt động chính xác nên không thành công. Sẽ không cài đặt được. Và hãy nhớ rằng, sau khi cài đặt lại ứng dụng đã sửa đổi và gỡ bỏ ứng dụng gốc, tất cả dữ liệu ứng dụng sẽ bị mất."</string>
+    <string name="help_instruction_for_custom_patch">"- Nhấn vào tên của ứng dụng/Phần mềm và chọn \"%1$s\" ; 
+- Chạy và kiểm tra ứng dụng với Internet; 
+- Nếu bạn may mắn, bản vá đã hoạt động; 
+- Để đưa ứng dụng trở lại ban đầu trạng thái, bạn cần nhấn vào \"%2$s\" hoặc \"%3$s\"."</string>
+    <string name="help_instruction_for_remove_ads">"- Nhấn vào tên của ứng dụng/phần mềm và chọn \"%1$s\" ; 
+- Sau đó chọn \"%2$s\" ; 
+- Chạy và kiểm tra ứng dụng với Internet; 
+- Nếu vẫn có quảng cáo, hãy nhấn \"%3$s\", tìm Hoạt động quảng cáo và vô hiệu hóa chúng; 
+- Nếu bạn may mắn, Quảng cáo sẽ biến mất; 
+- Để đưa ứng dụng về trạng thái ban đầu, bạn cần nhấn vào \"%4$s\" hoặc \"%5$s\"."</string>
+    <string name="help_instruction_for_remove_lvl">"- Chỉ sử dụng các tệp APK gốc được nhà phát triển ký làm mục tiêu; 
+- Nhấn vào tên của ứng dụng/phần mềm và chọn \"%1$s\" ; 
+- Chọn \"%2$s\" và kiểm tra ứng dụng bằng quyền truy cập Internet ; 
+- Nếu kết quả là âm, hãy chọn \"%3$s\" hoặc \"%4$s\"; 
+- Nếu bạn may mắn, chương trình của bạn sẽ được đăng ký; 
+- Để đưa ứng dụng về trạng thái ban đầu trạng thái, bạn sẽ cần phải nhấn vào \"%5$s\" hoặc \"%6$s\"."</string>
+    <string name="help_klever">Lucky Patcher đã thực hiện các thay đổi đối với ứng dụng này;</string>
+    <string name="help_magenta_apps">Các ứng dụng này nằm trong Bootlist*;</string>
+    <string name="help_orange_apps">Đây là các ứng dụng hệ thống. Hãy hết sức cẩn thận khi thực hiện bất kỳ thao tác nào với chúng, vì việc chỉnh sửa chúng có thể gây ra thiệt hại không thể phục hồi cho ứng dụng hoặc hệ điều hành.</string>
+    <string name="help_purple_apps">Ứng dụng chứa các giao dịch mua InApp của Google;</string>
+    <string name="help_red_apps">Mã ứng dụng được tìm thấy không thể vá được;</string>
+    <string name="help_root_warning">Lucky Patcher cần quyền truy cập root để tất cả các tính năng hoạt động. Không có quyền root, chương trình hoạt động ở một chế độ hạn chế.</string>
+    <string name="help_star">"Điều này có nghĩa là ứng dụng có tệp 'odex' được tìm thấy. Đối với Android hiện đại, điều này chỉ đúng với các ứng dụng hệ thống."</string>
+    <string name="help_sub_describe_for_inapp_buy_dialog_auto_purchase">Khi bao gồm tùy chọn này khi mua cùng một lần sau, việc mua sẽ được thực hiện mà không cần đối thoại Lucky Patcher về việc mua (mua ngay lập tức được đưa vào ứng dụng của bạn mà không có bất kỳ câu hỏi nào). Cần thiết, khi bạn thu thập vàng trong ứng dụng, v.v., không phải nhấn mỗi khi bạn đồng ý mua :) Xóa tự động mua có thể nhấn và giữ ứng dụng trong danh sách Lucky Patcher và chọn \"%1$s\" sau đó loại bỏ các giao dịch tự động không cần thiết trong danh sách.</string>
+    <string name="help_sub_describe_for_inapp_buy_dialog_save_purchase">nó có ý nghĩa đối với người dùng không có đặc quyền root, đối với các trò chơi và ứng dụng cũ hơn, nơi các tác giả không vô tình kiểm tra dữ liệu chữ ký. Khi tùy chọn này được bật, dữ liệu sai về giao dịch mua sẽ được gửi đến ứng dụng với chữ ký trống và có khả năng giao dịch mua này sẽ chính xác và kích hoạt ứng dụng. Người dùng có đặc quyền root tốt hơn không nên sử dụng tùy chọn này, có thể gây hại nhiều hơn là trợ giúp.</string>
+    <string name="help_sub_title_for_inapp_disadvantages_method">Nhược điểm của phương pháp này:</string>
+    <string name="help_sub_title_for_inapp_non_root">Đối với người dùng không có đặc quyền root:</string>
+    <string name="help_sub_title_for_inapp_non_root_method1">Phương pháp #1:</string>
+    <string name="help_sub_title_for_inapp_root">Đối với người dùng có đặc quyền root:</string>
+    <string name="help_sub_title_for_inapp_root_method1">Phương pháp #1 (hiệu quả và mong muốn nhất):</string>
+    <string name="help_sub_title_for_inapp_root_method2">Phương pháp #2:</string>
+    <string name="help_sub_title_for_inapp_root_method3">Phương pháp #3:</string>
+    <string name="help_sub_title_for_inapp_root_method4">Phương pháp #4:</string>
+    <string name="help_sub_title_for_purchase_window">Tùy chọn cửa sổ mua hàng:</string>
+    <string name="help_title1">Mô tả dựa trên màu sắc:</string>
+    <string name="help_title_for_context_menu">Danh mục:</string>
+    <string name="help_title_for_inapp">Các tùy chọn mua sắm qua Lucky Patcher:</string>
+    <string name="help_title_for_instructions">Hướng dẫn :</string>
+    <string name="help_title_instruction_for_create_apk">Tạo APK đã sửa đổi:</string>
+    <string name="help_title_instruction_for_custom_patch">Để vá tùy chỉnh:</string>
+    <string name="help_title_instruction_for_remove_ads">Để Xóa Quảng cáo:</string>
+    <string name="help_title_instruction_for_remove_lvl">Để xóa xác minh giấy phép:</string>
+    <string name="help_yellow_apps">Một bản vá tùy chỉnh đã được tìm thấy cho ứng dụng này trong thư mục của Lucky Patcher;</string>
+    <string name="hide_notify">Ẩn thông báo</string>
+    <string name="hide_notify_descr">Ẩn thông báo Lucky Patcher</string>
+    <string name="hide_title_app">Ẩn tiêu đề</string>
+    <string name="hide_title_app_descr">Giấu tên Lucky Patcher trong danh sách các ứng dụng. Chỉ hoạt động trên các thiết bị với một nút menu phần cứng .</string>
+    <string name="host_down">Không truy cập được máy chủ. Hãy thử lại sau.</string>
+    <string name="hosts_default">Tệp \"hosts\" đã được phục hồi.</string>
+    <string name="hosts_not_found_changes">Không thể tìm thấy những thay đổi trong tập tin \"hosts\"...</string>
+    <string name="hosts_updated">Tập tin \"hosts\" đã được cập nhật...</string>
+    <string name="import_to_lucky_patcher">Nhập vào Lucky Patcher</string>
+    <string name="inapp_emulation_auto_repeat">Lặp lại mục mua với các thiết lập hiện tại</string>
+    <string name="info_about_permissions_optional">"Quyền tùy chọn:
+"</string>
+    <string name="info_about_permissions_optional_describe">Được sử dụng để nhân cách hóa quảng cáo và phân tích. Nếu bạn lo ngại về bất kỳ quyền nào trong số này, bạn có thể từ chối các quyền này. Điều này sẽ không ảnh hưởng đến hoạt động của Lucky Patcher.</string>
+    <string name="info_about_permissions_optional_perms">"ACCESS_COARSE_LOCATION
+READ_PHONE_STATE
+"</string>
+    <string name="info_about_permissions_required">"Quyền yêu cầu:
+"</string>
+    <string name="info_about_permissions_required_describe">"Cần phải làm việc với các tập tin. Không có nó, Lucky Patcher sẽ không hoạt động. 
+"</string>
+    <string name="info_about_permissions_required_perms">"READ_EXTERNAL_STORAGE
+WRITE_EXTERNAL_STORAGE
+"</string>
+    <string name="information">Thông tin</string>
+    <string name="install">Cài đặt</string>
+    <string name="install_as_user_app">Cài đặt Google Play như ứng dụng người dùng.</string>
+    <string name="install_as_user_app_note">Yêu cầu: đã áp dụng \"Vá tới Android\" và cài đặt Google Play Store.</string>
+    <string name="install_cloned_app">Cài đặt bản sao</string>
+    <string name="install_date">Ngày cài đặt:</string>
+    <string name="installer_error_aborted">Cài đặt đã bị hủy bởi người dùng</string>
+    <string name="installer_error_bad_apks">Các tệp APK không hợp lệ được chọn</string>
+    <string name="installer_error_bad_apks_file">Lỗi: không tìm thấy tệp base.apk bên trong tệp apks.</string>
+    <string name="installer_error_blocked">Cài đặt đã bị khóa bởi %s</string>
+    <string name="installer_error_blocked_device">Thiết bị</string>
+    <string name="installer_error_conflict">Không thể cài đặt ứng dụng vì nó xung đột với một ứng dụng đã được cài đặt có cùng tên gói</string>
+    <string name="installer_error_generic">Cài đặt thất bại</string>
+    <string name="installer_error_generic_miui_warning">Nếu bạn có phần mềm miui, bạn có thể giải quyết vấn đề tắt \"Bật tối ưu hóa MIUI\" trong \"Cài đặt dành cho nhà phát triển\" của phần mềm.</string>
+    <string name="installer_error_incompatible">Ứng dụng không tương thích với thiết bị này</string>
+    <string name="installer_error_lidl_rom">ROM của bạn không tương thích với trình cài đặt rootless. Chỉ có thể cài đặt với sự trợ giúp của trình cài đặt gốc.</string>
+    <string name="installer_error_rootless">"Trình cài đặt Rootless lỗi :
+
+ %s"</string>
+    <string name="installer_error_storage">Không đủ dung lượng lưu trữ để cài đặt ứng dụng</string>
+    <string name="installer_not_support_by_firmware">Chương trình cơ sở của bạn không hỗ trợ cài đặt các tệp chia nhỏ.</string>
+    <string name="installer_prepare">Chuẩn bị cài đặt một ứng dụng tách.</string>
+    <string name="installer_slit_get_apk_from_apks">Trình cài đặt lấy các tập tin từ kho lưu trữ apks.</string>
+    <string name="installer_slit_install_in_progress">Quá trình cài đặt đang được tiến hành.</string>
+    <string name="installer_slit_successfully_installed">Tách ứng dụng%s đã cài đặt thành công.</string>
+    <string name="installsupersu">Cài đặt SuperSU (ICS)</string>
+    <string name="integrate_dalvik_code_dialog_good_message">Dalvik code đã được tích hợp vào tệp apk được chọn. Nó có thể không hoạt động đúng, nhưng bạn phải kiểm tra...</string>
+    <string name="integrate_dalvik_code_dialog_title">Kết quả tích hợp</string>
+    <string name="integrate_dalvik_code_message">Bạn có muốn tích hợp code dalvik từ tệp apk tới</string>
+    <string name="integrate_to_system">Bạn có thực sự muốn tích hợp bản cập nhật cho ứng dụng này vào /system?</string>
+    <string name="integrate_updates_result">Kết quả tích hợp bản cập nhật</string>
+    <string name="integrate_updates_to_system">Tích hợp cập nhật tới /system</string>
+    <string name="internet_not_found">Cần có kết nối internet.</string>
+    <string name="is_an_invalid_number">Bạn đã nhập một số không hợp lệ...</string>
+    <string name="langdef">Ngôn ngữ mặc định</string>
+    <string name="langen">Tiếng Việt</string>
+    <string name="langmenu">Ngôn ngữ</string>
+    <string name="launchbutton">Khởi chạy</string>
+    <string name="licensing_hack_menu">Giả lập xác thực giấy phép Google</string>
+    <string name="licensing_hack_menu_descr">Sự thay thế cho bản Google Play mod. Xác nhận các giấy phép cho các ứng dụng . Yêu cầu \"Hỗ trợ bản vá cho InApp và LVL\" để nhắm mục tiêu ứng dụng hoặc áp dụng \"Vá tới Android\" . Điều này có thể gây hại cho các ứng dụng mua hợp pháp (yêu cầu bản vá tùy chỉnh \"Support.InApp.LVL...\" cho Google Play để tránh các vấn đề ) .</string>
+    <string name="licensing_hack_menu_disable">Vô hiệu giả lập xác thực giấy phép Google</string>
+    <string name="licensing_hack_menu_enable">Kích hoạt giả lập xác thực giấy phép Google</string>
+    <string name="line">"***********************
+"</string>
+    <string name="loadpkg">Đang tải gói</string>
+    <string name="lp_billing_hack_title">Hack mua hàng trong ứng dụng</string>
+    <string name="lp_import_custom_patches">Lucky Patcher đã nhập những bản patch và tệp tuỳ chỉnh sau:</string>
+    <string name="lvldescr">Hiện mọi ứng dụng có Xác minh Giấy phép.</string>
+    <string name="lvltitle">Ứng dụng với LVL</string>
+    <string name="magisk_module_warning">Nếu bạn gặp sự cố với tính năng này, bạn cần tắt chế độ Magisk Сore Only và MagiskHide trong cài đặt của Trình quản lý Magisk và khởi động lại thiết bị.</string>
+    <string name="magisk_warning2">Nếu bạn gặp sự cố với tính năng này, bạn phải bật tùy chọn mô-đun magisk.</string>
+    <string name="market_description_text">"Nhấn vào nút \"Cài đặt\" để thay thế Google Play Store gốc với một phiên bản đã bẻ khóa LVL (Thư viện giấy phép xác minh). Nếu Google Play Store không hoạt động sau khi khởi động lại, hãy cài đặt lại nó.
+Cách mà Google Play Store mod hoạt động:
+Chú ý! Bạn *KHÔNG THỂ* tải các \"ứng dụng trả phí\" miễn phí được!
+1. Bạn có thể sử dụng các ứng dụng được GoogleLVL bảo vệ mà không cần phải crack chúng.
+2. Xác minh giấy phép sẽ thành công, ngay cả khi đang ngoại tuyến.
+3. Không cần phải áp dụng vá giấy phép nữa.
+4. Nó sẽ không làm việc với Thanh toán và xác minh giấy phép thông qua Proxy.
+5. Bây giờ khi bạn nhấn vào nút 'Hoàn', nó sẽ hoàn lại tiền mua hàng của bạn, nhưng các ứng dụng sẽ không được gỡ bỏ cài đặt, do đó bạn sẽ không cần phải sao lưu các ứng dụng trước khi yêu cầu hoàn lại tiền.
+6.Bây Google Play chuyển hướng tất cả giao dịch mua vào Patcher Lucky để giả lập InApp"</string>
+    <string name="market_install">Cài đặt Google Play đã mod</string>
+    <string name="market_version5">Google Play mod</string>
+    <string name="market_version6">Google Play nguyên bản</string>
+    <string name="menu_close_application">Đóng ứng dụng</string>
+    <string name="menu_download_custom_patches">Tải về tùy chỉnh vá</string>
+    <string name="messageAndroidManifest">Không thể trích xuất AndroidManifest.xml. Có lẽ bạn không có đủ bộ nhớ trống trên thẻ SD để sao chép toàn bộ ứng dụng.</string>
+    <string name="messagePath">"Đường dẫn không được tìm thấy!
+Vui lòng nhập một đường dẫn chính xác ."</string>
+    <string name="messageSD">"Không tìm thấy thẻ SD
+Chức nằng này không thể hoạt động mà không có thẻ SD!"</string>
+    <string name="message_about_corrupt_apk_file">Tệp apk gốc đã bị hỏng. Ứng dụng không thể được dựng lại.</string>
+    <string name="message_about_patched_file">Tập tin bị hỏng</string>
+    <string name="message_allow_non_market_app">Vui lòng kiểm tra \"Cho phép cài đặt các ứng dụng từ các nguồn không rõ\" trong phần cài đặt bảo mật.</string>
+    <string name="message_apply_android_patch_for_proxy_gp">Proxy server cho Google Play cần áp dụng bản vá Android \"Tình trạng xác thực chữ kí luôn đúng\". Bạn có muốn áp dụng bản vá Android ngay bây giờ?</string>
+    <string name="message_clear_all_dalvik_cache">Bạn có thực sự muốn xóa Dalvik-cache?</string>
+    <string name="message_clear_data">Bạn có thực sự muốn xóa tất cả dữ liệu của ứng dụng?</string>
+    <string name="message_delete_odex_file">Bạn có thực sự muốn xóa tập tin Odex ?</string>
+    <string name="message_delete_package_new">Hoàn thành cài đặt với lỗi. Bạn phải gỡ cài đặt ứng dụng gốc trước khi cài đặt tệp APK này. Nếu không được, khởi động lại thiết bị. Và hãy thử gỡ cài đặt ứng dụng.</string>
+    <string name="message_done_move_to_internal">Đã hoàn thành di chuyển vào bộ nhớ trong:</string>
+    <string name="message_done_move_to_sdcard">Đã hoàn thành di chuyển đến thẻ SD:</string>
+    <string name="message_error_file_apk_for_install_corrupt">Tệp cài đặt bị hỏng ...</string>
+    <string name="message_error_move_to_internal">"Đã hoàn thành di chuyển vào bộ nhớ trong với lỗi (hãy thử lại):
+"</string>
+    <string name="message_error_move_to_sdcard">"Đã hoàn thành di chuyển đến thẻ SD với lỗi (hãy thử lại):
+"</string>
+    <string name="message_exit">Bạn có thực sự muốn thoát khỏi Lucky Patcher ?</string>
+    <string name="message_for_reboot_after_android_patches">Quá trình vá kết thúc. Để dùng thử, bạn phải khởi động lại thiết bị. Bạn có muốn khởi động lại thiết bị của mình không?</string>
+    <string name="message_for_removed_patch_boot">Bản vá đã bị loại bỏ.</string>
+    <string name="message_for_uninstall_and_install">Bạn có muốn xoá %1$s và cài phiên bản ứng dụng được chọn?</string>
+    <string name="message_installation_inapp_proxy">Nếu bạn dùng \"Hỗ trợ bản vá cho giả lập mua trong ứng dụng và LVL\" cho việc hack mua hàng, bạn cần cài dịch vụ \" Dịch vụ Proxy cho mua hàng trong ứng dụng\". Nhưng nó sẽ ngắt sự vô hình của Lucky Patcher. Bạn thật sự muốn cài đặt dịch vụ này?</string>
+    <string name="message_installation_lp">Bạn thực sự muốn cài đặt Lucky Patcher v.%1$s?</string>
+    <string name="message_installation_lvl_proxy">Nếu bạn dùng \"Hỗ trợ bản vá cho mô phỏng InApp và LVL\" để kiểm tra giấy phép hack, sau đó bạn cần cài đặt dịch vụ\" Máy chủ proxy để xác minh giấy phép \". Nhưng nó sẽ phá vỡ tính vô hình của Lucky Patcher. Bạn có muốn cài đặt dịch vụ này không?</string>
+    <string name="message_lp_install_success_uninstall_intsaller">Lucky Patcher đã được cài đặt thành công. Lúc này bạn cần gỡ bỏ trình cài đặt ứng dụng để tăng khả năng tàng hình cho Lucky Patcher.</string>
+    <string name="message_old_app_version">Một phiên bản cũ của Lucky Patcher đã được tìm thấy. Để cải thiện việc ẩn Lucky Patcher, bạn cần xóa phiên bản này. Nhưng nếu bạn đã sử dụng \"Bản vá hỗ trợ cho mô phỏng InApp và LVL\", bạn sẽ phải vá lại tất cả các ứng dụng hoặc xây dựng lại apk gốc trong phiên bản mới của Lucky Patcher. Bạn có muốn loại bỏ phiên bản cũ này ?</string>
+    <string name="message_reboot">Bạn có thực sự muốn khởi động lại?</string>
+    <string name="message_remove_all_odex">Bạn có thực sự muốn loại bỏ tất cả các file odex khỏi /system/app và /data/app? Nó chỉ xóa các tập tin odex của các ứng dụng có classes.dex.</string>
+    <string name="message_rescan_apps">Bạn có muốn quét lại các ứng dụng đã cài đặt?</string>
+    <string name="message_test_patch_downgrade">Hạ cấp ứng dụng thử nghiệm</string>
+    <string name="message_test_patch_signatures">Kiểm tra khả năng cài đặt một ứng dụng với các chữ ký khác nhau</string>
+    <string name="message_test_patch_terget_sdk_30_installing">Kiểm tra khả năng cài đặt ứng dụng không có chữ ký ver.2 và targetSDK = 30</string>
+    <string name="message_test_patch_unlocked">Khả năng áp dụng bản vá đã được mở khóa.</string>
+    <string name="message_test_pm_utility">Đang kiểm tra tiện ích \"pm\"</string>
+    <string name="message_test_pm_utility_fail">Không thể kiểm tra các điểm vá vì tiện ích \"pm\" không hoạt động bình thường.</string>
+    <string name="message_warning_InApp_service_disable">Vô hiệu hóa dịch vụ InApp vi phạm cơ chế cho việc mua chính thức các ứng dụng. Đây là một dịch vụ gốc của Google Play.</string>
+    <string name="message_warning_LVL_emulation_service_enable">Kích hoạt dịch vụ gỉả lập LVL vi phạm cơ chế lấy giấy phép cho một số ứng dụng mua chính thức</string>
+    <string name="message_warning_LVL_service_disable">Vô hiệu hóa dịch vụ này vi phạm các cơ chế lấy giấy phép cho các ứng dụng mua chính thức . Đây là dịch vụ gốc của Google Play.</string>
+    <string name="mod_market_check">Thử Google Play Store mod</string>
+    <string name="mod_market_check_failed">Google Play có thể đã cài đặt nhưng không hoạt động đúng. Kiểm tra giấy phép thất bại. Có lẽ bạn đã không áp dụng các bản vá core.jar (có thể được tìm thấy trong \"Hộp công cụ-> Vá tới Android\") hoặc không đặt Google Play mod như là ứng dụng hệ thống (Ban có thể cài đặt lại trong \"Hộp công cụ-> Cài đặt Google Play Store mod\").</string>
+    <string name="mod_market_check_internet_off">Tắt Internet trên thiết bị sau đó thử kiểm tra một lần nữa.</string>
+    <string name="mod_market_check_title">Kết quả thử nghiệm cho Google Play mod</string>
+    <string name="mod_market_check_true">Google Play được cài đặt và hoạt động đúng. Lưu ý rằng phương pháp này không hoạt động với tất cả các ứng dụng và trò chơi. Đây không phải là một lỗi và không thể sửa.</string>
+    <string name="modifdescr">Hiện mọi ứng dụng đã được sửa đổi (Dấu cỏ ba lá xanh).</string>
+    <string name="modiftitle">Ứng dụng đã sửa đổi</string>
+    <string name="move_data">Tất cả dữ liệu đã được chuyển thành công đến</string>
+    <string name="move_to_internal">Chuyển tới bộ nhớ trong</string>
+    <string name="move_to_internal_message">Bạn có thực sự muốn di chuyển ứng dụng vào bộ nhớ trong?</string>
+    <string name="move_to_sdcard">Chuyển tới /sdcard</string>
+    <string name="move_to_sdcard_message">Bạn có thực sự muốn chuyển ứng dụng sang thẻ SD?</string>
+    <string name="move_to_sys">Chuyển tới /system/app</string>
+    <string name="move_to_system">Bạn có thực sự muốn đặt ứng dụng này như là một ứng dụng hệ thống?</string>
+    <string name="multipatch_next_step">Bước tiếp theo</string>
+    <string name="navigation_drawer_close">Đóng ngăn kéo Điều hướng</string>
+    <string name="navigation_drawer_open">Mở ngăn kéo điều hướng</string>
+    <string name="need_select_custom_patch">Xin vui lòng chọn một hoặc nhiều bản vá tuỳ chọn.</string>
+    <string name="new_method_lvl">Làm giấy phép cho ứng dụng</string>
+    <string name="new_version">Đã có phiên bản mới của Lucky Patcher!</string>
+    <string name="next_custom_patch">Thông tin về bản vá tuỳ chọn tiếp theo</string>
+    <string name="no">Không</string>
+    <string name="no_freespace_patch">"Đây không phải là một lỗi. Không có đủ chỗ trống để tạo tập tin .odex. Bản vá Dalvik-cache đã được áp dụng, nhưng nếu bạn khởi động lại các bản vá có thể không tồn tại.
+Giải pháp: di chuyển ứng dụng vào bộ nhớ trong hoặc đặt là ứng dụng hệ thống hoặc giải phóng bộ nhớ, hoặc để lại tất cả mọi thứ như cũ và áp dụng bản vá thường xuyên."</string>
+    <string name="no_icon">Xóa biểu tượng ứng dụng</string>
+    <string name="no_icon_descr">Loại bỏ tất cả các biểu tượng ứng dụng trong danh sách. Điều này làm giảm tiêu tốn tài nguyên mà điều đó hữu ích cho các thiết bị yếu.</string>
+    <string name="no_root">"Thất bại khi lấy quyển root! Bạn phải có quyền truy cập root đầy đủ để tiếp tục...
+
+(vui lòng cập nhật busybox hoặc su)!
+ Hãy cài SuperSu (\"Khắc phục sự cố-> Cài SuperSU (ICS)\") and cập nhật tệp nhị phân su."</string>
+    <string name="no_site">Không thể tìm thấy nguồn của các bản cập nhật</string>
+    <string name="no_space">Lỗi: không có đủ dung lượng để sao chép tất cả dữ liệu trong thư mục được chỉ định. Vui lòng thay đổi thư mục hoặc giải phóng một ít dung lượng. Nếu bạn sử dụng SuperSu, hãy thử tắt \"gắn kết không gian tên\" trong SuperSu.</string>
+    <string name="no_space_in_data_all">Lỗi: không có đủ dung lượng trong bộ nhớ máy. Hãy giải phóng thêm dung lượng trong /data sau đó thử lại. Nếu bạn sử dụng SuperSu, hãy thử tắt \"gắn kết không gian tên\" trong SuperSu.</string>
+    <string name="no_space_in_system">Lỗi: không có đủ dụng lượng trong phân vùng System để di chuyển ứng dụng. Vui lòng giải phóng dung lượng trong /system rồi thử lại. Nếu bạn sử dụng SuperSu, hãy thử tắt \"gắn kết không gian tên\" trong SuperSu.</string>
+    <string name="no_space_in_system_all">Lỗi: không có đủ dung lượng trên phân vùng System. Vui lòng giải phóng thêm dung lượng trong /system rồi thử lại. Nếu bạn sử dụng SuperSu, hãy thử tắt \"gắn kết không gian tên\" trong SuperSu.</string>
+    <string name="nofilter">Không có gì</string>
+    <string name="nonedescr">Hiển thị tất cả các ứng dụng mà trong đó không tìm thấy thứ gì.</string>
+    <string name="nonetitle">Không thấy gì</string>
+    <string name="not_detect">"Không phát hiện thẻ SD!
+Đã giới hạn chức năng!"</string>
+    <string name="not_found_changelog">Không thể tìm thấy tập tin changelog. Nó sẽ được tải về khi bạn cập nhật lần tới.</string>
+    <string name="not_supported_android_patch">không hỗ trợ, hoạt động \"như là\"</string>
+    <string name="notify_android_patch_on_boot">Vá Android khi khởi động</string>
+    <string name="notify_android_patch_on_boot_mes_core.jar">Áp dụng bản vá Android tới dalvik-cache từ core.jar .</string>
+    <string name="notify_android_patch_on_boot_mes_services.jar">Áp dụng bản vá Android tới Dalvik-cache từ services.jar .</string>
+    <string name="notify_directory_binder">Gắn kết thư mục</string>
+    <string name="notify_directory_binder_from">TỪ</string>
+    <string name="notify_directory_binder_to">TỚI</string>
+    <string name="notify_patch_on_boot">Vá khi khởi động</string>
+    <string name="notify_patched">đã vá!</string>
+    <string name="odex_all_system_app">"ODEX Mọi ứng dụng Hệ thống
+(Thêm dung lượng trống trong bộ nhớ trong)"</string>
+    <string name="odex_all_system_app_message">Bạn muốn ODEX tất cả ứng dụng hệ thống?</string>
+    <string name="odexed_not_all_apps">Lỗi! Có lẽ không có đủ không gian trống trong /system. Một số ứng dụng không được ODEX.</string>
+    <string name="ok">OK</string>
+    <string name="on_top_apps_marker">Mới</string>
+    <string name="open_to_GP">Mở tới Google Play</string>
+    <string name="option_SELinux_permissive">Đặt SELinux ở chế độ Cho phép</string>
+    <string name="option_SELinux_permissive_descr">Giải quyết vài vấn đề với chức năng của Lucky Patcher, nhưng nó có thể làm máy bạn khởi động lại.</string>
+    <string name="option_analytic">Dịch vụ phân tích</string>
+    <string name="option_analytic_descr">Bật / tắt dịch vụ phân tích (sử dụng định vị địa lý).</string>
+    <string name="option_autoupdate_custom_patches">Tắt chúc năng tự động cập nhật các bản vá tuỳ chỉnh</string>
+    <string name="option_detailed_logs">Nhật ký chi tiết</string>
+    <string name="option_detailed_logs_descr">Phải được kích hoạt để gửi một bản ghi lỗi chi tiết.</string>
+    <string name="option_installation_apk_install_on">Bật khả năng cài đặt các tệp apk thông qua Lucky Patcher (trên một số phần mềm có lỗi, tùy chọn này sẽ chặn cài đặt các tệp apk từ trình quản lý tệp bên ngoài)</string>
+    <string name="option_magisk_module">Sử dụng mô-đun magisk</string>
+    <string name="option_remove_ads">Loại bỏ quảng cáo khỏi Lucky Patcher</string>
+    <string name="option_remove_ads_descr">Loại bỏ quảng cáo khỏi mục \"Giới thiệu\" và \"Changelog\"</string>
+    <string name="option_test_patch">chạy thử nghiệm cho bản vá</string>
+    <string name="orientmenu">Định hướng</string>
+    <string name="others">Khác</string>
+    <string name="package_name">Tên gói</string>
+    <string name="patch_ok">Áp dụng</string>
+    <string name="patch_progress_data_parse">Phân tích dữ liệu cho bản vá...</string>
+    <string name="patch_progress_get_classes">Lấy dữ liệu từ tệp apk...</string>
+    <string name="patch_progress_strings_analisis">Phân tích các chuỗi...</string>
+    <string name="patch_step1">Chuẩn bị ứng dụng</string>
+    <string name="patch_step2">Đang vá</string>
+    <string name="patch_step3">Kết quả phân tích</string>
+    <string name="patch_step4">Đang tạo .odex với những thay đổi</string>
+    <string name="patch_step6">Bước tùy chọn sau khi các bản vá</string>
+    <string name="patch_step7">Đang gộp các file thành tệp apk ...</string>
+    <string name="patch_step8">Áp dụng căn chỉnh zip cho %s</string>
+    <string name="patch_step9">Cài đặt %s ...</string>
+    <string name="patch_step_http">lấy dữ liệu từ root...</string>
+    <string name="patch_step_rebuild_dex">Tập hợp lại một tập tin dex với các chuỗi mới (chờ một thời gian dài)</string>
+    <string name="patch_to_Android_At_once">Cùng một lúc có thể sử dụng \"Tình trạng chữ ký xác nhận luôn luôn đúng\" và \"Vô hiệu hoá xác nhận chữ kí .apk\" hoặc \"Vô hiệu hoá xác minh chữ ký trong bộ quản lý gói\".</string>
+    <string name="patch_to_Android_only_dalvik_cahce_core_disable">Hệ điều hành đã odex code.jar. \"chỉ vá dalvik-cache\" sẽ bị vô hiệu hoá. Và lựa chọn cho các bản vá khác cũng bị reset.</string>
+    <string name="patch_to_Android_only_dalvik_cahce_services_disable">Hệ điều hành đã odex services.jar. \"chỉ vá dalvik-cache\" sẽ bị vô hiệu hoá. Và lựa chọn cho các bản vá khác cũng bị reset.</string>
+    <string name="patchbutton">Vá</string>
+    <string name="pattern1">Vá mẫu N1 : Thành công .</string>
+    <string name="pattern1_f">Vá mẫu N1 thất bại...</string>
+    <string name="pattern2">Vá mẫu N2 : Thành công .</string>
+    <string name="pattern2_f">Vá mẫu N2 thất bại...</string>
+    <string name="pattern3">Vá mẫu N3 : Thành công .</string>
+    <string name="pattern3_f">Vá mẫu N3 thất bại...</string>
+    <string name="pattern4">Vá mẫu N4 thành công.</string>
+    <string name="pattern4_f">Vá mẫu N4 thất bại...</string>
+    <string name="pattern5">Vá mẫu N5 thành công.</string>
+    <string name="pattern5_f">Vá mẫu N5 thất bại...</string>
+    <string name="pattern6">Vá mẫu N6 thành công.</string>
+    <string name="pattern6_f">Vá mẫu N6 thất bại...</string>
+    <string name="pattern7">Vá mẫu N7 thành công.</string>
+    <string name="pattern7_f">Vá mẫu N7 thất bại...</string>
+    <string name="pattern_dex_kill">Dex và xác minh chữ ký killer được thêm vào.</string>
+    <string name="pattern_integrate_emulation">Đã thêm mô phỏng cho các giao dịch mua LVL và Inapp.</string>
+    <string name="pattern_lic_kill">Đã thêm killer xác minh giấy phép.</string>
+    <string name="pattern_signature_kill">Đã thêm killer xác minh chữ ký.</string>
+    <string name="patternamazon">Vá Amazon Market thành công!</string>
+    <string name="patternamazon_f">Vá Amazon Market thất bại...</string>
+    <string name="patterndependencies">Loại bỏ Google Play dependency.</string>
+    <string name="patternsamsung">Vá SamsungApps thành công</string>
+    <string name="patternsamsung_f">Vá SamsungApps thất bại...</string>
+    <string name="perm_ok">Áp dụng và khởi động lại</string>
+    <string name="permission">Thay đổi quyền</string>
+    <string name="permission_not_descr">Không có mô tả về quyền này</string>
+    <string name="permission_not_found">Không tìm thấy quyền</string>
+    <string name="permissions">Quyền</string>
+    <string name="play_protect_warning">Google thường xuyên nhận dạng Lucky Patcher là virus nhưng thực ra không phải. Để xóa thông báo này, mở Google Play và vô hiệu hóa \"Play Protect\" trong phần cài đặt.</string>
+    <string name="play_protect_warning2">"Nhiều trang web đang chia sẻ ứng dụng Lucky Patcher giả mạo. Vì vậy, chúng tôi muốn bạn chia sẻ link Website Chính Thức của chúng tôi trên blog hoặc video Youtube của bạn.
+Link Download chính thức: https://www.luckypatchers.com/download/"</string>
+    <string name="play_protect_warning_question_1">Bạn có muốn mở hộp thoại \"Play Protect\"?</string>
+    <string name="poorresult">"% May mắn! Vá thất bại!
+Phiên bản không xác định của LVL hoặc bản vá đã được áp dụng!"</string>
+    <string name="provide">Cung cấp</string>
+    <string name="proxyGP">Proxy server cho Google Play</string>
+    <string name="proxyGP_descr">Proxy server để chuyển hướng mọi yêu cầu inapp và giấy phép tới Lucky Patcher. Dịch vụ InApp cho Google Play và Giả lập Thanh toán Google cần được bật trong Lucky Patcher.</string>
+    <string name="proxyGP_install">Cài đặt Proxy Google Play Store</string>
+    <string name="proxyGP_install_error">Không thể tìm thấy Proxy Google Play để cài đặt.</string>
+    <string name="proxyGP_install_question">Bạn có thực sự muốn cài đặt Proxy Google Play ?</string>
+    <string name="proxyGP_widget_warning_1">\"Bản vá hỗ trợ cho giả lập InApp và LVL\" phải được vô hiệu hoá trong module Xposed cho Lucky Patcher để chạy Proxy Google Play.</string>
+    <string name="proxyGP_widget_warning_2">Proxy Google Play cần quyền truy cập root và bản vá android \"Tình trạng xác thực chữ kí luôn đúng\" cần được áp dụng hoặc bật trong môđun Xposed cho Lucky Patcher.</string>
+    <string name="punkt1">- Lucky Patcher yêu cầu truy cập Root!</string>
+    <string name="purchase_db_dialog_auto_buy">tự động lặp lại việc mua</string>
+    <string name="purchase_db_dialog_saved_purchase">mục mua đã lưu</string>
+    <string name="purchase_id">ID mua hàng</string>
+    <string name="purchases_sorter_describe">Điều này có thể giúp một số trò chơi Unity. Nếu giao dịch mua không thành công, chỉ cần thay đổi loại của nó sang loại khác và thử lại</string>
+    <string name="purchases_sorter_last_time_try_purchase">Thời điểm mua cuối cùng</string>
+    <string name="purchases_sorter_message_not_need_sorter">Vẫn chưa có gì để sắp xếp. Để sắp xếp các giao dịch mua, bạn cần khởi chạy ứng dụng và cố gắng mua thứ gì đó miễn phí và nếu Lucky Patcher gặp khó khăn với việc phân loại các giao dịch mua, thì bạn có thể sắp xếp chúng theo cách thủ công. Điều này là cần thiết cho các trò chơi Unity. Nếu bạn thay đổi hình thức mua hàng trong máy phân loại, thì bạn sẽ có thêm cơ hội mua hàng miễn phí.</string>
+    <string name="purchases_sorter_not_defined_by_user">người dùng chưa được xác định</string>
+    <string name="purchases_sorter_reset_button">Cài lại</string>
+    <string name="purchases_sorter_reset_warning_message">Tất cả hồ sơ mua hàng sẽ bị xóa.Để hiển thị danh sách mua hàng, bạn cần khởi động lại chương trình mục tiêu.Bạn có chắc chắn muốn xóa các định nghĩa cho tất cả các giao dịch mua để Lucky Patcher sẽ cố gắng đoán loại của chúng sau này không?</string>
+    <string name="purchases_sorter_title">Chọn loại cho mỗi lần mua</string>
+    <string name="purchases_sorter_type_inapp_describe">chúng thường là vàng, pha lê và các vật tư tiêu hao khác.</string>
+    <string name="purchases_sorter_type_inapp_purchase">inapp</string>
+    <string name="purchases_sorter_type_subs_describe">đây thường là đăng ký, cấp bổ sung, vô hiệu hóa quảng cáo và những thứ tương tự.</string>
+    <string name="purchases_sorter_type_subs_purchase">subscription</string>
+    <string name="reboot">Khởi động lại</string>
+    <string name="reboot_message">"Đang khởi động lại...
+Nếu thiết bị không tự động khởi động lại, hãy khởi động lại thủ công..."</string>
+    <string name="reboot_to_bootloader">Khởi động lại tới bootloader</string>
+    <string name="reboot_to_recovery">Khởi động lại tới recovery</string>
+    <string name="rebuild_info">Tóm tắt quá trình dựng lại</string>
+    <string name="remodex">Đã gỡ bỏ bản sửa lỗi Dalvik-cache!</string>
+    <string name="remodexerror">Không tìm thấy Dalvik cache của ứng dụng này.</string>
+    <string name="remove_all_saved_purchases">Loại bỏ mọi mục mua đã lưu</string>
+    <string name="remove_all_saved_purchases_message">Bạn có thực sự muốn xóa tất cả các mục mua đã lưu khỏi Lucky Patcher?</string>
+    <string name="removefixes">"Xóa tất cả các tệp tin ODEX
+(/data/app và /system/app)"</string>
+    <string name="restore_build">Dựng</string>
+    <string name="restore_data_error">Lỗi: Điều gì đó không hay đã xảy ra. Dữ liệu có thể không được khôi phục hoàn toàn.</string>
+    <string name="restore_data_success">Thiết lập đã phục hồi thành công.</string>
+    <string name="restore_message">Bạn thực sự muốn cài đặt</string>
+    <string name="restore_version">Phiên bản</string>
+    <string name="restorebutton">Phục hồi</string>
+    <string name="restored">phục hồi</string>
+    <string name="root_access_not_found">Không phát hiện thấy quyền root. Hãy thử khởi động lại Lucky Patcher hoặc thử cập nhật SuperSu và cập nhật tệp nhị phân su từ SuperSU. Và kiểm tra trong SuperSu đã cho Lucky Patcher quyền root hay chưa.</string>
+    <string name="root_needed">Yêu cầu truy cập Root cho hành động này...</string>
+    <string name="savebutton">Lưu như một bản vá tuỳ chỉnh</string>
+    <string name="saved_object">lưu vào /sdcard/LuckyPatcher/ như một bản vá tùy chỉnh.</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_menu_title">Tìm kiếm</string>
+    <string name="select_filter">Vui lòng chọn bộ lọc cho danh sách ứng dụng:</string>
+    <string name="select_market">"Xin hãy vui lòng chon phiên bản Google Play Store để cài đặt:
+"</string>
+    <string name="send_logs">Bạn có muốn gửi cho tôi log của bạn?</string>
+    <string name="sendlog">Gửi log</string>
+    <string name="set_default_to_install">"Chọn mục cài đặt mặc định
+Có thể không hoạt động trên Android >= 4"</string>
+    <string name="set_default_to_install_auto">Cài đặt vào vị trí đã quyết định tự động bởi hệ điều hành Android</string>
+    <string name="set_default_to_install_internal_memory">Cài đặt vào bộ nhớ trong của điện thoại</string>
+    <string name="set_default_to_install_sdcard">Cài đặt vào bộ nhớ ngoài như thẻ SD</string>
+    <string name="set_switchers_def">Đặt các thay đổi về mặc định</string>
+    <string name="setting_confirm_exit">Xác nhận thoát từ ứng dụng</string>
+    <string name="setting_confirm_exit_descr">Nếu bạn bấm quay lại, Lucky Patcher yêu cầu xác nhận để thoát.</string>
+    <string name="settings">Cài đặt</string>
+    <string name="settings_force_java_root_method">Buộc đặt phương thức java-root</string>
+    <string name="settings_force_java_root_method_app_process">Sử dụng app_ process</string>
+    <string name="settings_force_java_root_method_dalvikvm">Sử dụng dalvikvm</string>
+    <string name="settings_force_java_root_method_description">Nếu bạn gặp vấn đề trong việc lấy quyền root hoặc làm việc với các bản vá, bạn có thể thử phương pháp khác.</string>
+    <string name="settings_force_root">Buộc kiểm tra cài đặt root</string>
+    <string name="settings_force_root_description">Nếu bạn có exotic root, bạn có thể đặt root về root hoặc không root.</string>
+    <string name="settings_force_root_off">Buộc cài chế độ không root</string>
+    <string name="settings_force_root_on">Buộc cài chế độ root</string>
+    <string name="settings_method_apks_installer_non_root_mode">Không sử dụng root cho trình cài đặt Apks</string>
+    <string name="settings_method_apks_installer_root_mode">Sử dụng root cho trình cài đặt Apks</string>
+    <string name="settings_mode_apks_installer">Chế độ trình cài đặt Apks</string>
+    <string name="settings_mode_apks_installer_description">Nếu quá trình cài đặt ở chế độ root quá lâu, bạn có thể bắt nó chuyển sang chế độ không root.</string>
+    <string name="settings_root_auto">Tự động phát hiện truy cập root</string>
+    <string name="settings_show_folder_first">Hiển thị các thư mục đầu tiên</string>
+    <string name="settings_show_only_used_files">Chỉ hiển thị các tệp được Lucky Patcher sử dụng</string>
+    <string name="settings_sort_order_of_files">Sắp xếp</string>
+    <string name="settings_sort_order_of_files_name">Theo tên</string>
+    <string name="settings_sort_order_of_files_time">Theo Thời gian (mới ở trên)</string>
+    <string name="share">Chia sẻ</string>
+    <string name="share_lucky_patcher">Chia sẻ Lucky Patcher</string>
+    <string name="share_message">Bạn thực sự muốn chia sẻ ứng dụng này?</string>
+    <string name="share_this_app">Chia sẻ ứng dụng này</string>
+    <string name="site_pattern">Chuỗi từ AdsBlockList - đã được loại bỏ.</string>
+    <string name="sortbyname">Sắp xếp theo tên</string>
+    <string name="sortbystatus">Sắp xếp theo trạng thái</string>
+    <string name="sortbytime">Sắp xếp theo ngày cài đặt</string>
+    <string name="sortmenu">Sắp xếp thứ tự</string>
+    <string name="splitted_apk_attribute">Đã tách</string>
+    <string name="start_market_message">Cài đặt Google Play mod yêu cầu sự sử dụng các bản vá lên Android. Thiết bị của bạn sẽ khởi động lại. Sau khi khởi đông, hãy thử cài đặt Google Play lần nữa. Đôi khi điều này có thể gây hư hại đến hệ điều hành. Bạn có muốn áp dụng bản vá cho Android không?</string>
+    <string name="stat_boot_ads">Google Ads</string>
+    <string name="stat_boot_custom">Bản vá tuỳ chỉnh</string>
+    <string name="stat_boot_lvl">Xác thực giấy phép Google</string>
+    <string name="stat_launch_activity">Hoạt động chạy:</string>
+    <string name="statads">Thấy có Google Ads.</string>
+    <string name="statappplace">Đường dẫn ứng dụng:</string>
+    <string name="statbilling">Thấy có mục mua InApp.</string>
+    <string name="statbuild">Xây dựng:</string>
+    <string name="statcustom">Bản vá tuỳ chỉnh có sẵn</string>
+    <string name="statdataplace">Đường dẫn dữ liệu của ứng dụng:</string>
+    <string name="statfix">Thấy odex-file.</string>
+    <string name="statlvl">Thấy xác thực giấy phép.</string>
+    <string name="statmodified">Ứng dụng này đã được sửa đổi trước đó.</string>
+    <string name="statnotfix">Không tìm thấy file odex.</string>
+    <string name="statnotfound">Không có gì để vá ở đây.</string>
+    <string name="statnotmodified">Ứng dụng chưa bị sửa đổi</string>
+    <string name="statnotsys">Ứng dụng người dùng.</string>
+    <string name="statnull">Không có gì để vá ở đây</string>
+    <string name="statsys">Ứng dụng hệ thống.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="statuserid">ID người dùng:</string>
+    <string name="statversion">Phiên bản:</string>
+    <string name="success">thành công</string>
+    <string name="support_patch_billing_rebuild_dex">Hỗ trợ bản vá cho mô phỏng InApp (Tái cấu trúc Dex)</string>
+    <string name="support_patch_billing_rebuild_dex_descr">Nó sẽ kéo dài rất lâu. Chuyển hướng thanh toán đến Lucky Patcher mà không cần máy chủ proxy để mô phỏng mua hàng inapp. Nếu một số lý do, phương pháp này không hoạt động, bạn có thể sử dụng phương pháp \"Hỗ trợ bản vá cho mô phỏng InApp (Máy chủ proxy)\". Nếu bản vá cho Android \"Trạng thái xác minh chữ ký luôn luôn đúng\" không được áp dụng, bản vá hỗ trợ này có thể giúp ích.</string>
+    <string name="support_patch_billing_rebuild_dex_not_work">"Phương pháp  \"Bản vá hỗ trợ cho InApp giả lập (Tái cấu trúc Dex) \"kết thúc với lỗi. Sử dụng phương thức\" Hỗ trợ bản vá cho InApp giả lập (Máy chủ proxy) \"để mô phỏng mua hàng miễn phí trong ứng dụng này"</string>
+    <string name="support_patch_billing_rebuild_dex_warning">Ứng dụng được xây dựng lại này sẽ chỉ hoạt động với Lucky Patchter được cài đặt trên thiết bị này. Nếu bạn chuyển ứng dụng này sang thiết bị khác, giao dịch mua sẽ không được mô phỏng. Để chuyển ứng dụng sang thiết bị khác có bản vá hỗ trợ, hãy sử dụng phương pháp \"Bản vá hỗ trợ cho mô phỏng InApp (Máy chủ proxy)\" và cài đặt \"Máy chủ proxy để mô phỏng mua hàng trong ứng dụng\" trên thiết bị khác hoặc xây dựng lại ứng dụng này trực tiếp trên thiết bị khác</string>
+    <string name="support_patch_billing_redirect_to_proxy">Hỗ trợ bản vá cho giả lập InApp (Máy Chủ Proxy)</string>
+    <string name="support_patch_billing_redirect_to_proxy_descr">Chuyển hướng thanh toán đến Lucky Patcher bằng máy chủ proxy để mô phỏng mua hàng InApp. Nếu bản vá cho Android \"Trạng thái xác minh chữ ký luôn luôn đúng\" không được áp dụng, bản vá hỗ trợ này có thể giúp ích.</string>
+    <string name="support_patch_billing_repatch_patched_app">Cập nhật bản vá trong ứng dụng đã vá</string>
+    <string name="support_patch_billing_repatch_patched_app_descr">Nếu bạn xây dựng lại ứng dụng với bản vá này cho phiên bản cũ của Lucky Patcher và bây giờ nó không hoạt động, tùy chọn này sẽ cập nhật bản vá cho phiên bản Lucky Patcher mới.</string>
+    <string name="support_patch_header_additional">Bản vá bổ sung</string>
+    <string name="support_patch_header_inapp">Các bản vá để mô phỏng mua hàng miễn phí</string>
+    <string name="support_patch_header_lvl_inapp">Các bản vá để mô phỏng kiểm tra giấy phép và mua hàng Inapp</string>
+    <string name="support_patch_header_options">Tùy chọn bổ sung</string>
+    <string name="support_patch_lvl_and_inapp_descr">Chuyển hướng tất cả các yêu cầu xác minh giấy phép và các giao dịch mua inapp đến Lucky Patcher.</string>
+    <string name="support_patch_lvl_inapp">Hỗ trợ bản vá cho mô phỏng LVL và Inapp</string>
+    <string name="switcher_auto_backup">Tự động sao lưu tất cả các ứng dụng được cập nhật hoặc cài đặt</string>
+    <string name="switcher_auto_backup_descr">Sao chép tệp APK đến thư mục sao lưu</string>
+    <string name="switcher_auto_backup_only_gp">Tự động sao lưu tập tin cập nhật hoặc cài đặt từ Google Play</string>
+    <string name="switcher_auto_backup_only_gp_descr">Lưu ý: Lucky Patcher đánh dấu tất cả các ứng dụng đã được chỉnh sửa như được cài đặt từ Google Play. Vì thế, các ứng dụng này cũng sẽ có trong danh sách sao lưu.</string>
+    <string name="switcher_auto_integrate_update">Tự động tích hợp bản cập nhật vào /system cho các ứng dụng hệ thống</string>
+    <string name="switcher_auto_integrate_update_descr">Cần khởi động lại để cập nhật thứ hai</string>
+    <string name="switcher_auto_move_to_internal">Tự động di chuyển các ứng dụng đã cập nhật và cài đặt vào bộ nhớ trong</string>
+    <string name="switcher_auto_move_to_internal_descr">Làm cho các ứng dụng chạy nhanh hơn và ổn định hơn</string>
+    <string name="switcher_auto_move_to_sd">Tự động di chuyển các ứng dụng đã cập nhật và cài đặt vào thẻ SD</string>
+    <string name="switcher_auto_move_to_sd_descr">Không tốt cho các ứng dụng với các widgets và hoạt động khi khởi động</string>
+    <string name="switchers_service_not_found">Không tìm thấy dịch vụ</string>
+    <string name="sysdescr">Cảnh báo! Hãy *SAO LƯU* trước khi sửa đổi.</string>
+    <string name="system_app_change">Vui lòng khởi động lại để áp dụng thay đổi.</string>
+    <string name="systitle">Hiện ứng dụng hệ thống</string>
+    <string name="test">kiểm tra</string>
+    <string name="test_services_for_work_failed">Thử nghiệm dịch vụ thất bại. Một cái gì đó không hoạt động đúng. Bạn phải cung cấp tất cả các quyền cần thiết (hoạt động ở chế độ nền, v.v.) cho ứng dụng 1%1$s và cho Lucky Patcher. Mở cài đặt cho 1%1$s?</string>
+    <string name="test_services_for_work_progress">Chúng ta làm một bài kiểm tra cho dịch vụ để tìm lỗi.</string>
+    <string name="test_services_for_work_success">Dịch vụ được kiểm tra và hoạt động chính xác.</string>
+    <string name="text_size">Kích thước văn bản</string>
+    <string name="title_for_block_internet">Chặn Internet cho các ứng dụng sau:</string>
+    <string name="title_for_select_backup_apk_package">Chọn ứng dụng để sao lưu file apk</string>
+    <string name="title_for_select_disable_package">Chọn ứng dụng để vô hiệu hoá:</string>
+    <string name="title_for_select_enable_package">Chọn ứng dụng để bật:</string>
+    <string name="title_for_select_integrate_update_apps">Chọn các ứng dụng tích hợp bản cập nhật đến /system:</string>
+    <string name="title_for_select_move_to_internal">Chọn ứng dụng để di chuyển sang bộ nhớ trong:</string>
+    <string name="title_for_select_move_to_sdcard">Chọn ứng dụng để di chuyển đến thẻ SD:</string>
+    <string name="title_for_select_uninstall">Chọn ứng dụng để gỡ cài đặt:</string>
+    <string name="title_for_unblock_internet">Bỏ chặn Internet cho các ứng dụng sau:</string>
+    <string name="title_installation_lp">Trình cài đặt Lucky Patcher</string>
+    <string name="title_progress_installation_lp">Chuẩn bị cài đặt Lucky Patcher</string>
+    <string name="title_select_custom_patch">Chọn bản vá tuỳ chọn.</string>
+    <string name="title_upd">Tin nhắn</string>
+    <string name="toolbar_adfree">Chặn quảng cáo</string>
+    <string name="toolbar_backups">Sao lưu</string>
+    <string name="toolbar_options_menu">Menu tuỳ chọn</string>
+    <string name="toolbar_rebuild">Dựng lại &amp; Cài đặt</string>
+    <string name="toolbar_refresh_apps">Quét lại các ứng dụng</string>
+    <string name="toolbar_switchers">Công tắc</string>
+    <string name="toolbar_system_utils">Hộp công cụ</string>
+    <string name="tools_menu_block_internet">Chặn Internet</string>
+    <string name="tools_menu_unblock_internet">Bỏ chặn internet</string>
+    <string name="troubleshooting_supersu_namespace_separation">"Vô hiệu hoá tuỳ chọn \"gắn kết không gian tên\" trong SuperSU
+(sẽ khởi động lại)"</string>
+    <string name="truble">Gỡ rối</string>
+    <string name="uninstall">Bạn có thực sự muốn xóa %s?</string>
+    <string name="uninstallapp">Xóa ứng dụng</string>
+    <string name="unknown_error">Lỗi không rõ. Vui lòng thử lại.</string>
+    <string name="unused_odex_delete">Đã loại bỏ ODEX không được sử dụng!</string>
+    <string name="update">Cập nhật</string>
+    <string name="update_custom_patches_message_1">Các bản vá tùy chỉnh mới được tìm thấy trên máy chủ. Danh sách các bản vá được thêm vào mà bạn có thể thấy trong liên kết https://patch.chelpus.com/</string>
+    <string name="update_custom_patches_message_2">Bạn có muốn cập nhật chúng ngay bây giờ không?</string>
+    <string name="update_found_title">Đã tìm thấy bản cập nhật</string>
+    <string name="update_lp">Cập nhật Lucky Patсher</string>
+    <string name="updatebusybox">Cập nhật Busybox</string>
+    <string name="usepatch">Áp dụng</string>
+    <string name="vers">Phiên bản Lucky Patcher</string>
+    <string name="vibration">Kích hoạt rung</string>
+    <string name="vibration_descr">Kích hoạt tính năng phản hồi xúc giác từ danh sách ứng dụng.</string>
+    <string name="viewlandscape">Phong cảnh</string>
+    <string name="viewlarge">Phông lớn</string>
+    <string name="viewmedium">Phông trung bình</string>
+    <string name="viewmenu">Xem</string>
+    <string name="viewportret">Chân dung</string>
+    <string name="viewsensor">Cảm biến</string>
+    <string name="viewsmall">Phông nhỏ</string>
+    <string name="wait">Vui lòng chờ...</string>
+    <string name="warning">Cảnh báo</string>
+    <string name="warning_china_devices_muiu">Firmware MIUI Trung Quốc thường giới hạn công việc của Lucky Patcher trong nền. Bởi vì việc này, giả lập mua trong ứng dụng và các chức năng khác không làm việc. Mở thiết đặt Lucky Patcher để bật tất cả các quyền có thể cho nó?</string>
+    <string name="warning_for_get_apk">Không thể lấy toàn bộ file apk cho \"%1$s\", vì nó được chia tách dùng Google Android App Bundle. Tính năng này không thể được dùng với \"%1$s\".</string>
+    <string name="warning_for_no_free_space_on_device">Hệ điều hành của bạn bắt buộc dừng Lucky Patcher với lỗi: \"Không còn dung lượng trống trên thiết bị\". Hãy thử kiểm tra dung lượng trống trên thiết bị. Nếu bạn dùng SuperSu, hãy thử vô hiệu hoá \"gắn kết không gian tên\" trong SuperSu.</string>
+    <string name="warning_for_no_free_space_on_device_to_patch">Không đủ dung lượng trống trên thiết bị. Để tiếp tục, hãy giải phóng dung lượng.</string>
+    <string name="warning_for_out_of_memory_on_device">Hệ điều hành bắt buộc dừng Lucky Patcher với lỗi: \"Hết bộ nhớ RAM\". Không đủ bộ nhớ RAM cho hoạt động hiện tại.</string>
+    <string name="warning_for_unstall_apk_from_import_file">Nhập bản lưu trữ chứa tệp apk. Bạn có muốn cài %1$s phiên bản %2$s bản dựng %3$s ?</string>
+    <string name="warning_force_close_please_update_lp">Có vẻ như Lucky Patcher đã tự đóng. Xin hãy cập nhật Lucky Patcher lên phiên bản mới nhất.</string>
+    <string name="warning_inapp_emulation">Hệ điều hành của bạn không hỗ trợ giả lập thanh toán InApp theo mặc định. Nếu hệ điều hành của bạn hỗ trợ vô hiệu hoá (treo) cho ứng dụng, hãy vô hiệu hoá Google Play từ Quản lí ứng dụng và thử chạy giả lập InApp lần nữa.</string>
+    <string name="warning_install_new_mod_market">Phiên bản GooglePlay đã được sửa đổi này không thể cài đặt trong phân vùng hệ thống. Cài đặt nó như một ứng dụng người dùng. Nếu không, bạn sẽ không thể kết nối với tài khoản google của bạn.</string>
+    <string name="warning_install_new_mod_market2">Bạn có thể cài đặt Google Play gốc dưới dạng hệ thống và sau đó khi người dùng đã sửa đổi Google Play. Nếu bạn gặp sự cố với Google Play, hãy thử cài đặt nó dưới dạng ứng dụng người dùng với tùy chọn \"%1s\" và cấp cho nó tất cả các quyền.</string>
+    <string name="warning_internal_data_folder_corrupt">Lucky Patcher không thể ghi hoặc đọc dữ liệu trong thư mục dữ liệu. Để khắc phục sự cố này, hãy xóa dữ liệu của Lucky Patcher. Nếu điều này không giúp đỡ. Gỡ cài đặt Lucky patcher, cài đặt nó và cung cấp cho nó tất cả các quyền cần thiết.</string>
+    <string name="warning_jex_optimised_firmware">Firmware của bạn có tối ưu hoá jex. Không thể vá firmware. Đổi firmware hoặc nâng cấp lên Android 5+.</string>
+    <string name="warning_message_browser_not_found">Không tìm thấy trình duyệt trên thiết bị để hiển thị liên kết.</string>
+    <string name="warning_multipatch_not_select">Không có bản vá nào được chọn.</string>
+    <string name="warning_not_all_perms_granded">Lucky Patcher không thể tiếp tục công việc của mình, vì không phải tất cả các quyền cần thiết đều được cấp cho nó</string>
+    <string name="warning_shared_apks">"YBạn cần Lucky Patcher được cài đặt trên một thiết bị khác để có thể cài đặt các tệp 'apks'. Bạn có thể chuyển Lucky Patcher sang một thiết bị khác từ menu bên '%s'."</string>
+    <string name="warning_superSu_mount_name_space_separation">Lucky Patcher quét SuperSu và phát hiện tuỳ chọn \"gắn kết không gian tên\" được bật. Bạn cần vô hiệu hoá nó để Lucky Patcher hoạt động bình thường.</string>
+    <string name="warning_superSu_mount_name_space_separation_2">Bạn có muốn Lucky Patcher tự vô hiệu hoá chính nó (sẽ khởi động lại)?</string>
+    <string name="warning_superSu_mount_name_space_separation_3">Không hiển thị hộp thoại này nữa</string>
+    <string name="well_done">Hoàn thành.</string>
+    <string name="well_done_change_components">Các thành phần của ứng dụng đã được cập nhật thành công.</string>
+    <string name="widget_app_disable_checkbox">chạy ứng dụng nếu press được bật</string>
+    <string name="xposed_module_option">Kích hoạt module Xposed</string>
+    <string name="xposed_option_off">Vui lòng bật module Lucky Patcher trong Xposed để kích hoạt tùy chọn này</string>
+    <string name="xposed_settings">Thiết lập Xposed</string>
+</resources>

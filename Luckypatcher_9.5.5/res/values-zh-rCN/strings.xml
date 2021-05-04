@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppTools">应用信息：</string>
+    <string name="P_not_found">"错误：未找到应用文件！
+请检查虚拟机缓存位置。
+默认缓存位置：/data/dalvik-cache/*"</string>
+    <string name="PatchResult">破解结果</string>
+    <string name="Yes">是</string>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享对象</string>
+    <string name="abc_shareactionprovider_share_with_application">与%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="about_thanks_for_this_translation">感谢以下译者对中文翻译的贡献：WanderMax ,137056643 ,283294820 ,DoThix_HowTo ,FrzHrzn ,ImmortalSTAR ,Joker.zeng ,Miaomiaomiao ,RainSlide ,Tragic_Life ,alenevans2033 ,clodlingxi233 ,gc280021623 ,haseoxth, WeiGuang ,jackielam1997 ,lixianwei ,lue ,lv19971030 ,routeping ,shingz96 ,tanyongle650 ,wwj402 ,yfdyh000 ,魔鬼阿飞</string>
+    <string name="about_working_dir">SD 卡工作目录：</string>
+    <string name="aboutlp">幸运破解器是一款通用的应用破解工具。它不仅可以对已安装的应用进行启动和卸载、清理数据等简单操作，同时还具备了移除广告、移除谷歌授权验证（自动/手动模式）、管理权限和活动项等功能。此外，还提供了自定义破解和手动创建自定义破解以及模拟谷歌内购等高级功能。</string>
+    <string name="aboutmenu">关于应用</string>
+    <string name="abouttitle">关于幸运破解器</string>
+    <string name="activity_ads_descr">此活动项被用于广告</string>
+    <string name="activity_descr">此活动项未知</string>
+    <string name="additinfo">附加信息：</string>
+    <string name="adsdescr">显示全部包含谷歌广告的应用</string>
+    <string name="adstitle">包含广告的应用</string>
+    <string name="advanced_menu">破解菜单</string>
+    <string name="all_custom_patches_updated">全部自定义破解已更新</string>
+    <string name="allchanges">已修复在 ODEX 中应用的所有更改，将保留直至此应用被重新安装。</string>
+    <string name="android_patches_dialog_header1">Android 核心破解</string>
+    <string name="android_patches_dialog_header2">在破解后恢复固件</string>
+    <string name="android_patches_dialog_remove_patch_3">移除破解“%1s”</string>
+    <string name="android_patches_dialog_remove_patches_1_and_2" formatted="false">移除破解“%1s”与“%2s”</string>
+    <string name="android_patches_dialog_use_magisk_module_for_patches">使用 Magisk 模块应用破解</string>
+    <string name="android_patches_for_bootlist">破解核心虚拟机缓存</string>
+    <string name="android_patches_for_bootlist_status">重启后重新应用核心破解</string>
+    <string name="apk_create_option">破解版 APK 命名</string>
+    <string name="apk_not_found_error">错误：找不到 APK 文件。</string>
+    <string name="apk_size">APK 大小：</string>
+    <string name="apkdescr">创建破解 APK 文件时，选择应用标签或应用包名来命名</string>
+    <string name="apklabel">应用标签</string>
+    <string name="apkpackage">应用包名</string>
+    <string name="app_dialog_no_root_app_control">管理应用</string>
+    <string name="app_disabler_widget_pkg_not_found">应用已卸载</string>
+    <string name="app_info">应用信息</string>
+    <string name="app_info_apk_is_splitted">Apk文件已拆分</string>
+    <string name="app_install_success">应用安装成功。</string>
+    <string name="app_name">幸运破解器</string>
+    <string name="app_not_found">找不到应用！请安装应用后重试。</string>
+    <string name="app_not_found_adapter">在已安装的应用列表中未找到此应用。</string>
+    <string name="apps_not_found">未找与此过滤相匹配的应用。</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="back">返回</string>
+    <string name="backbutton">备份</string>
+    <string name="backup_data_empty">应用数据为空，没有可备份的数据。</string>
+    <string name="backup_data_error">错误：数据备份时出现错误，数据备份失败。</string>
+    <string name="backup_data_success">应用设置备份成功。</string>
+    <string name="backup_delete_message">您真的要删除这个备份吗？</string>
+    <string name="backup_done">"备份成功！路径：
+"</string>
+    <string name="backup_settings_delete_message">您真的要删除这份应用数据备份吗？</string>
+    <string name="backup_settings_error_message">无法为未安装的应用还原设置</string>
+    <string name="backup_settings_restore_message">您真的要恢复这份应用数据备份吗？</string>
+    <string name="backups_not_found">无法在以下目录找到备份文件：</string>
+    <string name="bad_root_detected">Root不稳定。重试或者更新您的root。或是尝试在幸运破解器设置中更改“java-root方法”可能会有帮助</string>
+    <string name="begin_changelog">当前版本：</string>
+    <string name="billing_buy">是否想免费获得此产品？</string>
+    <string name="billing_hack2_auto_repeat_note">要禁用自动重复购买您必须点击应用，然后转到“工具箱” -> “移除已保存的内购”并删除已内购项目。</string>
+    <string name="billing_hack2_new">"- 为了达到最佳效果您必须应用“签名验证始终真实”；
+- 要禁用此破解请到底部的“开关”面板里选择“禁用谷歌内购”。"</string>
+    <string name="billing_hack_menu">谷歌内购模拟</string>
+    <string name="billing_hack_menu_descr">需要应用“Android 核心破解”并对目标应用“破解应用内购和授权验证”。请使用对应“破解应用内购和授权验证...”的自定义破解以在 Google Play 商店中显示正确购买信息与内购价格。</string>
+    <string name="billing_hack_menu_disable">禁用谷歌内购模拟</string>
+    <string name="billing_hack_menu_enable">启用谷歌内购模拟</string>
+    <string name="billing_hack_option">发送 reply 命令给未签名的应用（这可能适用于未 Root 用户）</string>
+    <string name="billing_hack_option2">保存内购以便还原</string>
+    <string name="billing_hack_warning_unity" formatted="false">如果内购失败，尝试在“%1s”→“%2s”中更改内购类型。</string>
+    <string name="billing_proxy_server_for_support_patch_descr">“应用内购和授权验证模拟破解补丁”需要此服务，需要配合它重新构建应用。</string>
+    <string name="billing_proxy_server_for_support_patch_inapp">应用内购模拟代理服务器</string>
+    <string name="billing_proxy_server_for_support_patch_lvl">授权验证模拟代理服务器</string>
+    <string name="bind_button">添加新绑定目录</string>
+    <string name="bind_delete">是否移除此绑定目录？</string>
+    <string name="bind_dialog_button">绑定目录</string>
+    <string name="bind_dialog_source">数据目录：</string>
+    <string name="bind_dialog_target">挂载数据目录到：</string>
+    <string name="bind_error">数据目录绑定失败！在设备中未找到数据目录。</string>
+    <string name="bind_source">数据目录：</string>
+    <string name="bind_target">挂载数据到：</string>
+    <string name="binder_browser">资源管理器</string>
+    <string name="binder_browser_create_dir">创建目录</string>
+    <string name="binder_browser_current_dir">当前目录：</string>
+    <string name="binder_browser_select">按这里选择当前目录</string>
+    <string name="binder_delete">删除</string>
+    <string name="bootview">启动列表</string>
+    <string name="browse_to_file">浏览</string>
+    <string name="busybox_not_found">警告：找不到 BusyBox。幸运破解器无法正常运行…</string>
+    <string name="button_add_to_boot_list">添加到启动</string>
+    <string name="button_advanced_filter">高级</string>
+    <string name="button_all">全部</string>
+    <string name="button_backup_apk_apps">备份</string>
+    <string name="button_block_internet">禁止联网</string>
+    <string name="button_disable_package">禁用</string>
+    <string name="button_enable_package">启用</string>
+    <string name="button_for_delete">删除</string>
+    <string name="button_for_uninstall_intsaller">开始卸载安装器</string>
+    <string name="button_integrate_update_apps">整合</string>
+    <string name="button_move_to_internal">移动到内部存储</string>
+    <string name="button_move_to_sdcard">移动到 SD 卡</string>
+    <string name="button_resign_app">重新签名</string>
+    <string name="button_unblock_internet">解除禁网</string>
+    <string name="button_uninstall_apps">卸载</string>
+    <string name="cancel">取消</string>
+    <string name="change_icon_lp">更改图标</string>
+    <string name="change_icon_lp_descr">更改启动器中幸运破解器的默认图标</string>
+    <string name="changelog">更新日志</string>
+    <string name="checkbox_uninstall_and_instal_backup_cache">备份数据和缓存</string>
+    <string name="cleardalvik">清除虚拟机缓存并重启</string>
+    <string name="cleardata">清除数据</string>
+    <string name="clipboard_message_for_app_dilaog_app_additional_info">附加信息已复制到剪贴板</string>
+    <string name="clipboard_message_for_app_dilaog_app_info">应用信息已复制到剪贴板</string>
+    <string name="clipboard_message_for_app_dilaog_app_permissions">权限信息已复制到剪贴板</string>
+    <string name="cloneApplication">创建应用副本（并非总是有效）</string>
+    <string name="close">关闭</string>
+    <string name="collect_logs">正在收集日志...</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
+    <string name="context_automodeslvl">自动模式</string>
+    <string name="context_backup_apk">备份 APK 文件</string>
+    <string name="context_backup_apk_selected_apps">备份选定应用 APK</string>
+    <string name="context_backup_data">备份应用设置</string>
+    <string name="context_batch_operations">批量操作</string>
+    <string name="context_block_internet_selected_apps">"禁止已选应用进行联网
+Android 4.x 的设备可能无法使用"</string>
+    <string name="context_blockads">拦截广告</string>
+    <string name="context_change_components_menu">更改应用组件</string>
+    <string name="context_clearhosts">清除本地 hosts 文件</string>
+    <string name="context_crt_apk_permission">更改权限和活动项的 APK 文件</string>
+    <string name="context_dependencies">移除关联性</string>
+    <string name="context_dex_verification_kill_option">移除完整性检查和签名验证</string>
+    <string name="context_dex_verification_kill_option_describe">向应用中注入代码以绕过 dex 校验值和签名验证。此方法会使应用体积翻倍。</string>
+    <string name="context_dexopt_app">ODEX 化此应用</string>
+    <string name="context_disableActivity">禁止广告活动</string>
+    <string name="context_disableComponents">"禁用组件
+“pm disable”模式
+（可能被应用重新启用）"</string>
+    <string name="context_disable_google_ads">关闭谷歌广告服务</string>
+    <string name="context_disable_package">禁用应用（冻结）</string>
+    <string name="context_disable_package_for_selected_apps">禁用已选应用</string>
+    <string name="context_enable_google_ads">重新启用谷歌广告服务</string>
+    <string name="context_enable_package">启用应用</string>
+    <string name="context_enable_package_for_selected_apps">启用已选应用</string>
+    <string name="context_hard_apk_permission">"更改权限
+保留原始签名
+（不稳定模式）"</string>
+    <string name="context_hide_lp">隐藏幸运破解器</string>
+    <string name="context_hide_lp_descr">尝试隐藏幸运破解器。会消耗系统资源，请仅在需要时使用。</string>
+    <string name="context_install">安装</string>
+    <string name="context_install_as_system">安装为系统应用</string>
+    <string name="context_integrate_dalvik">将虚拟机代码整合到已安装的应用中</string>
+    <string name="context_integrate_update_selected_apps">整合选定应用更新到 /system</string>
+    <string name="context_menu_settings_show_last_added_custom_patches">显示最近添加的自定义破解</string>
+    <string name="context_move_selected_apps_to_internal">移动选定应用到内部存储</string>
+    <string name="context_move_selected_apps_to_sdcard">移动选定应用到 SD 卡</string>
+    <string name="context_original_resign_app">使用原始签名为“%1s”重新签名</string>
+    <string name="context_patch_framework">破解 framework 文件</string>
+    <string name="context_purchases_sorter">内购分类</string>
+    <string name="context_rebuild">重建</string>
+    <string name="context_removeAds">破解谷歌广告</string>
+    <string name="context_remove_patch_boot">重启时移除补丁</string>
+    <string name="context_remove_saved_purchaces">移除已保存的内购</string>
+    <string name="context_resign_app">测试证书重签名。</string>
+    <string name="context_restore_apk">重新安装 APK 文件</string>
+    <string name="context_restore_data">恢复应用设置</string>
+    <string name="context_safe_apk_permission">"更改权限和活动项
+重建和安装"</string>
+    <string name="context_safe_sign_apk_permission">"更改权限和活动项
+保留原始签名（安全模式）"</string>
+    <string name="context_signature_verification_kill_option">签名验证杀手</string>
+    <string name="context_signature_verification_kill_option_describe">通过加入代码来尝试骗过应用中的签名验证机制。此选项仅可应用至原始应用。若应用已被重建过，此项非但无所帮助，更会破坏已经实行的选项。</string>
+    <string name="context_support_patch">破解应用内购和授权验证</string>
+    <string name="context_tools">工具箱</string>
+    <string name="context_trouble_enable_playprotect">启用“Play 保护机制”</string>
+    <string name="context_trouble_run_playprotect_dialog">打开“Play 保护机制”对话框</string>
+    <string name="context_unblock_internet_selected_apps">"解除已选应用的禁网
+Android 4 或以上的设备可能无法使用"</string>
+    <string name="context_unblockads">解除拦截广告</string>
+    <string name="context_uninstall_if_installed">卸载和安装</string>
+    <string name="context_uninstall_selected_apps">卸载已选的用户应用</string>
+    <string name="contextads">移除谷歌广告</string>
+    <string name="contextbackup">备份</string>
+    <string name="contextblockfileads">从 APK 文件中移除链接</string>
+    <string name="contextblockfileads_descr">使用模板文件 AdsBlockList_user_edit.txt 和 AdsBlockList.txt 来移除 http:// 链接。</string>
+    <string name="contextboot">"重启时应用破解
+（尚不稳定！仅适用于破解库文件）"</string>
+    <string name="contextbootads">移除谷歌广告</string>
+    <string name="contextbootcustom">自定义破解</string>
+    <string name="contextbootlvl">移除授权验证</string>
+    <string name="contextcorepatch1">签名验证始终真实</string>
+    <string name="contextcorepatch1_descr">用于注册机所需要的破解。</string>
+    <string name="contextcorepatch2">禁用 ZIP 签名验证</string>
+    <string name="contextcorepatch2_descr">更改应用的文件无需对其再次进行签名，并在更改 APK 文件时允许保留开发者的原始签名。而其他用户要安装此 APK 文件，就必需先破解 Android 核心才能安装该 APK 文件。</string>
+    <string name="contextcorepatch3">禁用应用管理器签名验证</string>
+    <string name="contextcorepatch3_descr">允许不同签名的应用覆盖安装。</string>
+    <string name="contextcorepatch3_descr_plus">"+
+允许旧版本应用覆盖新版本。"</string>
+    <string name="contextcorepatch4">破解应用内购和授权验证</string>
+    <string name="contextcorepatch4_descr_xposed">此破解模式为模拟破解而非真正破解应用。</string>
+    <string name="contextcorepatchrestore2_descr">移除 services.jar 中所有破解</string>
+    <string name="contextcorepatchrestore_descr">移除 core.jar 中所有破解</string>
+    <string name="contextcustompatch">自定义破解</string>
+    <string name="contextdeodex">"移除 ODEX 更改
+（恢复应用）"</string>
+    <string name="contextfulloffline">完全离线</string>
+    <string name="contextfulloffline_descr">尝试使应用离线运行。</string>
+    <string name="contextignore">移除授权验证</string>
+    <string name="contextlaunchapp">启动应用</string>
+    <string name="contextmultipatch">多重破解</string>
+    <string name="contextmultipatchrebuild">重建多重破解 APK</string>
+    <string name="contextodex">将修改应用至 ODEX</string>
+    <string name="contextpatt1">修改授权验证器</string>
+    <string name="contextpatt1_descr">应用后，首次启动时需要提供网络连接。此破解组对应用的更改最少。</string>
+    <string name="contextpatt2">缓存授权修复（网络修复）</string>
+    <string name="contextpatt2_descr">应用后，首次启动不需要网络连接。</string>
+    <string name="contextpatt3">响应代码验证修复</string>
+    <string name="contextpatt3_descr">小幅修复授权验证。</string>
+    <string name="contextpatt4">替换 Google 响应代码</string>
+    <string name="contextpatt4_descr">不稳定但非常有效！应用后，首次启动时需要提供网络连接。</string>
+    <string name="contextpatt5">最终验证授权</string>
+    <string name="contextpatt5_descr">破解授权验证的最终模板。如果此破解有效，该应用将不需要网络连接。</string>
+    <string name="contextpatt6">最终验证授权（逆向破解）</string>
+    <string name="contextpatt6_descr">如果“最终验证授权”破解失败，可以尝试此项破解。</string>
+    <string name="contextpattads3">拦截广告接收服务</string>
+    <string name="contextpattads3_descr">尝试拦截 Google 广告的获取机制。</string>
+    <string name="contextpattads4">其他破解</string>
+    <string name="contextpattads4_descr">其他可以移除广告的破解模式。</string>
+    <string name="contextpattads6">离线破解</string>
+    <string name="contextpattads6_descr">广告将检测到自身处于离线状态。</string>
+    <string name="contextpattamazon">自动模式（亚马逊市场）</string>
+    <string name="contextpattamazon_descr">移除应用的亚马逊市场授权验证。</string>
+    <string name="contextpattdependencies_descr">移除 Google Play 依赖项及其他…</string>
+    <string name="contextpattlvl1">自动模式</string>
+    <string name="contextpattlvl1_descr">最简单的破解模式。适用于大部分使用简单防护的应用。</string>
+    <string name="contextpattlvl2">自动模式（逆向破解）</string>
+    <string name="contextpattlvl2_descr">此模式与“自动模式”略有区别。如果“自动模式”破解无效，可以尝试使用此项破解。</string>
+    <string name="contextpattlvl3">其他模式（极限破解）</string>
+    <string name="contextpattlvl3_descr">额外的破解模式（可能不稳定）。仅在其他模式无效时才应用此模式。需要网络连接。可以尝试配合“自动模式”或“自动模式（逆向破解）”同时进行破解。</string>
+    <string name="contextpattlvl4">应用破解到虚拟机缓存</string>
+    <string name="contextpattlvl4_descr">默认将所有变更写入 odex 文件。但此模式对外部 SD 卡中的应用无效。此时，“应用破解到虚拟机缓存”就可以解决此问题。仅能通过重新安装来恢复应用。</string>
+    <string name="contextpattlvl5">备份 APK 文件</string>
+    <string name="contextpattlvl5_descr">复制 APK 文件到 SD 卡的“LuckyPatcher”文件夹。复制成功后可以从这个 APK 文件重新安装（恢复）相应的应用。</string>
+    <string name="contextpattlvl6">删除虚拟机缓存</string>
+    <string name="contextpattlvl6_descr">创建 odex 文件后，删除此应用的虚拟机缓存以释放空间。如果 odex 文件不能工作于该应用，请重新安装。</string>
+    <string name="contextpattlvl_dex">自动模式（dex）</string>
+    <string name="contextpattlvl_dex_descr">最小数量的破解。仅在安装 Google Play 的情况下有效。当您首次打开破解的应用时，需要网络连接。</string>
+    <string name="contextpattsamsung">自动模式（SamsungApps）</string>
+    <string name="contextpattsamsung_descr">移除 SamsungApps 应用的授权验证。</string>
+    <string name="contextreinstall">"重新安装应用
+(删除所有补丁)"</string>
+    <string name="contextrestore">恢复</string>
+    <string name="contextselpatt">选择破解模式</string>
+    <string name="core_only_dalvik_cache_end">如果设备冻结或部分破解无法正常工作，请手动重启设备。</string>
+    <string name="core_only_dalvik_cache_finished">"虚拟机缓存的核心破解已完成。
+结果：
+"</string>
+    <string name="core_option">仅破解虚拟机缓存</string>
+    <string name="core_patch_apply">（已应用破解）</string>
+    <string name="core_patch_nopatch">（未应用破解）</string>
+    <string name="core_patch_nopatch_no_space1">core.jar 的虚拟机缓存文件已破解，但虚拟机缓存更新时，此类破解可能消失。系统 ROM 空间不足以创建 core.odex，请释放大约 4MB 左右的空间，并清除虚拟机缓存后重试。最后，请重启设备以应用虚拟机缓存的破解。</string>
+    <string name="core_result_checkbox">始终在重启后破解虚拟机缓存（仅在 core.jar 破解重启被移除后）。</string>
+    <string name="corepatches">Android 核心破解</string>
+    <string name="corrupt_download">下载的文件已损坏。请检查您的 SD 卡可用空间后重试。</string>
+    <string name="create">创建目录</string>
+    <string name="create_clone_option1">仅修改 AndroidManifest.xml</string>
+    <string name="create_clone_option1_descr">并非适用于所有应用。如果无法安装副本，请卸载原始版本后再试。此方法无效时，请尝试其他方法来创建副本。</string>
+    <string name="create_clone_option2">修改 AndroidManifest.xml、resources 和 classes.dex</string>
+    <string name="create_clone_option2_descr">并非适用于所有应用。此方法将会修改 resources 和 classes.dex 文件。这种副本将更加独立于原始版本。</string>
+    <string name="create_dir_error">错误：文件夹名称为空。</string>
+    <string name="create_dir_error_2">错误：文件夹未创建。</string>
+    <string name="create_lic_done">操作完毕！应用授权许可创建成功！请在离线状态运行应用进行测试。祝您好运！</string>
+    <string name="create_perm_ok">重建应用</string>
+    <string name="createapk">创建修改的 APK 文件</string>
+    <string name="createapkads">移除谷歌广告的 APK 文件</string>
+    <string name="createapkcustom">自定义破解修改的 APK 文件</string>
+    <string name="createapklvl">移除授权验证的 APK 文件</string>
+    <string name="createapksupport">破解应用内购和授权验证的 APK 文件</string>
+    <string name="createdialog1">已重建</string>
+    <string name="createdialog1_clone">副本</string>
+    <string name="createdialog2">"已完成。
+
+文件路径："</string>
+    <string name="createdialog3">请记住！如果应用以破解状态正在运行，这并不意味着以修改后的 APK 文件形式运行。如果应用检查到更改，此方式将不能再运行。</string>
+    <string name="createdialog3_clone">注意！在安装副本前某些应用需要先卸载已安装版本。不保证所有应用的副本都能正常运行，部分包含授权验证或有防修改机制的应用副本可能无法正常运行（如谷歌服务等）。</string>
+    <string name="createdialog5">文件名称：</string>
+    <string name="custom_descript">自定义破解说明：</string>
+    <string name="custom_patch_log_add_custom_patch_to_boot_list">已添加重启后破解。</string>
+    <string name="custom_patch_log_block_internet_hosts">拦截 Hosts</string>
+    <string name="custom_patch_log_change_components">正在更改组件</string>
+    <string name="custom_patch_log_change_preference_delete">删除共享偏好设置</string>
+    <string name="custom_patch_log_change_preference_insert">插入共享偏好设置</string>
+    <string name="custom_patch_log_change_preference_not_found_file">未找到文件</string>
+    <string name="custom_patch_log_change_preferences">正在更改共享偏好设置</string>
+    <string name="custom_patch_log_next_custom_patch">运行下一个自定义破解</string>
+    <string name="custom_patch_log_offset">偏移</string>
+    <string name="custom_patch_log_or_patch_is_already_applied">或已应用破解？</string>
+    <string name="custom_patch_log_patch_all_files">破解目录中所有文件</string>
+    <string name="custom_patch_log_patch_done">破解完成！</string>
+    <string name="custom_patch_log_patch_for">破解</string>
+    <string name="custom_patch_log_patch_for_libraries">破解库文件</string>
+    <string name="custom_patch_log_patch_on_reboot_added">已添加开机自动破解！</string>
+    <string name="custom_patch_log_pattern">模板</string>
+    <string name="custom_patch_log_pattern_not_found">未找到模式！</string>
+    <string name="custom_patch_log_search_bytes">按字节搜索</string>
+    <string name="custom_patch_log_search_bytes_error">未找到搜索字节</string>
+    <string name="custom_patch_log_skip_patch_for_build">重建时跳过破解</string>
+    <string name="custom_patch_result_all_dont_patch">自定义破解对此版本无效或已破解。</string>
+    <string name="custom_patch_result_not_all_patches_apply">未应用全部破解，应用有可能已破解，请尝试！</string>
+    <string name="custom_patch_warning">未发现自定义破解。获取 Root 权限出错无法访问 SD 卡。如果您使用 SuperSu，请禁用“分离挂载命名空间”。如果无效，请更新 SuperSu 以及其二进制文件。</string>
+    <string name="custom_patches_update_not_found">未找到可更新的自定义破解。</string>
+    <string name="custom_sel_app">已选应用：</string>
+    <string name="customdescr">显示全部包含自定义破解的应用</string>
+    <string name="customtitle">包含自定义破解的应用</string>
+    <string name="dalvik_cache_size">虚拟机缓存大小：</string>
+    <string name="data_dir_size">数据目录大小：</string>
+    <string name="date_creation_patch">自定义破解创建日期</string>
+    <string name="days_on_up">置顶最近安装的应用</string>
+    <string name="days_on_up_descr">应用安装或更新后，置顶显示天数。如果想禁用置顶显示，请设置为 0</string>
+    <string name="delboot">从启动列表中点击删除</string>
+    <string name="delete_file">删除文件</string>
+    <string name="delete_file_message">您真的要删除文件%s吗？</string>
+    <string name="describe_for_Proxy_gp">（仅带有授权验证与内购模拟功能的迷你版本）</string>
+    <string name="dialog_end_resign_app">%1$s 测试证书重签名成功。重签名文件已保存到 %2$s。</string>
+    <string name="dialog_system">此为系统应用。对其执行任何操作时，请务必谨慎，因为这可能使您的设备无法启动。您是否进行过备份？是否对此应用进行破解？</string>
+    <string name="dir_change">更改目录</string>
+    <string name="dir_change_descr">"更改幸运破解器在 SD 卡上存储文件的位置。默认路径为
+/mnt/sdcard/Android/data/[package_name_of_lucky_patcher]/files/LuckyPatcher"</string>
+    <string name="dirbinder">目录绑定器</string>
+    <string name="dirr_chg">目录已更改为：</string>
+    <string name="disable_autoupdate">禁止自动更新</string>
+    <string name="disable_autoupdate_descr">禁止幸运破解器启动时连接网络检查更新</string>
+    <string name="disable_inapp_services_google">禁用 Google Play 商店应用内购服务</string>
+    <string name="disable_inapp_services_google_descr">若多个应用内购服务同时运行，某些应用将会崩溃。</string>
+    <string name="disable_license_services_google">禁用 Google Play 商店授权验证服务</string>
+    <string name="disable_license_services_google_descr">若多个授权验证服务同时运行，某些应用将会崩溃。</string>
+    <string name="disabled">已禁用</string>
+    <string name="disabled_package">应用已禁用（冻结）。</string>
+    <string name="dont_send_log_lp_modified">幸运破解器已被修改。无法发送日志。</string>
+    <string name="dont_send_log_please_update_lp">请更新幸运破解器到最新版本以发送日志。</string>
+    <string name="dontusepatch">取消</string>
+    <string name="download">正在加载...</string>
+    <string name="download_progress_dialog_message_downloading">下载文件</string>
+    <string name="download_progress_dialog_message_prepare_downloading">准备下载...</string>
+    <string name="download_progress_dialog_message_resume_downloading">恢复文件下载</string>
+    <string name="empty">列表为空</string>
+    <string name="empty_binders">您至少应创建一个绑定来添加小部件。</string>
+    <string name="enabled">已启用</string>
+    <string name="enabled_package">应用已启用。</string>
+    <string name="enter_name_dir">路径名称：</string>
+    <string name="equals_version">幸运破解器已是最新版本。</string>
+    <string name="error">错误</string>
+    <string name="error2_backup_apk">因应用内classes.dex丢失，APK文件备份失败</string>
+    <string name="error_apk_to_system">无法从此处安装应用，请将其复制至 SD 卡。</string>
+    <string name="error_app_installed_on_sdcard">幸运破解器必须安装到内部存储。否则，某些功能可能无法正常工作。</string>
+    <string name="error_app_installed_on_sdcard_block">幸运破解器必须安装到内部存储。幸运破解器安装到外置 SD 卡时此功能无法使用。</string>
+    <string name="error_backup_apk">APK 文件备份失败，没有复制权限。</string>
+    <string name="error_classes_not_found">“.jar”文件不包含 classes.dex 文件。请尝试破解此“.jar”文件的 .odex 文件。</string>
+    <string name="error_collect_logs">日志收集器发生错误，无法创建日志文件。</string>
+    <string name="error_create_join_custom_patch">"无法创建文件 join_patch.txt.
+自定义破解文件夹写入权限缺失。"</string>
+    <string name="error_create_oat">在为 classes.dex 创建 .oat 文件时出错。对 classes.dex 的修改出错或是不适用于您的固件。请尝试在幸运破解器设置中更改 java-root 模式。这可能会有助于解决问题。</string>
+    <string name="error_delete_join_custom_patch">"无法删除文件 join_patch.txt
+请手动删除文件或自定义破解文件夹。"</string>
+    <string name="error_detect">似乎幸运破解器已停止运行。是否发送错误报告？</string>
+    <string name="error_get_classes_files_for_patch">无法获取 classes.dex 文件以破解。</string>
+    <string name="error_get_pkgInfo">错误：未获取到应用信息。</string>
+    <string name="error_import_custom_patch">幸运破解器无法导入自定义破解。ZIP 压缩文件损坏。</string>
+    <string name="error_installation">应用安装失败</string>
+    <string name="error_launch">无法启动！</string>
+    <string name="error_message_for_share_app">无法分享应用。未知错误，请尝试更改幸运破解器的工作目录。</string>
+    <string name="error_not_found_lic_data">无法找到创建授权许可所需的数据。</string>
+    <string name="error_not_found_storage_lic">无法找到授权许可的位置。</string>
+    <string name="error_odex_app">错误：odex 文件创建失败…可能是因为存储空间不足。</string>
+    <string name="error_odex_app_impossible">应用不包含 classes.dex 文件。DEX 优化不可用。</string>
+    <string name="error_out_of_memory">内存（RAM）不足以完成此操作，虚拟机堆空间过低。</string>
+    <string name="error_path">路径错误！</string>
+    <string name="error_path_exists">目录已存在，请输入新的路径。</string>
+    <string name="error_read_folder">无法读取文件夹！</string>
+    <string name="error_restore">恢复失败。</string>
+    <string name="exit">退出</string>
+    <string name="extpat1">找到</string>
+    <string name="extpat2">个目标带有授权验证：</string>
+    <string name="extpat3">"破解说明：
+------------------------------
+- 先点击“备份”选项；
+- 再开启 WiFi 网络并打开所有数据连接；
+- 选择目标并点击“破解”选项；
+- 破解后可点击“启动”查看应用授权情况；
+- 如果选中的目标破解没有效果，请点击“恢复”并选择其它目标再重复执行此步骤；
+- 如果一切正常，请按“修复更改”选项。"</string>
+    <string name="extres1">"目标已应用破解！点击“启动”可查看应用授权情况；
+- 如果选中的目标破解没有效果，请点击“恢复”并选择其它目标再重复执行此步骤。"</string>
+    <string name="extres2">"未找到此目标的标签！
+是否已应用破解？！
+- 请点击“恢复”并选择其它目标，然后点击“破解”选项。"</string>
+    <string name="failed">失败</string>
+    <string name="fast_start">快速启动</string>
+    <string name="fast_start_descr">禁止从幸运破解器数据库加载图标，这可能使应用列表卡顿…</string>
+    <string name="file_not_deleted">文件未删除。</string>
+    <string name="file_not_found">"无法将应用复制至 SD 卡！
+请确保 SD 卡有足够空间或检查 BusyBox 是否安装。"</string>
+    <string name="filter">筛选列表</string>
+    <string name="filter0">新安装和更新的应用</string>
+    <string name="filter1">包含授权验证的应用</string>
+    <string name="filter10">已禁用（冻结）的应用</string>
+    <string name="filter11">包含自定义破解的应用</string>
+    <string name="filter12">包含已修改标记的应用</string>
+    <string name="filter13">已 Odex 化的应用</string>
+    <string name="filter2">包含广告的应用</string>
+    <string name="filter4">包含内购的应用</string>
+    <string name="filter5">内部存储中的应用</string>
+    <string name="filter6">SD 卡中的应用</string>
+    <string name="filter7">系统应用</string>
+    <string name="filter8">已更新的系统应用</string>
+    <string name="filter9">具有发送短信和拨打电话权限的应用</string>
+    <string name="filterdescr">选择在列表中显示的应用类型</string>
+    <string name="final_market_message">Google Play 商店已安装。需要先破解 core.jar 文件并重启您的设备。是否继续？</string>
+    <string name="fixbutton">修复更改</string>
+    <string name="fixeddescr">显示全部具有固定修改的应用（黄星）</string>
+    <string name="fixedtitle">已在 ODEX 中应用修改的应用</string>
+    <string name="framework_file_patched">已破解并重命名为</string>
+    <string name="framework_patch_not_result">幸运破解器未发现可破解的字节。文件已破解或版本未知。</string>
+    <string name="generate_log_error_message">日志创建失败。创建日志过程中出错。</string>
+    <string name="generate_log_for_conscrypt_jar_fix_android_patches">"创建 conscrypt.jar 日志
+（以便后续修复“Android 核心破解”应用失败）"</string>
+    <string name="generate_log_for_core.jar_fix_android_patches">"创建 core-libart.jar 日志
+（以便后续修复“Android 核心破解”应用失败）"</string>
+    <string name="generate_log_for_core_oj_jar_fix_android_patches">"创建 core-oj.jar 日志
+（以便后续修复“Android 核心破解”应用失败）"</string>
+    <string name="generate_log_for_framework_fix_android_patches">"创建 framework.jar 日志
+（用于修复“Android核心破解”）"</string>
+    <string name="generate_log_for_services.odex_fix_android_patches">"创建 services.jar 日志
+（以便后续修复“Android 核心破解”应用失败）"</string>
+    <string name="generate_log_result_message_conscrypt.jar">"日志创建成功并保存到 /sdcard/conscrypt.oat.txt。日志文件较大，请压缩后上传到网盘，然后发送文件链接到 lp.chelpus@gmail.com。
+文件大小："</string>
+    <string name="generate_log_result_message_core.jar">"日志创建成功并保存到 /sdcard/boot.oat.txt。日志文件较大，请压缩后上传到网盘，然后发送文件链接到 lp.chelpus@gmail.com。
+文件大小："</string>
+    <string name="generate_log_result_message_core_oj.jar">"日志创建成功并保存到 /sdcard/core-oj.oat.txt。日志文件较大，请压缩后上传到网盘，然后发送文件链接到 lp.chelpus@gmail.com
+文件大小："</string>
+    <string name="generate_log_result_message_services.odex">"日志创建成功并保存到 /sdcard/service.odex.txt。日志文件较大，请压缩后上传到网盘，然后发送文件链接到 lp.chelpus@gmail.com。
+文件大小："</string>
+    <string name="go_to_file_path">转到文件</string>
+    <string name="goodresult">"% 的运气！
+请启动应用进行测试！
+
+若此应用无法正常运行，请重新安装，并且不再对此版本应用破解。"</string>
+    <string name="google_play_installer_clear_data_google_services">清除 Google 服务的数据以修复在 Google Play 中无法登录 Google 账户的问题。</string>
+    <string name="have_luck">"***********************
+
+您有"</string>
+    <string name="header_activities">活动项：</string>
+    <string name="header_providers">提供器：</string>
+    <string name="header_receivers">接收器：</string>
+    <string name="header_services">服务：</string>
+    <string name="help">帮助信息</string>
+    <string name="help_3dot">这是一个分包应用。创建备份时，会生成一个“apks”类型的压缩包。</string>
+    <string name="help_PS">P.S.：幸运破解器会关闭正在被破解的应用，否则修改不会生效。不过，有时您也需要重启设备，或使用第三方工具停止相关应用的进程，来使修改生效。</string>
+    <string name="help_bootlist_describing">*%1$s - 列表中的应用会在开机时被自动破解。此功能仅对需要修改“.so\"库文件的自定义破解有效。这些自定义破解的描述会提醒您将其加入启动列表。</string>
+    <string name="help_common">通用破解说明</string>
+    <string name="help_custom">创建自定义破解</string>
+    <string name="help_custom_add_boot_tag">自动将当前用户破解添加至“%1$s”。应在破解库文件时使用（或在没有 [ODEX] 或 [PACKAGE] 的情况下，在 [CLASSES] 中使用）</string>
+    <string name="help_custom_add_file_in_apk_tag">"将幸运破解器目录中的文件添加至 apk 压缩包。
+例如："</string>
+    <string name="help_custom_all_files_tag">"破解目录中的所有文件。“dir” - 要破解的文件的目录。“templates” - 要破解的文件的模板（模板中仅可用“*”）。
+例如："</string>
+    <string name="help_custom_all_lib_tag">搜索/替换所有原生库文件中的模式</string>
+    <string name="help_custom_apk_build_param">仅对 内部版本号=apk_build 的 apk 应用此破解（例如：{\"apk_build\":\"206+\"}）或仅对内部版本号小于等于 apk_build 的 apk 应用此破解（例如：{\"apk_build\":\"206-\"}）。</string>
+    <string name="help_custom_begin_tag">在破解前，对用户显示的破解描述</string>
+    <string name="help_custom_begin_tag_detail">此为开始标记，从这个标记之后，直到 [CLASSES]、[LIB]、[END] 等字段之前的所有文本，都会显示在对用户显示的破解描述中。</string>
+    <string name="help_custom_block_hosts_tag">"拦截列出的网址。“host” - 您想要拦截的网址。
+例如："</string>
+    <string name="help_custom_classes_bez_package_tag">修补虚拟机缓存应用。请牢记，系统会定期更新虚拟机缓存应用，所有更改都将消失。 因此，我们必须添加 [ADD-BOOT]。针对虚拟机缓存的破解已过时，因为它不可靠。 但是 ROM Toolbox 需要它，因为它不适用于 odex 文件。 n例如：</string>
+    <string name="help_custom_classes_name_param">对某一 classes 文件应用破解（例如：{\"classes_name\":\"classes2.dex\"}、{\"classes_name\":\"classes3.dex\"}、{\"classes_name\":\"classes.dex\"} …）</string>
+    <string name="help_custom_classes_tag">搜索/替换 classes.dex 中的模式（下见描述）</string>
+    <string name="help_custom_classes_tag_detail">这里是 classes.dex 破解所需的代码。可以是 search、original-replaced 或下列的其他选项。</string>
+    <string name="help_custom_component_tag">"启用或禁用应用的组件。
+例如："</string>
+    <string name="help_custom_copy_file_tag">"将文件从幸运破解器目录复制至路径并重命名。
+例如："</string>
+    <string name="help_custom_database_param">设备上的数据库的路径，或幸运破解器自搜索文件中的数据库名称。</string>
+    <string name="help_custom_delete_file_in_apk_tag">"删除 apk 压缩包中的文件
+例如："</string>
+    <string name="help_custom_deprecated_tag">不推荐</string>
+    <string name="help_custom_end">编辑并保存所有文件后，将文件放入幸运破解器目录中的“CustomPatches”文件夹。此目录可以在顶部的“关于”部分找到。之后相应应用会被高亮为黄色，您就可以对其应用破解。</string>
+    <string name="help_custom_end_tag">在破解后，对用户显示的破解描述</string>
+    <string name="help_custom_execute_param">SQLite 查询。</string>
+    <string name="help_custom_file_in_apk_tag">搜索/替换 apk 中文件的模式（此项破解仅对使用此自定义破解重建 apk 时有效）</string>
+    <string name="help_custom_general_text1">- 破解文件名必须与目标 APK 相同（区分大小写）。</string>
+    <string name="help_custom_general_text2">- 若已经存在针对此应用的自定义破解，您只需在文件名的起始加入任意文本并保存。</string>
+    <string name="help_custom_general_text3" formatted="false">- 若您想编写一个适用于某一公司一系列应用的破解，您可以在自定义破解文件名的末尾加上 _%ALL%，比如，对于 SVOX 的所有语言包，自定义破解的文件应如此命名：com.svox.classic.langpack_%ALL%.txt。此处_%ALL% 会被替换为包名的其余部分，因应用不同而不同。请不要在破解文件中使用特殊字符或格式（仅可使用单空格）。若您需要编写对不同应用的自定义破解，并需要在文件名开头加入通配符，您可以使用 %ALL%_ 和 _%ALL%。（例如：chelpus.%ALL%_com.android_%ALL%.txt)。</string>
+    <string name="help_custom_general_text4" formatted="false">- 您可以在文件路径中使用 %PACKAGE_NAME%，此时 %PACKAGE_NAME% 会被替换为目标应用的包名。</string>
+    <string name="help_custom_general_text5">- 您可以使用 IDA Pro 6.1+ 搜索字节模式。此工具可以打开虚拟机缓存、odex、库文件和 classes.dex。</string>
+    <string name="help_custom_general_text6">- 若您想要破解虚拟机缓存或 odex， 请不要忘记，在不同版本的系统中，数据的字节可能不同。并且请牢记，classes.dex 与虚拟机缓存和 odex 中的字节不是一一对应的。如果您在 IDA Pro 中打开 classes.dex 和 odex 文件，您就可以发现不同。</string>
+    <string name="help_custom_general_text7">- 在 6.5.4 或以上版本中，幸运破解器加入了创建 lpzip 的功能。lpzip 是一种包含 apk 文件和自定义破解的 zip 压缩包。apk 会被安装，而自定义破解会被自动导入幸运破解器。（例如：安装应用并破解.lpzip）</string>
+    <string name="help_custom_group_param">为模式标记组别编号（编号可以为 1 或更高）。你可能想问‘这有啥用？’。这些编号的用处是，如果一个组内至少一个模式破解成功，就会显示破解成功的消息。创建适用某应用的不同版本的通用破解时，这种编号尤为有用（例如，破解所有版本的 Google Play 商店，以禁用自动更新）。</string>
+    <string name="help_custom_increment_decrement_param">"对原始字节加上或减去十六进制数字。
+例如："</string>
+    <string name="help_custom_increment_decrement_param_end">又例如：</string>
+    <string name="help_custom_insert_param">"当您想要替换的数据比原始数据更长或更短。
+例如：原始文件包含“chelpa end”"</string>
+    <string name="help_custom_insert_param_end">破解后文件包含：“chelpaa end”</string>
+    <string name="help_custom_lib_tag">搜索/替换列出的原生库文件中的模式（下见描述）</string>
+    <string name="help_custom_lib_tags">这表明以下代码是对应用的库文件的破解，“name”是库文件的名称（如果您输入 *，所有的库文件都会被破解）。</string>
+    <string name="help_custom_libs_tags">对于 /lib/armeabi/、/lib/armeabi-v7a/、/lib/arm64-v8a/、/lib/mips/ 或 /lib/x86/ 中的库文件。</string>
+    <string name="help_custom_name_param">通常指示要应用破解的对象。可以是一个文件名称、一个带有路径的文件名称等。在某些情况下，您可以使用“*”来破解所有库文件，比如当库文件名称未知时。</string>
+    <string name="help_custom_odex_patch_tag">破解的过程中已经创建过 odex。 例如，某个应用程序已通过“移除授权验证”以自动模式进行了破解，但是您需要使用自定义破解进行其他更改。 如果我们使用简单的 [PACKAGE]-[CLASSES]、[ODEX] 或 [CLASSES]-[ODEX]，则创建的 odex 文件将保持不变，然后才会被破解。 在此版本的幸运破解器中，由于有选项“%1$s”，因此不再需要此选项。 n例如：</string>
+    <string name="help_custom_odex_tags">可以在较旧的 Android 上使用此标签。 您可以使用该标签代替标签 [CLASSES]。 此时，classes.dex 中的更改将不保存在虚拟机缓存中，它们在系统更新缓存时会定期消失，而是保存在应用程序 apk 旁边带有 odex 扩展名的单独文件中，该文件将修复所有更改。 并保留原始的虚拟机缓存完整 - 以防万一，如果应用程序对其进行了检查。 您可以在 [CLASSES] 之后使用 [ODEX]，然后将对虚拟机缓存进行更改并自动提交给 odex。 在现代固件中，这不是必需的。</string>
+    <string name="help_custom_offset_param">此偏移相对于起始位置，为十六进制格式。</string>
+    <string name="help_custom_original_param">这种模式模板可以用来匹配应用破解的位置。</string>
+    <string name="help_custom_original_param_end">在以上例子中，模式模板由字节构成，其中 ?? 或 ** 表示任意字符。</string>
+    <string name="help_custom_other_files_tag">搜索/替换 /data/data/目标APK包名/ 或 /sdcard/ 中其他文件中的模式（下见描述）</string>
+    <string name="help_custom_package_tag">解包 classes.dex，并对其应用 [CLASSES] 中的所有破解，然后根据修改后的 classes.dex 生成 odex 文件</string>
+    <string name="help_custom_package_tag_detail">这个标签表明，我们不会直接破解虚拟机缓存，而是会从目标应用程序中提取 classes.dex，破解（使用 [CLASSES] 或 [ODEX] 标识下的补丁），创建修改后的的 odex 文件并放入应用。 例如，这就是钛备份所需的文件。 它会对其进行检查，并且其中的所有校验和都必须正确。 建议始终使用此标记，因为这样破解最为正确，但是如果引起任何问题，则可以不使用它。</string>
+    <string name="help_custom_permission_tag">对应用的数据目录中的文件模拟 Linux 命令“chmod permissions 文件名”</string>
+    <string name="help_custom_rename_file_in_apk_tag">"重命名 apk 压缩包中的文件。
+例如："</string>
+    <string name="help_custom_replace_from_file_param">此项应在“original”项之后，其文件中的字节将会覆写偏移量（文件必须保存在自定义破解同一目录下）。</string>
+    <string name="help_custom_replace_from_file_param_end">这可以避免替换所用模板过长的情况。</string>
+    <string name="help_custom_replaced_param">此项必须在“original”或“offset”之后，表示用来覆写/替换模板的字节。?? 或 ** 处的字节不会被修改。</string>
+    <string name="help_custom_replaced_param_end">在以上例子中，字节 W0、W1 和 W2 是之前执行“search”时存储的字节。</string>
+    <string name="help_custom_s0_s1_sq_param">"将 smali 变量转换为 0（转换十六进制数字：43→03、54→04…）或 1（转换十六进制数字：43→13、04→14…），SQ 转换十六进制 34→44、51→11…
+例如，在变量 const/4 v?,0x00 中，问号表示变量的数字未知（比如，在新版本中被更改了），但是您确定，如果此变量等于 0，就将其设为 1。在这种情况下，模式应如下："</string>
+    <string name="help_custom_s0_s1_sq_param_end">同理，要想将变量设为 0：</string>
+    <string name="help_custom_search_param">search 可以搜索某一模式，并保存特定位置的字节。</string>
+    <string name="help_custom_search_param_end">这一行的意思是，在这些位置的字节将会被存储至 R0、R1 和 R2。这些字节被找到并存储后，您可以通过将 R 替换为 W，在替换模式中使用这些字节。</string>
+    <string name="help_custom_shared_preferences_tag">"编辑 shared_prefs 中的 xml 文件（插入或移除变量）。
+例如："</string>
+    <string name="help_custom_sqlite_tag">"有时目标应用需要更改数据库中的数据，此项可能有所帮助。
+例如："</string>
+    <string name="help_custom_syntax_text_start">这是一个自定义破解范例：</string>
+    <string name="help_custom_title_detailed_description">对于标签及其参数的详细描述：</string>
+    <string name="help_custom_title_general">常规信息：</string>
+    <string name="help_custom_title_syntax">语法帮助：</string>
+    <string name="help_custom_warning_text">请不要移除跳转或将其变为无条件跳转！编译器将会崩溃，您破解的应用将无法在 ART 上运行！为避免这种情况，请使用条件跳转。例如，当需要跳转时，用 if-eq v0,v0（字节：32 00 ?? ??）替换跳转。如果在某些地方无需跳转，您可以插入一个跳转，比如 if-ne v0,v0（字节：33 00 ?? ??）；您也可以使用您自己的方式。</string>
+    <string name="help_custom_warning_title">警告：</string>
+    <string name="help_cyan_apps">此应用中有广告；</string>
+    <string name="help_describe_for_apply_changes_to_dalvik_cache">在默认模式中，所有修改仅限于 ODEX 文件。当 ODEX 文件不适用时（例如当应用被移动至 SD 卡后），复制至虚拟机缓存可能会有所帮助。不过，要想恢复应用，您需要将其重新安装。</string>
+    <string name="help_describe_for_backup_app">备份 APK 文件以供恢复。APK 文件将被保存至备份目录。</string>
+    <string name="help_describe_for_backup_settings_app">将应用数据从内置存储备份至幸运破解器目录。</string>
+    <string name="help_describe_for_create_backup_before_patch">将 APK 文件复制至 SD 卡中幸运破解器的数据目录。您可以通过此 APK 文件重新安装（以恢复）应用。</string>
+    <string name="help_describe_for_create_mod_apk">创建已破解的 APK 安装包。请牢记，重建的应用程序可能无法与通过幸运破解器修改的应用程序以相同的方式工作。之所以存在此问题，是因为应用可能检测自身的代码和签名是否被修改过。</string>
+    <string name="help_describe_for_create_odex">为应用生成未修改过的 ODEX 文件。</string>
+    <string name="help_describe_for_dex_verification_killer">有时，重建后的应用无法正常启动，或警告签名、dex 文件校验值错误，抑或是无法完成购买等。在这种情况下，此项功能有所帮助，通过加入代码来尝试骗过应用中的签名或 dex 文件验证机制。此选项仅可应用至原始应用。如果应用至已破解过的应用，此选项将无法工作，即使此选项已成功实行。此方法会导致应用体积翻倍。</string>
+    <string name="help_describe_for_disable_components_pm_disable">移除选定的权限、服务、活动等。此功能为 Android 内置，因此不会造成破坏。此功能至多只会造成被修改的应用无法运行，而这可以通过重新启用权限轻松修复。</string>
+    <string name="help_describe_for_hard_apk_permission_disale">移除应用的权限（通过编辑系统文件 packages.xml）。请谨慎应用此项破解。在某些设备上，这种方法可能导致无限重启或其他严重后果。请在尝试禁用权限前备份系统。</string>
+    <string name="help_describe_for_lvl_auto_mode">尝试移除授权验证。此项破解使用少部分模板以确保应用的稳定性。若使用此破解得到的幸运百分比较低，请确保联网使用已破解的应用。</string>
+    <string name="help_describe_for_lvl_auto_mode_dex">尝试移除授权验证。可以保证破解后的应用最为稳定。但要想使破解后的应用正常运行，在首次打开时。需要 Google Play 及网络连接。</string>
+    <string name="help_describe_for_lvl_auto_mode_inverse">与“%1$s”稍有区别。若“%1$s”未能成功破解应用，此项可能会有帮助。</string>
+    <string name="help_describe_for_lvl_other_patches_extreme_mode">尝试完全移除授权验证。此项破解使用所有模板。破解后的应用可能会变得不稳定，可能在离线状态时崩溃。反复重启应用，或改变、锁定屏幕方向可能有所帮助，</string>
+    <string name="help_describe_for_lvl_remove">目标应用必须具有开发者签名，并且未被他人修改过。为使破解生效，您需要在第一次打开目标应用时，确保 Google Play 商店（谷歌商店）中登入了有效的账户，并已开启网络连接。每次破解时，请先尝试使用“%1$s”移除授权验证。若无效，尝试使用“%2$s”。若此项破解导致应用出错，您可以尝试仅选择“%3$s”中的一些模板。</string>
+    <string name="help_describe_for_lvl_sellect_patterns">使用选定模板破解应用，以移除授权验证。</string>
+    <string name="help_describe_for_move_to_system">将用户应用转换为系统应用。</string>
+    <string name="help_describe_for_patch_on_reboot">此选项已不再适用，因为新版幸运破解器只修改应用的 ODEX 文件，而 ODEX 文件不会在重启时恢复。此选项仅对修改应用的“.so”文件的自定义破解有用，而这些自定义破解的描述会提醒您将其加入启动列表。</string>
+    <string name="help_describe_for_remove_ad_activities">手动禁用应用的不同活动。有些活动具有对其作用的描述。若应用无法运行，可以再次勾选活动。</string>
+    <string name="help_describe_for_remove_ads">尝试移除广告。即使幸运破解器没有在包含广告的应用中找到广告时，也可以应用此破解。</string>
+    <string name="help_describe_for_remove_dalvik_cache_after_patch">生成 ODEX 文件后，应用的虚拟机缓存将会被删除以节省空间。如果 ODEX 不适用于此应用，您需要将其重新安装。</string>
+    <string name="help_describe_for_remove_odex">移除包含修改的 ODEX 文件，以将应用恢复至原始状态。</string>
+    <string name="help_describe_for_remove_purchase_from_db">移除通过 Google 内购模拟生成的购买。</string>
+    <string name="help_describe_for_restore_app">从备份目录中的 APK 文件恢复应用。</string>
+    <string name="help_describe_for_restore_app_data">恢复 /data/data/应用包名/ 目录中存储的应用数据。</string>
+    <string name="help_describe_for_safe_apk_permission_disale">通过修改 APK 来移除选定的权限。此操作不会改变应用的签名。此破解仅适用于系统应用。已应用核心破解“%1$s”时，适用于所有应用。</string>
+    <string name="help_describe_for_safe_apk_permission_disale_rebuild_and_install">与安全模式类似，只不过此方法使用新签名，不保留原始签名。如果应用检查签名，可能无法运行。</string>
+    <string name="help_describe_for_share_this_app">备份选定的应用的 APK 文件，以将其分享给他人。</string>
+    <string name="help_describe_for_signature_verification_killer">有时，重建后的应用无法正常启动，或警告签名错误，抑或是无法完成购买等。在这种情况下，此项功能有所帮助，通过加入代码来尝试骗过应用中的签名验证机制。此选项仅可应用至原始应用。如果应用至已破解过的应用，此选项将无法工作，即使此选项已成功实行。</string>
+    <string name="help_describe_for_support_patch_inapp">为应用添加内购模拟的支持。内购模拟可以在开关菜单中开启。</string>
+    <string name="help_for_inapp_non_root_method1">使用“%1$s”重新编译目标应用，删除原始应用（在目录名称中加入 cache 字样），并安装重新编译的应用（将带有 cache 字样的目录名称改回来）。为使此方法生效，您需要在开关菜单中启用“%2$s”。您可以尝试进行购买。不太可能成功，但要相信奇迹 :)</string>
+    <string name="help_for_inapp_non_root_method1_note">"有时，一些应用会通过验证自己的签名来保护内购。这种情况下，“%1$s”选项可能会有所帮助。
+"</string>
+    <string name="help_for_inapp_root_method1">"应用第一个核心破解（%1$s）并安装 Google Play 商店修改版。此后，若选项“%2$s”已启用，您的所有内购将被重定向至幸运破解器。要恢复至普通内购模式，只需关闭选项“%2$s”。此方法与 Freedom 所用方法相同，并且效率不比其低，但实现了对 Google Play 的修改，使您可以在不影响 Google Play 操作的情况下进行购买。
+
+该怎么做？
+- 安装幸运破解器 :)
+- 选择幸运破解器底栏的“%3$s→%4$s”，选择第一项（%1$s）并点击应用。重启后，请确保此对话框中的第一个破解被标记为 2/2。（您可以跳过此步骤，但最好进行此检查，因为若这项破解失败，后面的步骤都不会成功）。如果破解失败，您可以尝试幸运破解器 Xposed 模块的第一项破解；
+- 启动幸运破解器，连接网络并选择底栏中“%3$s→%5$s”，选择合适的版本，并点击安装；
+- 在“%3$s→%6$s”中测试 Google Play。
+"</string>
+    <string name="help_for_inapp_root_method2">应用第一项核心破解（签名验证始终为真）并打开“%1$s”开关。此后，您的所有购买都将被重定向至幸运破解器。</string>
+    <string name="help_for_inapp_root_method2_disadvantages">"- 必须启用内购代理服务器以使用 Google Play 商店；
+- 对检查原始内购信息的应用无效；
+- 不便保留内购，如果关闭内购代理服务器，则无法将已保留的内购传递给应用。
+"</string>
+    <string name="help_for_inapp_root_method3">"若您的设备上安装了 Xposed，您可以启用幸运破解器的 Xposed 模块。
+请注意：仅当您没有安装修改版 Google Play 商店时，才需要启用 Xposed 模块中的第四个选项“%1$s”。当没有安装修改版 Google Play 商店时，您可以启用第一个和第四个选项，以进行应用内购。第五个选项可以对其他应用隐藏幸运破解器。"</string>
+    <string name="help_for_inapp_root_method3_disadvantages">"- 对检查原始内购信息的应用无效；
+更新幸运破解器后，Xposed 可能出错，有时 Xposed 模块会被自动关闭，此时您需要在 Xposed 中重新勾选模块并重启设备。"</string>
+    <string name="help_for_inapp_root_method4">"对目标应用选择“%1$s”。此后，所有内购都会被重定向至幸运破解器。为使此方法生效，您必须开启开关菜单中的中的“%2$s”。
+也可以选择“%3$s”（等待时间较长），无需代理即可将所有内购重定向至幸运破解器。"</string>
+    <string name="help_for_inapp_root_method4_disadvantages">"- 此方法不是对所有应用都有效，因为应用内购代码可能被隐藏在无法破解的地方。
+- 对检查内购原始信息的应用无效。"</string>
+    <string name="help_green_apps">此应用很有希望能被注册；</string>
+    <string name="help_instruction_for_create_apk">"- 点击此应用的名称，并选择“%1$s”；
+-选择修改 APK 所用模板；
+- 修改过的安装包将会被导出至幸运破解器的目录（可以在关于中找到）；
+- 请知悉，重建过的 APK 文件和直接破解的应用不同。并且请牢记，卸载原版应用并安装修改过的应用后，应用的所有数据都会丢失。"</string>
+    <string name="help_instruction_for_custom_patch">"- 点击此应用的名称，并选择“%1$s”；
+- 在具有网络连接的情况下测试应用；
+- 如果您足够幸运，自定义破解应该有效；
+- 要想将应用恢复至其原始状态，您可以点击“%2$s”或“%3$s”。"</string>
+    <string name="help_instruction_for_remove_ads">"- 点击此应用的名称，并选择“%1$s”；
+- 然后选择“%2$s”；
+- 在具有网络连接的情况下测试应用；
+- 若广告仍旧出现，请点击“%3$s”，找到广告活动并将其禁用；
+- 如果您足够幸运，广告应该不再会出现；
+- 要想将应用恢复至其原始状态，您可以点击“%4$s”或“%5$s”。"</string>
+    <string name="help_instruction_for_remove_lvl">"- 使用原始的 APK 文件作为目标；
+- 点击此应用的名称，并选择“%1$s”；
+- 选择“%2$s”并在具有网络连接的情况下测试应用；
+- 若失败，请选择“%3$s”或“%4$s”；
+- 如果您足够幸运，您的应用将被成功注册；
+- 要想将应用恢复至其原始状态，您可以点击“%5$s”或“%6$s”。"</string>
+    <string name="help_klever">此应用已被幸运破解器修改。</string>
+    <string name="help_magenta_apps">这些应用在启动列表*中；</string>
+    <string name="help_orange_apps">此为系统应用。对它们进行操作时请务必小心，因为修改系统应用可能会对应用或系统造成不可逆的破坏。</string>
+    <string name="help_purple_apps">包含 Google 应用内购的应用</string>
+    <string name="help_red_apps">应用内发现无法被破解的代码；</string>
+    <string name="help_root_warning">幸运破解器需要 root 权限以使用全部功能。如果没有 root 权限，幸运破解器仅能在受限模式下运行。</string>
+    <string name="help_star">这意味着此应用具有“odex”文件。对于现代 Android 来说，只有系统应用具有此文件。</string>
+    <string name="help_sub_describe_for_inapp_buy_dialog_auto_purchase">选中此选项后，进行相同购买时，将不会出现幸运破解器的对话框（内购将会立刻生效）。此选项对刷游戏货币等情况较为有用，无需每次点击统一购买 :) 如果要禁用自动购买，可以通过长按幸运破解器中的应用名称并选择“%1$s”，然后移除不需要的自动购买项。</string>
+    <string name="help_sub_describe_for_inapp_buy_dialog_save_purchase">这种方法适用于没有 root 权限的用户，因为在较旧的游戏和应用中，其作者不检查签名信息。当此选项开启时，对应用发送内购的无签名的虚假信息，有可能成功激活应用。具有 root 权限的用户请不要使用此方法，其利大于弊。</string>
+    <string name="help_sub_title_for_inapp_disadvantages_method">此方法的缺点：</string>
+    <string name="help_sub_title_for_inapp_non_root">对于没有 root 权限的用户：</string>
+    <string name="help_sub_title_for_inapp_non_root_method1">方法 1：</string>
+    <string name="help_sub_title_for_inapp_root">对于具有 root 权限的用户：</string>
+    <string name="help_sub_title_for_inapp_root_method1">方法 1（最有效且可行的）：</string>
+    <string name="help_sub_title_for_inapp_root_method2">方法 2：</string>
+    <string name="help_sub_title_for_inapp_root_method3">方法 3：</string>
+    <string name="help_sub_title_for_inapp_root_method4">方法 4：</string>
+    <string name="help_sub_title_for_purchase_window">内购对话框选项：</string>
+    <string name="help_title1">颜色分类说明：</string>
+    <string name="help_title_for_context_menu">破解菜单：</string>
+    <string name="help_title_for_inapp">幸运破解器破解内购：</string>
+    <string name="help_title_for_instructions">教程：</string>
+    <string name="help_title_instruction_for_create_apk">创建修改过的 APK：</string>
+    <string name="help_title_instruction_for_custom_patch">应用自定义破解：</string>
+    <string name="help_title_instruction_for_remove_ads">移除广告：</string>
+    <string name="help_title_instruction_for_remove_lvl">移除授权验证</string>
+    <string name="help_yellow_apps">幸运破解器有此应用的自定义破解；</string>
+    <string name="hide_notify">隐藏通知</string>
+    <string name="hide_notify_descr">隐藏幸运破解器的通知</string>
+    <string name="hide_title_app">隐藏标题</string>
+    <string name="hide_title_app_descr">隐藏应用列表的顶栏。仅适用于有实体菜单键的设备。</string>
+    <string name="host_down">无法访问服务器。请稍后再试。</string>
+    <string name="hosts_default">已恢复默认“hosts”文件。</string>
+    <string name="hosts_not_found_changes">找不到“hosts”文件的更改...</string>
+    <string name="hosts_updated">已更新“hosts”文件...</string>
+    <string name="import_to_lucky_patcher">导入到幸运破解器</string>
+    <string name="inapp_emulation_auto_repeat">使用当前设置自动重复购买</string>
+    <string name="info_about_permissions_optional">"可选权限：
+"</string>
+    <string name="info_about_permissions_optional_describe">用于个性化广告与分析。如果您介意这些权限，可以关掉它们。这不会对幸运破解器的运行造成影响</string>
+    <string name="info_about_permissions_optional_perms">"ACCESS_COARSE_LOCATION
+READ_PHONE_STATE
+"</string>
+    <string name="info_about_permissions_required">"必需权限：
+"</string>
+    <string name="info_about_permissions_required_describe">"这是必须文件。没有它们，幸运破解器将无法工作
+"</string>
+    <string name="info_about_permissions_required_perms">"READ_EXTERNAL_STORAGE
+WRITE_EXTERNAL_STORAGE
+"</string>
+    <string name="information">信息</string>
+    <string name="install">安装</string>
+    <string name="install_as_user_app">将 Google Play 商店安装为用户应用。</string>
+    <string name="install_as_user_app_note">要求：已应用“Android 核心破解”并安装有 Google Play 商店。</string>
+    <string name="install_cloned_app">安装副本</string>
+    <string name="install_date">安装日期：</string>
+    <string name="installer_error_aborted">安装被用户取消</string>
+    <string name="installer_error_bad_apks">选中的安装包无效</string>
+    <string name="installer_error_bad_apks_file">错误：apks 文件中没有 base.apk 文件。</string>
+    <string name="installer_error_blocked">安装被%s阻止</string>
+    <string name="installer_error_blocked_device">设备</string>
+    <string name="installer_error_conflict">无法安装该应用，已安装的相同包名应用与之冲突。</string>
+    <string name="installer_error_generic">安装失败</string>
+    <string name="installer_error_generic_miui_warning">如果您使用的是MIUI，您可以关闭“开发者设置”中的“启用MIUI优化”以解决问题</string>
+    <string name="installer_error_incompatible">该应用与此设备不兼容</string>
+    <string name="installer_error_lidl_rom">该设备的固件不支持免 root 安装，因此只能通过 root 安装器进行安装。</string>
+    <string name="installer_error_rootless">"免 root 安装器发生错误：
+
+ %s"</string>
+    <string name="installer_error_storage">空间不足以安装此应用</string>
+    <string name="installer_not_support_by_firmware">您的固件不支持安装 apks 文件</string>
+    <string name="installer_prepare">正在准备分包应用的安装</string>
+    <string name="installer_slit_get_apk_from_apks">安装器从 apks 压缩包中提取文件</string>
+    <string name="installer_slit_install_in_progress">正在安装</string>
+    <string name="installer_slit_successfully_installed">分包应用%s已成功安装</string>
+    <string name="installsupersu">安装 SuperSU（ICS）</string>
+    <string name="integrate_dalvik_code_dialog_good_message">虚拟机代码已成功整合到选定 APK 文件中。它也许无法正常工作，请测试...</string>
+    <string name="integrate_dalvik_code_dialog_title">整合结果</string>
+    <string name="integrate_dalvik_code_message">是否整合虚拟机代码到 APK 文件</string>
+    <string name="integrate_to_system">是否整合应用更新到 /system？</string>
+    <string name="integrate_updates_result">整合更新结果</string>
+    <string name="integrate_updates_to_system">整合更新至 /system</string>
+    <string name="internet_not_found">需要网络连接</string>
+    <string name="is_an_invalid_number">您输入的数字无效...</string>
+    <string name="langdef">默认语言</string>
+    <string name="langen">英语</string>
+    <string name="langmenu">选择语言</string>
+    <string name="launchbutton">启动</string>
+    <string name="licensing_hack_menu">Google 授权验证模拟</string>
+    <string name="licensing_hack_menu_descr">Google Play 商店修改版的替代，为应用确认授权验证。要求：已应用“Android 核心破解”且目标应用已应用“破解应用内购和授权验证”。这可能会影响正版购买的应用（要求为 Google Play 应用自定义破解“破解应用内购和授权验证...”以避免出现此问题）。</string>
+    <string name="licensing_hack_menu_disable">禁用谷歌授权验证模拟</string>
+    <string name="licensing_hack_menu_enable">启用谷歌授权验证模拟</string>
+    <string name="line">"***********************
+"</string>
+    <string name="loadpkg">正在加载应用...</string>
+    <string name="lp_billing_hack_title">破解应用内购...</string>
+    <string name="lp_import_custom_patches">幸运破解器成功导入以下自定义破解和文件：</string>
+    <string name="lvldescr">显示全部包含授权验证的应用</string>
+    <string name="lvltitle">包含授权验证的应用</string>
+    <string name="magisk_module_warning">若该功能出现问题，请在 Magisk Manager 设置里启用 Magisk 核心模式与 MagiskHide，并重启设备</string>
+    <string name="magisk_warning2">如果在应用破解时出现问题，则需启用 Magisk 模块选项。</string>
+    <string name="market_description_text">"请按“安装”按钮将您的 Google Play 商店替换为已破解授权验证库的版本。若设备重启后无法运行 Google Play 商店，请重新安装。
+Google Play 商店修改版说明：
+注意！您 *不能* 免费下载付费应用；
+1. 无需破解 Google LVL（授权验证库）即可使用受保护的应用；
+2. 支持离线模式来验证授权；
+3. 不再需要幸运破解器来破解；
+4. 对授权验证代理无效；
+5. 当您按下退款按钮时，应用会退款但不会自动卸载，无需再在退款前备份应用；
+6. 此 Google Play 商店会将所有内购重定向至幸运破解器以便模拟内购。"</string>
+    <string name="market_install">安装 Google Play 商店修改版</string>
+    <string name="market_version5">Google Play 商店修改版</string>
+    <string name="market_version6">Google Play 商店原版</string>
+    <string name="menu_close_application">停止运行</string>
+    <string name="menu_download_custom_patches">下载自定义破解</string>
+    <string name="messageAndroidManifest">无法提取 AndroidManifest.xml 文件。可能您的 SD 卡空间不足以完整完整应用。</string>
+    <string name="messagePath">"找不到路径！
+请输入有效路径。"</string>
+    <string name="messageSD">"未发现 SD 卡！
+此功能需要挂载 SD 卡才能工作！"</string>
+    <string name="message_about_corrupt_apk_file">原始 APK 文件已损坏。无法重建应用。</string>
+    <string name="message_about_patched_file">损坏的文件</string>
+    <string name="message_allow_non_market_app">请授予“安装未知应用”权限。</string>
+    <string name="message_apply_android_patch_for_proxy_gp">使用 Google Play 商店代理服务器，需要在 Android 核心破解中启用“签名验证始终真实”。是否立即应用此 Android 核心破解？</string>
+    <string name="message_clear_all_dalvik_cache">是否清除虚拟机缓存？</string>
+    <string name="message_clear_data">是否清除此应用所有数据？</string>
+    <string name="message_delete_odex_file">是否删除 odex 文件？</string>
+    <string name="message_delete_package_new">安装时出现错误，在安装此 APK 文件之前必须先卸载该应用。如果无效，请手动重启设备。是否卸载已安装的应用？</string>
+    <string name="message_done_move_to_internal">移动到内部存储完成：</string>
+    <string name="message_done_move_to_sdcard">移动到 SD 卡完成：</string>
+    <string name="message_error_file_apk_for_install_corrupt">安装文件损坏...</string>
+    <string name="message_error_move_to_internal">"移动到内部存储失败（请重试）：
+"</string>
+    <string name="message_error_move_to_sdcard">"移动到 SD 卡失败（请重试）：
+"</string>
+    <string name="message_exit">是否退出幸运破解器？</string>
+    <string name="message_for_reboot_after_android_patches">破解已完成。为了使破解生效，您必须重启设备。是否现在重启您的设备？</string>
+    <string name="message_for_removed_patch_boot">已删除重启时自动破解。</string>
+    <string name="message_for_uninstall_and_install">是否删除 %1$s 并安装选定版本的应用？</string>
+    <string name="message_installation_inapp_proxy">如果您使用“应用内购和授权模拟破解补丁”，那么您需要安装“应用内购代理服务”，但它将使幸运破解器的隐身失效。是否安装此服务？</string>
+    <string name="message_installation_lp">是否要安装幸运破解器 v.%1$s？</string>
+    <string name="message_installation_lvl_proxy">如果您使用“应用内购和授权模拟破解补丁”，那么您需要安装“授权验证代理服务”，但它将使幸运破解器的隐身失效。是否安装此服务？</string>
+    <string name="message_lp_install_success_uninstall_intsaller">幸运破解器已安装成功。现在您需要卸载之前的应用安装器以增加幸运破解器的隐蔽性</string>
+    <string name="message_old_app_version">发现旧版的幸运破解器。为改进幸运破解器的隐藏性，您需要移除该版本。但如果您使用“应用内购和授权验证模拟破解补丁”，您将需要重新为所有应用打补丁，或者在新版的幸运破解器中重新构建原始 APK。是否移除该旧版本？</string>
+    <string name="message_reboot">是否重启？</string>
+    <string name="message_remove_all_odex">是否从 /system/app 和 /data/app 删除所有 odex 文件？只有具有 classes.dex 的应用的 odex 文件才会被删除。</string>
+    <string name="message_rescan_apps">是否重新扫描所有已安装应用？</string>
+    <string name="message_test_patch_downgrade">测试降级应用</string>
+    <string name="message_test_patch_signatures">测试安装不同签名的应用</string>
+    <string name="message_test_patch_terget_sdk_30_installing">测试安装目标 SDK 为 30，但没有 V2 签名的应用</string>
+    <string name="message_test_patch_unlocked">破解功能已解锁</string>
+    <string name="message_test_pm_utility">测试“pm”功能</string>
+    <string name="message_test_pm_utility_fail">无法检测破解，因为“pm”功能不能正常运行。</string>
+    <string name="message_warning_InApp_service_disable">禁用内购服务将影响官方应用内购机制。</string>
+    <string name="message_warning_LVL_emulation_service_enable">启用授权验证模拟服务将影响到正版购买应用的授权。</string>
+    <string name="message_warning_LVL_service_disable">禁用此服务将影响正版应用的授权获取。</string>
+    <string name="mod_market_check">测试 Google Play 商店修改版</string>
+    <string name="mod_market_check_failed">Google Play 商店已安装但不一定能正常破解授权。测试授权许可失败。也许您没有在 core.jar 中应用破解（点击下面的“工具箱” -> “Android 核心破解”）。又或者您没有把修改版 Google Play 商店安装成系统应用（点击下面的“工具箱”->“安装 Google Play 商店修改版”）。</string>
+    <string name="mod_market_check_internet_off">请断开网络连接并重试。</string>
+    <string name="mod_market_check_title">Google Play 商店修改版测试结果</string>
+    <string name="mod_market_check_true">破解版 Google Play 商店已安装并正常工作。注意：此方法并不适用于所有应用和游戏。</string>
+    <string name="modifdescr">显示全部修改过的应用（四叶草）</string>
+    <string name="modiftitle">已修改的应用</string>
+    <string name="move_data">所有数据已转移到</string>
+    <string name="move_to_internal">移动至内部存储</string>
+    <string name="move_to_internal_message">是否移动应用到内部存储？</string>
+    <string name="move_to_sdcard">移动至 /sdcard</string>
+    <string name="move_to_sdcard_message">是否移动应用到 SD 卡？</string>
+    <string name="move_to_sys">移动至 /system/app</string>
+    <string name="move_to_system">是否将此应用转换为系统应用？</string>
+    <string name="multipatch_next_step">下一步</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="need_select_custom_patch">请选择至少一个自定义破解。</string>
+    <string name="new_method_lvl">创建应用授权许可</string>
+    <string name="new_version">发现新版本！</string>
+    <string name="next_custom_patch">下一个自定义破解</string>
+    <string name="no">否</string>
+    <string name="no_freespace_patch">"没有足够的空间来创建 odex 文件。虚拟机缓存已被破解，但重启后可能会丢失破解效果。
+解决方法：移动应用至内部存储，或转换为系统应用，或释放更多可用空间，又或直接重新应用破解。"</string>
+    <string name="no_icon">隐藏应用图标</string>
+    <string name="no_icon_descr">隐藏列表中所有应用图标以更快速加载和操作，适用于低内存设备</string>
+    <string name="no_root">"无法获取 Root 权限！您必须获取完整的 Root 权限才能继续...
+
+（请更新 BusyBox 或 SU 文件）
+请安装 SuperSU（“故障排查 -> 安装 SuperSU（ICS）”）并更新 SU 二进制文件。"</string>
+    <string name="no_site">未发现更新</string>
+    <string name="no_space">错误：没有足够的空间来复制所有数据到指定文件夹。请更改目标目录或清理出足够空间。如果您使用 SuperSu，请禁用“分离挂载命名空间”。</string>
+    <string name="no_space_in_data_all">错误：内部存储剩余空间不足，请清理 /data 分区空间后重试。如果您使用 SuperSu，请禁用“分离挂载命名空间”。</string>
+    <string name="no_space_in_system">错误：系统分区没有足够空间以移动应用。请清理 /system 分区空间后重试。如果您使用 SuperSu，请禁用“分离挂载命名空间”。</string>
+    <string name="no_space_in_system_all">错误：系统分区剩余空间不足，请清理 /system 分区空间后重试。如果您使用 SuperSu，请禁用“分离挂载命名空间”。</string>
+    <string name="nofilter">无</string>
+    <string name="nonedescr">显示全部未发现任何破解的应用</string>
+    <string name="nonetitle">未发现破解的应用</string>
+    <string name="not_detect">"未发现 SD 卡！
+幸运破解器的功能将会受到限制！"</string>
+    <string name="not_found_changelog">找不到更新日志文件，这将会在下次更新时自动下载。</string>
+    <string name="not_supported_android_patch">不支持 Android 核心破解，保持原始运行状态</string>
+    <string name="notify_android_patch_on_boot">重启后应用核心破解</string>
+    <string name="notify_android_patch_on_boot_mes_core.jar">将 Android 核心破解应用至 core.jar 中的虚拟机缓存。</string>
+    <string name="notify_android_patch_on_boot_mes_services.jar">将 Android 核心破解应用至 servises.jar 中的虚拟机缓存。</string>
+    <string name="notify_directory_binder">目录绑定器</string>
+    <string name="notify_directory_binder_from">来源</string>
+    <string name="notify_directory_binder_to">目标</string>
+    <string name="notify_patch_on_boot">开机自动应用破解</string>
+    <string name="notify_patched">已破解！</string>
+    <string name="odex_all_system_app">"ODEX 化所有系统应用
+（需要占用更多内部存储空间）"</string>
+    <string name="odex_all_system_app_message">是否 ODEX 化所有系统应用？</string>
+    <string name="odexed_not_all_apps">/system 分区可能空间不足，部分系统应用未被 ODEX 化。</string>
+    <string name="ok">确定</string>
+    <string name="on_top_apps_marker">新</string>
+    <string name="open_to_GP">在 Google Play 商店中打开</string>
+    <string name="option_SELinux_permissive">设置 SELinux 为 Permissive</string>
+    <string name="option_SELinux_permissive_descr">解决一些幸运破解器功能使用问题，但在某些固件上可能会导致重启</string>
+    <string name="option_analytic">分析服务</string>
+    <string name="option_analytic_descr">打开/关闭分析服务（使用地理位置）。</string>
+    <string name="option_autoupdate_custom_patches">禁止自动更新自定义破解</string>
+    <string name="option_detailed_logs">详细日志</string>
+    <string name="option_detailed_logs_descr">必须启用以发送详细错误日志</string>
+    <string name="option_installation_apk_install_on">使用幸运破解器安装 APK 文件（在某些系统中，此选项会使外部文件管理器无法安装 APK 文件）</string>
+    <string name="option_magisk_module">使用 Magisk 模块</string>
+    <string name="option_remove_ads">移除广告</string>
+    <string name="option_remove_ads_descr">移除“关于”和“更新日志”中广告</string>
+    <string name="option_test_patch">测试破解</string>
+    <string name="orientmenu">屏幕方向</string>
+    <string name="others">其他</string>
+    <string name="package_name">应用包名</string>
+    <string name="patch_ok">应用</string>
+    <string name="patch_progress_data_parse">正在解析破解数据...</string>
+    <string name="patch_progress_get_classes">从 APK 文件中获取文件...</string>
+    <string name="patch_progress_strings_analisis">正在分析字符串...</string>
+    <string name="patch_step1">正在准备应用...</string>
+    <string name="patch_step2">正在破解应用...</string>
+    <string name="patch_step3">正在分析破解结果...</string>
+    <string name="patch_step4">正在创建修改后的 odex 文件...</string>
+    <string name="patch_step6">破解后的可选步骤...</string>
+    <string name="patch_step7">打包文件到 APK...</string>
+    <string name="patch_step8">正在为%s应用ZIP对齐</string>
+    <string name="patch_step9">安装%s...</string>
+    <string name="patch_step_http">获取 Root 数据...</string>
+    <string name="patch_step_rebuild_dex">正在使用新字符串重组 dex 文件（等待时间较长）</string>
+    <string name="patch_to_Android_At_once">一次只能使用“签名验证始终真实”和“禁用 ZIP 签名验证”或者“禁用应用管理器签名验证”。破解重启后可以选另一个。</string>
+    <string name="patch_to_Android_only_dalvik_cahce_core_disable">当前固件中 core.jar 已 ODEX 化，将禁用“仅破解虚拟缓存”。其他破解的选择将被重置。</string>
+    <string name="patch_to_Android_only_dalvik_cahce_services_disable">当前固件中 services.jar 已 ODEX 化，将禁用“仅破解虚拟缓存”。其他破解的选择将被重置。</string>
+    <string name="patchbutton">~破解~</string>
+    <string name="pattern1">破解模式 N1 - 成功...</string>
+    <string name="pattern1_f">破解模式 N1 - 失败...</string>
+    <string name="pattern2">破解模式 N2 - 成功...</string>
+    <string name="pattern2_f">破解模式 N2 - 失败...</string>
+    <string name="pattern3">破解模式 N3 - 成功...</string>
+    <string name="pattern3_f">破解模式 N3 - 失败...</string>
+    <string name="pattern4">破解模式 N4 - 成功...</string>
+    <string name="pattern4_f">破解模式 N4 - 失败...</string>
+    <string name="pattern5">破解模式 N5 - 成功...</string>
+    <string name="pattern5_f">破解模式 N5 - 失败...</string>
+    <string name="pattern6">破解模式 N6 - 成功...</string>
+    <string name="pattern6_f">破解模式 N6 - 失败...</string>
+    <string name="pattern7">破解模式 N7 - 成功...</string>
+    <string name="pattern7_f">破解模式 N7 - 失败...</string>
+    <string name="pattern_dex_kill">已添加 dex 和签名验证杀手</string>
+    <string name="pattern_integrate_emulation">已添加授权验证模拟和应用内购。</string>
+    <string name="pattern_lic_kill">已添加授权验证杀手</string>
+    <string name="pattern_signature_kill">已添加签名验证杀手</string>
+    <string name="patternamazon">亚马逊市场破解成功...</string>
+    <string name="patternamazon_f">亚马逊市场破解失败...</string>
+    <string name="patterndependencies">已移除与 Google Play 商店的关联。</string>
+    <string name="patternsamsung">SamsungApps 破解成功...</string>
+    <string name="patternsamsung_f">SamsungApps 破解失败...</string>
+    <string name="perm_ok">立即重启应用更改</string>
+    <string name="permission">更改权限</string>
+    <string name="permission_not_descr">没有此权限的相关说明</string>
+    <string name="permission_not_found">未找到权限！</string>
+    <string name="permissions">权限</string>
+    <string name="play_protect_warning">Google 时常定义幸运破解器为病毒，然而它不是。启动 Google Play 商店并在设置中禁用“Play 保护机制”以移除此类通知。</string>
+    <string name="play_protect_warning2">"很多网站和网页提供了虚假的幸运破解器应用，于是我希望大家可以分享我们的官方地址到您的博客或视频网站。
+官方下载地址：https://www.luckypatchers.com/download/"</string>
+    <string name="play_protect_warning_question_1">是否打开“Play 保护机制”对话框？</string>
+    <string name="poorresult">"% 的运气！破解失败！
+未知授权验证版本或已应用破解！"</string>
+    <string name="provide">提供器</string>
+    <string name="proxyGP">Google Play 商店代理服务器</string>
+    <string name="proxyGP_descr">重定向所有内购和授权验证请求到幸运破解器的代理服务器。需要在幸运破解器中启用 Google Play 商店应用内购服务和谷歌内购模拟功能。</string>
+    <string name="proxyGP_install">安装 Google Play 商店代理</string>
+    <string name="proxyGP_install_error">找不到可安装的 Google Play 商店代理文件。</string>
+    <string name="proxyGP_install_question">是否安装 Google Play 商店代理？</string>
+    <string name="proxyGP_widget_warning_1">为了能够运行 Google Play 商店代理服务器，需要在幸运破解器 Xposed 模块中禁用“破解应用内购和授权验证”。</string>
+    <string name="proxyGP_widget_warning_2">使用 Google Play 商店代理服务器，需要 Root 权限并在 Android 核心破解或幸运破解器 Xposed 模块中启用“签名验证始终真实” 。</string>
+    <string name="punkt1">- 幸运破解器需要 Root 权限才能工作！</string>
+    <string name="purchase_db_dialog_auto_buy">自动重复购买</string>
+    <string name="purchase_db_dialog_saved_purchase">已保存的内购</string>
+    <string name="purchase_id">内购 ID</string>
+    <string name="purchases_sorter_describe">这有助于破解某些使用 Unity 的游戏。如果内购失败，请更改其类型并重试。</string>
+    <string name="purchases_sorter_last_time_try_purchase">最后一次支付的时间</string>
+    <string name="purchases_sorter_message_not_need_sorter">尚无可分类的内购。要想为内购分类，您需要启动该应用，并免费购买一个物品。如果幸运破解器无法自动分类内购，您也可以手动为内购分类。使用 Unity 的游戏通常需要这项功能。手动调整内购的类别可以增加破解的成功率。</string>
+    <string name="purchases_sorter_not_defined_by_user">用户未定义</string>
+    <string name="purchases_sorter_reset_button">重置</string>
+    <string name="purchases_sorter_reset_warning_message">这将删除全部内购记录。您需要重启目标程序以显示内购列表。确定移除所有内购的类别定义吗？幸运破解器将会自动为其分类。</string>
+    <string name="purchases_sorter_title">选择每种内购的类型</string>
+    <string name="purchases_sorter_type_inapp_describe">这些内购通常是金币、钻石等消耗品。</string>
+    <string name="purchases_sorter_type_inapp_purchase">应用内</string>
+    <string name="purchases_sorter_type_subs_describe">这些内购通常是付费订阅、额外关卡、去除广告等。</string>
+    <string name="purchases_sorter_type_subs_purchase">订阅</string>
+    <string name="reboot">重新启动</string>
+    <string name="reboot_message">"正在重启...
+如果设备没有自动重启，请手动重启设备..."</string>
+    <string name="reboot_to_bootloader">重启至引导模式（bootloader）</string>
+    <string name="reboot_to_recovery">重启至恢复模式（recovery）</string>
+    <string name="rebuild_info">重建信息</string>
+    <string name="remodex">已移除虚拟机缓存修复！</string>
+    <string name="remodexerror">无法找到此应用的虚拟机缓存。</string>
+    <string name="remove_all_saved_purchases">移除所有已保存的内购</string>
+    <string name="remove_all_saved_purchases_message">是否删除幸运破解器保存的所有内购？</string>
+    <string name="removefixes">"移除所有 odex 文件
+（包括 /data/app 和 /system/app）"</string>
+    <string name="restore_build">内部版</string>
+    <string name="restore_data_error">错误：数据恢复时出现错误，数据恢复失败。</string>
+    <string name="restore_data_success">应用设置恢复成功。</string>
+    <string name="restore_message">是否安装</string>
+    <string name="restore_version">版本</string>
+    <string name="restorebutton">恢复</string>
+    <string name="restored">已恢复</string>
+    <string name="root_access_not_found">未发现 Root 访问权限。请重启幸运破解器或者更新 SuperSu 和 SU 二进制文件。并检查 SuperSu 是否授予了幸运破解器 Root 权限。</string>
+    <string name="root_needed">需要 Root 访问权限...</string>
+    <string name="savebutton">保存为自定义破解</string>
+    <string name="saved_object">自定义破解已保存到 /sdcard/LuckyPatcher/ 目录</string>
+    <string name="search">筛选列表</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="select_filter">请选择应用列表筛选方式：</string>
+    <string name="select_market">"请选择要安装的 Google Play 商店版本：
+"</string>
+    <string name="send_logs">是否发送日志给作者？</string>
+    <string name="sendlog">发送日志</string>
+    <string name="set_default_to_install">"选择默认安装位置
+Android 4.x 的设备可能无法使用"</string>
+    <string name="set_default_to_install_auto">安装到系统默认位置</string>
+    <string name="set_default_to_install_internal_memory">安装到手机内部存储</string>
+    <string name="set_default_to_install_sdcard">安装到外部存储（如 SD 卡）</string>
+    <string name="set_switchers_def">恢复所有开关设置为默认值</string>
+    <string name="setting_confirm_exit">退出确认</string>
+    <string name="setting_confirm_exit_descr">选择是否显示退出确认</string>
+    <string name="settings">应用设置</string>
+    <string name="settings_force_java_root_method">强制设置 java-root 模式</string>
+    <string name="settings_force_java_root_method_app_process">使用 app_process</string>
+    <string name="settings_force_java_root_method_dalvikvm">使用dalvik虚拟机</string>
+    <string name="settings_force_java_root_method_description">如果您在获得root权限或使用这些补丁时出现问题，您可以尝试其他办法</string>
+    <string name="settings_force_root">强制 Root 检查</string>
+    <string name="settings_force_root_description">如果您的设备使用非常规 Root 方式，您可以设置强制 Root 或非 Root 模式。</string>
+    <string name="settings_force_root_off">强制非 Root 模式</string>
+    <string name="settings_force_root_on">强制 Root 模式</string>
+    <string name="settings_method_apks_installer_non_root_mode">Apks 安装器不使用 root</string>
+    <string name="settings_method_apks_installer_root_mode">Apks 安装器使用 root</string>
+    <string name="settings_mode_apks_installer">Apks 安装器运行模式</string>
+    <string name="settings_mode_apks_installer_description">如果 root 模式下安装较慢，您可以强制使用非 root 模式。</string>
+    <string name="settings_root_auto">自动检测 Root 权限</string>
+    <string name="settings_show_folder_first">文件夹置顶</string>
+    <string name="settings_show_only_used_files">只显示幸运破解器所用文件</string>
+    <string name="settings_sort_order_of_files">文件排序方式</string>
+    <string name="settings_sort_order_of_files_name">按名称</string>
+    <string name="settings_sort_order_of_files_time">按时间（新文件靠上）</string>
+    <string name="share">分享</string>
+    <string name="share_lucky_patcher">分享幸运破解器</string>
+    <string name="share_message">是否分享此应用？</string>
+    <string name="share_this_app">分享此应用</string>
+    <string name="site_pattern">根据广告阻止列表删除字符串数：</string>
+    <string name="sortbyname">按名称排序</string>
+    <string name="sortbystatus">按状态排序</string>
+    <string name="sortbytime">按安装日期排序</string>
+    <string name="sortmenu">排序方式</string>
+    <string name="splitted_apk_attribute">已拆分</string>
+    <string name="start_market_message">安装 Google Play 商店修改版需要应用“Android 核心破解”。您的设备将被重新启动。重新启动后，请尝试重新安装 Google Play 商店。有时这可能会损坏固件。是否应用“Android 核心破解”？</string>
+    <string name="stat_boot_ads">Google 广告</string>
+    <string name="stat_boot_custom">自定义破解</string>
+    <string name="stat_boot_lvl">Google 授权验证</string>
+    <string name="stat_launch_activity">启动活动项：</string>
+    <string name="statads">发现 Google 广告</string>
+    <string name="statappplace">应用路径：</string>
+    <string name="statbilling">发现应用内购</string>
+    <string name="statbuild">内部版本：</string>
+    <string name="statcustom">自定义破解可用</string>
+    <string name="statdataplace">数据路径：</string>
+    <string name="statfix">已找到 odex 文件。</string>
+    <string name="statlvl">发现授权验证</string>
+    <string name="statmodified">应用曾被修改过。</string>
+    <string name="statnotfix">未找到 odex 文件。</string>
+    <string name="statnotfound">无可破解</string>
+    <string name="statnotmodified">未修改应用</string>
+    <string name="statnotsys">用户应用</string>
+    <string name="statnull">无可破解</string>
+    <string name="statsys">系统应用</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="statuserid">用户标识：</string>
+    <string name="statversion">版本：</string>
+    <string name="success">成功</string>
+    <string name="support_patch_billing_rebuild_dex">使用应用内购模拟（重组 Dex）</string>
+    <string name="support_patch_billing_rebuild_dex_descr">应用这个破解会消耗很长时间。不使用内购模拟代理服务器而直接将付款请求重定向至幸运破解器有时会因某些原因不起作用。那时您可以使用“使用应用内购模拟（代理服务器）”。如果Android核心破解“签名验证始终真实”没有应用，那么这个破解会有所帮助</string>
+    <string name="support_patch_billing_rebuild_dex_not_work">破解“使用应用内购模拟（重组 Dex）”完成但发生错误。请使用“使用应用内购模拟（代理服务器）”模式以模拟内购。</string>
+    <string name="support_patch_billing_rebuild_dex_warning">这个经过破解的软件只有在安装了幸运破解器的设备上才会起作用。如果您仅将它传给别的设备，支付将不会被模拟。您还需要应用“使用应用内购模拟（代理服务器）”破解并在目标设备上安装“应用内购模拟代理服务器”，或者直接在目标设备上重建应用</string>
+    <string name="support_patch_billing_redirect_to_proxy">使用应用内购模拟（代理服务器）</string>
+    <string name="support_patch_billing_redirect_to_proxy_descr">经过内购模拟代理服务器将付款请求重定向至幸运破解器。如果没有应用 Android 核心破解中的“签名验证始终真实”，那么这个破解会有所帮助。</string>
+    <string name="support_patch_billing_repatch_patched_app">更新已破解应用补丁</string>
+    <string name="support_patch_billing_repatch_patched_app_descr">如果使用旧版幸运破解器补丁重建的应用无法正常工作，此选项可以更新为新版幸运破解器补丁。</string>
+    <string name="support_patch_header_additional">可选破解</string>
+    <string name="support_patch_header_inapp">免费内购模拟破解</string>
+    <string name="support_patch_header_lvl_inapp">破解授权验证和应用内购</string>
+    <string name="support_patch_header_options">额外选项</string>
+    <string name="support_patch_lvl_and_inapp_descr">将所有授权验证请求和应用内购发送至幸运破解器。</string>
+    <string name="support_patch_lvl_inapp">破解授权验证和应用内购模拟</string>
+    <string name="switcher_auto_backup">自动备份所有已更新或已安装的应用</string>
+    <string name="switcher_auto_backup_descr">复制 APK 文件到备份文件夹</string>
+    <string name="switcher_auto_backup_only_gp">自动备份使用 Google Play 商店更新或安装的应用</string>
+    <string name="switcher_auto_backup_only_gp_descr">注意：所有使用幸运破解器操作过的应用将被标记为从 Google Play 商店上下载安装的应用，因此这些应用将被自动备份。</string>
+    <string name="switcher_auto_integrate_update">自动整合系统应用更新到 /system</string>
+    <string name="switcher_auto_integrate_update_descr">重新整合更新需要重启</string>
+    <string name="switcher_auto_move_to_internal">自动移动已更新和已安装的应用到内部存储</string>
+    <string name="switcher_auto_move_to_internal_descr">应用更稳定更快速</string>
+    <string name="switcher_auto_move_to_sd">自动移动已更新和已安装的应用到 SD 卡</string>
+    <string name="switcher_auto_move_to_sd_descr">应用的小部件和开机操作可能会受影响。</string>
+    <string name="switchers_service_not_found">未找到服务</string>
+    <string name="sysdescr">对系统应用执行任何操作时，请务必谨慎（建议用户操作前进行备份）</string>
+    <string name="system_app_change">您必须重启设备才能应用更改。</string>
+    <string name="systitle">显示系统应用</string>
+    <string name="test">测试</string>
+    <string name="test_services_for_work_failed">服务测试失败。一些服务工作不正常。您必须授予应用 %1$s 和幸运破解器所有必要权限（后台运行等）。是否打开 %1$s 的设置？</string>
+    <string name="test_services_for_work_progress">我们引入了服务测试用来发现问题。</string>
+    <string name="test_services_for_work_success">服务已测试并工作正常。</string>
+    <string name="text_size">文本字体大小</string>
+    <string name="title_for_block_internet">选择要禁止联网的应用：</string>
+    <string name="title_for_select_backup_apk_package">选择待备份 APK 应用：</string>
+    <string name="title_for_select_disable_package">选择待禁用应用：</string>
+    <string name="title_for_select_enable_package">选择待启用应用：</string>
+    <string name="title_for_select_integrate_update_apps">选择要整合更新到 /system 的应用：</string>
+    <string name="title_for_select_move_to_internal">选择要移动到内部存储的应用：</string>
+    <string name="title_for_select_move_to_sdcard">选择要移动到 SD 卡的应用：</string>
+    <string name="title_for_select_uninstall">选择要卸载的应用：</string>
+    <string name="title_for_unblock_internet">选择要解除禁网的应用：</string>
+    <string name="title_installation_lp">幸运破解器安装器</string>
+    <string name="title_progress_installation_lp">正在准备安装幸运破解器</string>
+    <string name="title_select_custom_patch">选择自定义破解</string>
+    <string name="title_upd">提示</string>
+    <string name="toolbar_adfree">拦截设备广告</string>
+    <string name="toolbar_backups">备份列表</string>
+    <string name="toolbar_options_menu">选项菜单</string>
+    <string name="toolbar_rebuild">重建和安装</string>
+    <string name="toolbar_refresh_apps">重新扫描应用</string>
+    <string name="toolbar_switchers">开关</string>
+    <string name="toolbar_system_utils">工具箱</string>
+    <string name="tools_menu_block_internet">禁止联网</string>
+    <string name="tools_menu_unblock_internet">解除禁网</string>
+    <string name="troubleshooting_supersu_namespace_separation">"禁用 SuperSU “分离挂载命名空间”选项
+（需要重启）"</string>
+    <string name="truble">故障排查</string>
+    <string name="uninstall">您真的要移除文件%s吗？</string>
+    <string name="uninstallapp">卸载应用</string>
+    <string name="unknown_error">未知错误，请重试。</string>
+    <string name="unused_odex_delete">已移除未使用的 odex 文件！</string>
+    <string name="update">更新应用</string>
+    <string name="update_custom_patches_message_1">在服务器上发现新的自定义破解。您可以在 https://patch.chelpus.com/ 中查看新增的破解</string>
+    <string name="update_custom_patches_message_2">是否立即更新？</string>
+    <string name="update_found_title">发现更新</string>
+    <string name="update_lp">更新幸运破解器</string>
+    <string name="updatebusybox">更新 BusyBox 工具</string>
+    <string name="usepatch">应用</string>
+    <string name="vers">幸运破解器 v</string>
+    <string name="vibration">启用振动</string>
+    <string name="vibration_descr">在主界面按下应用选项时振动反馈</string>
+    <string name="viewlandscape">始终横屏</string>
+    <string name="viewlarge">大字体</string>
+    <string name="viewmedium">中字体</string>
+    <string name="viewmenu">视图</string>
+    <string name="viewportret">始终竖屏</string>
+    <string name="viewsensor">系统默认</string>
+    <string name="viewsmall">小字体</string>
+    <string name="wait">请稍候…</string>
+    <string name="warning">注意</string>
+    <string name="warning_china_devices_muiu">中国的 MIUI 固件通常会限制幸运破解器后台运行。因此，内购模拟和其他功能无法正常工作。是否打开幸运破解器设置以启用所有可能使用的权限？</string>
+    <string name="warning_for_get_apk">无法获取“%1$s”的完整 APK 文件，它使用了谷歌 Android 应用拆分发布格式。此功能与“%1$s”不兼容。</string>
+    <string name="warning_for_no_free_space_on_device">幸运破解器被系统强制停止，错误：“设备空间不足”。请检查剩余空间。如果您使用 SuperSu，请禁用“分离挂载命名空间”。</string>
+    <string name="warning_for_no_free_space_on_device_to_patch">设备上没有足够的可用空间。继续工作，请释放更多的空间。</string>
+    <string name="warning_for_out_of_memory_on_device">幸运破解器被系统强制停止，错误：“内存不足”。内存不足以执行当前操作。</string>
+    <string name="warning_for_unstall_apk_from_import_file">导入压缩文件中包含 APK 文件。是否安装 %1$s 版本 %2$s 内部版本 %3$s？</string>
+    <string name="warning_force_close_please_update_lp">幸运破解器已被强制关闭。请更新幸运破解器到最新版本。</string>
+    <string name="warning_inapp_emulation">默认情况下，您的固件不支持应用内购。如果您的固件支持禁用（冻结）应用，那么请从应用管理器中禁用 Google Play 商店然后再尝试模拟应用内购。</string>
+    <string name="warning_install_new_mod_market">此版本的 GooglePlay 修改版无法安装在系统分区中。将其安装为用户应用程序。否则，您将无法登录 Google 帐户。</string>
+    <string name="warning_install_new_mod_market2">您可以将 Google Play 商店原版安装为系统应用，然后将修改版安装为用户应用。如果您在使用 Google Play 时遇到问题，尝试以“%1s”选项将其安装为用户应用，并授予所有权限。</string>
+    <string name="warning_internal_data_folder_corrupt">幸运破解器无法在数据目录读写数据。请清除幸运破解器数据以尝试修复此问题。如果无效，请卸载幸运破解器，重新安装并授予所有必要权限。</string>
+    <string name="warning_jex_optimised_firmware">当前固件存在 JIT 优化，无法核心破解。请更换固件或升级到 Android 5+。</string>
+    <string name="warning_message_browser_not_found">无法找到此设备上的浏览器以打开此链接。</string>
+    <string name="warning_multipatch_not_select">请选择至少一个破解。</string>
+    <string name="warning_not_all_perms_granded">幸运破解器无法继续工作，因为未授予所有必要权限。</string>
+    <string name="warning_shared_apks">需要在另一设备上安装幸运破解器以安装 apks 文件。您可以从侧边栏菜单 %s 将幸运破解器复制至另一设备</string>
+    <string name="warning_superSu_mount_name_space_separation">幸运破解器检测到 SuperSu 已启用“分离挂载命名空间”。您需要禁用此项以保证幸运破解器正常运行。</string>
+    <string name="warning_superSu_mount_name_space_separation_2">是否禁用此项（需要重启）？</string>
+    <string name="warning_superSu_mount_name_space_separation_3">不再显示此对话框</string>
+    <string name="well_done">操作成功</string>
+    <string name="well_done_change_components">应用组件更新成功</string>
+    <string name="widget_app_disable_checkbox">应用“ON”状态下点击直接运行</string>
+    <string name="xposed_module_option">启用 Xposed 模块</string>
+    <string name="xposed_option_off">请在 Xposed 安装器中启用幸运破解器模块以激活此选项</string>
+    <string name="xposed_settings">Xposed 设置</string>
+</resources>

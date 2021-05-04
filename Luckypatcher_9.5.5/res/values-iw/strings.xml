@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppTools">פרטי תוכנה</string>
+    <string name="P_not_found">"שגיאה: קבצי התוכנה לא נמצאו!
+בדוק את מיקות תיקיית dalvik-cache כדי לסדר את הבעיות!
+ברירת המחדל היא: /data/dalvik-cache/*"</string>
+    <string name="PatchResult">תוצאות תיקון</string>
+    <string name="abc_action_bar_home_description">ניווט לדף הבית</string>
+    <string name="abc_action_bar_up_description">ניווט למעלה</string>
+    <string name="abc_action_menu_overflow_description">עוד אפשרויות</string>
+    <string name="abc_action_mode_done">סיום</string>
+    <string name="abc_activity_chooser_view_see_all">הצגת הכול</string>
+    <string name="abc_activitychooserview_choose_application">בחירת אפליקציה</string>
+    <string name="abc_capital_off">כבוי</string>
+    <string name="abc_capital_on">מופעל</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+‎</string>
+    <string name="abc_menu_delete_shortcut_label">מחיקה</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">רווח</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">תפריט+</string>
+    <string name="abc_search_hint">חיפוש…</string>
+    <string name="abc_searchview_description_clear">מחיקת השאילתה</string>
+    <string name="abc_searchview_description_query">שאילתת חיפוש</string>
+    <string name="abc_searchview_description_search">חיפוש</string>
+    <string name="abc_searchview_description_submit">שליחת שאילתה</string>
+    <string name="abc_searchview_description_voice">חיפוש קולי</string>
+    <string name="abc_shareactionprovider_share_with">שיתוף עם</string>
+    <string name="abc_shareactionprovider_share_with_application">שיתוף עם %s</string>
+    <string name="abc_toolbar_collapse_description">כיווץ</string>
+    <string name="aboutmenu">אודות</string>
+    <string name="abouttitle">אודות Lucky Patcher על ידי ChelpuS</string>
+    <string name="additinfo">מידע נוסף:</string>
+    <string name="advanced_menu">פתח תפריט טלאים</string>
+    <string name="app_name">Lucky Patcher</string>
+    <string name="backbutton">גיבוי</string>
+    <string name="bootview">רשימת אתחול</string>
+    <string name="cleardalvik">נקה את dalvik-cache והפעל מחדש</string>
+    <string name="cleardata">נקה נתונים</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s נתקלה בבעיה בשירותי Google Play. נסה שוב.</string>
+    <string name="contextads">הסר פרסומות גוגל!</string>
+    <string name="contextboot">תקן בעת אתחול!</string>
+    <string name="contextbootads">הסר פרסומות של גוגל</string>
+    <string name="contextbootcustom">טלאי מיוחד</string>
+    <string name="contextbootlvl">הסר אימות רשיון</string>
+    <string name="contextcustompatch">תיקון מותאם!</string>
+    <string name="contextdeodex">הסר תיקון (כדי לעדכן תוכנה)</string>
+    <string name="contextignore">הסר בדיקת רשיון!</string>
+    <string name="contextlaunchapp">הפעל יישום!</string>
+    <string name="contextodex">החל שינויי Dalvik-cache</string>
+    <string name="contextpatt1">תקן החלפת אימות רשיון</string>
+    <string name="contextpatt1_descr">אם זה נמצא, כאשר תפעיל בפעם הראשונה את התוכנה, הפעל את חיבור האינטרנט. קבוצת הטלאים יבצעו את השינויים האחרונים.</string>
+    <string name="contextpatt2">תיקון רשיון במטמון (תיקון אינטרנט)</string>
+    <string name="contextpatt2_descr">אם זה נמצא, זה יעבוד גם ללא חיבור לאינטרנט.</string>
+    <string name="contextpatt3">תקן אימות קוד תגובה</string>
+    <string name="contextpatt3_descr">תיקונים מזעריים עבור אימות רשיון.</string>
+    <string name="contextpatt4">החלף את קוד התגובה</string>
+    <string name="contextpatt4_descr">לא יציב. אבל מאוד אפקטיבי. אם זה נמצא, בפעם הראשונה שתפעיל את התוכנה, הםעל את חיבור האינטרנט. קבוצת הטלעים יבצעו את השינויים הנוספים.</string>
+    <string name="contextrestore">שחזר!</string>
+    <string name="contextselpatt">בחר תבניות</string>
+    <string name="createapk">צור apk לאחר שינויים</string>
+    <string name="createapkads">Apk ללא פרסומות מגוגל</string>
+    <string name="createapkcustom">Apk שונה על ידי טלאי מיוחד</string>
+    <string name="createapklvl">Apk ללא אימות רשיון</string>
+    <string name="createdialog1">בנה מחדש</string>
+    <string name="createdialog2">"הושלם:
+
+קובץ מותקן בתיקייה:"</string>
+    <string name="createdialog3">"
+
+זכור! אם התוכנה מופעלת עם טלאי, זה לא אומר שזה גם יעבוד בצורה של קובץ apk עם שינויים. אם התוכנה בודקת שינויים, שיטה זו לא תעבוד."</string>
+    <string name="createdialog5">שם קובץ:</string>
+    <string name="delboot">לחץ כדי למחוק מרשימת האתחול</string>
+    <string name="empty">ריק</string>
+    <string name="equals_version">יש לך את הגירסה האחרונה של Lucky Patcher...</string>
+    <string name="extpat1">נמצא</string>
+    <string name="extpat2">אובייקטים דומים לרשיון:</string>
+    <string name="extpat3">"הדרכה:
+--------------
+-לחץ בבקשה על \"גיבוי\";
+-הפעל חיבור אלחוטי ופתח את כל התעבורה;
+-בחר את האובייקט ולחץ על \"החל טלאי\";
+-לחץ \"הפעל\" ובדוק את מצב רשיון התוכנה;
+-אם אובייקט זה לא עזר, לחץ \"שחזור\" וחזור על התהליך עם אובייקט אחר."</string>
+    <string name="extres1">"החלת אובייקט טלאי הצליחה!
+-לחץ \"הפעל\" ובדוק את מצב רשיון התוכנה;
+-אם אובייקט זה לא עזר, לחץ \"שחזור\" וחזור על התהליך עם אובייקט אחר."</string>
+    <string name="extres2">"לא נמצאו תגיות לאובייקט זה!
+כבר עבר תיקון טלאי?!
+-לחץ על \"שחזר\" בחר אובייקט אחר ולחץ על \"החל טלאי\"."</string>
+    <string name="goodresult">"מזל %!
+הפעל את התוכנה בבקשה לבדיקה!
+
+אם התוכנה לא פועלת כראוי או שהיא אינה תקינה, הסר אותה בבקשה ואל תשתמש שוב בטלאי בגירסה זו."</string>
+    <string name="have_luck">"***********************
+
+יש לך"</string>
+    <string name="installsupersu">התקן SuperSU (ICS)</string>
+    <string name="langdef">שפת ברירת מחדל</string>
+    <string name="langen">אנגלית</string>
+    <string name="langmenu">שפה</string>
+    <string name="launchbutton">הפעל</string>
+    <string name="loadpkg">טוען חבילות</string>
+    <string name="new_version">גירסה חדשה של Lucky Patcher נמצאה...</string>
+    <string name="no">לא</string>
+    <string name="no_root">"לא נמצאה הרשאת רוט! חייבת להיות הרשאת רוט כדי להמשיך...
+
+(אנא עדכן את busybox או su)!
+התקן בבקשה את TitaniumBackup - עבור בדיקת הרשאות הרוט. אם אתה מקבל בקשה לשינוי הרשאות הרוט, לחץ על \"כן\".
+לחץ על הגדרות התוכנה ולחץ על \"פתרון בעיות-> עדכון Busybox\". עדכן את Busybox לגירסה 1.19.x.
+או לחץ על הגדרות התוכנה ולחץ על \"פתרון בעיות-> התקן SuperSU (ICS)\" והתקן אותו."</string>
+    <string name="no_site">אתר עבור עידכונים לא נמצא!</string>
+    <string name="ok">אישור...</string>
+    <string name="orientmenu">כיוון מסך</string>
+    <string name="patch_ok">החל</string>
+    <string name="patchbutton">~טלאי~</string>
+    <string name="pattern1">תבנית טלאי מס 1 - הצליח...</string>
+    <string name="pattern1_f">תבנית טלאי מס 1 - נכשל...</string>
+    <string name="pattern2">תבנית טלאי מס 2 - הצליח...</string>
+    <string name="pattern2_f">תבנית טלאי מס 2 - נכשל...</string>
+    <string name="pattern3">תבנית טלאי מס 3 - הצליח...</string>
+    <string name="pattern3_f">תבנית טלאי מס 3 - נכשל...</string>
+    <string name="pattern4">תבנית טלאי מס 4 - הצליח...</string>
+    <string name="pattern4_f">תבנית טלאי מס 4 - נכשל...</string>
+    <string name="pattern5">תבנית טלאי מס 5 - הצליח...</string>
+    <string name="pattern5_f">תבנית טלאי מס 5 - נכשל...</string>
+    <string name="pattern6">תבנית טלאי מס 6 - הצליח...</string>
+    <string name="pattern6_f">תבנית טלאי מס 6 - נכשל...</string>
+    <string name="pattern7">תבנית טלאי מס 7 - הצליח...</string>
+    <string name="pattern7_f">תבנית טלאי מס 7 - נכשל...</string>
+    <string name="perm_ok">החל (אתחול)</string>
+    <string name="permission">שנה הרשאות</string>
+    <string name="permission_not_descr">אין תיאור עבור הרשאה זו</string>
+    <string name="permission_not_found">הרשאות לא נמצאו!</string>
+    <string name="poorresult">"מזל %! החלת טלאי נכשלה!
+גירסת LVL לא ידועה או שהטלאי כבר הוחל בעבר?!"</string>
+    <string name="punkt1">- התוכנה חייבת הרשאות רוט כדי לעבוד!</string>
+    <string name="removefixes">הסר תיקונים וגיבויים (כדי לעדכן תוכניות)</string>
+    <string name="restorebutton">שחזור</string>
+    <string name="savebutton">שמור אובייקט כטלאי מיוחד!</string>
+    <string name="saved_object">זה ישמר בתיקייה /sdcard/LuckyPatcher/ כטלאי מיוחד.</string>
+    <string name="search_menu_title">חיפוש</string>
+    <string name="sortbyname">סדר לפי שם</string>
+    <string name="sortbystatus">סדר לפי סטטוס</string>
+    <string name="sortmenu">מיון</string>
+    <string name="stat_boot_ads">פרסומות גוגל</string>
+    <string name="stat_boot_custom">טלאי מיוחד</string>
+    <string name="stat_boot_lvl">אימות רשיון גוגל</string>
+    <string name="statads">נמצאו פרסומות גוגל!</string>
+    <string name="statcustom">נמצא טלאי מיוחד!</string>
+    <string name="statfix">תיקוני שינויים הוחלו בהצלחה!</string>
+    <string name="statlvl">אימות רשיון נמצא!</string>
+    <string name="statnotfix">שינויים בתוכנה לא תוקנו!</string>
+    <string name="statnotfound">לא נמצא!</string>
+    <string name="statnull">אין תוצאות עבור טלאים!</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_upd">הודעה</string>
+    <string name="truble">פתרון בעיות</string>
+    <string name="uninstallapp">הסרת תוכנה</string>
+    <string name="update">עדכן</string>
+    <string name="updatebusybox">עדכן את Busybox</string>
+    <string name="vers">גירסת Lucky Patcher.</string>
+    <string name="viewlandscape">אופקי</string>
+    <string name="viewlarge">טקסט גדטל</string>
+    <string name="viewmedium">טקסט בינוני</string>
+    <string name="viewmenu">תצוגה</string>
+    <string name="viewportret">אנכי</string>
+    <string name="viewsmall">טקסט קטן</string>
+    <string name="wait">אנא המתן</string>
+</resources>
